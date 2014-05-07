@@ -130,13 +130,13 @@
 	position: absolute; height: 136px; width: 200px; top: 0px; left: 233px; background-color: rgb(255, 255, 255); background-repeat: repeat repeat;
 }
 .element-26{
-	position: absolute; height: 42px; width: 598px; top: 152px; left: 0px; background-color: rgb(255, 255, 255);
-}
-.element-27{
 	position: absolute; height: 137px; width: 200px; top: 0px; left: 467px; background-color: rgb(255, 255, 255);
 }
-.element-28{
+.element-27{
 	position: absolute; height: 136px; width: 200px; top: 0px; left: 699px; background-color: rgb(255, 255, 255);
+}
+.element-28{
+	position: absolute; height: 42px; width: 900px; top: 153px; left: 0px; background-color: rgb(255, 255, 255);
 }
 .element-29{
 	position: absolute; width: 900px; top: 155px; left: 50px; background-color: transparent; height: 171px;
