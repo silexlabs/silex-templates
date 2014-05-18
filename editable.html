@@ -1,0 +1,155 @@
+<head>
+	<title>Silex templates</title>
+	<meta charset="UTF-8">
+	<meta name="generator" content="Silex v2.0"> <!-- leave this for stats -->
+	<script type="text/javascript" src="http://static.silex.me/2.2/jquery.js"></script>
+	<script type="text/javascript" src="http://static.silex.me/2.2/jquery-ui.js"></script>
+	<script type="text/javascript" src="http://static.silex.me/2.2/jquery.ui.touch-punch.min.js"></script>
+	<script type="text/javascript" src="http://static.silex.me/2.2/pageable.js"></script>
+	<script type="text/javascript" src="http://static.silex.me/2.2/front-end.js"></script>
+	<!-- Normalize -->
+	<link href="http://static.silex.me/2.2/normalize.css" rel="stylesheet">
+	<!-- Silex style -->
+	<link href="http://static.silex.me/2.2/front-end.css" rel="stylesheet">
+
+	<style type="text/css" class="silex-style">
+/*
+	Here are the CSS styles of your website.
+
+	Bellow are some examples, like the styles which you can apply to your text in the text editor.
+
+	See this page for help on CSS
+	https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started
+
+	In the advanced "Apollo" mode, you will be able to add CSS classes to Silex elements,
+	and then apply a CSS style to it here.
+*/
+body {
+font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #777;
+font-weight: 300;
+}
+
+h1, h2, h3 {
+line-height: 1.1;
+}
+h1, h2, h3, h4, h5, h6 {
+color: #222;
+margin: 0 0 20px;
+}
+h1 {
+font-size: 28px;
+}
+h2 {
+color: #393939;
+}
+/* title style */
+.title {
+  font-size: 35px;
+}
+/* markdown widget */
+.editable-plugin-created .markdown{
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+/* remove silex front-end.css */
+a {
+  color: #39c;
+  text-decoration: inherit;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.download-button{
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+</style>
+  <script type="text/javascript" class="silex-script">// **
+// Markdown widget for Silex
+// markdown script from https://github.com/chjj/marked/
+document.write('<scr'+'ipt src="marked.min.js"></scr'+'ipt>');
+// markdown theme from http://bootswatch.com/
+//document.write('<link rel="stylesheet" type="text/css" href="bootstrap.min.css">');
+// convert all 
+$(function(){
+    $('.markdown .silex-element-content')
+    .each(function(idx, el){
+        var markdown = $(el).html().replace(/<\/*.*?>/gi, '\n\n');
+        var html = marked(markdown);
+        $(el).html(html);
+    });
+});
+// **
+// google analytics
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+try {
+  var pageTracker = _gat._getTracker("UA-19608894-20");
+pageTracker._trackPageview();
+} catch(err) {}
+// **
+</script>
+<meta name="publicationPath" content="/api/v1.0/dropbox/exec/put/fdt-workspace/silex-templates"><style id="current-page-style">.page-home{display:inherit; }</style></head>
+<body style="background-color: rgb(255, 255, 255); cursor: auto;" data-silex-type="container" class="silex-runtime">
+	<a id="page-home" data-silex-type="page" class="page-element">Home</a>
+	
+
+
+<div class="background editable-style container-element" data-silex-type="container" style="background-color: transparent; top: 0px; left: 0px; width: 921px; height: 919px; position: absolute;">
+	<div data-silex-type="container" class="editable-style container-element paged-element page-home" style="position: absolute; height: 950px; width: 360px; top: 42px; left: 51px; background-color: rgb(255, 255, 255);"><div data-silex-type="html" class="editable-style html-element" style="position: absolute; height: 53px; width: 227px; top: 136px; left: 0px; background-color: transparent;"><div class="silex-element-content" style="width: 100%; height: 100%;"><a href="https://github.com/silexlabs/silex-templates/zipball/gh-pages" class="download-button">Download all templates</a></div></div><div data-silex-type="text" class="editable-style text-element" style="position: absolute; height: 109px; width: 320px; top: 20px; left: 0px; background-color: rgb(255, 255, 255);"><div class="silex-element-content normal" style="width: 100%; height: 100%;"><header class="title">Silex templates</header><div>Official creative commons Silex templates</div><a href="https://github.com/silexlabs/silex-templates">View the Project on GitHub</a><div><br></div></div></div><div data-silex-type="html" class="editable-style html-element markdown" style="position: absolute; height: 679px; width: 310px; top: 266px; left: 0px; background-color: rgb(255, 255, 255);"><div class="silex-element-content" style="width: 100%; height: 100%;">### About Silex templates
+
+These templates can be edited with [Silex, live web creation](http://www.silex.me), the HTML editor and website builder for designers. 
+
+###How to customize it for your website?
+
+Download the [zip file](https://github.com/silexlabs/silex-templates/zipball/gh-pages) and unzip to a folder in your dropbox. Then [open Silex in a browser](http://www.silex.me/silex) and with it, open the template file ```editable.html``` from the ```/templates/``` folder.
+
+Then insert your content, modify the design and use it as your website.
+
+###How to contribute
+
+These templates are made without programming, just drag and drop, with [Silex, live web creation](http://www.silex.me/). So feel free to [fork this github repository](https://github.com/silexlabs/silex-templates/), make changes and make a pull request.
+
+###Creative Commons license
+
+These templates are licensed under a **Creative Commons Attribution 3.0 Unported License**. Anyone who pushes design and HTML files in this repository agrees to this license. 
+
+</div></div></div><div data-silex-type="html" class="editable-style html-element page-home paged-element markdown" style="position: absolute; height: 100%; width: 511px; top: 77px; left: 407px; background-color: transparent;"><div class="silex-element-content" style="width: 100%; height: 100%;">##Minimal Grey
+
+[View this template online](templates/minimal-grey/index.html)
+
+[![Minimal Grey silex template](templates/minimal-grey/screenshot-678x336.png "Minimal Grey silex template")
+](templates/minimal-grey/index.html)
+
+</div></div></div></body>
