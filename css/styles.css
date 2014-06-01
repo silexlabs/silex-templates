@@ -10,23 +10,33 @@
 	In the advanced "Apollo" mode, you will be able to add CSS classes to Silex elements,
 	and then apply a CSS style to it here.
 */
-body {
-font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-color: #777;
-font-weight: 300;
+.title,
+.heading1,
+.heading2,
+.heading3,
+.normal,
+.html-element {
+    font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #777;
+    font-weight: 300;
 }
-
-h1, h2, h3 {
-line-height: 1.1;
+.title,
+.heading1,
+.heading2,
+.heading3 {
+    line-height: 1.1;
 }
-h1, h2, h3, h4, h5, h6 {
-color: #222;
-margin: 0 0 20px;
+.title,
+.heading1,
+.heading2,
+.heading3 {
+    color: #222;
+    margin: 0 0 20px;
 }
-h1 {
+.heading1 {
 font-size: 28px;
 }
-h2 {
+.heading2 {
 color: #393939;
 }
 /* title style */
@@ -80,22 +90,45 @@ a:hover{
 	text-align:center;
 	text-shadow:1px 1px 0px #ffffff;
 }
-
+.full-width{
+    width: 100% !important;
+}
+.left{
+    left: 0 !important;
+}
+.full-height {
+    height: 100% !important;
+}
+.bottom{
+    bottom: 0;
+}
+.centered{
+    margin-left: auto;
+    margin-right: auto;
+    left: initial !important;
+    position: relative !important;
+}
 .element-0{
-	background-color: transparent; top: 0px; left: 0px; width: 921px; height: 919px; position: absolute;
+	top: 5px; left: 5px; width: 921px; height: 985px; position: absolute; background-color: transparent;
 }
 .element-1{
 	position: absolute; height: 950px; width: 360px; top: 42px; left: 51px; background-color: rgb(255, 255, 255);
 }
 .element-2{
-	position: absolute; height: 53px; width: 227px; top: 136px; left: 0px; background-color: transparent;
+	position: absolute; height: 53px; width: 227px; top: 153px; left: 0px; background-color: transparent;
 }
 .element-3{
-	position: absolute; height: 109px; width: 320px; top: 20px; left: 0px; background-color: rgb(255, 255, 255);
+	position: absolute; height: 127px; width: 320px; top: 20px; left: 0px; background-color: rgb(255, 255, 255);
 }
 .element-4{
-	position: absolute; height: 679px; width: 310px; top: 266px; left: 0px; background-color: rgb(255, 255, 255);
+	position: absolute; height: 728px; width: 310px; top: 217px; left: 0px; background-color: transparent;
 }
 .element-5{
-	position: absolute; height: 100%; width: 511px; top: 77px; left: 407px; background-color: transparent;
+	position: absolute; height: 1014px; width: 511px; top: 97px; left: 403px; background-color: transparent;
+}
+.element-6{
+	position: absolute; height: 100px; width: 100px; top: 1096px; left: 55px; background-color: rgb(255, 246, 217);
+}
+.element-7{
+	position: absolute; height: 91px; width: 623px; top: 0px; left: 204px; background-color: transparent;
 }
