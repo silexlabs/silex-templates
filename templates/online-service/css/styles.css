@@ -1,0 +1,203 @@
+/*
+	Here are the CSS styles of your website.
+
+	Bellow are some examples, like the styles which you can apply to your text in the text editor.
+
+	See this page for help on CSS
+	https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started
+
+	In the advanced "Apollo" mode, you will be able to add CSS classes to Silex elements,
+	and then apply a CSS style to it here.
+*/
+
+/* define a style for Title, Headings and Normal texts */
+.title,
+.heading1,
+.heading2,
+.heading3,
+.normal {
+  color: #666666;
+  font-family: verdana, arial;
+	margin: 0;
+}
+
+/* title style */
+.title {
+  font-size: 45px;
+}
+/* special classes, dedicace to leo */
+.full-width{
+    width: 2000px !important;
+    left: 0 !important;
+    position: absolute !important;
+}
+.centered{
+    left: 50% !important;
+    width: 980px !important;
+    margin-left: -490px !important;
+    position: absolute !important;
+}
+.right-aligned{
+    right: 0 !important;
+    left: auto !important;
+}
+.silex-runtime .full-width{
+    width: 100% !important;
+}
+/* website styles */
+.normal,
+.heading1{
+    font-weight: normal;
+    color: white;
+}
+.heading2{
+    font-weight: normal;
+    color: black;
+    color: white;
+}
+.page-content .heading1{
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #3D3D3D;
+    font-weight: normal;
+}
+.page-content .normal{
+    color: #818181;
+}
+/* NAV */
+.nav div{
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.nav a.page-link-active{
+    font-weight: bold;
+    border-bottom: 4px solid #34b399;
+}
+/* override default links style */
+.nav a:hover{
+    text-decoration: initial !important;
+}
+
+.element-0{
+	cursor: auto; background-color: rgb(255, 255, 255);
+}
+.element-1{
+	position: absolute; height: 2363px; width: 1974px; top: 5px; left: 5px; background-color: transparent;
+}
+.element-2{
+	height: 501px; width: 100px; top: 1698px; left: 0px; position: absolute; background-color: rgb(65, 73, 96);
+}
+.element-3{
+	height: 461px; width: 980px; top: 18px; left: 1002px; position: absolute; background-color: transparent;
+}
+.element-4{
+	height: 57px; width: 980px;
+top: 19px;
+left: 0;
+position: absolute;
+background-color: transparent;
+}
+.element-5{
+	height: 116px; width: 302px; top: 246.5px; left: 34px; position: absolute; background-color: transparent;
+}
+.element-6{
+	height: 79px; width: 141.518px; top: 134px; left: 433.85px; position: absolute;
+}
+.element-7{
+	height: 91px; width: 91px; top: 124.5px; left: 133.85px; position: absolute;
+}
+.element-8{
+	height: 78.6792px; width: 90px; top: 127.5px; left: 749px; position: absolute;
+}
+.element-9{
+	height: 190px; width: 265px; top: 245px; left: 377px; position: absolute; background-color: transparent;
+}
+.element-10{
+	height: 190px; width: 302px; top: 244px; left: 664px; position: absolute; background-color: transparent;
+}
+.element-11{
+	height: 1193px; width: 100px; top: 468px; left: 1018px; position: absolute; background-color: transparent;
+}
+.element-12{
+	height: 178px; width: 400px; top: 44.5px; left: 64.84375px; position: absolute; background-color: transparent;
+}
+.element-13{
+	height: 46px; width: 242px; top: 232px; left: 133px; position: absolute; background-color: rgb(43, 148, 126); border-radius: 5px;
+}
+.element-14{
+	height: 33px; width: 215px; top: 11px; left: 14px; position: absolute; background-color: transparent;
+}
+.element-15{
+	height: 303px; width: 487.309px; top: 46px; left: 481.533px; position: absolute;
+}
+.element-16{
+	height: 152px; width: 495.52px; top: 501.5px; left: 15px; position: absolute;
+}
+.element-17{
+	height: 146px; width: 400px; top: 501.5px; left: 550px; position: absolute; background-color: transparent;
+}
+.element-18{
+	height: 53px; width: 400px; top: 751px; left: 285px; position: absolute; background-color: transparent;
+}
+.element-19{
+	height: 46px; width: 242px; top: 650px; left: 550px; position: absolute; background-color: rgb(43, 148, 126); border-radius: 5px;
+}
+.element-20{
+	height: 33px; width: 215px; top: 11px; left: 14px; position: absolute; background-color: transparent;
+}
+.element-21{
+	height: 331px; width: 484px; top: 828px; left: 236px; position: absolute; background-color: rgb(255, 255, 255);
+}
+.element-22{
+	height: 436px; width: 1000px; top: 0px; left: 0px; position: absolute; background-image: url('../assets/background_header.jpg'); background-attachment: fixed; background-color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;
+}
+.element-23{
+	height: 40px; width: 289px; top: 0px; left: 0px; position: absolute; background-color: rgba(0, 0, 0, 0.227451);
+}
+.element-24{
+	height: 40px; width: 523px; top: 0px; left: 1477px; position: absolute; background-color: transparent;
+}
+.element-25{
+	height: 19px; width: 21px; top: 10px; left: 466px; position: absolute; opacity: 0.8;
+}
+.element-26{
+	height: 25px; width: 25px; top: 7px; left: 424px; position: absolute; opacity: 0.8;
+}
+.element-27{
+	height: 22px; width: 13.3333px; top: 9px; left: 386px; position: absolute; opacity: 0.8;
+}
+.element-28{
+	height: 370px; width: 100px; top: 57px; left: 999px; position: absolute; background-color: transparent;
+}
+.element-29{
+	height: 40px; width: 298.605px; top: 28px; left: 33.35px; position: absolute;
+}
+.element-30{
+	height: 100px; width: 539px; top: 30px; left: 421px; position: absolute; background-color: transparent;
+}
+.element-31{
+	height: 22px; width: 150px; top: 15px; left: 18px; position: absolute; background-color: transparent;
+}
+.element-32{
+	height: 23px; width: 150px; top: 15px; left: 203px; position: absolute; background-color: transparent;
+}
+.element-33{
+	height: 23px; width: 150px; top: 15px; left: 381px; position: absolute; background-color: transparent;
+}
+.element-34{
+	height: 46px; width: 242px; top: 261px; left: 369px; position: absolute; background-color: rgb(43, 148, 126); border-radius: 5px;
+}
+.element-35{
+	height: 33px; width: 215px; top: 13px; left: 13px; position: absolute; background-color: transparent;
+}
+.element-36{
+	height: 87px; width: 980px; top: 147px; left: 0px; position: absolute; background-color: transparent;
+}
+.element-37{
+	position: absolute; height: 132px; width: 638px; top: 2197px; left: 0px; border-color: rgb(76, 76, 76); background-color: rgb(0, 0, 0); background-size: auto; background-position: 0% 0%; background-repeat: repeat;
+}
+.element-38{
+	position: absolute; height: 84px; width: 855px; top: 37px; left: 484.15625px; background-color: transparent;
+}

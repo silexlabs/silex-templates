@@ -56,98 +56,101 @@
 }
 
 .element-0{
-	background-color: transparent; top: 5px; left: 5px; width: 1000px; height: 1451px; background-attachment: scroll; position: absolute; background-repeat: repeat repeat;
+	width: 1100px; height: 1456px; cursor: auto; background-image: url('../assets/bg.png'); background-attachment: scroll; background-color: rgb(255, 255, 255); background-size: auto; background-repeat: repeat-x;
 }
 .element-1{
-	position: absolute; width: 100px; top: 0px; left: 450px; background-color: transparent; height: 110px; background-repeat: repeat repeat;
+	background-color: transparent; top: 5px; left: 5px; width: 1000px; height: 1451px; background-attachment: scroll; position: absolute; background-repeat: repeat repeat;
 }
 .element-2{
-	position: absolute; height: 9px; width: 19px; left: 40px; top: 2px; border-color: rgb(204, 204, 255);
+	position: absolute; width: 100px; top: 0px; left: 450px; background-color: transparent; height: 110px; background-repeat: repeat repeat;
 }
 .element-3{
-	position: absolute; background-color: transparent; top: 45px; left: auto; width: 100px;
+	position: absolute; height: 9px; width: 19px; left: 40px; top: 2px; border-color: rgb(204, 204, 255);
 }
 .element-4{
-	position: absolute; width: 100px; left: 550px; background-color: transparent; height: 110px; top: 0px;
+	position: absolute; background-color: transparent; top: 45px; left: auto; width: 100px;
 }
 .element-5{
-	position: absolute; height: 9px; width: 19px; left: 40px; top: 2px; border-color: rgb(204, 204, 255);
+	position: absolute; width: 100px; left: 550px; background-color: transparent; height: 110px; top: 0px;
 }
 .element-6{
-	position: absolute; background-color: transparent; top: 45px; left: auto; width: 100px;
+	position: absolute; height: 9px; width: 19px; left: 40px; top: 2px; border-color: rgb(204, 204, 255);
 }
 .element-7{
-	position: absolute; width: 100px; left: 650px; background-color: transparent; height: 110px; top: 0px;
+	position: absolute; background-color: transparent; top: 45px; left: auto; width: 100px;
 }
 .element-8{
-	position: absolute; background-color: transparent; top: 45px; left: auto; width: 100px;
+	position: absolute; width: 100px; left: 650px; background-color: transparent; height: 110px; top: 0px;
 }
 .element-9{
-	position: absolute; height: 9px; width: 19px; left: 40px; top: 2px; border-color: rgb(204, 204, 255);
+	position: absolute; background-color: transparent; top: 45px; left: auto; width: 100px;
 }
 .element-10{
-	position: absolute; width: 100px; background-color: transparent; height: 110px; left: 750px; top: 0px;
+	position: absolute; height: 9px; width: 19px; left: 40px; top: 2px; border-color: rgb(204, 204, 255);
 }
 .element-11{
-	position: absolute; height: 9px; width: 19px; left: 40px; top: 2px; border-color: rgb(204, 204, 255);
+	position: absolute; width: 100px; background-color: transparent; height: 110px; left: 750px; top: 0px;
 }
 .element-12{
-	position: absolute; background-color: transparent; top: 45px; left: auto; width: 100px;
-}
-.element-13{
-	position: absolute; width: 1000px; top: 112px; background-color: transparent; left: 0px; height: 16px; border-width: 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); background-repeat: repeat repeat;
-}
-.element-14{
-	position: absolute; width: 100px; background-color: transparent; height: 110px; left: 850px; top: 0px;
-}
-.element-15{
 	position: absolute; height: 9px; width: 19px; left: 40px; top: 2px; border-color: rgb(204, 204, 255);
 }
-.element-16{
+.element-13{
 	position: absolute; background-color: transparent; top: 45px; left: auto; width: 100px;
 }
+.element-14{
+	position: absolute; width: 1000px; top: 112px; background-color: transparent; left: 0px; height: 16px; border-width: 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); background-repeat: repeat repeat;
+}
+.element-15{
+	position: absolute; width: 100px; background-color: transparent; height: 110px; left: 850px; top: 0px;
+}
+.element-16{
+	position: absolute; height: 9px; width: 19px; left: 40px; top: 2px; border-color: rgb(204, 204, 255);
+}
 .element-17{
-	position: absolute; width: 425px; top: 921px; left: 50px; background-color: transparent; background-repeat: repeat repeat;
+	position: absolute; background-color: transparent; top: 45px; left: auto; width: 100px;
 }
 .element-18{
-	position: absolute; width: 900px; top: 155px; left: 50px; background-color: transparent; height: 171px;
+	position: absolute; width: 425px; top: 921px; left: 50px; background-color: transparent; background-repeat: repeat repeat;
 }
 .element-19{
-	position: absolute; width: 425px; top: 921px; left: 525px; background-color: transparent;
+	position: absolute; width: 900px; top: 155px; left: 50px; background-color: transparent; height: 171px;
 }
 .element-20{
-	position: absolute; height: 570px; width: 900px; top: 324px; left: 50px; background-color: transparent; background-image: url('../assets/vue_appart_02.png'); background-size: auto; background-repeat: repeat repeat;
+	position: absolute; width: 425px; top: 921px; left: 525px; background-color: transparent;
 }
 .element-21{
-	position: absolute; width: 1000px; top: 1204px; background-color: transparent; left: 0px; height: 16px; border-width: 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); background-repeat: repeat repeat;
+	position: absolute; height: 570px; width: 900px; top: 324px; left: 50px; background-color: transparent; background-image: url('../assets/vue_appart_02.png'); background-size: auto; background-repeat: repeat repeat;
 }
 .element-22{
-	position: absolute; height: 195px; top: 1250px; left: 50px; background-color: rgb(255, 255, 255); width: 900px;
+	position: absolute; width: 1000px; top: 1204px; background-color: transparent; left: 0px; height: 16px; border-width: 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); background-repeat: repeat repeat;
 }
 .element-23{
-	position: absolute; height: 137px; width: 200px; top: 0px; left: 0px; background-color: rgb(255, 255, 255);
+	position: absolute; height: 195px; top: 1250px; left: 50px; background-color: rgb(255, 255, 255); width: 900px;
 }
 .element-24{
-	position: absolute; height: 136px; width: 200px; top: 0px; left: 233px; background-color: rgb(255, 255, 255); background-repeat: repeat repeat;
+	position: absolute; height: 137px; width: 200px; top: 0px; left: 0px; background-color: rgb(255, 255, 255);
 }
 .element-25{
-	position: absolute; height: 137px; width: 200px; top: 0px; left: 467px; background-color: rgb(255, 255, 255);
+	position: absolute; height: 136px; width: 200px; top: 0px; left: 233px; background-color: rgb(255, 255, 255); background-repeat: repeat repeat;
 }
 .element-26{
-	position: absolute; height: 136px; width: 200px; top: 0px; left: 699px; background-color: rgb(255, 255, 255);
+	position: absolute; height: 137px; width: 200px; top: 0px; left: 467px; background-color: rgb(255, 255, 255);
 }
 .element-27{
-	position: absolute; height: 42px; width: 900px; top: 153px; left: 0px; background-color: rgb(255, 255, 255);
+	position: absolute; height: 136px; width: 200px; top: 0px; left: 699px; background-color: rgb(255, 255, 255);
 }
 .element-28{
-	position: absolute; width: 425px; top: 325px; left: 50px; background-color: transparent; height: 282px; background-repeat: repeat repeat;
+	position: absolute; height: 42px; width: 900px; top: 153px; left: 0px; background-color: rgb(255, 255, 255);
 }
 .element-29{
-	position: absolute; height: 570px; width: 900px; top: 550px; left: 50px; background-color: transparent; background-image: url('../assets/silex-screenshot.png'); background-size: auto; background-repeat: no-repeat no-repeat;
+	position: absolute; width: 425px; top: 325px; left: 50px; background-color: transparent; height: 282px; background-repeat: repeat repeat;
 }
 .element-30{
-	position: absolute; width: 425px; top: 325px; left: 525px; background-color: transparent; height: 274px; background-repeat: repeat repeat;
+	position: absolute; height: 570px; width: 900px; top: 550px; left: 50px; background-color: transparent; background-image: url('../assets/silex-screenshot.png'); background-size: auto; background-repeat: no-repeat no-repeat;
 }
 .element-31{
+	position: absolute; width: 425px; top: 325px; left: 525px; background-color: transparent; height: 274px; background-repeat: repeat repeat;
+}
+.element-32{
 	position: absolute; top: 43px; background-color: transparent; left: 50px; border: 1px solid rgb(69, 69, 69);
 }
