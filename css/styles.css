@@ -112,29 +112,32 @@ a:hover{
     overflow: auto !important;
 }
 .element-0{
-	top: 5px; left: 5px; width: 921px; height: 985px; position: absolute; background-color: transparent;
+	cursor: auto; background-color: rgb(255, 255, 255);
 }
 .element-1{
-	position: absolute; height: 950px; width: 360px; top: 42px; left: 51px; background-color: rgb(255, 255, 255);
+	top: 5px; left: 5px; width: 921px; height: 1443px; position: absolute; background-color: transparent;
 }
 .element-2{
-	position: absolute; height: 53px; width: 227px; top: 153px; left: 0px; background-color: transparent;
+	position: absolute; height: 950px; width: 360px; top: 42px; left: 51px; background-color: rgb(255, 255, 255);
 }
 .element-3{
-	position: absolute; height: 127px; width: 320px; top: 20px; left: 0px; background-color: rgb(255, 255, 255);
+	position: absolute; height: 53px; width: 227px; top: 153px; left: 0px; background-color: transparent;
 }
 .element-4{
-	position: absolute; height: 728px; width: 310px; top: 217px; left: 0px; background-color: transparent;
+	position: absolute; height: 127px; width: 320px; top: 20px; left: 0px; background-color: rgb(255, 255, 255);
 }
 .element-5{
-	position: absolute; height: 1014px; width: 511px; top: 97px; left: 403px; background-color: transparent;
+	position: absolute; height: 728px; width: 310px; top: 217px; left: 0px; background-color: transparent;
 }
 .element-6{
-	position: absolute; height: 200px; width: 100px; top: 1096px; left: 55px; background-color: rgb(207, 207, 207);
+	position: absolute; height: 1014px; width: 511px; top: 97px; left: 403px; background-color: transparent;
 }
 .element-7{
-	position: absolute; height: 91px; width: 623px; top: 0px; left: 204px; background-color: transparent;
+	position: absolute; height: 200px; width: 100px; top: 1552px; left: -3px; background-color: rgb(207, 207, 207);
 }
 .element-8{
+	position: absolute; height: 91px; width: 623px; top: 0px; left: 204px; background-color: transparent;
+}
+.element-9{
 	position: absolute; height: 100px; width: 243px; top: 97px; left: 1px; background-color: transparent;
 }
