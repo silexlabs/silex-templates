@@ -1,0 +1,168 @@
+
+/* define a style for Title, Headings and Normal texts */
+.title,
+.heading1,
+.heading2,
+.heading3,
+.normal {
+  color: black;
+  font-family: verdana, arial;
+  margin: 0;
+  font-weight: normal;
+}
+/* title style */
+.title {
+  font-size: 60px;
+  color: rgb(73, 187, 204);
+}
+.heading1 {
+  font-size: 24px;
+}
+.full-width {
+    width: 100% !important;
+}
+.grey-text .normal{
+    color: grey;
+}
+.small-text .normal{
+    color: grey;
+    font-size: 10px;
+}
+.product-details .heading1 {
+  color: rgb(73, 187, 204);
+}
+.product-details .heading3 {
+  color: white;
+  background-color: rgb(73, 187, 204);
+  float: right;
+  padding: 2px 25px;
+}
+/* animated colors widget
+    https://github.com/silexlabs/Silex/issues/138
+*/
+.link-menu .page-link-active {
+    background-color: rgb(73, 187, 204) !important;
+    /* Firefox */
+    -moz-transition: all 0.5s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.5s ease-in;
+    /* Opera */
+    -o-transition: all 0.5s ease-in;
+    /* Standard */
+    transition: all 0.5s ease-in;
+}
+.link-menu .page-link-active .normal {
+    color: #FFFFFF !important;
+    /* Firefox */
+    -moz-transition: all 0.5s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.5s ease-in;
+    /* Opera */
+    -o-transition: all 0.5s ease-in;
+    /* Standard */
+    transition: all 0.5s ease-in;
+}
+
+.element-0{
+	cursor: auto; background-image: url('../assets/bg-tile3.png'); background-color: rgb(255, 255, 255);
+}
+.element-1{
+	top: 109px; left: -28px; width: 980px; height: 2500px; position: absolute; background-color: transparent;
+}
+.element-2{
+	height: 141px; width: 408px; top: 118px; position: absolute; left: 90px; background-color: transparent;
+}
+.element-3{
+	height: 117px; width: 117px; top: 3px; left: 2px; position: absolute;
+}
+.element-4{
+	height: 100px; width: 283px; top: 21px; left: 120px; position: absolute;
+}
+.element-5{
+	height: 231px; width: 822px; top: 375px; left: 100px; position: absolute;
+}
+.element-6{
+	height: 528px; width: 100px; top: 700px; position: absolute; left: 1px; background-color: transparent;
+}
+.element-7{
+	height: 330px; width: 398px; top: 127px; left: 40px; position: absolute;
+}
+.element-8{
+	height: 26px; width: 100px; top: 16px; position: absolute; left: 0px;
+}
+.element-9{
+	height: 58px; width: 242px; top: 166px; left: 120px; position: absolute;
+}
+.element-10{
+	height: 86px; width: 362px; top: 235px; left: 61px; position: absolute;
+}
+.element-11{
+	height: 325px; width: 415px; top: 146px; left: 512px; position: absolute;
+}
+.element-12{
+	height: 528px; width: 100px; top: 1278px; position: absolute; left: 0px; background-color: transparent;
+}
+.element-13{
+	height: 330px; width: 398px; top: 127px; left: 40px; position: absolute;
+}
+.element-14{
+	height: 26px; width: 100px; top: 16px; position: absolute; left: 0px;
+}
+.element-15{
+	height: 58px; width: 242px; top: 166px; left: 120px; position: absolute;
+}
+.element-16{
+	height: 86px; width: 362px; top: 235px; left: 61px; position: absolute;
+}
+.element-17{
+	height: 325px; width: 415px; top: 146px; left: 512px; position: absolute;
+}
+.element-18{
+	height: 528px; width: 100px; top: 1864px; position: absolute; background-color: transparent;
+}
+.element-19{
+	height: 330px; width: 398px; top: 127px; left: 40px; position: absolute;
+}
+.element-20{
+	height: 26px; width: 100px; top: 16px; position: absolute; left: 0px;
+}
+.element-21{
+	height: 58px; width: 242px; top: 166px; left: 120px; position: absolute;
+}
+.element-22{
+	height: 86px; width: 362px; top: 235px; left: 61px; position: absolute;
+}
+.element-23{
+	height: 325px; width: 415px; top: 146px; left: 512px; position: absolute;
+}
+.element-24{
+	height: 100px; width: 100px;
+top: 2405px;
+position: absolute;
+}
+.element-25{
+	height: 40px; width: 238px;
+top: 46px;
+position: absolute;
+}
+.element-26{
+	height: 100px; width: 383px; top: 120px; left: 536px; position: absolute; background-color: transparent;
+}
+.element-27{
+	height: 20px; width: 80px; top: 20px; left: 142px; position: absolute;
+}
+.element-28{
+	height: 20px; width: 80px; top: 20px; left: 238px; position: absolute;
+}
+.element-29{
+	height: 528px; width: 100px; top: 300px; position: absolute; left: 1px; background-color: transparent;
+}
+.element-30{
+	height: 325px; width: 389px; top: 13px; left: 538px; position: absolute;
+}
+.element-31{
+	height: 396px; width: 400px; top: 5px; left: 110px; position: absolute; background-color: transparent;
+}
+.element-32{
+	height: 10px; width: 100px; top: 0px; position: absolute; background-color: rgb(180, 229, 232);
+}
