@@ -1,0 +1,144 @@
+
+/* Main text */
+.title,
+.heading1,
+.heading2,
+.heading3,
+.normal {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: verdana, arial;
+    margin: 0;
+    font-weight: normal;
+    font-size: 25px;
+}
+.normal {
+  font-size: 13px;
+  line-height: 1.4em;
+  text-align: justify;
+}
+/* NAVIGATION */
+.nav a {
+  color: black;
+  padding: 5px 10px;
+  line-height: 25px;
+  color: black;
+  font-size: 15px;
+}
+.nav .normal .page-link-active {
+  background-color: #CDBA98;
+  transition: background-color .5s linear;
+  -moz-transition: background-color .5s linear;    /* FF3.7+ */
+  -o-transition: background-color .5s linear;      /* Opera 10.5 */
+  -webkit-transition: background-color .5s linear; /* Saf3.2+, Chrome */
+}
+/* FOOTER */
+.footer *{
+    color: white;
+    font-weight: normal;
+    font-size: 25px;
+}
+.element-0{
+	background-color: rgb(230, 230, 230); cursor: auto; left: 0px; top: 0px;
+}
+.element-1{
+	height: 139px; width: 100%; top: 0px; left: 0px; position: absolute; background-color: rgb(255, 233, 185); border-width: 0px 0px 1px; border-style: solid; opacity: 1; background-image: url('../assets/seamless_paper_texture.png');
+}
+.element-2{
+	height: 397px; width: 100%; top: 140px; left: 0px; position: absolute; background-color: rgb(205, 186, 152); border-width: 1px 0px; border-style: solid; border-color: rgb(255, 255, 255);
+}
+.element-3{
+	height: 299px; width: 100%; top: 540px; left: 0px; position: absolute; background-color: rgb(250, 250, 250); background-image: url('../assets/halftone.png');
+}
+.element-4{
+	min-height: 340px; width: 100%;
+top: 840px;
+left: 0px;
+bottom: 0;
+position: absolute;
+background-color: rgb(56, 56, 56);
+background-image: url('../assets/footer_lodyas.png');
+}
+.element-5{
+	background-color: transparent; top: 5px; left: 55px; width: 980px; height: 1073px; position: absolute;
+}
+.element-6{
+	height: 44px; width: 528px; top: 64px; left: 451px; position: absolute;
+}
+.element-7{
+	height: 330px; width: 635px; top: 164px; left: 335px; position: absolute; background-color: rgb(190, 172, 140); border-width: 5px; border-style: solid; border-color: rgb(255, 255, 255); background-image: url('../assets/young-city.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;
+}
+.element-8{
+	height: 289px; width: 300px; top: 166px; left: 0px; position: absolute;
+}
+.element-9{
+	height: 271px; width: 333px; top: 550px; left: 0px; position: absolute; background-color: transparent;
+}
+.element-10{
+	height: 200px; width: 300px; top: 5px; left: 0px; position: absolute; background-color: rgb(255, 255, 255); background-image: url('../assets/duck.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; border-width: 4px; border-style: solid; border-color: rgb(255, 255, 255);
+}
+.element-11{
+	height: 26px; width: 298px; top: 212px; left: 0px; position: absolute;
+}
+.element-12{
+	height: 32px; width: 298px; top: 236px; left: 2px; position: absolute;
+}
+.element-13{
+	height: 271px; width: 341px; top: 550px; left: 332px; position: absolute; background-color: transparent;
+}
+.element-14{
+	height: 200px; width: 300px; top: 5px; left: 0px; position: absolute; background-color: rgb(255, 255, 255); background-image: url('../assets/goat.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; border-width: 4px; border-style: solid; border-color: rgb(255, 255, 255);
+}
+.element-15{
+	height: 26px; width: 300px; top: 212px; left: 0px; position: absolute;
+}
+.element-16{
+	height: 32px; width: 298px; top: 236px; left: 2px; position: absolute;
+}
+.element-17{
+	height: 271px; width: 341px; top: 550px; left: 671px; position: absolute; background-color: transparent;
+}
+.element-18{
+	height: 200px; width: 300px; top: 5px; left: 0px; position: absolute; background-color: rgb(255, 255, 255); background-image: url('../assets/boat.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; border-width: 4px; border-style: solid; border-color: rgb(255, 255, 255);
+}
+.element-19{
+	height: 26px; width: 300px; top: 212px; left: 0px; position: absolute;
+}
+.element-20{
+	height: 32px; width: 298px; top: 236px; left: 2px; position: absolute;
+}
+.element-21{
+	height: 188px; width: 980px; top: 858px; left: 0px; position: absolute; background-color: transparent;
+}
+.element-22{
+	position: absolute; height: 79px; width: 265px; top: 24px; left: 5px;
+}
+.element-23{
+	position: absolute; height: 70px; width: 70px; top: 28px; left: 304px;
+}
+.element-24{
+	position: absolute; width: 920px; top: 117px; left: 4px; background-color: transparent; height: 45px;
+}
+.element-25{
+	position: absolute; height: 70px; width: 70px; top: 28px; left: 907px;
+}
+.element-26{
+	position: absolute; height: 70px; width: 70px; top: 28px; left: 401px;
+}
+.element-27{
+	position: absolute; height: 70px; width: 70px; top: 28px; left: 502px;
+}
+.element-28{
+	position: absolute; height: 70px; width: 70px; top: 28px; left: 602px;
+}
+.element-29{
+	position: absolute; height: 70px; width: 70px; top: 28px; left: 704px;
+}
+.element-30{
+	position: absolute; height: 70px; width: 70px; top: 28px; left: 806px;
+}
+.element-31{
+	height: 20px; width: 200px; top: 450px; left: 30px; position: absolute; background-color: rgb(0, 153, 255); border-width: 5px; border-style: solid; border-color: rgb(0, 153, 255);
+}
+.element-32{
+	height: 60px; width: 159.494px; top: 40px; left: 0px; position: absolute;
+}
