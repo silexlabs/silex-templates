@@ -1,0 +1,67 @@
+@import url('http://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('http://fonts.googleapis.com/css?family=Oxygen:300');
+
+.normal{
+    font-size: 12px;
+    font-family: 'Oxygen', sans-serif;
+}
+.title{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Josefin Slab', serif;
+}
+.heading1{
+    font-size: 16px;
+    line-height: 0px;
+    font-weight: normal;
+    font-family: 'Josefin Slab', serif;
+}
+.heading2{
+    font-size: 40px;
+    line-height: 0px;
+    font-weight: normal;
+}
+.heading3{
+    font-size: 16px;
+    line-height: 0px;
+    font-weight: normal;
+}
+/* anim widget for firefox */
+.paged-element-hidden.animated{
+    animation-name: none !important;
+}
+/* */
+.element-0{
+	cursor: auto; left: 0px; top: 0px; background-color: rgb(255, 255, 255);
+}
+.element-1{
+	top: 5px; left: 163px; width: 1100px; height: 677px; box-sizing: content-box; background-color: transparent;
+}
+.element-2{
+	height: 24px; width: 235px; top: 80px; left: 558px; position: absolute; box-sizing: content-box;
+}
+.element-3{
+	height: 500px; width: 796px; top: 100px; left: 0px; position: absolute; box-sizing: content-box; background-image: url('../assets/richard3.jpg'); background-color: rgb(0, 0, 0); background-size: auto; background-position: 100% 100%; background-repeat: no-repeat;
+}
+.element-4{
+	height: 58px; width: 268px; top: 343px; left: 18px; position: absolute; box-sizing: content-box;
+}
+.element-5{
+	height: 37px; width: 205px; top: 330px; left: 30px; position: absolute; box-sizing: content-box;
+}
+.element-6{
+	height: 238px; width: 356px; top: 54px; left: 30px; position: absolute; box-sizing: content-box;
+}
+.element-7{
+	height: 25px; width: 188px; top: 0px; left: 30px; position: absolute; box-sizing: content-box; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; background-color: rgb(255, 255, 255);
+}
+.element-8{
+	height: 26px; width: 800px; top: 600px; left: 0px; position: absolute; box-sizing: content-box;
+}
+.element-9{
+	height: 30px; width: 747px; top: 614px; left: 2px; position: absolute; box-sizing: content-box;
+}
+.element-10{
+	height: 40px; width: 437px; top: 56px; left: 30px; position: absolute; box-sizing: content-box;
+}
