@@ -4,7 +4,7 @@
 document.write('<scr'+'ipt src="marked.min.js"></scr'+'ipt>');
 // markdown theme from http://bootswatch.com/
 //document.write('<link rel="stylesheet" type="text/css" href="bootstrap.min.css">');
-// convert all 
+// convert all
 $(function(){
     $('.markdown .silex-element-content')
     .each(function(idx, el){
