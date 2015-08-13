@@ -1,134 +1,322 @@
-/* define a style for Title, Headings and Normal texts */
-.title,
-.heading1,
-.heading2,
-.heading3,
-.normal {
-    color: #000000;
-    font-family: verdana, arial;
-	margin: 0;
-}
-.nav .normal{
-    text-transform: uppercase;
-    font-size: 14px;
-}
-.title {
-  font-size: 22px;
-  color: black;
-  text-transform: uppercase;
-}
-/* position styles */
-.full-width{
-    width: 100% !important;
-}
-.left{
-    left: 0 !important;
-}
-.full-height {
-    height: 100% !important;
-}
-.bottom{
-    bottom: 0;
-}
-.centered{
-    margin-left: -480px;
-    width: 960px !important;
-    left: 50% !important;
-}
-.header-image{
-}
-/* notice style widget
-    https://github.com/silexlabs/Silex/issues/139
-*/
-.notice:before {
-    position: absolute;
-    top: -20px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-color: transparent #7f8c8d #7f8c8d transparent;
-    border-style: solid;
-    border-width: 10px;
-    content: "";
-}
-/* animated colors widget
-    https://github.com/silexlabs/Silex/issues/138
-*/
-.link-menu {
-    background-color:#FFFFFF !important;
-    color: #333333 !important;
-    /* Firefox */
-    -moz-transition: all 0.5s ease-out;
-    /* WebKit */
-    -webkit-transition: all 0.5s ease-out;
-    /* Opera */
-    -o-transition: all 0.5s ease-out;
-    /* Standard */
-    transition: all 0.5s ease-out;
-}
-.link-menu .page-link-active {
-    background-color: #333333 !important;
-    color: #FFFFFF !important;
-    /* Firefox */
-    -moz-transition: all 0.5s ease-in;
-    /* WebKit */
-    -webkit-transition: all 0.5s ease-in;
-    /* Opera */
-    -o-transition: all 0.5s ease-in;
-    /* Standard */
-    transition: all 0.5s ease-in;
-}
-.element-0{
-	cursor: auto; background-attachment: scroll; background-color: rgb(255, 255, 255); background-size: auto; background-position: 0% 0%; background-repeat: repeat;
-}
-.element-1{
-	position: absolute; height: 440px; width: 100px; top: 100px; left: 0px; background-image: url('../assets/silex_logo_01_2009_03.png'); background-color: rgb(255, 255, 255); background-size: cover; background-position: 50% 50%; background-repeat: repeat;
-}
-.element-2{
-	position: absolute; height: 350px; width: 590px; top: 1013px; left: 484.15625px; background-color: rgb(255, 255, 255); background-size: auto; background-position: 0% 0%; background-repeat: repeat;
-}
-.element-3{
-	position: absolute; height: 440px; width: 100px; top: 100px; left: 100px; background-image: url('../assets/vue_appart_02.png'); background-color: rgb(255, 255, 255); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;
-}
-.element-4{
-	position: absolute; height: 163px; width: 590px; top: 500px; left: 484.15625px; background-color: rgb(255, 255, 255); background-size: auto; background-position: 0% 0%; background-repeat: repeat;
-}
-.element-5{
-	position: absolute; height: 611px; width: 100px; top: 674px; left: 0px; background-image: url('../assets/silex-screenshot.png'); background-color: rgb(237, 237, 237); background-size: contain; background-position: 50% 50%; background-repeat: no-repeat;
-}
-.element-6{
-	position: absolute; height: 440px; width: 100px; top: 100px; left: 100px; background-image: url('../assets/silex-particules.png'); background-color: rgb(255, 255, 255); background-size: contain; background-position: 50% 50%; background-repeat: repeat-x;
-}
-.element-7{
-	position: absolute; height: 450px; width: 590px; top: 500px; left: 485px; background-color: rgb(255, 255, 255); background-size: auto; background-position: 0% 0%; background-repeat: repeat;
-}
-.element-8{
-	position: absolute; height: 337px; width: 590px; top: 600px; left: 479.15625px; background-color: transparent; background-size: auto; background-position: 0% 0%; background-repeat: repeat;
-}
-.element-9{
-	position: absolute; height: 132px; width: 638px; top: 1413px; left: 34px; border-color: rgb(76, 76, 76); background-color: rgb(0, 0, 0); background-size: auto; background-position: 0% 0%; background-repeat: repeat;
-}
-.element-10{
-	position: absolute; height: 84px; width: 855px; top: 37px; left: 484.15625px; background-color: transparent;
-}
-.element-11{
-	position: absolute; height: 132px; width: 638px; top: 941px; left: 4px; border-color: rgb(129, 129, 129); border-top-left-radius: 0px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; background-color: rgb(196, 196, 196); background-size: auto; background-position: 0% 0%; background-repeat: repeat;
-}
-.element-12{
-	position: absolute; height: 96px; width: 855px; top: 25px; left: 22px; background-color: transparent;
-}
-.element-13{
-	top: 5px; left: 5px; width: 960px; height: 88px; position: absolute; background-color: transparent; background-size: auto; background-position: 0% 0%; background-repeat: repeat;
-}
-.element-14{
-	top: -5px; left: 0px; width: 960px; height: 78px; position: absolute; border-width: 5px 0px 0px; border-style: solid; background-color: transparent; background-size: auto; background-position: 0% 0%; background-repeat: repeat;
-}
-.element-15{
-	position: absolute; height: 43px; width: 223px; top: 30px; left: 130px; background-color: rgb(255, 255, 255); background-size: auto; background-position: 0% 0%; background-repeat: repeat;
-}
-.element-16{
-	position: absolute; height: 50px; width: 50px; top: 20px; left: 60px; background-size: auto; background-position: 0% 0%; background-repeat: repeat;
-}
-.element-17{
-	position: absolute; height: 38px; width: 504px; top: 34px; left: 396px; background-color: rgb(255, 255, 255);
-}
+
+        /* define a style for Title, Headings and Normal texts */
+        .title,
+        .heading1,
+        .heading2,
+        .heading3,
+        .normal {
+            color: #000000;
+            font-family: verdana, arial;
+        	margin: 0;
+        }
+        .nav .normal{
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        .title {
+          font-size: 22px;
+          color: black;
+          text-transform: uppercase;
+        }
+        /* position styles */
+        .full-width{
+            width: 100% !important;
+        }
+        .left{
+            left: 0 !important;
+        }
+        .full-height {
+            height: 100% !important;
+        }
+        .bottom{
+            bottom: 0;
+        }
+        .centered{
+            margin-left: -480px;
+            width: 960px !important;
+            left: 50% !important;
+        }
+        .header-image{
+        }
+        /* notice style widget
+            https://github.com/silexlabs/Silex/issues/139
+        */
+        .notice:before {
+            position: absolute;
+            top: -20px;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-color: transparent #7f8c8d #7f8c8d transparent;
+            border-style: solid;
+            border-width: 10px;
+            content: "";
+        }
+        /* animated colors widget
+            https://github.com/silexlabs/Silex/issues/138
+        */
+        .link-menu {
+            background-color:#FFFFFF !important;
+            color: #333333 !important;
+            /* Firefox */
+            -moz-transition: all 0.5s ease-out;
+            /* WebKit */
+            -webkit-transition: all 0.5s ease-out;
+            /* Opera */
+            -o-transition: all 0.5s ease-out;
+            /* Standard */
+            transition: all 0.5s ease-out;
+        }
+        .link-menu .page-link-active {
+            background-color: #333333 !important;
+            color: #FFFFFF !important;
+            /* Firefox */
+            -moz-transition: all 0.5s ease-in;
+            /* WebKit */
+            -webkit-transition: all 0.5s ease-in;
+            /* Opera */
+            -o-transition: all 0.5s ease-in;
+            /* Standard */
+            transition: all 0.5s ease-in;
+        }
+    
+        .silex-id-1439555621579-51 {
+            cursor: auto; 
+            background-attachment: scroll; 
+            background-color: rgb(255, 255, 255); 
+            background-size: auto; 
+            background-position-x: 0%; 
+            background-position-y: 0%; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555621477-50 {
+            position: absolute; 
+            height: 440px; 
+            width: 100px; 
+            top: 100px; 
+            left: 0px; 
+            background-image: url('../assets/silex_logo_01_2009_03.png'); 
+            background-color: rgb(255, 255, 255); 
+            background-size: cover; 
+            background-position-x: 50%; 
+            background-position-y: 50%; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555621376-49 {
+            position: absolute; 
+            height: 350px; 
+            width: 590px; 
+            top: 1013px; 
+            left: 484.15625px; 
+            background-color: rgb(255, 255, 255); 
+            background-size: auto; 
+            background-position-x: 0%; 
+            background-position-y: 0%; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555621275-48 {
+            position: absolute; 
+            height: 440px; 
+            width: 100px; 
+            top: 100px; 
+            left: 100px; 
+            background-image: url('../assets/vue_appart_02.png'); 
+            background-color: rgb(255, 255, 255); 
+            background-size: cover; 
+            background-position-x: 50%; 
+            background-position-y: 50%; 
+            background-repeat-x: no-repeat; 
+            background-repeat-y: no-repeat; 
+        }
+        .silex-id-1439555621174-47 {
+            position: absolute; 
+            height: 163px; 
+            width: 590px; 
+            top: 500px; 
+            left: 484.15625px; 
+            background-color: rgb(255, 255, 255); 
+            background-size: auto; 
+            background-position-x: 0%; 
+            background-position-y: 0%; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555621073-46 {
+            position: absolute; 
+            height: 611px; 
+            width: 100px; 
+            top: 674px; 
+            left: 0px; 
+            background-image: url('../assets/silex-screenshot.png'); 
+            background-color: rgb(237, 237, 237); 
+            background-size: contain; 
+            background-position-x: 50%; 
+            background-position-y: 50%; 
+            background-repeat-x: no-repeat; 
+            background-repeat-y: no-repeat; 
+        }
+        .silex-id-1439555620971-45 {
+            position: absolute; 
+            height: 440px; 
+            width: 100px; 
+            top: 100px; 
+            left: 100px; 
+            background-image: url('../assets/silex-particules.png'); 
+            background-color: rgb(255, 255, 255); 
+            background-size: contain; 
+            background-position-x: 50%; 
+            background-position-y: 50%; 
+            background-repeat-x: repeat; 
+            background-repeat-y: no-repeat; 
+        }
+        .silex-id-1439555620871-44 {
+            position: absolute; 
+            height: 450px; 
+            width: 590px; 
+            top: 500px; 
+            left: 485px; 
+            background-color: rgb(255, 255, 255); 
+            background-size: auto; 
+            background-position-x: 0%; 
+            background-position-y: 0%; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555620768-43 {
+            position: absolute; 
+            height: 337px; 
+            width: 590px; 
+            top: 600px; 
+            left: 479.15625px; 
+            background-color: transparent; 
+            background-size: auto; 
+            background-position-x: 0%; 
+            background-position-y: 0%; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555620664-42 {
+            position: absolute; 
+            height: 132px; 
+            width: 638px; 
+            top: 1413px; 
+            left: 34px; 
+            border-top-color: rgb(76, 76, 76); 
+            border-right-color: rgb(76, 76, 76); 
+            border-bottom-color: rgb(76, 76, 76); 
+            border-left-color: rgb(76, 76, 76); 
+            background-color: rgb(0, 0, 0); 
+            background-size: auto; 
+            background-position-x: 0%; 
+            background-position-y: 0%; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555620560-41 {
+            position: absolute; 
+            height: 84px; 
+            width: 855px; 
+            top: 37px; 
+            left: 484.15625px; 
+            background-color: transparent; 
+        }
+        .silex-id-1439555620458-40 {
+            position: absolute; 
+            height: 132px; 
+            width: 638px; 
+            top: 941px; 
+            left: 4px; 
+            border-top-color: rgb(129, 129, 129); 
+            border-right-color: rgb(129, 129, 129); 
+            border-bottom-color: rgb(129, 129, 129); 
+            border-left-color: rgb(129, 129, 129); 
+            border-top-left-radius: 0px; 
+            border-top-right-radius: 5px; 
+            border-bottom-right-radius: 5px; 
+            border-bottom-left-radius: 5px; 
+            background-color: rgb(196, 196, 196); 
+            background-size: auto; 
+            background-position-x: 0%; 
+            background-position-y: 0%; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555620353-39 {
+            position: absolute; 
+            height: 96px; 
+            width: 855px; 
+            top: 25px; 
+            left: 22px; 
+            background-color: transparent; 
+        }
+        .silex-id-1439555620252-38 {
+            top: 5px; 
+            left: 5px; 
+            width: 960px; 
+            height: 88px; 
+            position: absolute; 
+            background-color: transparent; 
+            background-size: auto; 
+            background-position-x: 0%; 
+            background-position-y: 0%; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555620150-37 {
+            top: -5px; 
+            left: 0px; 
+            width: 960px; 
+            height: 78px; 
+            position: absolute; 
+            border-top-width: 5px; 
+            border-right-width: 0px; 
+            border-bottom-width: 0px; 
+            border-left-width: 0px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            background-color: transparent; 
+            background-size: auto; 
+            background-position-x: 0%; 
+            background-position-y: 0%; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555620047-36 {
+            position: absolute; 
+            height: 43px; 
+            width: 223px; 
+            top: 30px; 
+            left: 130px; 
+            background-color: rgb(255, 255, 255); 
+            background-size: auto; 
+            background-position-x: 0%; 
+            background-position-y: 0%; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555619945-35 {
+            position: absolute; 
+            height: 50px; 
+            width: 50px; 
+            top: 20px; 
+            left: 60px; 
+            background-size: auto; 
+            background-position-x: 0%; 
+            background-position-y: 0%; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555619844-34 {
+            position: absolute; 
+            height: 38px; 
+            width: 504px; 
+            top: 34px; 
+            left: 396px; 
+            background-color: rgb(255, 255, 255); 
+        }
+    
