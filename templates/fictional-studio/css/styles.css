@@ -1,105 +1,334 @@
-.nav-buttons:hover, .nav-buttons.page-link-active{
-    background-color: rgba(0, 0, 0, 0.5) !important;
-}
-.element-0{
-	position: absolute; cursor: auto; background-image: url('../assets/background-texture.jpg'); background-color: transparent;
-}
-.element-1{
-	position: absolute; top: 5px; left: 5px; height: 10px; background-color: rgb(255, 255, 255);
-}
-.element-2{
-	background-color: transparent; background-image: url('../assets/header-texture.jpg'); top: 0px; left: 0px; height: 115px; right: 0px; position: absolute; 
-}
-.element-3{
-	background-color: transparent; background-image: url('../assets/header-texture.jpg'); top: 723px; left: 0px; height: 100px; right: 0px; position: absolute; 
-}
-.element-4{
-	background-color: rgba(0,0,0,0.6352941176470588); top: 0px; left: 0px; bottom: 0px; right: 0px; position: absolute; 
-}
-.element-5{
-	top: 0px; left: 0px; height: 114px; right: 0px; position: absolute; background-color: rgba(0, 0, 0, 0.631373);
-}
-.element-6{
-	top: 5px; left: 5px; width: 832px; height: 815px; position: absolute; background-color: transparent; background-repeat: repeat;
-}
-.element-7{
-	background-color: rgba(2,24,57,0.803921568627451); border-radius: 10px 10px 10px 10px; top: 134px; left: 18px; width: 800px; height: 398px; position: absolute; 
-}
-.element-8{
-	background-color: transparent; top: 119px; left: 296.5px; width: 249px; height: 239px; position: absolute; 
-}
-.element-9{
-	background-position: top left; top: 118px; left: 45px; width: 236px; height: 211px; position: absolute; 
-}
-.element-10{
-	top: 135px; left: 526px; width: 261px; height: 261px; position: absolute; 
-}
-.element-11{
-	border: 1px outset rgb(255, 255, 255); border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; top: 309px; left: 205px; width: 123px; height: 29px; position: absolute; background-color: rgb(49, 142, 255);
-}
-.element-12{
-	background-color: transparent; top: 5px; left: 13px; width: 106px; height: 21px; position: absolute; 
-}
-.element-13{
-	background-color: transparent; top: 18px; left: 43px; width: 732px; height: 92px; position: absolute; 
-}
-.element-14{
-	background-color: transparent; top: 547px; left: 31px; width: 250px; height: 167px; position: absolute; 
-}
-.element-15{
-	background-color: transparent; top: 547px; left: 550px; width: 250px; height: 167px; position: absolute; 
-}
-.element-16{
-	background-color: transparent; top: 547px; left: 290px; width: 250px; height: 167px; position: absolute; 
-}
-.element-17{
-	top: 740px; left: 689px; width: 100px; height: 55px; position: absolute; 
-}
-.element-18{
-	background-color: transparent; top: 760px; left: 31.5px; width: 409px; height: 33px; position: absolute; 
-}
-.element-19{
-	background-color: rgba(0,0,0,0.4980392156862745); border-radius: 15px 15px 15px 15px; top: 755px; left: 540px; width: 132px; height: 29px; position: absolute; 
-}
-.element-20{
-	background-color: transparent; top: 6px; left: 7px; width: 119px; height: 20px; position: absolute; 
-}
-.element-21{
-	background-color: transparent; top: 28px; left: 377px; width: 461px; height: 64px; position: absolute; 
-}
-.element-22{
-	background-color: transparent; border-radius: 10px 10px 10px 10px; top: 0px; left: 352px; width: 93px; height: 46px; position: absolute; 
-}
-.element-23{
-	background-color: transparent; top: 12px; left: 7px; width: 77px; height: 24px; position: absolute; 
-}
-.element-24{
-	background-color: transparent; border-radius: 10px 10px 10px 10px; top: 0px; left: 269px; width: 73px; height: 46px; position: absolute; 
-}
-.element-25{
-	background-color: transparent; top: 12px; left: 11px; width: 54px; height: 24px; position: absolute; 
-}
-.element-26{
-	background-color: transparent; border-radius: 10px 10px 10px 10px; top: 0px; left: 185px; width: 73px; height: 46px; position: absolute; 
-}
-.element-27{
-	top: 12px; left: 8px; width: 54px; height: 24px; position: absolute; background-color: transparent;
-}
-.element-28{
-	background-color: transparent; border-radius: 10px 10px 10px 10px; top: 0px; left: 101px; width: 73px; height: 46px; position: absolute; 
-}
-.element-29{
-	background-color: transparent; top: 12px; left: 7px; width: 54px; height: 24px; position: absolute; 
-}
-.element-30{
-	background-color: transparent; border-radius: 10px 10px 10px 10px; top: 0px; left: 17px; width: 73px; height: 46px; position: absolute; 
-}
-.element-31{
-	background-color: transparent; top: 12px; left: 12px; width: 54px; height: 24px; position: absolute; 
-}
-.element-32{
-	top: 29px; left: 25.5px; width: 57px; height: 71px; position: absolute; 
-}
-.element-33{
-	background-color: transparent; top: 34px; left: 97px; width: 123px; height: 61px; position: absolute; 
-}
+
+        .nav-buttons:hover, .nav-buttons.page-link-active{
+            background-color: rgba(0, 0, 0, 0.5) !important;
+        }
+    
+        .silex-id-1439547078652-33 {
+            position: absolute; 
+            cursor: auto; 
+            background-image: url('../assets/background-texture.jpg'); 
+            background-color: transparent; 
+        }
+        .silex-id-1439547078551-32 {
+            position: absolute; 
+            top: 5px; 
+            left: 5px; 
+            height: 10px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1439547078449-31 {
+            background-color: transparent; 
+            background-image: url('../assets/header-texture.jpg'); 
+            top: 0px; 
+            left: 0px; 
+            height: 115px; 
+            right: 0px; 
+            position: absolute; 
+        }
+        .silex-id-1439547078348-30 {
+            background-color: transparent; 
+            background-image: url('../assets/header-texture.jpg'); 
+            top: 723px; 
+            left: 0px; 
+            height: 100px; 
+            right: 0px; 
+            position: absolute; 
+        }
+        .silex-id-1439547078245-29 {
+            background-color: rgba(0, 0, 0, 0.635294); 
+            top: 0px; 
+            left: 0px; 
+            bottom: 0px; 
+            right: 0px; 
+            position: absolute; 
+        }
+        .silex-id-1439547078142-28 {
+            top: 0px; 
+            left: 0px; 
+            height: 114px; 
+            right: 0px; 
+            position: absolute; 
+            background-color: rgba(0, 0, 0, 0.631373); 
+        }
+        .silex-id-1439547078040-27 {
+            top: 5px; 
+            left: 5px; 
+            width: 832px; 
+            height: 815px; 
+            position: absolute; 
+            background-color: transparent; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439547077940-26 {
+            background-color: rgba(2, 24, 57, 0.803922); 
+            border-top-left-radius: 10px; 
+            border-top-right-radius: 10px; 
+            border-bottom-right-radius: 10px; 
+            border-bottom-left-radius: 10px; 
+            top: 134px; 
+            left: 18px; 
+            width: 800px; 
+            height: 398px; 
+            position: absolute; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+        }
+        .silex-id-1439547077839-25 {
+            background-color: transparent; 
+            top: 119px; 
+            left: 296.5px; 
+            width: 249px; 
+            height: 239px; 
+            position: absolute; 
+        }
+        .silex-id-1439547077734-24 {
+            background-position-x: 0%; 
+            background-position-y: 0%; 
+            top: 118px; 
+            left: 45px; 
+            width: 236px; 
+            height: 211px; 
+            position: absolute; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
+        }
+        .silex-id-1439547077633-23 {
+            top: 135px; 
+            left: 526px; 
+            width: 261px; 
+            height: 261px; 
+            position: absolute; 
+        }
+        .silex-id-1439547077532-22 {
+            border-top-width: 1px; 
+            border-right-width: 1px; 
+            border-bottom-width: 1px; 
+            border-left-width: 1px; 
+            border-top-style: outset; 
+            border-right-style: outset; 
+            border-bottom-style: outset; 
+            border-left-style: outset; 
+            border-image-source: initial; 
+            border-image-slice: initial; 
+            border-image-width: initial; 
+            border-image-outset: initial; 
+            border-image-repeat: initial; 
+            border-top-left-radius: 15px; 
+            border-top-right-radius: 15px; 
+            border-bottom-right-radius: 15px; 
+            border-bottom-left-radius: 15px; 
+            top: 309px; 
+            left: 205px; 
+            width: 123px; 
+            height: 29px; 
+            position: absolute; 
+            background-color: rgb(49, 142, 255); 
+            border-top-color: rgb(255, 255, 255); 
+            border-right-color: rgb(255, 255, 255); 
+            border-bottom-color: rgb(255, 255, 255); 
+            border-left-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1439547077428-21 {
+            background-color: transparent; 
+            top: 5px; 
+            left: 13px; 
+            width: 106px; 
+            height: 21px; 
+            position: absolute; 
+        }
+        .silex-id-1439547077327-20 {
+            background-color: transparent; 
+            top: 18px; 
+            left: 43px; 
+            width: 732px; 
+            height: 92px; 
+            position: absolute; 
+        }
+        .silex-id-1439547077223-19 {
+            background-color: transparent; 
+            top: 547px; 
+            left: 31px; 
+            width: 250px; 
+            height: 167px; 
+            position: absolute; 
+        }
+        .silex-id-1439547077120-18 {
+            background-color: transparent; 
+            top: 547px; 
+            left: 550px; 
+            width: 250px; 
+            height: 167px; 
+            position: absolute; 
+        }
+        .silex-id-1439547077020-17 {
+            background-color: transparent; 
+            top: 547px; 
+            left: 290px; 
+            width: 250px; 
+            height: 167px; 
+            position: absolute; 
+        }
+        .silex-id-1439547076919-16 {
+            top: 740px; 
+            left: 689px; 
+            width: 100px; 
+            height: 55px; 
+            position: absolute; 
+        }
+        .silex-id-1439547076816-15 {
+            background-color: transparent; 
+            top: 760px; 
+            left: 31.5px; 
+            width: 409px; 
+            height: 33px; 
+            position: absolute; 
+        }
+        .silex-id-1439547076715-14 {
+            background-color: rgba(0, 0, 0, 0.498039); 
+            border-top-left-radius: 15px; 
+            border-top-right-radius: 15px; 
+            border-bottom-right-radius: 15px; 
+            border-bottom-left-radius: 15px; 
+            top: 755px; 
+            left: 540px; 
+            width: 132px; 
+            height: 29px; 
+            position: absolute; 
+        }
+        .silex-id-1439547076614-13 {
+            background-color: transparent; 
+            top: 6px; 
+            left: 7px; 
+            width: 119px; 
+            height: 20px; 
+            position: absolute; 
+        }
+        .silex-id-1439547076512-12 {
+            background-color: transparent; 
+            top: 28px; 
+            left: 377px; 
+            width: 461px; 
+            height: 64px; 
+            position: absolute; 
+        }
+        .silex-id-1439547076411-11 {
+            background-color: transparent; 
+            border-top-left-radius: 10px; 
+            border-top-right-radius: 10px; 
+            border-bottom-right-radius: 10px; 
+            border-bottom-left-radius: 10px; 
+            top: 0px; 
+            left: 352px; 
+            width: 93px; 
+            height: 46px; 
+            position: absolute; 
+        }
+        .silex-id-1439547076310-10 {
+            background-color: transparent; 
+            top: 12px; 
+            left: 7px; 
+            width: 77px; 
+            height: 24px; 
+            position: absolute; 
+        }
+        .silex-id-1439547076208-9 {
+            background-color: transparent; 
+            border-top-left-radius: 10px; 
+            border-top-right-radius: 10px; 
+            border-bottom-right-radius: 10px; 
+            border-bottom-left-radius: 10px; 
+            top: 0px; 
+            left: 269px; 
+            width: 73px; 
+            height: 46px; 
+            position: absolute; 
+        }
+        .silex-id-1439547076106-8 {
+            background-color: transparent; 
+            top: 12px; 
+            left: 14px; 
+            width: 54px; 
+            height: 24px; 
+            position: absolute; 
+        }
+        .silex-id-1439547076005-7 {
+            background-color: transparent; 
+            border-top-left-radius: 10px; 
+            border-top-right-radius: 10px; 
+            border-bottom-right-radius: 10px; 
+            border-bottom-left-radius: 10px; 
+            top: 0px; 
+            left: 185px; 
+            width: 73px; 
+            height: 46px; 
+            position: absolute; 
+        }
+        .silex-id-1439547075903-6 {
+            top: 12px; 
+            left: 10px; 
+            width: 54px; 
+            height: 24px; 
+            position: absolute; 
+            background-color: transparent; 
+        }
+        .silex-id-1439547075802-5 {
+            background-color: transparent; 
+            border-top-left-radius: 10px; 
+            border-top-right-radius: 10px; 
+            border-bottom-right-radius: 10px; 
+            border-bottom-left-radius: 10px; 
+            top: 0px; 
+            left: 101px; 
+            width: 73px; 
+            height: 46px; 
+            position: absolute; 
+        }
+        .silex-id-1439547075701-4 {
+            background-color: transparent; 
+            top: 12px; 
+            left: 7px; 
+            width: 54px; 
+            height: 24px; 
+            position: absolute; 
+        }
+        .silex-id-1439547075600-3 {
+            background-color: transparent; 
+            border-top-left-radius: 10px; 
+            border-top-right-radius: 10px; 
+            border-bottom-right-radius: 10px; 
+            border-bottom-left-radius: 10px; 
+            top: 0px; 
+            left: 17px; 
+            width: 73px; 
+            height: 46px; 
+            position: absolute; 
+        }
+        .silex-id-1439547075498-2 {
+            background-color: transparent; 
+            top: 12px; 
+            left: 12px; 
+            width: 54px; 
+            height: 24px; 
+            position: absolute; 
+        }
+        .silex-id-1439547075398-1 {
+            top: 29px; 
+            left: 25.5px; 
+            width: 57px; 
+            height: 71px; 
+            position: absolute; 
+        }
+        .silex-id-1439547075296-0 {
+            background-color: transparent; 
+            top: 34px; 
+            left: 97px; 
+            width: 123px; 
+            height: 61px; 
+            position: absolute; 
+        }
+    
