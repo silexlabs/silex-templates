@@ -1,147 +1,201 @@
 
-/*
-	Here are the CSS styles of your website.
-
-	Bellow are some examples, like the styles which you can apply to your text in the text editor.
-
-	See this page for help on CSS
-	https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started
-
-	In the advanced "Apollo" mode, you will be able to add CSS classes to Silex elements,
-	and then apply a CSS style to it here.
-*/
-.title,
-.heading1,
-.heading2,
-.heading3,
-.normal,
-.html-element {
-    font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #777;
-    font-weight: 300;
-}
-.title,
-.heading1,
-.heading2,
-.heading3 {
-    line-height: 1.1;
-}
-.title,
-.heading1,
-.heading2,
-.heading3 {
-    color: #222;
-    margin: 0 0 20px;
-}
-.heading1 {
-font-size: 28px;
-}
-.heading2 {
-color: #393939;
-}
-/* title style */
-.title {
-  font-size: 35px;
-}
-/* markdown widget */
-.editable-plugin-created .markdown{
-    white-space: pre-wrap;
-    font-family: monospace;
-}
-/* remove silex front-end.css */
-a {
-  color: #39c;
-  text-decoration: inherit;
-}
-a:hover{
-  text-decoration: underline;
-}
-
-.download-button{
-	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
-	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
-	background-color:#ededed;
-	-webkit-border-top-left-radius:6px;
-	-moz-border-radius-topleft:6px;
-	border-top-left-radius:6px;
-	-webkit-border-top-right-radius:6px;
-	-moz-border-radius-topright:6px;
-	border-top-right-radius:6px;
-	-webkit-border-bottom-right-radius:6px;
-	-moz-border-radius-bottomright:6px;
-	border-bottom-right-radius:6px;
-	-webkit-border-bottom-left-radius:6px;
-	-moz-border-radius-bottomleft:6px;
-	border-bottom-left-radius:6px;
-	text-indent:0;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-	font-size:15px;
-	font-weight:bold;
-	font-style:normal;
-	height:50px;
-	line-height:50px;
-	width:200px;
-	text-decoration:none;
-	text-align:center;
-	text-shadow:1px 1px 0px #ffffff;
-}
-.full-width{
-    width: 100% !important;
-}
-.left{
-    left: 0 !important;
-}
-.full-height {
-    height: 100% !important;
-}
-.bottom{
-    bottom: 0;
-}
-.centered{
-    margin-left: auto;
-    margin-right: auto;
-    left: initial !important;
-    position: relative !important;
-}
-.overflowed *{
-    overflow: auto !important;
-}
-.markdown img{
-    width: 511px;
-    height: 254px;
-}
-.element-0{
-	cursor: auto; background-color: rgb(255, 255, 255);
-}
-.element-1{
-	top: 6px; left: 96px; width: 921px; height: 3178px; position: absolute; box-sizing: content-box; background-color: transparent;
-}
-.element-2{
-	position: absolute; height: 950px; width: 360px; top: 42px; left: 51px; background-color: rgb(255, 255, 255);
-}
-.element-3{
-	position: absolute; height: 53px; width: 214px; top: 153px; left: 0px; box-sizing: content-box; background-color: transparent;
-}
-.element-4{
-	position: absolute; height: 127px; width: 320px; top: 20px; left: 0px; background-color: rgb(255, 255, 255);
-}
-.element-5{
-	position: absolute; height: 728px; width: 310px; top: 217px; left: 0px; background-color: transparent;
-}
-.element-6{
-	position: absolute; height: 1014px; width: 511px; top: 97px; left: 403px; background-color: transparent;
-}
-.element-7{
-	position: absolute; height: 744px; width: 1031px; top: 3390px; left: 0px; box-sizing: content-box; background-color: rgb(207, 207, 207);
-}
-.element-8{
-	position: absolute; height: 91px; width: 623px; top: 0px; left: 204px; background-color: transparent;
-}
-.element-9{
-	position: absolute; height: 616px; width: 1031px; top: 97px; left: 1px; box-sizing: content-box; background-color: transparent;
-}
+        /*
+        	Here are the CSS styles of your website.
+        
+        	Bellow are some examples, like the styles which you can apply to your text in the text editor.
+        
+        	See this page for help on CSS
+        	https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started
+        
+        	In the advanced "Apollo" mode, you will be able to add CSS classes to Silex elements,
+        	and then apply a CSS style to it here.
+        */
+        .title,
+        .heading1,
+        .heading2,
+        .heading3,
+        .normal,
+        .html-element {
+            font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #777;
+            font-weight: 300;
+        }
+        .title,
+        .heading1,
+        .heading2,
+        .heading3 {
+            line-height: 1.1;
+        }
+        .title,
+        .heading1,
+        .heading2,
+        .heading3 {
+            color: #222;
+            margin: 0 0 20px;
+        }
+        .heading1 {
+        font-size: 28px;
+        }
+        .heading2 {
+        color: #393939;
+        }
+        /* title style */
+        .title {
+          font-size: 35px;
+        }
+        /* markdown widget */
+        .editable-plugin-created .markdown{
+            white-space: pre-wrap;
+            font-family: monospace;
+        }
+        /* remove silex front-end.css */
+        a {
+          color: #39c;
+          text-decoration: inherit;
+        }
+        a:hover{
+          text-decoration: underline;
+        }
+        
+        .download-button{
+        	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+        	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+        	box-shadow:inset 0px 1px 0px 0px #ffffff;
+        	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+        	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+        	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+        	background-color:#ededed;
+        	-webkit-border-top-left-radius:6px;
+        	-moz-border-radius-topleft:6px;
+        	border-top-left-radius:6px;
+        	-webkit-border-top-right-radius:6px;
+        	-moz-border-radius-topright:6px;
+        	border-top-right-radius:6px;
+        	-webkit-border-bottom-right-radius:6px;
+        	-moz-border-radius-bottomright:6px;
+        	border-bottom-right-radius:6px;
+        	-webkit-border-bottom-left-radius:6px;
+        	-moz-border-radius-bottomleft:6px;
+        	border-bottom-left-radius:6px;
+        	text-indent:0;
+        	border:1px solid #dcdcdc;
+        	display:inline-block;
+        	font-size:15px;
+        	font-weight:bold;
+        	font-style:normal;
+        	height:50px;
+        	line-height:50px;
+        	width:200px;
+        	text-decoration:none;
+        	text-align:center;
+        	text-shadow:1px 1px 0px #ffffff;
+        }
+        .full-width{
+            width: 100% !important;
+        }
+        .left{
+            left: 0 !important;
+        }
+        .full-height {
+            height: 100% !important;
+        }
+        .bottom{
+            bottom: 0;
+        }
+        .centered{
+            margin-left: auto;
+            margin-right: auto;
+            left: initial !important;
+            position: relative !important;
+        }
+        .overflowed *{
+            overflow: auto !important;
+        }
+        .markdown img{
+            width: 511px;
+            height: 254px;
+        }
+        .markdown li {
+            list-style: none;
+            text-transform: capitalize;
+        }
+    
+        .silex-id-1439151851109-9 {
+            cursor: auto; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1439151851008-8 {
+            top: 5px; 
+            left: 55px; 
+            width: 921px; 
+            height: 3810px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1439151850496-3 {
+            position: absolute; 
+            height: 3687px; 
+            width: 511px; 
+            top: 56px; 
+            left: 403px; 
+            background-color: transparent; 
+        }
+        .silex-id-1439151850906-7 {
+            position: absolute; 
+            height: 949px; 
+            width: 338px; 
+            top: 43px; 
+            left: 51px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1439151850803-6 {
+            position: absolute; 
+            height: 53px; 
+            width: 214px; 
+            top: 153px; 
+            left: 0px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1439151850702-5 {
+            position: absolute; 
+            height: 127px; 
+            width: 320px; 
+            top: 20px; 
+            left: 0px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1439152299990-10 {
+            height: 692px; 
+            width: 332px; 
+            top: 211px; 
+            left: 0px; 
+        }
+        .silex-id-1439151850394-2 {
+            position: absolute; 
+            height: 744px; 
+            width: 1031px; 
+            top: 3820px; 
+            left: 0px; 
+            box-sizing: content-box; 
+            background-color: rgb(207, 207, 207); 
+        }
+        .silex-id-1439151850291-1 {
+            position: absolute; 
+            height: 91px; 
+            width: 623px; 
+            top: 0px; 
+            left: 204px; 
+            background-color: transparent; 
+        }
+        .silex-id-1439151850189-0 {
+            position: absolute; 
+            height: 616px; 
+            width: 1031px; 
+            top: 97px; 
+            left: 1px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+    

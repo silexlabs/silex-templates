@@ -1,249 +1,440 @@
-<!DOCTYPE html><html><head>
-	<title>Silex templates ~ official repository ~ creative commons templates</title>
-	<meta charset="UTF-8">
-	<meta name="generator" content="Silex v2.0"> <!-- leave this for stats -->
-  <meta name="description" content="Free Templates for Silex Website Builder.">
-	<script type="text/javascript" src="http://static.silex.me/2.4/jquery.js"></script>
-	<script type="text/javascript" src="http://static.silex.me/2.4/jquery-ui.js"></script>
-	<script type="text/javascript" src="http://static.silex.me/2.4/jquery.ui.touch-punch.min.js"></script>
-	<script type="text/javascript" src="http://static.silex.me/2.4/pageable.js"></script>
-	<script type="text/javascript" src="http://static.silex.me/2.4/front-end.js"></script>
-	<!-- Normalize -->
-	<link href="http://static.silex.me/2.4/normalize.css" rel="stylesheet">
-	<!-- Silex style -->
-	<link href="http://static.silex.me/2.4/front-end.css" rel="stylesheet">
+<!DOCTYPE html>
+<html>
 
-	<style type="text/css" class="silex-style">
-/*
-	Here are the CSS styles of your website.
+<head>
+    <title>Silex templates ~ official repository ~ creative commons templates</title>
+    <meta charset="UTF-8">
+    <meta name="generator" content="Silex v2.2.4">
+    <!-- leave this for stats -->
+    <meta name="description" content="Free Templates for Silex Website Builder.">
+    <script type="text/javascript" src="http://static.silex.me/2.4/jquery.js"></script>
+    <script type="text/javascript" src="http://static.silex.me/2.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="http://static.silex.me/2.4/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="http://static.silex.me/2.4/pageable.js"></script>
+    <script type="text/javascript" src="http://static.silex.me/2.4/front-end.js"></script>
+    <!-- Normalize -->
+    <link href="http://static.silex.me/2.4/normalize.css" rel="stylesheet">
+    <!-- Silex style -->
+    <link href="http://static.silex.me/2.4/front-end.css" rel="stylesheet">
 
-	Bellow are some examples, like the styles which you can apply to your text in the text editor.
+    <style type="text/css" class="silex-style">
+        /*
+        	Here are the CSS styles of your website.
+        
+        	Bellow are some examples, like the styles which you can apply to your text in the text editor.
+        
+        	See this page for help on CSS
+        	https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started
+        
+        	In the advanced "Apollo" mode, you will be able to add CSS classes to Silex elements,
+        	and then apply a CSS style to it here.
+        */
+        .title,
+        .heading1,
+        .heading2,
+        .heading3,
+        .normal,
+        .html-element {
+            font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #777;
+            font-weight: 300;
+        }
+        .title,
+        .heading1,
+        .heading2,
+        .heading3 {
+            line-height: 1.1;
+        }
+        .title,
+        .heading1,
+        .heading2,
+        .heading3 {
+            color: #222;
+            margin: 0 0 20px;
+        }
+        .heading1 {
+        font-size: 28px;
+        }
+        .heading2 {
+        color: #393939;
+        }
+        /* title style */
+        .title {
+          font-size: 35px;
+        }
+        /* markdown widget */
+        .editable-plugin-created .markdown{
+            white-space: pre-wrap;
+            font-family: monospace;
+        }
+        /* remove silex front-end.css */
+        a {
+          color: #39c;
+          text-decoration: inherit;
+        }
+        a:hover{
+          text-decoration: underline;
+        }
+        
+        .download-button{
+        	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+        	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+        	box-shadow:inset 0px 1px 0px 0px #ffffff;
+        	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+        	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+        	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+        	background-color:#ededed;
+        	-webkit-border-top-left-radius:6px;
+        	-moz-border-radius-topleft:6px;
+        	border-top-left-radius:6px;
+        	-webkit-border-top-right-radius:6px;
+        	-moz-border-radius-topright:6px;
+        	border-top-right-radius:6px;
+        	-webkit-border-bottom-right-radius:6px;
+        	-moz-border-radius-bottomright:6px;
+        	border-bottom-right-radius:6px;
+        	-webkit-border-bottom-left-radius:6px;
+        	-moz-border-radius-bottomleft:6px;
+        	border-bottom-left-radius:6px;
+        	text-indent:0;
+        	border:1px solid #dcdcdc;
+        	display:inline-block;
+        	font-size:15px;
+        	font-weight:bold;
+        	font-style:normal;
+        	height:50px;
+        	line-height:50px;
+        	width:200px;
+        	text-decoration:none;
+        	text-align:center;
+        	text-shadow:1px 1px 0px #ffffff;
+        }
+        .full-width{
+            width: 100% !important;
+        }
+        .left{
+            left: 0 !important;
+        }
+        .full-height {
+            height: 100% !important;
+        }
+        .bottom{
+            bottom: 0;
+        }
+        .centered{
+            margin-left: auto;
+            margin-right: auto;
+            left: initial !important;
+            position: relative !important;
+        }
+        .overflowed *{
+            overflow: auto !important;
+        }
+        .markdown img{
+            width: 511px;
+            height: 254px;
+        }
+        .markdown li {
+            list-style: none;
+            text-transform: capitalize;
+        }
+    </style>
+    <script type="text/javascript" class="silex-script">
+        /*
+        // **
+        // Markdown widget for Silex
+        // markdown script from https://github.com/chjj/marked/
+        document.write('<scr'+'ipt src="marked.min.js"></scr'+'ipt>');
+        // markdown theme from http://bootswatch.com/
+        //document.write('<link rel="stylesheet" type="text/css" href="bootstrap.min.css">');
+        // convert all
+        $(function(){
+            $('.markdown .silex-element-content')
+            .each(function(idx, el){
+                var markdown = $(el).html().replace(/<\/*.*?>/gi, '\n\n');
+                var html = marked(markdown);
+                $(el).html(html);
+            });
+        });
+        */
+        // **
+        // google analytics
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-19608894-20', 'silexlabs.github.io');
+        ga('send', 'pageview');
+        // **
+    </script>
+    <meta name="publicationPath" content="http://localhost:6805/api/1.0/dropbox/exec/put//sites-silex/silex-templates">
+    <style type="text/css"></style>
+    <style class="silex-inline-styles" type="text/css">
+        .silex-id-1439151851109-9 {
+            cursor: auto; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1439151851008-8 {
+            top: 5px; 
+            left: 55px; 
+            width: 921px; 
+            height: 3810px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1439151850496-3 {
+            position: absolute; 
+            height: 3687px; 
+            width: 511px; 
+            top: 56px; 
+            left: 403px; 
+            background-color: transparent; 
+        }
+        .silex-id-1439151850906-7 {
+            position: absolute; 
+            height: 949px; 
+            width: 338px; 
+            top: 43px; 
+            left: 51px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1439151850803-6 {
+            position: absolute; 
+            height: 53px; 
+            width: 214px; 
+            top: 153px; 
+            left: 0px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1439151850702-5 {
+            position: absolute; 
+            height: 127px; 
+            width: 320px; 
+            top: 20px; 
+            left: 0px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1439152299990-10 {
+            height: 692px; 
+            width: 332px; 
+            top: 211px; 
+            left: 0px; 
+        }
+        .silex-id-1439151850394-2 {
+            position: absolute; 
+            height: 744px; 
+            width: 1031px; 
+            top: 3820px; 
+            left: 0px; 
+            box-sizing: content-box; 
+            background-color: rgb(207, 207, 207); 
+        }
+        .silex-id-1439151850291-1 {
+            position: absolute; 
+            height: 91px; 
+            width: 623px; 
+            top: 0px; 
+            left: 204px; 
+            background-color: transparent; 
+        }
+        .silex-id-1439151850189-0 {
+            position: absolute; 
+            height: 616px; 
+            width: 1031px; 
+            top: 97px; 
+            left: 1px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+    </style>
 
-	See this page for help on CSS
-	https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started
-
-	In the advanced "Apollo" mode, you will be able to add CSS classes to Silex elements,
-	and then apply a CSS style to it here.
-*/
-.title,
-.heading1,
-.heading2,
-.heading3,
-.normal,
-.html-element {
-    font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #777;
-    font-weight: 300;
-}
-.title,
-.heading1,
-.heading2,
-.heading3 {
-    line-height: 1.1;
-}
-.title,
-.heading1,
-.heading2,
-.heading3 {
-    color: #222;
-    margin: 0 0 20px;
-}
-.heading1 {
-font-size: 28px;
-}
-.heading2 {
-color: #393939;
-}
-/* title style */
-.title {
-  font-size: 35px;
-}
-/* markdown widget */
-.editable-plugin-created .markdown{
-    white-space: pre-wrap;
-    font-family: monospace;
-}
-/* remove silex front-end.css */
-a {
-  color: #39c;
-  text-decoration: inherit;
-}
-a:hover{
-  text-decoration: underline;
-}
-
-.download-button{
-	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
-	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
-	background-color:#ededed;
-	-webkit-border-top-left-radius:6px;
-	-moz-border-radius-topleft:6px;
-	border-top-left-radius:6px;
-	-webkit-border-top-right-radius:6px;
-	-moz-border-radius-topright:6px;
-	border-top-right-radius:6px;
-	-webkit-border-bottom-right-radius:6px;
-	-moz-border-radius-bottomright:6px;
-	border-bottom-right-radius:6px;
-	-webkit-border-bottom-left-radius:6px;
-	-moz-border-radius-bottomleft:6px;
-	border-bottom-left-radius:6px;
-	text-indent:0;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-	font-size:15px;
-	font-weight:bold;
-	font-style:normal;
-	height:50px;
-	line-height:50px;
-	width:200px;
-	text-decoration:none;
-	text-align:center;
-	text-shadow:1px 1px 0px #ffffff;
-}
-.full-width{
-    width: 100% !important;
-}
-.left{
-    left: 0 !important;
-}
-.full-height {
-    height: 100% !important;
-}
-.bottom{
-    bottom: 0;
-}
-.centered{
-    margin-left: auto;
-    margin-right: auto;
-    left: initial !important;
-    position: relative !important;
-}
-.overflowed *{
-    overflow: auto !important;
-}
-.markdown img{
-    width: 511px;
-    height: 254px;
-}</style>
-  <script type="text/javascript" class="silex-script">// **
-// Markdown widget for Silex
-// markdown script from https://github.com/chjj/marked/
-document.write('<scr'+'ipt src="marked.min.js"></scr'+'ipt>');
-// markdown theme from http://bootswatch.com/
-//document.write('<link rel="stylesheet" type="text/css" href="bootstrap.min.css">');
-// convert all
-$(function(){
-    $('.markdown .silex-element-content')
-    .each(function(idx, el){
-        var markdown = $(el).html().replace(/<\/*.*?>/gi, '\n\n');
-        var html = marked(markdown);
-        $(el).html(html);
-    });
-});
-// **
-// google analytics
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-19608894-20', 'silexlabs.github.io');
-ga('send', 'pageview');
-// **</script>
-<meta name="publicationPath" content="/api/1.0/dropbox/exec/put////sites-silex/silex-templates"><style type="text/css"></style><style id="current-page-style">.page-home{display:inherit; }</style></head>
-<body style="cursor: auto; background-color: rgb(255, 255, 255);" data-silex-type="container" class="silex-runtime">
-	<a id="page-home" data-silex-type="page" class="page-element">Home</a>
 
 
 
-<div class="background editable-style container-element" data-silex-type="container" style="top: 6px; left: 96px; width: 921px; height: 3178px; position: absolute; box-sizing: content-box; background-color: transparent;">
-	<div data-silex-type="container" class="editable-style container-element paged-element page-home" style="position: absolute; height: 950px; width: 360px; top: 42px; left: 51px; background-color: rgb(255, 255, 255);"><div data-silex-type="html" class="editable-style html-element" style="position: absolute; height: 53px; width: 214px; top: 153px; left: 0px; box-sizing: content-box; background-color: transparent;" title="Download the templates"><div class="silex-element-content"><a href="https://github.com/silexlabs/silex-templates/zipball/gh-pages" class="download-button">Download the templates</a></div></div><div data-silex-type="text" class="editable-style text-element" style="position: absolute; height: 127px; width: 320px; top: 20px; left: 0px; background-color: rgb(255, 255, 255);"><div class="silex-element-content normal"><header class="title">Silex templates</header><div>Official creative commons Silex templates</div><a href="https://github.com/silexlabs/silex-templates">View the Project on GitHub</a><div><br></div></div></div><div data-silex-type="html" class="editable-style html-element markdown" style="position: absolute; height: 728px; width: 310px; top: 217px; left: 0px; background-color: transparent;"><div class="silex-element-content">### About Silex templates
-
-These templates can be edited with [Silex, live web creation](http://www.silex.me), the HTML editor and website builder for designers.
-
-###How to customize it for your website?
-
-Download the [zip file](https://github.com/silexlabs/silex-templates/zipball/gh-pages) and unzip to a folder in your dropbox. Then [open Silex in a browser](http://www.silex.me/silex) and with it, open the template file ```editable.html``` from the ```/templates/``` folder.
-
-Then insert your content, modify the design and use it as your website.
-
-###How to contribute
-
-These templates are made without programming, just drag and drop, with [Silex, live web creation](http://www.silex.me/). So feel free to [fork this github repository](https://github.com/silexlabs/silex-templates/), make changes and make a pull request.
-
-###Creative Commons license
-
-These templates are licensed under a **Creative Commons Attribution 3.0 Unported License**. Anyone who pushes design and HTML files in this repository agrees to this license.
-
-</div></div></div><div data-silex-type="html" class="editable-style html-element page-home paged-element markdown full-height" style="position: absolute; height: 1014px; width: 511px; top: 97px; left: 403px; background-color: transparent;"><div class="silex-element-content">##Ipsoom Center
-
-[View this template online](templates/ipsoom/index.html)
-
-[![Ipsoom Center template](templates/ipsoom/screenshot-678x336.png "Ipsoom Center silex template")
-](templates/ipsoom/index.html)
-
-##Fictional Design Studio
-
-[View this template online](templates/fictional-studio/index.html)
-
-[![Fictional Design Studio template](templates/fictional-studio/screenshot-678x336.png "Fictional Design Studio silex template")
-](templates/fictional-studio/index.html)
-
-##Tech Tools
-
-[View this template online](templates/tech-tools/index.html)
-
-[![Tech Tools template](templates/tech-tools/screenshot-678x336.png "Tech Tools silex template")
-](templates/tech-tools/index.html)
-
-##Clean &amp; Square
-
-[View this template online](templates/clean-square/index.html)
-
-[![Clean &amp; Square template](templates/clean-square/screenshot-678x336.png "Clean &amp; Square silex template")
-](templates/clean-square/index.html)
-
-##Eco1
-
-[View this template online](templates/eco1/index.html)
-
-[![Clean &amp; Square template](templates/eco1/screenshot-678x336.png "Clean &amp; Square silex template")
-](templates/eco1/index.html)
-
-##Minimal Grey
-
-[View this template online](templates/minimal-grey/index.html)
-
-[![Minimal Grey silex template](templates/minimal-grey/screenshot-678x336.png "Minimal Grey silex template")
-](templates/minimal-grey/index.html)
 
 
-##Minimal Mistakes
-
-[View this template online](templates/minimal-mistakes/index.html)
-
-[![Minimal Grey silex template](templates/minimal-mistakes/screenshot-678x336.png "Minimal Mistake silex template")
-](templates/minimal-mistakes/index.html)
 
 
-##Online service
+    <style id="current-page-style">
+        .page-home{display:inherit; }
+    </style>
+    <!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove -->
+</head>
 
-[View this template online](templates/online-service/index.html)
-
-[![Minimal Online service template](templates/online-service/screenshot-678x336.png "Online Service silex template")
-](templates/online-service/index.html)
+<body data-silex-type="container" class="silex-id-1439151851109-9 silex-runtime" data-silex-id="silex-id-1439151851109-9">
+    <a id="page-home" data-silex-type="page" class="page-element">Home</a>
 
 
-##Perso1
 
-[View this template online](templates/perso1/index.html)
+    <div class="background editable-style container-element prevent-draggable silex-id-1439151851008-8" data-silex-type="container" data-silex-id="silex-id-1439151851008-8">
 
-[![One page "about me" page](templates/perso1/screenshot-678x336.png "One page "about me" page")
-](templates/perso1/index.html)
 
-</div></div></div><div data-silex-type="container" class="editable-style container-element page-home paged-element bottom full-width left" style="position: absolute; height: 744px; width: 1031px; top: 3390px; left: 0px; box-sizing: content-box; background-color: rgb(207, 207, 207);"><div data-silex-type="text" class="editable-style text-element centered" style="position: absolute; height: 91px; width: 623px; top: 0px; left: 204px; background-color: transparent;"><div class="silex-element-content normal"><p style="text-align: center;" class="normal"><b>About this website</b><br><a href="http://www.silex.me">powered by Silex v2</a>&nbsp;- <a href="http://orderedlist.com/minimal/">inspired by orederedlist minimal theme</a> - <a href="https://pages.github.com/">hosted on github pages</a><u><br></u>feel free to <a href="https://github.com/silexlabs/silex-templates/">fork and contribute</a></p></div></div><div data-silex-type="text" class="editable-style text-element overflowed full-width" style="position: absolute; height: 616px; width: 1031px; top: 97px; left: 1px; box-sizing: content-box; background-color: transparent;"><div class="silex-element-content normal"><h1 class="heading1" style="text-align: center;"><font size="2">Keywords that brought you here</font></h1><div style="text-align: center;"><font size="2">about me page template</font></div><div style="text-align: center;"><font size="2">creative web template</font></div><div style="text-align: center;"><font size="2">creative commons website templates</font></div><div style="text-align: center;"><font size="2">web template github</font></div><div style="text-align: center;"><font size="2">github pages templates</font></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">online html page builder</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">cloud based open source SaaS</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free website template builder</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">live web page editor</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">html5 web page editor</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free html5 editor</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free website builder with source code</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free cms for html website</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free website with html</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">cms open source</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free online html editors</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">open source online editor</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">silex website</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">silex website builder</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">silex.me</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">open source online website builder</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">silex web</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free cms editor</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">tuto silex</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">website free builder</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">html5 website builder online</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">silex css</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">cms flash open source</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">website builder with html editor</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free website builder sites</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">silex cms</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">online website builder open source</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">Create a free website</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">Wix.com open source alternative</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">professional designer</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">webdesigner, CSS web master</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">webmaster CSS made easy</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">open source CMS</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">CSS3 HTML5 HTML 5 javascript editor</font></span></div><div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">WYSIWYG</font></span></div><div style="text-align: center;"><a href="http://lexoyo.me/" style="line-height: 1.5;"><font size="2">Alex Hoyau front end javascript web apps</font></a></div><div style="text-align: center;"><a href="http://superwup.me/" style="line-height: 1.5;"><font size="2">Pol Goasdoué UI design</font></a></div><div style="text-align: center;"><a href="http://www.stance3d.com/" style="line-height: 1.5;"><font size="2">Nicolas Masson 3D motion design</font></a></div></div></div></div></body></html>
+        <div data-silex-type="html" class="editable-style html-element page-home paged-element   silex-id-1439151850496-3 markdown" data-silex-id="silex-id-1439151850496-3">
+            <div class="silex-element-content">
+                <div id="templates-list"></div>
+                <script type="text/javascript">
+                    $(function() {
+                        $.get('https://api.github.com/repos/silexlabs/silex-templates/contents/templates', function(data) {
+                            var html = '<ul>';
+                            $.each(data, function(idx, template) {
+                                var name = template.name.replace('-', ' ', 'g');
+                                html += '<li>';
+                                html += '<h2 id="'+name+'">'+name+'</h2><p><a href="templates/'+template.name+'/index.html">View this template online</a></p><p><a href="templates/'+template.name+'/index.html"><img src'+'="templates/'+template.name+'/screenshot-678x336.png" alt="'+name+' template for Silex website builder" title="'+name+' silex template"></a></p>';
+                                html += '</li>';
+                            });
+                            html += '</ul>';
+                            $("#templates-list").html(html);
+                        });
+                    });
+                </script>
+
+            </div>
+        </div>
+        <div data-silex-type="container" class="editable-style container-element paged-element page-home silex-id-1439151850906-7" data-silex-id="silex-id-1439151850906-7">
+            <div data-silex-type="html" class="editable-style html-element silex-id-1439151850803-6" title="Download the templates" data-silex-id="silex-id-1439151850803-6">
+                <div class="silex-element-content"><a href="https://github.com/silexlabs/silex-templates/zipball/gh-pages" class="download-button">Download the templates</a>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439151850702-5" data-silex-id="silex-id-1439151850702-5">
+                <div class="silex-element-content normal">
+                    <header class="title">Silex templates</header>
+                    <div>Official creative commons Silex templates</div><a href="https://github.com/silexlabs/silex-templates">View the Project on GitHub</a>
+                    <div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <div data-silex-type="text" class="editable-style silex-id-1439152299990-10 text-element" data-silex-id="silex-id-1439152299990-10">
+                <div class="silex-element-content normal">
+                    <h3 id="about-silex-templates" style="background-color: rgb(255, 255, 255);">About Silex templates</h3>
+                    <p style="line-height: 21px; background-color: rgb(255, 255, 255);" class="normal">These templates can be edited with&nbsp;<a href="http://www.silex.me/" style="color: rgb(51, 153, 204);">Silex, live web creation</a>, the HTML editor and website builder for designers.</p>
+                    <h3 id="how-to-customize-it-for-your-website-" style="background-color: rgb(255, 255, 255);">How to customize it for your website?</h3>
+                    <p style="line-height: 21px; background-color: rgb(255, 255, 255);" class="normal">Download the&nbsp;<a href="https://github.com/silexlabs/silex-templates/zipball/gh-pages" style="color: rgb(51, 153, 204);">zip file</a>&nbsp;and unzip to a folder in your dropbox. Then&nbsp;<a href="http://www.silex.me/silex" style="color: rgb(51, 153, 204);">open Silex in a browser</a>&nbsp;and
+                        with it, open the template file&nbsp;<code>editable.html</code>&nbsp;from the<code>/templates/</code>&nbsp;folder.</p>
+                    <p style="line-height: 21px; background-color: rgb(255, 255, 255);" class="normal">Then insert your content, modify the design and use it as your website.</p>
+                    <h3 id="how-to-contribute" style="background-color: rgb(255, 255, 255);">How to contribute</h3>
+                    <p style="line-height: 21px; background-color: rgb(255, 255, 255);" class="normal">These templates are made without programming, just drag and drop, with&nbsp;<a href="http://www.silex.me/" style="color: rgb(51, 153, 204);">Silex, live web creation</a>. So feel free to&nbsp;<a href="https://github.com/silexlabs/silex-templates/"
+                        style="color: rgb(51, 153, 204);">fork this github repository</a>, make changes and make a pull request.</p>
+                    <h3 id="creative-commons-license" style="background-color: rgb(255, 255, 255);">Creative Commons license</h3>
+                    <p style="line-height: 21px; background-color: rgb(255, 255, 255);" class="normal">These templates are licensed under a&nbsp;<strong>Creative Commons Attribution 3.0 Unported License</strong>. Anyone who pushes design and HTML files in this repository agrees to this license.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-silex-type="container" class="editable-style container-element page-home paged-element bottom full-width left silex-id-1439151850394-2" data-silex-id="silex-id-1439151850394-2">
+        <div data-silex-type="text" class="editable-style text-element centered silex-id-1439151850291-1" data-silex-id="silex-id-1439151850291-1">
+            <div class="silex-element-content normal">
+                <p style="text-align: center;" class="normal"><b>About this website</b>
+                    <br><a href="http://www.silex.me">powered by Silex v2</a>&nbsp;- <a href="http://orderedlist.com/minimal/">inspired by orederedlist minimal theme</a> - <a href="https://pages.github.com/">hosted on github pages</a><u><br></u>feel free
+                    to <a href="https://github.com/silexlabs/silex-templates/">fork and contribute</a>
+                </p>
+            </div>
+        </div>
+        <div data-silex-type="text" class="editable-style text-element overflowed full-width silex-id-1439151850189-0" data-silex-id="silex-id-1439151850189-0">
+            <div class="silex-element-content normal">
+                <h1 class="heading1" style="text-align: center;"><font size="2">Keywords that brought you here</font></h1>
+                <div style="text-align: center;"><font size="2">about me page template</font>
+                </div>
+                <div style="text-align: center;"><font size="2">creative web template</font>
+                </div>
+                <div style="text-align: center;"><font size="2">creative commons website templates</font>
+                </div>
+                <div style="text-align: center;"><font size="2">web template github</font>
+                </div>
+                <div style="text-align: center;"><font size="2">github pages templates</font>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">online html page builder</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">cloud based open source SaaS</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free website template builder</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">live web page editor</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">html5 web page editor</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free html5 editor</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free website builder with source code</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free cms for html website</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free website with html</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">cms open source</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free online html editors</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">open source online editor</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">silex website</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">silex website builder</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">silex.me</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">open source online website builder</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">silex web</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free cms editor</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">tuto silex</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">website free builder</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">html5 website builder online</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">silex css</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">cms flash open source</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">website builder with html editor</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">free website builder sites</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">silex cms</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">online website builder open source</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">Create a free website</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">Wix.com open source alternative</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">professional designer</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">webdesigner, CSS web master</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">webmaster CSS made easy</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">open source CMS</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">CSS3 HTML5 HTML 5 javascript editor</font></span>
+                </div>
+                <div style="text-align: center;"><span style="line-height: 1.5;"><font size="2">WYSIWYG</font></span>
+                </div>
+                <div style="text-align: center;"><a href="http://lexoyo.me/" style="line-height: 1.5;"><font size="2">Alex Hoyau front end javascript web apps</font></a>
+                </div>
+                <div style="text-align: center;"><a href="http://superwup.me/" style="line-height: 1.5;"><font size="2">Pol Goasdoué UI design</font></a>
+                </div>
+                <div style="text-align: center;"><a href="http://www.stance3d.com/" style="line-height: 1.5;"><font size="2">Nicolas Masson 3D motion design</font></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

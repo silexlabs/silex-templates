@@ -1,94 +1,631 @@
+<!DOCTYPE html>
+<html>
+
 <head>
-	<title>Minimal grey</title>
-	<meta charset="UTF-8">
-	<meta name="generator" content="Silex v2.0"> <!-- leave this for stats -->
+    <title>Minimal grey</title>
+    <meta charset="UTF-8">
+    <meta name="generator" content="Silex v2.2.4">
+    <!-- leave this for stats -->
     <link rel="icon" type="image/png" href="assets/silex.png">
-	<script type="text/javascript" src="http://static.silex.me/2.2/jquery.js"></script>
-	<script type="text/javascript" src="http://static.silex.me/2.2/jquery-ui.js"></script>
-	<script type="text/javascript" src="http://static.silex.me/2.2/jquery.ui.touch-punch.min.js"></script>
-	<script type="text/javascript" src="http://static.silex.me/2.2/pageable.js"></script>
-	<script type="text/javascript" src="http://static.silex.me/2.2/front-end.js"></script>
+    <script type="text/javascript" src="http://static.silex.me/2.4/jquery.js"></script>
+    <script type="text/javascript" src="http://static.silex.me/2.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="http://static.silex.me/2.2/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="http://static.silex.me/2.4/pageable.js"></script>
+    <script type="text/javascript" src="http://static.silex.me/2.4/front-end.js"></script>
     <!-- Normalize -->
-    <link href="http://static.silex.me/2.2/normalize.css" rel="stylesheet">
-	<!-- Silex style -->
-	<link href="http://static.silex.me/2.2/front-end.css" rel="stylesheet">
-	<style type="text/css" class="silex-style">
-/* This is a help message
+    <link href="http://static.silex.me/2.4/normalize.css" rel="stylesheet">
+    <!-- Silex style -->
+    <link href="http://static.silex.me/2.4/front-end.css" rel="stylesheet">
+    <style type="text/css" class="silex-style">
+        /* This is a help message
+        
+            _Text editor styles, CSS styles_
+        
+            Change these styles in order to change the text editor styles:
+            .text-element HEADER is Title
+            .text-element H1 is Title 1
+            .text-element H2 is Title 2
+            .text-element H3 is Title 3
+            .text-element is Normal text
+        
+            Bellow this is the default formatting
+        */
+        .text-element HEADER,
+        .text-element H1,
+        .text-element H2,
+        .text-element H3,
+        .text-element {
+          color: #666666;
+        }
+        .text-element,
+        .text-element H1,
+        .text-element H2,
+        .text-element HEADER {
+            color: black;
+            font-weight: normal;
+            font-family: 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif;
+            font-size: 20px;
+        }
+        .text-element HEADER {
+          font-size: 35px;
+        }
+        .text-element * {
+            color: black;
+            font-weight: normal;
+            font-family: 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif;
+        }
+        .text-element{
+            font-size: 14px;
+        }
+        .text-element a {
+            font-weight: bold;
+        }
+        .nav .text-element {
+            text-transform: uppercase;
+            color: black;
+            font-size: 12px;
+        }
+        .nav:hover .image-element {
+            display: inherit;
+        }
+        .footer .text-element {
+            color: grey;
+            font-size: 12px;
+        }
+    </style>
+    <script type="text/javascript" class="silex-script">
+        //**
+        // Google analytics
+        // replace by your own code
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-19608894-20', 'silexlabs.github.io');
+        ga('send', 'pageview');
+        //**
+    </script>
+    <meta name="publicationPath" content="http://localhost:6805/api/1.0/dropbox/exec/put/sites-silex/silex-templates/templates/minimal-grey">
+    <style class="silex-inline-styles" type="text/css">
+        .silex-id-1439555205914-33 {
+            width: 1100px; 
+            height: 1456px; 
+            cursor: auto; 
+            background-image: url('assets/bg.png'); 
+            background-attachment: scroll; 
+            background-color: rgb(255, 255, 255); 
+            background-size: auto; 
+            background-repeat-x: repeat; 
+            background-repeat-y: no-repeat; 
+        }
+        .silex-id-1439555205812-32 {
+            background-color: transparent; 
+            top: 5px; 
+            left: 5px; 
+            width: 1000px; 
+            height: 1451px; 
+            background-attachment: scroll; 
+            position: absolute; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555205710-31 {
+            position: absolute; 
+            width: 100px; 
+            top: 0px; 
+            left: 450px; 
+            background-color: transparent; 
+            height: 110px; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555205609-30 {
+            position: absolute; 
+            height: 9px; 
+            width: 19px; 
+            left: 40px; 
+            top: 2px; 
+            border-top-color: rgb(204, 204, 255); 
+            border-right-color: rgb(204, 204, 255); 
+            border-bottom-color: rgb(204, 204, 255); 
+            border-left-color: rgb(204, 204, 255); 
+        }
+        .silex-id-1439555205508-29 {
+            position: absolute; 
+            background-color: transparent; 
+            top: 45px; 
+            left: auto; 
+            width: 100px; 
+        }
+        .silex-id-1439555205406-28 {
+            position: absolute; 
+            width: 100px; 
+            left: 550px; 
+            background-color: transparent; 
+            height: 110px; 
+            top: 0px; 
+        }
+        .silex-id-1439555205305-27 {
+            position: absolute; 
+            height: 9px; 
+            width: 19px; 
+            left: 40px; 
+            top: 2px; 
+            border-top-color: rgb(204, 204, 255); 
+            border-right-color: rgb(204, 204, 255); 
+            border-bottom-color: rgb(204, 204, 255); 
+            border-left-color: rgb(204, 204, 255); 
+        }
+        .silex-id-1439555205204-26 {
+            position: absolute; 
+            background-color: transparent; 
+            top: 45px; 
+            left: auto; 
+            width: 100px; 
+        }
+        .silex-id-1439555205103-25 {
+            position: absolute; 
+            width: 100px; 
+            left: 650px; 
+            background-color: transparent; 
+            height: 110px; 
+            top: 0px; 
+        }
+        .silex-id-1439555205000-24 {
+            position: absolute; 
+            background-color: transparent; 
+            top: 45px; 
+            left: auto; 
+            width: 100px; 
+        }
+        .silex-id-1439555204899-23 {
+            position: absolute; 
+            height: 9px; 
+            width: 19px; 
+            left: 40px; 
+            top: 2px; 
+            border-top-color: rgb(204, 204, 255); 
+            border-right-color: rgb(204, 204, 255); 
+            border-bottom-color: rgb(204, 204, 255); 
+            border-left-color: rgb(204, 204, 255); 
+        }
+        .silex-id-1439555204798-22 {
+            position: absolute; 
+            width: 100px; 
+            background-color: transparent; 
+            height: 110px; 
+            left: 750px; 
+            top: 0px; 
+        }
+        .silex-id-1439555204696-21 {
+            position: absolute; 
+            height: 9px; 
+            width: 19px; 
+            left: 40px; 
+            top: 2px; 
+            border-top-color: rgb(204, 204, 255); 
+            border-right-color: rgb(204, 204, 255); 
+            border-bottom-color: rgb(204, 204, 255); 
+            border-left-color: rgb(204, 204, 255); 
+        }
+        .silex-id-1439555204595-20 {
+            position: absolute; 
+            background-color: transparent; 
+            top: 45px; 
+            left: auto; 
+            width: 100px; 
+        }
+        .silex-id-1439555204494-19 {
+            position: absolute; 
+            width: 1000px; 
+            top: 112px; 
+            background-color: transparent; 
+            left: 0px; 
+            height: 16px; 
+            border-top-width: 0px; 
+            border-right-width: 0px; 
+            border-bottom-width: 1px; 
+            border-left-width: 0px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-color: rgb(204, 204, 204); 
+            border-right-color: rgb(204, 204, 204); 
+            border-bottom-color: rgb(204, 204, 204); 
+            border-left-color: rgb(204, 204, 204); 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555204393-18 {
+            position: absolute; 
+            width: 100px; 
+            background-color: transparent; 
+            height: 110px; 
+            left: 850px; 
+            top: 0px; 
+        }
+        .silex-id-1439555204291-17 {
+            position: absolute; 
+            height: 9px; 
+            width: 19px; 
+            left: 40px; 
+            top: 2px; 
+            border-top-color: rgb(204, 204, 255); 
+            border-right-color: rgb(204, 204, 255); 
+            border-bottom-color: rgb(204, 204, 255); 
+            border-left-color: rgb(204, 204, 255); 
+        }
+        .silex-id-1439555204190-16 {
+            position: absolute; 
+            background-color: transparent; 
+            top: 45px; 
+            left: auto; 
+            width: 100px; 
+        }
+        .silex-id-1439555204088-15 {
+            position: absolute; 
+            width: 425px; 
+            top: 921px; 
+            left: 50px; 
+            background-color: transparent; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555203987-14 {
+            position: absolute; 
+            width: 900px; 
+            top: 155px; 
+            left: 50px; 
+            background-color: transparent; 
+            height: 171px; 
+        }
+        .silex-id-1439555203886-13 {
+            position: absolute; 
+            width: 425px; 
+            top: 921px; 
+            left: 525px; 
+            background-color: transparent; 
+        }
+        .silex-id-1439555203785-12 {
+            position: absolute; 
+            height: 570px; 
+            width: 900px; 
+            top: 324px; 
+            left: 50px; 
+            background-color: transparent; 
+            background-image: url('assets/vue_appart_02.png'); 
+            background-size: auto; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555203685-11 {
+            position: absolute; 
+            width: 1000px; 
+            top: 1204px; 
+            background-color: transparent; 
+            left: 0px; 
+            height: 16px; 
+            border-top-width: 0px; 
+            border-right-width: 0px; 
+            border-bottom-width: 1px; 
+            border-left-width: 0px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-color: rgb(204, 204, 204); 
+            border-right-color: rgb(204, 204, 204); 
+            border-bottom-color: rgb(204, 204, 204); 
+            border-left-color: rgb(204, 204, 204); 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555203583-10 {
+            position: absolute; 
+            height: 195px; 
+            top: 1250px; 
+            left: 50px; 
+            background-color: rgb(255, 255, 255); 
+            width: 900px; 
+        }
+        .silex-id-1439555203483-9 {
+            position: absolute; 
+            height: 137px; 
+            width: 200px; 
+            top: 0px; 
+            left: 0px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1439555203381-8 {
+            position: absolute; 
+            height: 136px; 
+            width: 200px; 
+            top: 0px; 
+            left: 233px; 
+            background-color: rgb(255, 255, 255); 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555203279-7 {
+            position: absolute; 
+            height: 137px; 
+            width: 200px; 
+            top: 0px; 
+            left: 467px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1439555203177-6 {
+            position: absolute; 
+            height: 136px; 
+            width: 200px; 
+            top: 0px; 
+            left: 699px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1439555203076-5 {
+            position: absolute; 
+            height: 42px; 
+            width: 900px; 
+            top: 153px; 
+            left: 0px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1439555202975-4 {
+            position: absolute; 
+            width: 425px; 
+            top: 325px; 
+            left: 50px; 
+            background-color: transparent; 
+            height: 282px; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555202874-3 {
+            position: absolute; 
+            height: 570px; 
+            width: 900px; 
+            top: 550px; 
+            left: 50px; 
+            background-color: transparent; 
+            background-image: url('assets/silex-screenshot.png'); 
+            background-size: auto; 
+            background-repeat-x: no-repeat; 
+            background-repeat-y: no-repeat; 
+        }
+        .silex-id-1439555202772-2 {
+            position: absolute; 
+            width: 425px; 
+            top: 325px; 
+            left: 525px; 
+            background-color: transparent; 
+            height: 274px; 
+            background-repeat-x: repeat; 
+            background-repeat-y: repeat; 
+        }
+        .silex-id-1439555202671-1 {
+            position: absolute; 
+            top: 43px; 
+            background-color: transparent; 
+            left: 50px; 
+            border-top-width: 1px; 
+            border-right-width: 1px; 
+            border-bottom-width: 1px; 
+            border-left-width: 1px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-color: rgb(69, 69, 69); 
+            border-right-color: rgb(69, 69, 69); 
+            border-bottom-color: rgb(69, 69, 69); 
+            border-left-color: rgb(69, 69, 69); 
+            border-image-source: initial; 
+            border-image-slice: initial; 
+            border-image-width: initial; 
+            border-image-outset: initial; 
+            border-image-repeat: initial; 
+        }
+    </style>
+    <meta name="description" content="This is a free template for Silex, live web creation, the free website builder for you, designers and web designers. It looks slick and professional, this is great for business portfolio, to engage new customers.  We invite you to use these templates for your projects. These templates are licensed under a Creative Commons Attribution 3.0 Unported License. ">
+    <style id="current-page-style">
+        .page-home{display:inherit; }
+    </style>
+    <!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove -->
+</head>
 
-    _Text editor styles, CSS styles_
+<body data-silex-type="container" class="container-element silex-id-1439555205914-33 silex-runtime" data-silex-id="silex-id-1439555205914-33">
+    <a id="page-home" data-silex-type="page" class="page-element">home</a>
+    <div class="background editable-style container-element ui-dropzone-active prevent-draggable silex-id-1439555205812-32" data-silex-type="container" data-silex-id="silex-id-1439555205812-32">
+        <div data-silex-type="container" class="editable-style container-element nav silex-id-1439555205710-31 page-link-active" data-silex-href="#!page-home" data-silex-id="silex-id-1439555205710-31">
+            <div data-silex-type="image" class="editable-style image-element page-home paged-element silex-id-1439555205609-30" data-silex-id="silex-id-1439555205609-30"><img src="assets/triangle.gif" class="silex-element-content">
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439555205508-29" data-silex-id="silex-id-1439555205508-29">
+                <div class="silex-element-content">
+                    <p style="text-align: center;" class="normal">Home</p>
+                </div>
+            </div>
+        </div>
+        <div data-silex-type="container" class="editable-style container-element nav silex-id-1439555205406-28" data-silex-href="#!page-about" data-silex-id="silex-id-1439555205406-28">
+            <div data-silex-type="image" class="editable-style image-element page-about paged-element silex-id-1439555205305-27" data-silex-id="silex-id-1439555205305-27"><img src="assets/triangle.gif" class="silex-element-content">
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439555205204-26" data-silex-id="silex-id-1439555205204-26">
+                <div class="silex-element-content">
+                    <p style="text-align: center;" class="normal">About</p>
+                </div>
+            </div>
+        </div>
+        <div data-silex-type="container" class="editable-style container-element nav silex-id-1439555205103-25" data-silex-href="#!page-portfolio" data-silex-id="silex-id-1439555205103-25">
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439555205000-24" data-silex-id="silex-id-1439555205000-24">
+                <div class="silex-element-content">
+                    <p style="text-align: center;" class="normal">Portfolio</p>
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style image-element paged-element page-portfolio silex-id-1439555204899-23" data-silex-id="silex-id-1439555204899-23"><img src="assets/triangle.gif" class="silex-element-content">
+            </div>
+        </div>
+        <div data-silex-type="container" class="editable-style container-element nav silex-id-1439555204798-22" data-silex-href="#!page-blog" data-silex-id="silex-id-1439555204798-22">
+            <div data-silex-type="image" class="editable-style image-element paged-element page-blog silex-id-1439555204696-21" data-silex-id="silex-id-1439555204696-21"><img src="assets/triangle.gif" class="silex-element-content">
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439555204595-20" data-silex-id="silex-id-1439555204595-20">
+                <div class="silex-element-content">
+                    <p style="text-align: center;" class="normal">Blog</p>
+                </div>
+            </div>
+        </div>
+        <div data-silex-type="container" class="editable-style container-element silex-id-1439555204494-19" data-silex-id="silex-id-1439555204494-19"></div>
+        <div data-silex-type="container" class="editable-style container-element nav silex-id-1439555204393-18" data-silex-href="#!page-contact" data-silex-id="silex-id-1439555204393-18">
+            <div data-silex-type="image" class="editable-style image-element paged-element page-contact silex-id-1439555204291-17" data-silex-id="silex-id-1439555204291-17"><img src="assets/triangle.gif" class="silex-element-content">
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439555204190-16" data-silex-id="silex-id-1439555204190-16">
+                <div class="silex-element-content">
+                    <p style="text-align: center;" class="normal">Contact</p>
+                </div>
+            </div>
+        </div>
+        <div data-silex-type="text" class="editable-style text-element page-home paged-element silex-id-1439555204088-15" data-silex-id="silex-id-1439555204088-15">
+            <div class="silex-element-content">
+                <p class="normal"></p>
+                <p class="normal">Ve tristique. Ve leo. Ve tincidunt vestibulum, elit class litora proin, justo. Purus ve morbi et mollis purus parturient dictumst. Sociis curabitur eleifend, ante nonummy id. Neque parturient nisi lectus nisl. Urna neque auctor magna,
+                    volutpat adipiscing dictum suscipit dolor est etiam massa. Ac ridiculus et, eget. Maecenas laoreet et sed enim eget sodales at, sapien ipsum vestibulum. Nulla eu a quis parturient at, bibendum diam nonummy id, in rutrum. Ut curabitur
+                    fusce. Torquent tellus volutpat donec penatibus. Vestibulum magnis, eni, litora senectus non neque.</p>
+                <p class="normal"></p>
+            </div>
+        </div>
+        <div data-silex-type="text" class="editable-style text-element page-home paged-element page-about silex-id-1439555203987-14" data-silex-id="silex-id-1439555203987-14">
+            <div class="silex-element-content">
+                <h1>About this template</h1>
+                <p class="normal">This is a free template for <a href="http://www.silex.me">Silex, live web creation</a>, the free website builder for you,&nbsp;designers and web designers. It looks slick and professional, this is great for business portfolio, to&nbsp;engage
+                    new customers.</p>
+                <p class="normal"><span style="line-height: 21px;">We invite you to use these templates for your projects.&nbsp;These templates are licensed under a Creative Commons Attribution 3.0 Unported License.&nbsp;</span>
+                </p>
+            </div>
+        </div>
+        <div data-silex-type="text" class="editable-style text-element page-home paged-element silex-id-1439555203886-13" data-silex-id="silex-id-1439555203886-13">
+            <div class="silex-element-content">
+                <p class="normal">Lorem ipsum dolor sit amet, consecteteur adipiscing elit eni in ornare porttitor dolor felis. Ac non. Mus pretium ad mi ante porta natoque rhoncus, taciti. Mattis class metus aliquet inceptos eu eget dolor cubilia sapien. Nibh platea ac
+                    pharetra pharetra, eu mauris commodo. Diam. Ante iaculis ve, ve fringilla. Mauris sem. In. Platea ante etiam vitae inceptos tristique consectetuer quisque vehicula et condimentum et, cursus volutpat. Eu non nisi cum mollis a, iaculis
+                    in. Integer imperdiet in convallis rhoncus.</p>
+            </div>
+        </div>
+        <div data-silex-type="container" class="editable-style container-element page-home paged-element silex-id-1439555203785-12" data-silex-id="silex-id-1439555203785-12"></div>
+        <div data-silex-type="container" class="editable-style container-element silex-id-1439555203685-11" data-silex-id="silex-id-1439555203685-11"></div>
+        <div data-silex-type="container" class="editable-style container-element footer silex-id-1439555203583-10" data-silex-id="silex-id-1439555203583-10">
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439555203483-9" data-silex-id="silex-id-1439555203483-9">
+                <div class="silex-element-content">
+                    <h1>Our links</h1>
+                    <p class="normal"></p>
+                    <ul>
+                        <li><a href="http://twitter.com/silexlabs">twitter</a>
+                        </li>
+                        <li><a href="http://www.silexlabs.org">Google plus</a>
+                        </li>
+                    </ul>
+                    <p class="normal"></p>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439555203381-8" data-silex-id="silex-id-1439555203381-8">
+                <div class="silex-element-content">
+                    <h1><br></h1>
+                    <p class="normal"></p>
+                    <ul>
+                        <li><a href="http://facebook.com/silexlabs">Facebook</a>
+                        </li>
+                        <li><a href="http://disap.org/">Diaspora</a>
+                        </li>
+                    </ul>
+                    <p class="normal"></p>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439555203279-7" data-silex-id="silex-id-1439555203279-7">
+                <div class="silex-element-content">
+                    <h1>Our partners</h1>
+                    <p class="normal"></p>
+                    <ul>
+                        <li><a href="http://twitter.com/lexoyo">lexoyo</a>
+                        </li>
+                        <li><a href="http://www.silexlabs.org">Silex Labs</a>
+                        </li>
+                    </ul>
+                    <p class="normal"></p>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439555203177-6" data-silex-id="silex-id-1439555203177-6">
+                <div class="silex-element-content">
+                    <h1><br></h1>
+                    <p class="normal"></p>
+                    <ul>
+                        <li><a href="http://facebook.com/silexlabs">Facebook</a>
+                        </li>
+                        <li><a href="http://disap.org/">Diaspora</a>
+                        </li>
+                    </ul>
+                    <p class="normal"></p>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439555203076-5" data-silex-id="silex-id-1439555203076-5">
+                <div class="silex-element-content">
+                    <p style="text-align: center;" class="normal"><font size="2">Template by&nbsp;<a href="http://lexoyo.me">lexoyo</a> - <a href="http://silexlabs.github.io/silex-templates/">creative commons Silex templates</a>&nbsp;- inspired by <a href="http://code.tutsplus.com/articles/free-website-template--net-11421">the Aurelius template</a>&nbsp;- 3D image by <a href="https://plus.google.com/106034214719992416581/posts">Nicolas Masson</a></font>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div data-silex-type="text" class="editable-style text-element page-about paged-element silex-id-1439555202975-4" data-silex-id="silex-id-1439555202975-4">
+            <div class="silex-element-content">
+                <p class="normal"></p>
+                <h2>Customize it for your website</h2>
+                <div>
+                    <div>Download the zip file, and unzip it to a folder in your dropbox.&nbsp;</div>
+                    <div>
+                        <br>
+                    </div>
+                    <div>Then <a href="http://www.silex.me/silex">open Silex in a browser</a> and then open the template file : "editable.html".</div>
+                    <div>
+                        <br>
+                    </div>
+                    <div>Then insert your content, drag, drop, modify the design and publish it online. There it is your website!</div>
+                </div>
+                <div>
+                    <br>
+                </div>
+                <p class="normal"></p>
+            </div>
+        </div>
+        <div data-silex-type="container" class="editable-style container-element page-about paged-element silex-id-1439555202874-3" data-silex-id="silex-id-1439555202874-3"></div>
+        <div data-silex-type="text" class="editable-style text-element page-about paged-element silex-id-1439555202772-2" data-silex-id="silex-id-1439555202772-2">
+            <div class="silex-element-content">
+                <h2>How to contribute</h2>
+                <div>
+                    <div>
+                        <div>These pages are made without programming, just drag and drop, with <a href="http://www.silex.me/">Silex, live web creation</a>. So feel free to make it better and send us back the template.</div>
+                        <div>
+                            <br>
+                        </div>
+                        <div>Silex template by <a href="http://lexoyo.me">lexoyo</a> is licensed under a Creative Commons Attribution 3.0 Unported License.</div>
+                    </div>
+                </div>
+                <div>
+                    <br>
+                </div>
+                <div>See a screenshot of Silex in action bellow!</div>
+            </div>
+        </div>
+        <div data-silex-type="text" class="editable-style text-element silex-id-1439555202671-1 page-link-active" data-silex-href="#!page-home" data-silex-id="silex-id-1439555202671-1">
+            <div class="silex-element-content">
+                <header>Minimal<i><font color="#999999" style="background-color: rgb(153, 153, 153);">Grey</font></i>
+                </header>
+            </div>
+        </div>
+    </div>
 
-    Change these styles in order to change the text editor styles:
-    .text-element HEADER is Title
-    .text-element H1 is Title 1
-    .text-element H2 is Title 2
-    .text-element H3 is Title 3
-    .text-element is Normal text
 
-    Bellow this is the default formatting
-*/
-.text-element HEADER,
-.text-element H1,
-.text-element H2,
-.text-element H3,
-.text-element {
-  color: #666666;
-}
-.text-element,
-.text-element H1,
-.text-element H2,
-.text-element HEADER {
-    color: black;
-    font-weight: normal;
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif;
-    font-size: 20px;
-}
-.text-element HEADER {
-  font-size: 35px;
-}
-.text-element * {
-    color: black;
-    font-weight: normal;
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif;
-}
-.text-element{
-    font-size: 14px;
-}
-.text-element a {
-    font-weight: bold;
-}
-.nav .text-element {
-    text-transform: uppercase;
-    color: black;
-    font-size: 12px;
-}
-.nav:hover .image-element {
-    display: inherit;
-}
-.footer .text-element {
-    color: grey;
-    font-size: 12px;
-}
-</style>
-  <script type="text/javascript" class="silex-script">//**
-// Google analytics
-// replace by your own code
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-19608894-20', 'silexlabs.github.io');
-ga('send', 'pageview');
-//**</script>
-<meta name="publicationPath" content="/api/v1.0/dropbox/exec/put/fdt-workspace/silex-templates/templates/minimal-grey"><style id="current-page-style">.page-home{display:inherit; }</style></head>
-<body style="width: 1100px; height: 1456px; cursor: auto; background-image: url('assets/bg.png'); background-attachment: scroll; background-color: rgb(255, 255, 255); background-size: auto; background-repeat: repeat-x;" data-silex-type="container" class="container-element silex-runtime">
-	<a id="page-home" data-silex-type="page" class="page-element">home</a>
-	<div class="background editable-style container-element ui-dropzone-active" data-silex-type="container" style="background-color: transparent; top: 5px; left: 5px; width: 1000px; height: 1451px; background-attachment: scroll; position: absolute; background-repeat: repeat repeat;">
-	<div data-silex-type="container" class="editable-style container-element nav paged-element-hidden page-link-active" style="position: absolute; width: 100px; top: 0px; left: 450px; background-color: transparent; height: 110px; background-repeat: repeat repeat;" data-silex-href="#!page-home"><div data-silex-type="image" class="editable-style image-element page-home paged-element" style="position: absolute; height: 9px; width: 19px; left: 40px; top: 2px; border-color: rgb(204, 204, 255);"><img src="assets/triangle.gif" class="silex-element-content" style="width: 100%; height: 100%;"></div><div data-silex-type="text" class="editable-style text-element paged-element-hidden" style="position: absolute; background-color: transparent; top: 45px; left: auto; width: 100px;"><div class="silex-element-content" style="width: 100%; height: 100%;"><p style="text-align: center;" class="normal">Home</p></div></div></div><div data-silex-type="container" class="editable-style container-element nav paged-element-hidden" style="position: absolute; width: 100px; left: 550px; background-color: transparent; height: 110px; top: 0px;" data-silex-href="#!page-about"><div data-silex-type="image" class="editable-style image-element page-about paged-element paged-element-hidden" style="position: absolute; height: 9px; width: 19px; left: 40px; top: 2px; border-color: rgb(204, 204, 255);"><img src="assets/triangle.gif" class="silex-element-content" style="width: 100%; height: 100%;"></div><div data-silex-type="text" class="editable-style text-element paged-element-hidden" style="position: absolute; background-color: transparent; top: 45px; left: auto; width: 100px;"><div class="silex-element-content" style="width: 100%; height: 100%;"><p style="text-align: center;" class="normal">About</p></div></div></div><div data-silex-type="container" class="editable-style container-element nav paged-element-hidden" style="position: absolute; width: 100px; left: 650px; background-color: transparent; height: 110px; top: 0px;" data-silex-href="#!page-portfolio"><div data-silex-type="text" class="editable-style text-element paged-element-hidden" style="position: absolute; background-color: transparent; top: 45px; left: auto; width: 100px;"><div class="silex-element-content" style="width: 100%; height: 100%;"><p style="text-align: center;" class="normal">Portfolio</p></div></div><div data-silex-type="image" class="editable-style image-element paged-element page-portfolio paged-element-hidden" style="position: absolute; height: 9px; width: 19px; left: 40px; top: 2px; border-color: rgb(204, 204, 255);"><img src="assets/triangle.gif" class="silex-element-content" style="width: 100%; height: 100%;"></div></div><div data-silex-type="container" class="editable-style container-element nav paged-element-hidden" style="position: absolute; width: 100px; background-color: transparent; height: 110px; left: 750px; top: 0px;" data-silex-href="#!page-blog"><div data-silex-type="image" class="editable-style image-element paged-element page-blog paged-element-hidden" style="position: absolute; height: 9px; width: 19px; left: 40px; top: 2px; border-color: rgb(204, 204, 255);"><img src="assets/triangle.gif" class="silex-element-content" style="width: 100%; height: 100%;"></div><div data-silex-type="text" class="editable-style text-element paged-element-hidden" style="position: absolute; background-color: transparent; top: 45px; left: auto; width: 100px;"><div class="silex-element-content" style="width: 100%; height: 100%;"><p style="text-align: center;" class="normal">Blog</p></div></div></div><div data-silex-type="container" class="editable-style container-element paged-element-hidden" style="position: absolute; width: 1000px; top: 112px; background-color: transparent; left: 0px; height: 16px; border-width: 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); background-repeat: repeat repeat;"></div><div data-silex-type="container" class="editable-style container-element nav paged-element-hidden" style="position: absolute; width: 100px; background-color: transparent; height: 110px; left: 850px; top: 0px;" data-silex-href="#!page-contact"><div data-silex-type="image" class="editable-style image-element paged-element page-contact paged-element-hidden" style="position: absolute; height: 9px; width: 19px; left: 40px; top: 2px; border-color: rgb(204, 204, 255);"><img src="assets/triangle.gif" class="silex-element-content" style="width: 100%; height: 100%;"></div><div data-silex-type="text" class="editable-style text-element paged-element-hidden" style="position: absolute; background-color: transparent; top: 45px; left: auto; width: 100px;"><div class="silex-element-content" style="width: 100%; height: 100%;"><p style="text-align: center;" class="normal">Contact</p></div></div></div><div data-silex-type="text" class="editable-style text-element page-home paged-element" style="position: absolute; width: 425px; top: 921px; left: 50px; background-color: transparent; background-repeat: repeat repeat;"><div class="silex-element-content" style="width: 100%; height: 100%;"><p class="normal"></p><p class="normal">Ve tristique. Ve leo. Ve tincidunt vestibulum, elit class litora proin, justo. Purus ve morbi et mollis purus parturient dictumst. Sociis curabitur eleifend, ante nonummy id. Neque parturient nisi lectus nisl. Urna neque auctor magna, volutpat adipiscing dictum suscipit dolor est etiam massa. Ac ridiculus et, eget. Maecenas laoreet et sed enim eget sodales at, sapien ipsum vestibulum. Nulla eu a quis parturient at, bibendum diam nonummy id, in rutrum. Ut curabitur fusce. Torquent tellus volutpat donec penatibus. Vestibulum magnis, eni, litora senectus non neque.</p><p class="normal"></p></div></div><div data-silex-type="text" class="editable-style text-element page-home paged-element page-about" style="position: absolute; width: 900px; top: 155px; left: 50px; background-color: transparent; height: 171px;"><div class="silex-element-content" style="width: 100%; height: 100%;"><h1>About this template</h1><p class="normal">This is a free template for <a href="http://www.silex.me">Silex, live web creation</a>, the free website builder for you,&nbsp;designers and web designers. It looks slick and professional, this is great for business portfolio, to&nbsp;engage new customers.</p><p class="normal"><span style="line-height: 21px;">We invite you to use these templates for your projects.&nbsp;These templates are licensed under a Creative Commons Attribution 3.0 Unported License.&nbsp;</span></p></div></div><div data-silex-type="text" class="editable-style text-element page-home paged-element" style="position: absolute; width: 425px; top: 921px; left: 525px; background-color: transparent;"><div class="silex-element-content" style="width: 100%; height: 100%;"><p class="normal">Lorem ipsum dolor sit amet, consecteteur adipiscing elit eni in ornare porttitor dolor felis. Ac non. Mus pretium ad mi ante porta natoque rhoncus, taciti. Mattis class metus aliquet inceptos eu eget dolor cubilia sapien. Nibh platea ac pharetra pharetra, eu mauris commodo. Diam. Ante iaculis ve, ve fringilla. Mauris sem. In. Platea ante etiam vitae inceptos tristique consectetuer quisque vehicula et condimentum et, cursus volutpat. Eu non nisi cum mollis a, iaculis in. Integer imperdiet in convallis rhoncus.</p></div></div><div style="position: absolute; height: 570px; width: 900px; top: 324px; left: 50px; background-color: transparent; background-image: url('assets/vue_appart_02.png'); background-size: auto; background-repeat: repeat repeat;" data-silex-type="container" class="editable-style container-element page-home paged-element"></div><div data-silex-type="container" class="editable-style container-element paged-element-hidden" style="position: absolute; width: 1000px; top: 1204px; background-color: transparent; left: 0px; height: 16px; border-width: 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); background-repeat: repeat repeat;"></div><div data-silex-type="container" class="editable-style container-element footer" style="position: absolute; height: 195px; top: 1250px; left: 50px; background-color: rgb(255, 255, 255); width: 900px;"><div data-silex-type="text" class="editable-style text-element" style="position: absolute; height: 137px; width: 200px; top: 0px; left: 0px; background-color: rgb(255, 255, 255);"><div class="silex-element-content" style="width: 100%; height: 100%;"><h1>Our links</h1><p class="normal"></p><ul><li><a href="http://twitter.com/silexlabs">twitter</a></li><li><a href="http://www.silexlabs.org">Google plus</a></li></ul><p class="normal"></p></div></div><div data-silex-type="text" class="editable-style text-element" style="position: absolute; height: 136px; width: 200px; top: 0px; left: 233px; background-color: rgb(255, 255, 255); background-repeat: repeat repeat;"><div class="silex-element-content" style="width: 100%; height: 100%;"><h1><br></h1><p class="normal"></p><ul><li><a href="http://facebook.com/silexlabs">Facebook</a></li><li><a href="http://disap.org/">Diaspora</a></li></ul><p class="normal"></p></div></div><div data-silex-type="text" class="editable-style text-element" style="position: absolute; height: 137px; width: 200px; top: 0px; left: 467px; background-color: rgb(255, 255, 255);"><div class="silex-element-content" style="width: 100%; height: 100%;"><h1>Our partners</h1><p class="normal"></p><ul><li><a href="http://twitter.com/lexoyo">lexoyo</a></li><li><a href="http://www.silexlabs.org">Silex Labs</a></li></ul><p class="normal"></p></div></div><div data-silex-type="text" class="editable-style text-element" style="position: absolute; height: 136px; width: 200px; top: 0px; left: 699px; background-color: rgb(255, 255, 255);"><div class="silex-element-content" style="width: 100%; height: 100%;"><h1><br></h1><p class="normal"></p><ul><li><a href="http://facebook.com/silexlabs">Facebook</a></li><li><a href="http://disap.org/">Diaspora</a></li></ul><p class="normal"></p></div></div><div data-silex-type="text" class="editable-style text-element" style="position: absolute; height: 42px; width: 900px; top: 153px; left: 0px; background-color: rgb(255, 255, 255);"><div class="silex-element-content" style="width: 100%; height: 100%;"><p style="text-align: center;" class="normal"><font size="2">Template by&nbsp;<a href="http://lexoyo.me">lexoyo</a> - <a href="http://silexlabs.github.io/silex-templates/">creative commons Silex templates</a>&nbsp;- inspired by <a href="http://code.tutsplus.com/articles/free-website-template--net-11421">the Aurelius template</a>&nbsp;- 3D image by <a href="https://plus.google.com/106034214719992416581/posts">Nicolas Masson</a></font></p></div></div></div><div data-silex-type="text" class="editable-style text-element page-about paged-element paged-element-hidden" style="position: absolute; width: 425px; top: 325px; left: 50px; background-color: transparent; height: 282px; background-repeat: repeat repeat;"><div class="silex-element-content" style="width: 100%; height: 100%;"><p class="normal"></p><h2>Customize it for your website</h2><div><div>Download the zip file, and unzip it to a folder in your dropbox.&nbsp;</div><div><br></div><div>Then <a href="http://www.silex.me/silex">open Silex in a browser</a> and then open the template file : "editable.html".</div><div><br></div><div>Then insert your content, drag, drop, modify the design and publish it online. There it is your website!</div></div><div><br></div><p class="normal"></p></div></div><div data-silex-type="container" class="editable-style container-element page-about paged-element paged-element-hidden" style="position: absolute; height: 570px; width: 900px; top: 550px; left: 50px; background-color: transparent; background-image: url('assets/silex-screenshot.png'); background-size: auto; background-repeat: no-repeat no-repeat;"></div><div data-silex-type="text" class="editable-style text-element page-about paged-element paged-element-hidden" style="position: absolute; width: 425px; top: 325px; left: 525px; background-color: transparent; height: 274px; background-repeat: repeat repeat;"><div class="silex-element-content" style="width: 100%; height: 100%;"><h2>How to contribute</h2><div><div><div>These pages are made without programming, just drag and drop, with <a href="http://www.silex.me/">Silex, live web creation</a>. So feel free to make it better and send us back the template.</div><div><br></div><div>Silex template by <a href="http://lexoyo.me">lexoyo</a> is licensed under a Creative Commons Attribution 3.0 Unported License.</div></div></div><div><br></div><div>See a screenshot of Silex in action bellow!</div></div></div><div data-silex-type="text" class="editable-style text-element page-link-active" style="position: absolute; top: 43px; background-color: transparent; left: 50px; border: 1px solid rgb(69, 69, 69);" data-silex-href="#!page-home"><div class="silex-element-content" style="width: 100%; height: 100%;"><header>Minimal<i><font color="#999999" style="background-color: rgb(153, 153, 153);">Grey</font></i></header></div></div></div>
-
-
-<a id="page-about" data-silex-type="page" class="page-element">about</a><a id="page-portfolio" data-silex-type="page" class="page-element">portfolio</a><a id="page-blog" data-silex-type="page" class="page-element">blog</a><a id="page-contact" data-silex-type="page" class="page-element">contact</a>
+    <a id="page-about" data-silex-type="page" class="page-element">about</a><a id="page-portfolio" data-silex-type="page" class="page-element">portfolio</a><a id="page-blog" data-silex-type="page" class="page-element">blog</a><a id="page-contact" data-silex-type="page"
+    class="page-element">contact</a>
 
 
 
 </body>
+
+</html>
