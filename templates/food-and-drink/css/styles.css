@@ -1,7 +1,7 @@
 
         @import url('http://fonts.googleapis.com/css?family=Lobster');
         @import url('http://fonts.googleapis.com/css?family=Cabin');
-        
+
         .normal {
             font-family: 'Cabin', Helvetica, Arial, sans-serif;
             font-size: 15px;
@@ -28,6 +28,10 @@
         .nav-element.page-link-active {
             background-color: #3D362D;
             color: #fefffd;
+        }
+        .nav-element.page-link-active:hover {
+            color: #fefffd;
+            text-decoration: none;
         }
     
         .body-initial {
@@ -59,10 +63,10 @@
         }
         .silex-id-1424647173853 {
             background-color: transparent; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
             border-bottom-color: rgb(0, 0, 0); 
             border-left-color: rgb(0, 0, 0); 
-            border-right-color: rgb(0, 0, 0); 
-            border-top-color: rgb(0, 0, 0); 
             height: 110px; 
             left: 150px; 
             position: absolute; 
@@ -82,14 +86,10 @@
         }
         .silex-id-1424920356950 {
             background-color: rgb(254, 255, 253); 
-            border-bottom-color: rgb(254, 255, 253); 
-            border-left-color: rgb(254, 255, 253); 
-            border-right-color: rgb(254, 255, 253); 
+            border-top-style: solid; 
             border-right-style: solid; 
             border-bottom-style: solid; 
             border-left-style: solid; 
-            border-top-color: rgb(254, 255, 253); 
-            border-top-style: solid; 
             border-top-width: 10px; 
             border-right-width: 10px; 
             border-bottom-width: 10px; 
@@ -99,41 +99,45 @@
             position: absolute; 
             top: 205px; 
             width: 295px; 
+            border-top-color: rgb(254, 255, 253); 
+            border-right-color: rgb(254, 255, 253); 
+            border-bottom-color: rgb(254, 255, 253); 
+            border-left-color: rgb(254, 255, 253); 
         }
         .silex-id-1425063529504 {
             background-color: rgb(254, 255, 253); 
             background-image: url('../assets/cafe2.jpg'); 
             background-size: cover; 
-            border-bottom-color: rgb(254, 255, 253); 
-            border-left-color: rgb(254, 255, 253); 
-            border-right-color: rgb(254, 255, 253); 
+            border-top-style: solid; 
             border-right-style: solid; 
             border-bottom-style: solid; 
             border-left-style: solid; 
-            border-top-color: rgb(254, 255, 253); 
-            border-top-style: solid; 
             border-top-width: 10px; 
             border-right-width: 10px; 
             border-bottom-width: 10px; 
             border-left-width: 10px; 
             height: 225px; 
-            left: 322px; 
+            left: 323px; 
             position: absolute; 
             top: 205px; 
             width: 295px; 
+            border-top-color: rgb(254, 255, 253); 
+            border-right-color: rgb(254, 255, 253); 
+            border-bottom-color: rgb(254, 255, 253); 
+            border-left-color: rgb(254, 255, 253); 
         }
         .silex-id-1425063611139 {
             background-color: rgb(254, 255, 253); 
             background-image: url('../assets/cafe.jpg'); 
             background-size: cover; 
+            border-top-color: rgb(254, 255, 253); 
+            border-right-color: rgb(254, 255, 253); 
             border-bottom-color: rgb(254, 255, 253); 
             border-left-color: rgb(254, 255, 253); 
-            border-right-color: rgb(254, 255, 253); 
+            border-top-style: solid; 
             border-right-style: solid; 
             border-bottom-style: solid; 
             border-left-style: solid; 
-            border-top-color: rgb(254, 255, 253); 
-            border-top-style: solid; 
             border-top-width: 10px; 
             border-right-width: 10px; 
             border-bottom-width: 10px; 
@@ -146,10 +150,10 @@
         }
         .silex-id-1424710230648 {
             background-color: rgb(254, 255, 253); 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
             border-bottom-color: rgb(0, 0, 0); 
             border-left-color: rgb(0, 0, 0); 
-            border-right-color: rgb(0, 0, 0); 
-            border-top-color: rgb(0, 0, 0); 
             height: 30px; 
             left: 0px; 
             position: absolute; 
@@ -274,14 +278,10 @@
             background-color: rgb(254, 255, 253); 
             background-image: url('../assets/people.jpeg'); 
             background-size: cover; 
-            border-bottom-color: rgb(254, 255, 253); 
-            border-left-color: rgb(254, 255, 253); 
-            border-right-color: rgb(254, 255, 253); 
+            border-top-style: solid; 
             border-right-style: solid; 
             border-bottom-style: solid; 
             border-left-style: solid; 
-            border-top-color: rgb(254, 255, 253); 
-            border-top-style: solid; 
             border-top-width: 10px; 
             border-right-width: 10px; 
             border-bottom-width: 10px; 
@@ -291,6 +291,10 @@
             position: absolute; 
             top: 205px; 
             width: 295px; 
+            border-top-color: rgb(254, 255, 253); 
+            border-right-color: rgb(254, 255, 253); 
+            border-bottom-color: rgb(254, 255, 253); 
+            border-left-color: rgb(254, 255, 253); 
         }
         .silex-id-1434426485636-2 {
             height: 190px; 
