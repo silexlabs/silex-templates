@@ -1,15 +1,23 @@
 
         @import url('http://fonts.googleapis.com/css?family=Roboto:100');
         
-        /* transition */
-        .silex-runtime .paged-element {
-            transition: all .15s ease-out;
-            opacity: 0;
-            display: block !important;
-        }
-        .silex-runtime .paged-element.paged-element-visible {
-            opacity: 1;
-        }
+/* transition */
+.silex-runtime .paged-element {
+    transition: opacity .5s ease-out;
+    opacity: 0;
+    display: block;
+}
+.silex-runtime .paged-element.paged-element-visible {
+    opacity: 1;
+}
+.silex-runtime .paged-element.html-element,
+.silex-runtime .paged-element .html-element{
+    display: none;
+}
+.silex-runtime .paged-element.paged-element-visible.html-element,
+.silex-runtime .paged-element.paged-element-visible .html-element{
+    display: block;
+}
         
         /* header */
         .logo .title {
@@ -104,10 +112,6 @@
             box-sizing: content-box; 
             background-color: transparent; 
             background-size: cover; 
-            background-position-x: 50%; 
-            background-position-y: 0%; 
-            background-repeat-x: no-repeat; 
-            background-repeat-y: no-repeat; 
         }
         .silex-id-1439554967693-64 {
             height: 141px; 
@@ -283,8 +287,6 @@
             background-image: url('../assets/xpdPwXTASnOUXFpIPgDs_IMG_1460_edt.jpg'); 
             background-color: transparent; 
             background-size: cover; 
-            background-repeat-x: no-repeat; 
-            background-repeat-y: no-repeat; 
         }
         .silex-id-1439554965843-46 {
             height: 158px; 
@@ -325,8 +327,6 @@
             background-image: url('../assets/UJO0jYLtRte4qpyA37Xu_9X6A7388.jpg'); 
             background-color: transparent; 
             background-size: cover; 
-            background-repeat-x: no-repeat; 
-            background-repeat-y: no-repeat; 
         }
         .silex-id-1439554965536-43 {
             height: 474px; 
@@ -338,8 +338,6 @@
             background-image: url('../assets/8bc72ed7.jpg'); 
             background-color: transparent; 
             background-size: cover; 
-            background-repeat-x: no-repeat; 
-            background-repeat-y: no-repeat; 
         }
         .silex-id-1439554965432-42 {
             height: 309px; 
@@ -414,8 +412,6 @@
             background-image: url('../assets/wood.jpg'); 
             background-color: rgb(0, 0, 0); 
             background-size: cover; 
-            background-position-x: 50%; 
-            background-position-y: 100%; 
         }
         .silex-id-1439554964925-37 {
             height: 254px; 
@@ -465,8 +461,6 @@
             background-image: url('../assets/night.jpg'); 
             background-color: rgb(0, 0, 0); 
             background-size: cover; 
-            background-position-x: 50%; 
-            background-position-y: 100%; 
         }
         .silex-id-1439554964720-35 {
             height: 91px; 
@@ -524,8 +518,6 @@
             background-image: url('../assets/bench.jpg'); 
             background-color: rgb(0, 0, 0); 
             background-size: cover; 
-            background-position-x: 50%; 
-            background-position-y: 100%; 
         }
         .silex-id-1439554964315-31 {
             height: 91px; 
@@ -685,7 +677,7 @@
             position: absolute; 
         }
         .silex-id-1439554962386-12 {
-            height: 34.5675675675675px; 
+            height: 34.5676px; 
             width: 25px; 
             top: 1403px; 
             left: 663px; 
