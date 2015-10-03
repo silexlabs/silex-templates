@@ -4,7 +4,7 @@
         // Markdown widget for Silex
         // markdown script from https://github.com/chjj/marked/
         document.write('<scr'+'ipt src="marked.min.js"></scr'+'ipt>');
-        // markdown theme from http://bootswatch.com/
+        // markdown theme from //bootswatch.com/
         //document.write('<link rel="stylesheet" type="text/css" href="bootstrap.min.css">');
         // convert all
         $(function(){
