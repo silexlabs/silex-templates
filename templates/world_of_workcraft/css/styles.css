@@ -1,0 +1,90 @@
+
+        @import url('https://fonts.googleapis.com/css?family=Germania+One');
+        
+        .normal{
+            font-family: 'Germania One', sans-serif;
+        }
+    
+        .body-initial {
+            background-color: rgb(38, 38, 38); 
+        }
+        .background-initial {
+            background-color: transparent; 
+            top: 5px; 
+            left: 154px; 
+            width: 600px; 
+            height: 784px; 
+            background-image: url('../assets/parchemin.png'); 
+        }
+        .silex-id-1447963137081-9 {
+            height: 118px; 
+            width: 118px; 
+            top: 100px; 
+            left: 100px; 
+            border-top-left-radius: 24px; 
+            border-top-right-radius: 0px; 
+            border-bottom-right-radius: 24px; 
+            border-bottom-left-radius: 0px; 
+        }
+        .silex-id-1447963160608-10 {
+            height: 118px; 
+            width: 125px; 
+            top: 100px; 
+            left: 229px; 
+        }
+        .silex-id-1447963542663-11 {
+            height: 146px; 
+            width: 385px; 
+            top: 218px; 
+            left: 100px; 
+        }
+        .silex-id-1447963877466-12 {
+            height: 146px; 
+            width: 385px; 
+            top: 363px; 
+            left: 100px; 
+        }
+        .silex-id-1447963892944-13 {
+            height: 146px; 
+            width: 385px; 
+            top: 508px; 
+            left: 100px; 
+        }
+        .silex-id-1447964435132-14 {
+            height: 31px; 
+            width: 37px; 
+            top: 381px; 
+            left: 100px; 
+        }
+        .silex-id-1447965384448-16 {
+            height: 24px; 
+            width: 32px; 
+            top: 240px; 
+            left: 100px; 
+        }
+        .silex-id-1447966097968-0 {
+            height: 40px; 
+            width: 33px; 
+            top: 521px; 
+            left: 100px; 
+        }
+        .silex-id-1447967393509-3 {
+            height: 112px; 
+            width: 175px; 
+            top: 100px; 
+            left: 340px; 
+        }
+        .silex-id-1442914589168-2 {
+            height: 50px; 
+            width: 100%; 
+            top: 635px; 
+            left: 6px; 
+            background-color: transparent; 
+        }
+        .silex-id-1442914737143-3 {
+            height: 28px; 
+            width: 100%; 
+            top: 13px; 
+            left: 0px; 
+        }
+    
