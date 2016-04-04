@@ -19,22 +19,22 @@
           text-transform: uppercase;
         }
         /* position styles */
-        .full-width{
-            width: 100% !important;
+        .editable-style.full-width{
+            width: 100%;
         }
-        .left{
-            left: 0 !important;
+        .editable-style.left{
+            left: 0;
         }
-        .full-height {
-            height: 100% !important;
+        .editable-style.full-height {
+            height: 100%;
         }
         .bottom{
             bottom: 0;
         }
-        .centered{
+        .editable-style.centered{
             margin-left: -480px;
-            width: 960px !important;
-            left: 50% !important;
+            width: 960px;
+            left: 50%;
         }
         .header-image{
         }
@@ -55,9 +55,9 @@
         /* animated colors widget
             https://github.com/silexlabs/Silex/issues/138
         */
-        .link-menu {
-            background-color:#FFFFFF !important;
-            color: #333333 !important;
+        .editable-style.link-menu {
+            background-color:#FFFFFF;
+            color: #333333;
             /* Firefox */
             -moz-transition: all 0.5s ease-out;
             /* WebKit */
@@ -68,8 +68,8 @@
             transition: all 0.5s ease-out;
         }
         .link-menu .page-link-active {
-            background-color: #333333 !important;
-            color: #FFFFFF !important;
+            background-color: #333333;
+            color: #FFFFFF;
             /* Firefox */
             -moz-transition: all 0.5s ease-in;
             /* WebKit */
@@ -109,7 +109,7 @@
             height: 350px; 
             width: 590px; 
             top: 1013px; 
-            left: 484.15625px; 
+            left: 484.156px; 
             background-color: rgb(255, 255, 255); 
             background-size: auto; 
             background-position-x: 0%; 
@@ -136,7 +136,7 @@
             height: 163px; 
             width: 590px; 
             top: 500px; 
-            left: 484.15625px; 
+            left: 484.156px; 
             background-color: rgb(255, 255, 255); 
             background-size: auto; 
             background-position-x: 0%; 
@@ -190,7 +190,7 @@
             height: 337px; 
             width: 590px; 
             top: 600px; 
-            left: 479.15625px; 
+            left: 479.156px; 
             background-color: transparent; 
             background-size: auto; 
             background-position-x: 0%; 
@@ -220,7 +220,7 @@
             height: 84px; 
             width: 855px; 
             top: 37px; 
-            left: 484.15625px; 
+            left: 484.156px; 
             background-color: transparent; 
         }
         .silex-id-1439555620458-40 {

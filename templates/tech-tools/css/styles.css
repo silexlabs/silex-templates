@@ -29,8 +29,8 @@
         .top-z{
             z-index: 999;
         }
-        .full-width{
-            width:100% !important;
+        .editable-style.full-width{
+            width:100%;
         }
         .product-details .heading1{
             font-size: 24px;

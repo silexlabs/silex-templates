@@ -1,6 +1,10 @@
 
+        @import url('//fonts.googleapis.com/css?family=Abel');
+        body, font {
+            font-family:'Abel',sans-serif;
+        }
         .nav-buttons:hover, .nav-buttons.page-link-active{
-            background-color: rgba(0, 0, 0, 0.5) !important;
+            background-color: rgba(0, 0, 0, 0.5);
         }
     
         .silex-id-1439547078652-33 {
@@ -8,6 +12,10 @@
             cursor: auto; 
             background-image: url('../assets/background-texture.jpg'); 
             background-color: transparent; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
         }
         .silex-id-1439547078551-32 {
             position: absolute; 
@@ -28,7 +36,7 @@
         .silex-id-1439547078348-30 {
             background-color: transparent; 
             background-image: url('../assets/header-texture.jpg'); 
-            top: 723px; 
+            top: 773px; 
             left: 0px; 
             height: 100px; 
             right: 0px; 
@@ -52,9 +60,9 @@
         }
         .silex-id-1439547078040-27 {
             top: 5px; 
-            left: 5px; 
+            left: 502px; 
             width: 832px; 
-            height: 815px; 
+            height: 854px; 
             position: absolute; 
             background-color: transparent; 
             background-repeat-x: repeat; 
@@ -71,10 +79,6 @@
             width: 800px; 
             height: 398px; 
             position: absolute; 
-            border-top-color: rgb(0, 0, 0); 
-            border-right-color: rgb(0, 0, 0); 
-            border-bottom-color: rgb(0, 0, 0); 
-            border-left-color: rgb(0, 0, 0); 
         }
         .silex-id-1439547077839-25 {
             background-color: transparent; 
@@ -92,10 +96,6 @@
             width: 236px; 
             height: 211px; 
             position: absolute; 
-            border-top-color: rgb(0, 0, 0); 
-            border-right-color: rgb(0, 0, 0); 
-            border-bottom-color: rgb(0, 0, 0); 
-            border-left-color: rgb(0, 0, 0); 
         }
         .silex-id-1439547077633-23 {
             top: 135px; 
@@ -124,7 +124,7 @@
             border-bottom-left-radius: 15px; 
             top: 309px; 
             left: 205px; 
-            width: 123px; 
+            width: 136px; 
             height: 29px; 
             position: absolute; 
             background-color: rgb(49, 142, 255); 
@@ -135,18 +135,22 @@
         }
         .silex-id-1439547077428-21 {
             background-color: transparent; 
-            top: 5px; 
-            left: 13px; 
-            width: 106px; 
-            height: 21px; 
+            top: 3px; 
+            left: 23px; 
+            width: 94px; 
+            height: 43px; 
             position: absolute; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
         }
         .silex-id-1439547077327-20 {
             background-color: transparent; 
-            top: 18px; 
+            top: -10px; 
             left: 43px; 
             width: 732px; 
-            height: 92px; 
+            height: 120px; 
             position: absolute; 
         }
         .silex-id-1439547077223-19 {
@@ -174,16 +178,16 @@
             position: absolute; 
         }
         .silex-id-1439547076919-16 {
-            top: 740px; 
-            left: 689px; 
+            top: 791px; 
+            left: 695px; 
             width: 100px; 
             height: 55px; 
             position: absolute; 
         }
         .silex-id-1439547076816-15 {
             background-color: transparent; 
-            top: 760px; 
-            left: 31.5px; 
+            top: 808px; 
+            left: 18px; 
             width: 409px; 
             height: 33px; 
             position: absolute; 
@@ -194,16 +198,16 @@
             border-top-right-radius: 15px; 
             border-bottom-right-radius: 15px; 
             border-bottom-left-radius: 15px; 
-            top: 755px; 
-            left: 540px; 
+            top: 807px; 
+            left: 555px; 
             width: 132px; 
             height: 29px; 
             position: absolute; 
         }
         .silex-id-1439547076614-13 {
             background-color: transparent; 
-            top: 6px; 
-            left: 7px; 
+            top: 2px; 
+            left: 15px; 
             width: 119px; 
             height: 20px; 
             position: absolute; 
@@ -251,7 +255,7 @@
         .silex-id-1439547076106-8 {
             background-color: transparent; 
             top: 12px; 
-            left: 14px; 
+            left: 10px; 
             width: 54px; 
             height: 24px; 
             position: absolute; 
@@ -270,7 +274,7 @@
         }
         .silex-id-1439547075903-6 {
             top: 12px; 
-            left: 10px; 
+            left: 9px; 
             width: 54px; 
             height: 24px; 
             position: absolute; 
@@ -291,7 +295,7 @@
         .silex-id-1439547075701-4 {
             background-color: transparent; 
             top: 12px; 
-            left: 7px; 
+            left: 10px; 
             width: 54px; 
             height: 24px; 
             position: absolute; 
@@ -311,21 +315,21 @@
         .silex-id-1439547075498-2 {
             background-color: transparent; 
             top: 12px; 
-            left: 12px; 
+            left: 10px; 
             width: 54px; 
             height: 24px; 
             position: absolute; 
         }
         .silex-id-1439547075398-1 {
-            top: 29px; 
-            left: 25.5px; 
+            top: 15px; 
+            left: 26px; 
             width: 57px; 
             height: 71px; 
             position: absolute; 
         }
         .silex-id-1439547075296-0 {
             background-color: transparent; 
-            top: 34px; 
+            top: 20px; 
             left: 97px; 
             width: 123px; 
             height: 61px; 

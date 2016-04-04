@@ -4,17 +4,17 @@
 <head>
     <title>Backnode</title>
     <meta charset="UTF-8">
-    <meta name="generator" content="Silex v2.2.4">
+    <meta name="generator" content="Silex v2.2.5">
     <!-- leave this for stats -->
-    <script type="text/javascript" src="http://static.silex.me/2.4/jquery.js"></script>
-    <script type="text/javascript" src="http://static.silex.me/2.4/jquery-ui.js"></script>
-    <script type="text/javascript" src="http://static.silex.me/2.2/jquery.ui.touch-punch.min.js"></script>
-    <script type="text/javascript" src="http://static.silex.me/2.4/pageable.js"></script>
-    <script type="text/javascript" src="http://static.silex.me/2.4/front-end.js"></script>
+    <script type="text/javascript" src="//localhost:6805/static/2.5/jquery.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//localhost:6805/static/2.5/jquery-ui.js" data-silex-static=""></script>
+
+    <script type="text/javascript" src="//localhost:6805/static/2.5/pageable.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//localhost:6805/static/2.5/front-end.js" data-silex-static=""></script>
     <!-- Normalize -->
-    <link href="http://static.silex.me/2.4/normalize.css" rel="stylesheet">
+    <link href="//localhost:6805/static/2.5/normalize.css" rel="stylesheet" data-silex-static="">
     <!-- Silex style -->
-    <link href="http://static.silex.me/2.4/front-end.css" rel="stylesheet">
+    <link href="//localhost:6805/static/2.5/front-end.css" rel="stylesheet" data-silex-static="">
 
     <style type="text/css" class="silex-style">
         /*
@@ -45,23 +45,25 @@
           font-size: 45px;
         }
         /* special classes, dedicace to leo */
-        .full-width{
-            width: 2000px !important;
-            left: 0 !important;
-            position: absolute !important;
+        body {
+            padding: 0;
         }
-        .centered{
-            left: 50% !important;
-            width: 980px !important;
-            margin-left: -490px !important;
-            position: absolute !important;
+        .editable-style.full-width{
+            width: 2000px;
+            left: 0;
         }
-        .right-aligned{
-            right: 0 !important;
-            left: auto !important;
+        .editable-style.centered{
+            left: 50%;
+            width: 980px;
+            margin-left: -490px;
+            position: absolute;
         }
-        .silex-runtime .full-width{
-            width: 100% !important;
+        .editable-style.right-aligned{
+            right: 0;
+            left: auto;
+        }
+        .silex-runtime .editable-style.full-width{
+            width: 100%;
         }
         /* website styles */
         .normal,
@@ -95,14 +97,12 @@
             border-bottom: 4px solid #34b399;
         }
         /* override default links style */
-        .nav a:hover{
-            text-decoration: initial !important;
+        .editable-style.nav a:hover{
+            text-decoration: initial;
         }
     </style>
-    <script type="text/javascript" class="silex-script">
-        eze
-    </script>
-    <meta name="publicationPath" content="http://localhost:6805/api/1.0/dropbox/exec/put///sites-silex/silex-templates/templates/online-service">
+    <script type="text/javascript" class="silex-script"></script>
+
     <style class="silex-inline-styles" type="text/css">
         .silex-id-1439555806958-90 {
             cursor: auto; 
@@ -111,9 +111,9 @@
         .silex-id-1439555806853-89 {
             position: absolute; 
             height: 2363px; 
-            width: 1974px; 
-            top: 5px; 
-            left: 5px; 
+            width: 1998px; 
+            top: 0px; 
+            left: 0px; 
             background-color: transparent; 
         }
         .silex-id-1439555806749-88 {
@@ -197,7 +197,7 @@
             height: 178px; 
             width: 400px; 
             top: 44.5px; 
-            left: 64.84375px; 
+            left: 64.8438px; 
             position: absolute; 
             background-color: transparent; 
         }
@@ -431,11 +431,18 @@
             height: 84px; 
             width: 855px; 
             top: 37px; 
-            left: 484.15625px; 
+            left: 484.156px; 
             background-color: transparent; 
         }
     </style>
 
+
+
+
+
+
+
+    <meta name="publicationPath" content="/api/1.0/www/exec/put/////silex-templates/templates/online-service">
 
     <style id="current-page-style">
         .page-use-backnode{display:inherit; }
@@ -595,6 +602,12 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
 
 
 </body>

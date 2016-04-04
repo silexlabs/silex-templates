@@ -46,7 +46,7 @@
             width: auto;
         }
     .arrow .normal {
-        font-size: 130px;
+        font-size: 110px;
         line-height: 15px;
         color: white;
     }
@@ -108,7 +108,7 @@
             width: 100px; 
             top: 609px; 
             left: 443px; 
-            background-color: rgba(26, 188, 156, 0.447); 
+            background-color: rgba(26, 188, 156, 0.447059); 
             border-top-left-radius: 50px; 
             border-top-right-radius: 50px; 
             border-bottom-right-radius: 50px; 
@@ -128,9 +128,9 @@
         }
         .silex-id-1440798288801-1 {
             height: 73px; 
-            width: 64px; 
-            top: 21px; 
-            left: 19px; 
+            width: 89px; 
+            top: 17px; 
+            left: 4px; 
             border-top-color: rgb(0, 0, 0); 
             border-right-color: rgb(0, 0, 0); 
             border-bottom-color: rgb(0, 0, 0); 
@@ -233,8 +233,10 @@
             background-color: transparent; 
             background-image: url('../assets/top-pic.jpg'); 
             background-size: cover; 
-            background-position: center top; 
-            background-repeat: no-repeat; 
+            background-position-x: 50%; 
+            background-position-y: 0%; 
+            background-repeat-x: no-repeat; 
+            background-repeat-y: no-repeat; 
             background-attachment: scroll; 
         }
         .silex-id-1440799716166-5 {
@@ -245,8 +247,10 @@
             background-color: transparent; 
             background-image: url('../assets/pic2.jpg'); 
             background-size: cover; 
-            background-position: center top; 
-            background-repeat: no-repeat; 
+            background-position-x: 50%; 
+            background-position-y: 0%; 
+            background-repeat-x: no-repeat; 
+            background-repeat-y: no-repeat; 
             background-attachment: scroll; 
         }
     

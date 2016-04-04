@@ -10,6 +10,7 @@
             margin: 0;
             font-weight: normal;
             font-size: 25px;
+            line-height: 1.5;
         }
         .normal {
           font-size: 13px;
@@ -131,16 +132,16 @@
             border-right-style: solid; 
             border-bottom-style: solid; 
             border-left-style: solid; 
+            border-top-color: rgb(255, 255, 255); 
+            border-right-color: rgb(255, 255, 255); 
+            border-bottom-color: rgb(255, 255, 255); 
+            border-left-color: rgb(255, 255, 255); 
             background-image: url('../assets/young-city.jpg'); 
             background-position-x: 50%; 
             background-position-y: 50%; 
             background-repeat-x: no-repeat; 
             background-repeat-y: no-repeat; 
             background-size: cover; 
-            border-top-color: rgb(255, 255, 255); 
-            border-right-color: rgb(255, 255, 255); 
-            border-bottom-color: rgb(255, 255, 255); 
-            border-left-color: rgb(255, 255, 255); 
         }
         .silex-id-1439156722120-43 {
             height: 289px; 
@@ -148,6 +149,10 @@
             top: 166px; 
             left: 0px; 
             position: absolute; 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
         }
         .silex-id-1439156722018-42 {
             height: 271px; 
@@ -308,13 +313,6 @@
             top: 24px; 
             left: 5px; 
         }
-        .silex-id-1439156720603-28 {
-            position: absolute; 
-            height: 70px; 
-            width: 70px; 
-            top: 28px; 
-            left: 304px; 
-        }
         .silex-id-1439156720502-27 {
             position: absolute; 
             width: 920px; 
@@ -323,47 +321,40 @@
             background-color: transparent; 
             height: 45px; 
         }
-        .silex-id-1439156720400-26 {
-            position: absolute; 
-            height: 70px; 
-            width: 70px; 
-            top: 28px; 
-            left: 907px; 
-        }
         .silex-id-1439156720299-25 {
             position: absolute; 
             height: 70px; 
             width: 70px; 
             top: 28px; 
-            left: 401px; 
+            left: 497px; 
         }
         .silex-id-1439156720197-24 {
             position: absolute; 
             height: 70px; 
             width: 70px; 
             top: 28px; 
-            left: 502px; 
+            left: 598px; 
         }
         .silex-id-1439156720096-23 {
             position: absolute; 
             height: 70px; 
             width: 70px; 
             top: 28px; 
-            left: 602px; 
+            left: 698px; 
         }
         .silex-id-1439156719995-22 {
             position: absolute; 
             height: 70px; 
             width: 70px; 
             top: 28px; 
-            left: 704px; 
+            left: 800px; 
         }
         .silex-id-1439156719895-21 {
             position: absolute; 
             height: 70px; 
             width: 70px; 
             top: 28px; 
-            left: 806px; 
+            left: 902px; 
         }
         .silex-id-1439156719794-20 {
             height: 20px; 

@@ -46,11 +46,11 @@
             border-bottom: 1px solid #FF9900;
         }
         .nav-mark.page-link-active {
-            background-color: #FF9900 !important;
+            background-color: #FF9900;
         }
         /* home */
         .sub-nav.page-link-active {
-            width: 250px !important;
+            width: 250px;
             box-shadow: 0 1px 10px black;
         }
         .sub-nav {
@@ -103,6 +103,10 @@
             left: 0px; 
             top: 0px; 
             background-color: rgb(0, 0, 0); 
+            border-top-color: rgb(0, 0, 0); 
+            border-right-color: rgb(0, 0, 0); 
+            border-bottom-color: rgb(0, 0, 0); 
+            border-left-color: rgb(0, 0, 0); 
         }
         .silex-id-1439554967795-65 {
             top: 6px; 

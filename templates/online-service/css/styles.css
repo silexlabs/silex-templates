@@ -27,23 +27,25 @@
           font-size: 45px;
         }
         /* special classes, dedicace to leo */
-        .full-width{
-            width: 2000px !important;
-            left: 0 !important;
-            position: absolute !important;
+        body {
+            padding: 0;
         }
-        .centered{
-            left: 50% !important;
-            width: 980px !important;
-            margin-left: -490px !important;
-            position: absolute !important;
+        .editable-style.full-width{
+            width: 2000px;
+            left: 0;
         }
-        .right-aligned{
-            right: 0 !important;
-            left: auto !important;
+        .editable-style.centered{
+            left: 50%;
+            width: 980px;
+            margin-left: -490px;
+            position: absolute;
         }
-        .silex-runtime .full-width{
-            width: 100% !important;
+        .editable-style.right-aligned{
+            right: 0;
+            left: auto;
+        }
+        .silex-runtime .editable-style.full-width{
+            width: 100%;
         }
         /* website styles */
         .normal,
@@ -77,8 +79,8 @@
             border-bottom: 4px solid #34b399;
         }
         /* override default links style */
-        .nav a:hover{
-            text-decoration: initial !important;
+        .editable-style.nav a:hover{
+            text-decoration: initial;
         }
     
         .silex-id-1439555806958-90 {
@@ -88,9 +90,9 @@
         .silex-id-1439555806853-89 {
             position: absolute; 
             height: 2363px; 
-            width: 1974px; 
-            top: 5px; 
-            left: 5px; 
+            width: 1998px; 
+            top: 0px; 
+            left: 0px; 
             background-color: transparent; 
         }
         .silex-id-1439555806749-88 {
@@ -174,7 +176,7 @@
             height: 178px; 
             width: 400px; 
             top: 44.5px; 
-            left: 64.84375px; 
+            left: 64.8438px; 
             position: absolute; 
             background-color: transparent; 
         }
@@ -408,7 +410,7 @@
             height: 84px; 
             width: 855px; 
             top: 37px; 
-            left: 484.15625px; 
+            left: 484.156px; 
             background-color: transparent; 
         }
     

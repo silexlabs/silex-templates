@@ -37,6 +37,9 @@
         .body-initial {
             background-color: rgb(159, 141, 103); 
             background-image: url('../assets/wood.jpg'); 
+            background-position-x: 50%; 
+            background-position-y: 50%; 
+            background-size: cover; 
         }
         .background-initial {
             background-color: transparent; 
@@ -295,7 +298,8 @@
             border-right-color: rgb(254, 255, 253); 
             border-bottom-color: rgb(254, 255, 253); 
             border-left-color: rgb(254, 255, 253); 
-            background-position: center center; 
+            background-position-x: 50%; 
+            background-position-y: 50%; 
         }
         .silex-id-1434426485636-2 {
             height: 190px; 
@@ -395,6 +399,7 @@
             border-right-color: rgb(254, 255, 253); 
             border-bottom-color: rgb(254, 255, 253); 
             border-left-color: rgb(254, 255, 253); 
-            background-position: center center; 
+            background-position-x: 50%; 
+            background-position-y: 50%; 
         }
     

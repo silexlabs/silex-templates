@@ -4,18 +4,18 @@
 <head>
     <title>Minimal mistakes</title>
     <meta charset="UTF-8">
-    <meta name="generator" content="Silex v2.2.4">
+    <meta name="generator" content="Silex v2.2.5">
     <!-- leave this for stats -->
     <link rel="icon" type="image/png" href="assets/silex.png">
-    <script type="text/javascript" src="http://static.silex.me/2.4/jquery.js"></script>
-    <script type="text/javascript" src="http://static.silex.me/2.4/jquery-ui.js"></script>
-    <script type="text/javascript" src="http://static.silex.me/2.2/jquery.ui.touch-punch.min.js"></script>
-    <script type="text/javascript" src="http://static.silex.me/2.4/pageable.js"></script>
-    <script type="text/javascript" src="http://static.silex.me/2.4/front-end.js"></script>
+    <script type="text/javascript" src="//localhost:6805/static/2.5/jquery.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//localhost:6805/static/2.5/jquery-ui.js" data-silex-static=""></script>
+
+    <script type="text/javascript" src="//localhost:6805/static/2.5/pageable.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//localhost:6805/static/2.5/front-end.js" data-silex-static=""></script>
     <!-- Normalize -->
-    <link href="http://static.silex.me/2.4/normalize.css" rel="stylesheet">
+    <link href="//localhost:6805/static/2.5/normalize.css" rel="stylesheet" data-silex-static="">
     <!-- Silex style -->
-    <link href="http://static.silex.me/2.4/front-end.css" rel="stylesheet">
+    <link href="//localhost:6805/static/2.5/front-end.css" rel="stylesheet" data-silex-static="">
 
     <style type="text/css" class="silex-style">
         /* define a style for Title, Headings and Normal texts */
@@ -38,22 +38,22 @@
           text-transform: uppercase;
         }
         /* position styles */
-        .full-width{
-            width: 100% !important;
+        .editable-style.full-width{
+            width: 100%;
         }
-        .left{
-            left: 0 !important;
+        .editable-style.left{
+            left: 0;
         }
-        .full-height {
-            height: 100% !important;
+        .editable-style.full-height {
+            height: 100%;
         }
         .bottom{
             bottom: 0;
         }
-        .centered{
+        .editable-style.centered{
             margin-left: -480px;
-            width: 960px !important;
-            left: 50% !important;
+            width: 960px;
+            left: 50%;
         }
         .header-image{
         }
@@ -74,9 +74,9 @@
         /* animated colors widget
             https://github.com/silexlabs/Silex/issues/138
         */
-        .link-menu {
-            background-color:#FFFFFF !important;
-            color: #333333 !important;
+        .editable-style.link-menu {
+            background-color:#FFFFFF;
+            color: #333333;
             /* Firefox */
             -moz-transition: all 0.5s ease-out;
             /* WebKit */
@@ -87,8 +87,8 @@
             transition: all 0.5s ease-out;
         }
         .link-menu .page-link-active {
-            background-color: #333333 !important;
-            color: #FFFFFF !important;
+            background-color: #333333;
+            color: #FFFFFF;
             /* Firefox */
             -moz-transition: all 0.5s ease-in;
             /* WebKit */
@@ -99,24 +99,7 @@
             transition: all 0.5s ease-in;
         }
     </style>
-    <script type="text/javascript" class="silex-script">
-        ////////////////////////////////////
-        // animate.js
-        // https://github.com/silexlabs/Silex/issues/87
-        document.write('<link href="css/animate.min.css" rel="stylesheet">');
-        ////////////////////////////////////
-        //**
-        // Google analytics
-        // replace by your own code
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        
-        ga('create', 'UA-19608894-20', 'silexlabs.github.io');
-        ga('send', 'pageview');
-        //**
-    </script>
+    <script type="text/javascript" class="silex-script"></script>
     <meta name="publicationPath" content="http://localhost:6805/api/1.0/dropbox/exec/put//sites-silex/silex-templates/templates/minimal-mistakes">
     <style class="silex-inline-styles" type="text/css">
         .silex-id-1439555621579-51 {
@@ -148,7 +131,7 @@
             height: 350px; 
             width: 590px; 
             top: 1013px; 
-            left: 484.15625px; 
+            left: 484.156px; 
             background-color: rgb(255, 255, 255); 
             background-size: auto; 
             background-position-x: 0%; 
@@ -175,7 +158,7 @@
             height: 163px; 
             width: 590px; 
             top: 500px; 
-            left: 484.15625px; 
+            left: 484.156px; 
             background-color: rgb(255, 255, 255); 
             background-size: auto; 
             background-position-x: 0%; 
@@ -229,7 +212,7 @@
             height: 337px; 
             width: 590px; 
             top: 600px; 
-            left: 479.15625px; 
+            left: 479.156px; 
             background-color: transparent; 
             background-size: auto; 
             background-position-x: 0%; 
@@ -259,7 +242,7 @@
             height: 84px; 
             width: 855px; 
             top: 37px; 
-            left: 484.15625px; 
+            left: 484.156px; 
             background-color: transparent; 
         }
         .silex-id-1439555620458-40 {
@@ -361,14 +344,21 @@
     </style>
 
 
+
+
     <style id="current-page-style">
-        .page-home{display:inherit; }
+        .page-work{display:inherit; }
     </style>
     <!-- Silex HEAD tag do not remove -->
+    <!--
+animate.js
+https://github.com/silexlabs/Silex/issues/87
+-->
+    <link href="css/animate.min.css" rel="stylesheet">
     <!-- End of Silex HEAD tag do not remove -->
 </head>
 
-<body data-silex-type="container" class="silex-id-1439555621579-51 silex-runtime" data-silex-id="silex-id-1439555621579-51" style="">
+<body data-silex-type="container" class="silex-id-1439555621579-51 silex-runtime" data-silex-id="silex-id-1439555621579-51">
     <a id="page-home" data-silex-type="page" class="page-element">Home</a>
 
 
@@ -505,21 +495,23 @@
     </div>
     <div class="editable-style container-element background prevent-draggable silex-id-1439555620252-38" data-silex-type="container" data-silex-id="silex-id-1439555620252-38">
         <div class="editable-style container-element silex-id-1439555620150-37" data-silex-type="container" data-silex-id="silex-id-1439555620150-37">
-            <div data-silex-type="text" class="editable-style text-element silex-id-1439555620047-36 page-link-active" data-silex-href="#!page-home" data-silex-id="silex-id-1439555620047-36">
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439555620047-36" data-silex-href="#!page-home" data-silex-id="silex-id-1439555620047-36">
                 <div class="silex-element-content normal">
                     <header class="title">MADE MISTAKES</header>
                 </div>
             </div>
-            <div data-silex-type="image" class="editable-style image-element silex-id-1439555619945-35 page-link-active" data-silex-href="#!page-home" data-silex-id="silex-id-1439555619945-35"><img src="assets/site-logo.png" class="silex-element-content">
+            <div data-silex-type="image" class="editable-style image-element silex-id-1439555619945-35" data-silex-href="#!page-home" data-silex-id="silex-id-1439555619945-35"><img src="assets/site-logo.png" class="silex-element-content">
             </div>
             <div data-silex-type="text" class="editable-style text-element nav link-menu silex-id-1439555619844-34" data-silex-id="silex-id-1439555619844-34">
                 <div class="silex-element-content normal">
-                    <div style="text-align: right;">/ <a href="#!page-work" class="">work</a> / <a href="#!page-articles" class="">articles</a> / <a href="#!page-mastering-paper" class="">mastering paper</a> / <a href="#!page-about" class="">about</a>
+                    <div style="text-align: right;">/ <a href="#!page-work" class="page-link-active">work</a> / <a href="#!page-articles" class="">articles</a> / <a href="#!page-mastering-paper" class="">mastering paper</a> / <a href="#!page-about" class="">about</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
 
 
 </body>
