@@ -139,7 +139,21 @@
             text-transform: capitalize;
         }
     </style>
-    <script type="text/javascript" class="silex-script"></script>
+    <script type="text/javascript" class="silex-script">
+        $(function() {
+            $.get('https://api.github.com/repos/silexlabs/silex-templates/contents/templates', function(data) {
+                var html = '<ul>';
+                $.each(data, function(idx, template) {
+                    var name = template.name.replace('-', ' ', 'g');
+                    html += '<li>';
+                    html += '<h2 id="'+name+'">'+name+'</h2><p><a href="templates/'+template.name+'/index.html">View this template online</a></p><p><a href="templates/'+template.name+'/index.html"><img src'+'="templates/'+template.name+'/screenshot-678x336.png" alt="'+name+' template for Silex website builder" title="'+name+' silex template"></a></p>';
+                    html += '</li>';
+                });
+                html += '</ul>';
+                $("#templates-list").html(html);
+            });
+        });
+    </script>
     <meta name="publicationPath" content="/api/1.0/github/exec/put/silex-templates/wip">
     <style type="text/css"></style>
     <style class="silex-inline-styles" type="text/css">
@@ -318,123 +332,7 @@
         </div>
         <div data-silex-type="html" class="editable-style html-element page-home paged-element silex-id-1439151850496-3 markdown" data-silex-id="silex-id-1439151850496-3">
             <div class="silex-element-content">
-                <div id="templates-list">
-                    <ul>
-                        <li>
-                            <h2 id="clean square">clean square</h2>
-                            <p><a href="templates/clean-square/index.html">View this template online</a></p>
-                            <p>
-                                <a href="templates/clean-square/index.html"><img src="templates/clean-square/screenshot-678x336.png" alt="clean square template for Silex website builder" title="clean square silex template"></a>
-                            </p>
-                        </li>
-                        <li>
-                            <h2 id="cv1">cv1</h2>
-                            <p><a href="templates/cv1/index.html">View this template online</a></p>
-                            <p>
-                                <a href="templates/cv1/index.html"><img src="templates/cv1/screenshot-678x336.png" alt="cv1 template for Silex website builder" title="cv1 silex template"></a>
-                            </p>
-                        </li>
-                        <li>
-                            <h2 id="eco1">eco1</h2>
-                            <p><a href="templates/eco1/index.html">View this template online</a></p>
-                            <p>
-                                <a href="templates/eco1/index.html"><img src="templates/eco1/screenshot-678x336.png" alt="eco1 template for Silex website builder" title="eco1 silex template"></a>
-                            </p>
-                        </li>
-                        <li>
-                            <h2 id="fictional studio">fictional studio</h2>
-                            <p><a href="templates/fictional-studio/index.html">View this template online</a></p>
-                            <p>
-                                <a href="templates/fictional-studio/index.html"><img src="templates/fictional-studio/screenshot-678x336.png" alt="fictional studio template for Silex website builder" title="fictional studio silex template"></a>
-                            </p>
-                        </li>
-                        <li>
-                            <h2 id="food and-drink">food and-drink</h2>
-                            <p><a href="templates/food-and-drink/index.html">View this template online</a></p>
-                            <p>
-                                <a href="templates/food-and-drink/index.html"><img src="templates/food-and-drink/screenshot-678x336.png" alt="food and-drink template for Silex website builder" title="food and-drink silex template"></a>
-                            </p>
-                        </li>
-                        <li>
-                            <h2 id="ipsoom">ipsoom</h2>
-                            <p><a href="templates/ipsoom/index.html">View this template online</a></p>
-                            <p>
-                                <a href="templates/ipsoom/index.html"><img src="templates/ipsoom/screenshot-678x336.png" alt="ipsoom template for Silex website builder" title="ipsoom silex template"></a>
-                            </p>
-                        </li>
-                        <li>
-                            <h2 id="minimal grey">minimal grey</h2>
-                            <p><a href="templates/minimal-grey/index.html">View this template online</a></p>
-                            <p>
-                                <a href="templates/minimal-grey/index.html"><img src="templates/minimal-grey/screenshot-678x336.png" alt="minimal grey template for Silex website builder" title="minimal grey silex template"></a>
-                            </p>
-                        </li>
-                        <li>
-                            <h2 id="minimal mistakes">minimal mistakes</h2>
-                            <p><a href="templates/minimal-mistakes/index.html">View this template online</a></p>
-                            <p>
-                                <a href="templates/minimal-mistakes/index.html"><img src="templates/minimal-mistakes/screenshot-678x336.png" alt="minimal mistakes template for Silex website builder" title="minimal mistakes silex template"></a>
-                            </p>
-                        </li>
-                        <li>
-                            <h2 id="online service">online service</h2>
-                            <p><a href="templates/online-service/index.html">View this template online</a></p>
-                            <p>
-                                <a href="templates/online-service/index.html"><img src="templates/online-service/screenshot-678x336.png" alt="online service template for Silex website builder" title="online service silex template"></a>
-                            </p>
-                        </li>
-                        <li>
-                            <h2 id="perso1">perso1</h2>
-                            <p><a href="templates/perso1/index.html">View this template online</a></p>
-                            <p>
-                                <a href="templates/perso1/index.html"><img src="templates/perso1/screenshot-678x336.png" alt="perso1 template for Silex website builder" title="perso1 silex template"></a>
-                            </p>
-                        </li>
-                        <li>
-                            <h2 id="perso2">perso2</h2>
-                            <p><a href="templates/perso2/index.html">View this template online</a></p>
-                            <p>
-                                <a href="templates/perso2/index.html"><img src="templates/perso2/screenshot-678x336.png" alt="perso2 template for Silex website builder" title="perso2 silex template"></a>
-                            </p>
-                        </li>
-                        <li>
-                            <h2 id="sublime_cv">sublime_cv</h2>
-                            <p><a href="templates/sublime_cv/index.html">View this template online</a></p>
-                            <p>
-                                <a href="templates/sublime_cv/index.html"><img src="templates/sublime_cv/screenshot-678x336.png" alt="sublime_cv template for Silex website builder" title="sublime_cv silex template"></a>
-                            </p>
-                        </li>
-                        <li>
-                            <h2 id="tech tools">tech tools</h2>
-                            <p><a href="templates/tech-tools/index.html">View this template online</a></p>
-                            <p>
-                                <a href="templates/tech-tools/index.html"><img src="templates/tech-tools/screenshot-678x336.png" alt="tech tools template for Silex website builder" title="tech tools silex template"></a>
-                            </p>
-                        </li>
-                        <li>
-                            <h2 id="world_of_workcraft">world_of_workcraft</h2>
-                            <p><a href="templates/world_of_workcraft/index.html">View this template online</a></p>
-                            <p>
-                                <a href="templates/world_of_workcraft/index.html"><img src="templates/world_of_workcraft/screenshot-678x336.png" alt="world_of_workcraft template for Silex website builder" title="world_of_workcraft silex template"></a>
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <script type="text/javascript">
-                    $(function() {
-                        $.get('https://api.github.com/repos/silexlabs/silex-templates/contents/templates', function(data) {
-                            var html = '<ul>';
-                            $.each(data, function(idx, template) {
-                                var name = template.name.replace('-', ' ', 'g');
-                                html += '<li>';
-                                html += '<h2 id="'+name+'">'+name+'</h2><p><a href="templates/'+template.name+'/index.html">View this template online</a></p><p><a href="templates/'+template.name+'/index.html"><img src'+'="templates/'+template.name+'/screenshot-678x336.png" alt="'+name+' template for Silex website builder" title="'+name+' silex template"></a></p>';
-                                html += '</li>';
-                            });
-                            html += '</ul>';
-                            $("#templates-list").html(html);
-                        });
-                    });
-                </script>
+                <div id="templates-list">Loading...</div>
 
             </div>
         </div>
