@@ -1,14 +1,14 @@
 
         /*
-        	Here are the CSS styles of your website.
+          Here are the CSS styles of your website.
         
-        	Bellow are some examples, like the styles which you can apply to your text in the text editor.
+          Bellow are some examples, like the styles which you can apply to your text in the text editor.
         
-        	See this page for help on CSS
-        	https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started
+          See this page for help on CSS
+          https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started
         
-        	In the advanced "Apollo" mode, you will be able to add CSS classes to Silex elements,
-        	and then apply a CSS style to it here.
+          In the advanced "Apollo" mode, you will be able to add CSS classes to Silex elements,
+          and then apply a CSS style to it here.
         */
         .title,
         .heading1,
@@ -58,58 +58,58 @@
         }
         
         .download-button{
-        	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
-        	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
-        	box-shadow:inset 0px 1px 0px 0px #ffffff;
-        	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
-        	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
-        	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
-        	background-color:#ededed;
-        	-webkit-border-top-left-radius:6px;
-        	-moz-border-radius-topleft:6px;
-        	border-top-left-radius:6px;
-        	-webkit-border-top-right-radius:6px;
-        	-moz-border-radius-topright:6px;
-        	border-top-right-radius:6px;
-        	-webkit-border-bottom-right-radius:6px;
-        	-moz-border-radius-bottomright:6px;
-        	border-bottom-right-radius:6px;
-        	-webkit-border-bottom-left-radius:6px;
-        	-moz-border-radius-bottomleft:6px;
-        	border-bottom-left-radius:6px;
-        	text-indent:0;
-        	border:1px solid #dcdcdc;
-        	display:inline-block;
-        	font-size:15px;
-        	font-weight:bold;
-        	font-style:normal;
-        	height:50px;
-        	line-height:50px;
-        	width:200px;
-        	text-decoration:none;
-        	text-align:center;
-        	text-shadow:1px 1px 0px #ffffff;
+          -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+          -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+          box-shadow:inset 0px 1px 0px 0px #ffffff;
+          background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+          background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+          filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+          background-color:#ededed;
+          -webkit-border-top-left-radius:6px;
+          -moz-border-radius-topleft:6px;
+          border-top-left-radius:6px;
+          -webkit-border-top-right-radius:6px;
+          -moz-border-radius-topright:6px;
+          border-top-right-radius:6px;
+          -webkit-border-bottom-right-radius:6px;
+          -moz-border-radius-bottomright:6px;
+          border-bottom-right-radius:6px;
+          -webkit-border-bottom-left-radius:6px;
+          -moz-border-radius-bottomleft:6px;
+          border-bottom-left-radius:6px;
+          text-indent:0;
+          border:1px solid #dcdcdc;
+          display:inline-block;
+          font-size:15px;
+          font-weight:bold;
+          font-style:normal;
+          height:50px;
+          line-height:50px;
+          width:200px;
+          text-decoration:none;
+          text-align:center;
+          text-shadow:1px 1px 0px #ffffff;
         }
-        .full-width{
-            width: 100% !important;
+        div.full-width{
+            width: 100%;
         }
         .left{
-            left: 0 !important;
+            left: 0;
         }
-        .full-height {
-            height: 100% !important;
+        div.full-height {
+            height: 100%;
         }
-        .bottom{
+        div.bottom{
             bottom: 0;
         }
-        .centered{
+        div.centered{
             margin-left: auto;
             margin-right: auto;
-            left: initial !important;
-            position: relative !important;
+            left: initial;
+            position: relative;
         }
         .overflowed *{
-            overflow: auto !important;
+            display: inline;
         }
         .markdown img{
             width: 511px;
@@ -126,76 +126,99 @@
         }
         .silex-id-1439151851008-8 {
             top: 5px; 
-            left: 110px; 
-            width: 921px; 
-            height: 4854px; 
-            position: absolute; 
+            left: 207px; 
+            width: 1009px; 
             box-sizing: content-box; 
             background-color: transparent; 
-        }
-        .silex-id-1439151850496-3 {
-            position: absolute; 
-            height: 4782px; 
-            width: 511px; 
-            top: 56px; 
-            left: 403px; 
-            background-color: transparent; 
+            min-height: 5271px; 
         }
         .silex-id-1439151850906-7 {
-            position: absolute; 
-            height: 949px; 
             width: 338px; 
             top: 43px; 
             left: 51px; 
             background-color: rgb(255, 255, 255); 
+            min-height: 949px; 
         }
-        .silex-id-1439151850803-6 {
-            position: absolute; 
-            height: 53px; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1439151850906-7 {
+            top: 0px; 
+            left: 11px; 
+            width: 423px; 
+            min-height: 762px; 
+        }
+        }.silex-id-1439151850803-6 {
             width: 214px; 
             top: 153px; 
             left: 0px; 
             box-sizing: content-box; 
             background-color: transparent; 
+            min-height: 53px; 
         }
         .silex-id-1439151850702-5 {
-            position: absolute; 
-            height: 127px; 
             width: 320px; 
             top: 20px; 
             left: 0px; 
             background-color: rgb(255, 255, 255); 
+            min-height: 127px; 
         }
-        .silex-id-1439152299990-10 {
-            height: 692px; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1439151850702-5 {
+            top: 33px; 
+            left: 11px; 
+            width: 401px; 
+            min-height: 127px; 
+        }
+        }.silex-id-1439152299990-10 {
             width: 332px; 
             top: 211px; 
             left: 0px; 
+            min-height: 692px; 
+        }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1439152299990-10 {
+            top: 225px; 
+            left: 11px; 
+            width: 401px; 
+            min-height: 517px; 
+        }
+        }.silex-id-1439151850496-3 {
+            width: 576px; 
+            top: 56px; 
+            left: 403px; 
+            background-color: transparent; 
+            min-height: 5176px; 
         }
         .silex-id-1439151850394-2 {
-            position: absolute; 
-            height: 744px; 
             width: 1031px; 
-            top: 4945px; 
+            top: 5387px; 
             left: 0px; 
             box-sizing: content-box; 
             background-color: rgb(207, 207, 207); 
+            min-height: 744px; 
         }
-        .silex-id-1439151850291-1 {
-            position: absolute; 
-            height: 91px; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1439151850394-2 {
+            top: 6135px; 
+            left: 12px; 
+            width: 445px; 
+            min-height: 545px; 
+        }
+        }.silex-id-1439151850291-1 {
             width: 623px; 
             top: 0px; 
             left: 204px; 
             background-color: transparent; 
+            min-height: 91px; 
         }
         .silex-id-1439151850189-0 {
-            position: absolute; 
-            height: 616px; 
             width: 1031px; 
             top: 97px; 
             left: 1px; 
             box-sizing: content-box; 
             background-color: transparent; 
+            min-height: 616px; 
+        }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1439151850189-0 {
+            top: 327px; 
+            left: 11px; 
+            width: 423px; 
+            min-height: 345px; 
+        }
         }
     
