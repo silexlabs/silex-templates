@@ -42,19 +42,28 @@
         .body-initial {
             background-color: rgb(204, 204, 204); 
         }
-        .background-initial {
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.body-initial {
+            background-color: rgba(255,255,255,1); 
+            border-color: #000000; 
+        }
+        }.background-initial {
             background-color: rgb(255, 255, 255); 
             top: 5px; 
             left: 105px; 
             width: 960px; 
-            height: 1769px; 
             border-top-color: rgb(0, 0, 0); 
             border-right-color: rgb(0, 0, 0); 
             border-bottom-color: rgb(0, 0, 0); 
             border-left-color: rgb(0, 0, 0); 
+            min-height: 1769px; 
         }
-        .silex-id-1443652013913-2 {
-            height: 1738px; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.background-initial {
+            top: 61px; 
+            left: 12px; 
+            width: 443px; 
+            min-height: 2303px; 
+        }
+        }.silex-id-1443652013913-2 {
             width: 250.45px; 
             top: 0px; 
             left: 0px; 
@@ -71,15 +80,21 @@
             border-right-color: rgb(48, 46, 44); 
             border-bottom-color: rgb(48, 46, 44); 
             border-left-color: rgb(48, 46, 44); 
+            min-height: 1738px; 
         }
-        .silex-id-1443651861817-1 {
-            height: 200px; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1443652013913-2 {
+            top: 0px; 
+            left: 13px; 
+            width: 416px; 
+            min-height: 698px; 
+        }
+        }.silex-id-1443651861817-1 {
             width: 174px; 
             top: 50px; 
             left: 40px; 
+            min-height: 200px; 
         }
         .silex-id-1443653612189-5 {
-            height: 948px; 
             width: 174px; 
             top: 261px; 
             left: 40px; 
@@ -87,16 +102,28 @@
             border-right-color: rgb(0, 0, 0); 
             border-bottom-color: rgb(0, 0, 0); 
             border-left-color: rgb(0, 0, 0); 
+            min-height: 628px; 
         }
-        .silex-id-1443652366341-4 {
-            height: 1738px; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1443653612189-5 {
+            top: 243px; 
+            left: 11px; 
+            width: 394px; 
+            min-height: 441px; 
+        }
+        }.silex-id-1443652366341-4 {
             width: 698px; 
             top: 0px; 
             left: 251px; 
             background-color: rgb(255, 255, 255); 
+            min-height: 1738px; 
         }
-        .silex-id-1443652359020-3 {
-            height: 1637px; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1443652366341-4 {
+            top: 1318px; 
+            left: 11px; 
+            width: 421px; 
+            min-height: 1556px; 
+        }
+        }.silex-id-1443652359020-3 {
             width: 646px; 
             top: 32px; 
             left: 40px; 
@@ -104,30 +131,49 @@
             border-right-color: rgb(0, 0, 0); 
             border-bottom-color: rgb(0, 0, 0); 
             border-left-color: rgb(0, 0, 0); 
+            min-height: 1637px; 
         }
-        .silex-id-1443655774846-6 {
-            height: 69.8707px; 
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1443652359020-3 {
+            top: 161px; 
+            left: 11px; 
+            width: 400px; 
+            min-height: 1495px; 
+        }
+        }.silex-id-1443655774846-6 {
             width: 56px; 
             top: 194px; 
             left: 630px; 
+            min-height: 69.8707px; 
         }
         .silex-id-1443655889931-7 {
-            height: 66px; 
             width: 66px; 
             top: 332px; 
             left: 620px; 
+            min-height: 66px; 
         }
         .silex-id-1442914589168-2 {
-            height: 50px; 
             width: 100%; 
             top: 635px; 
             left: 6px; 
             background-color: transparent; 
+            min-height: 50px; 
         }
         .silex-id-1442914737143-3 {
-            height: 28px; 
             width: 100%; 
             top: 13px; 
             left: 10px; 
+            min-height: 28px; 
+        }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1442914737143-3 {
+            background-color: rgba(73,73,73,1); 
+            top: 0px; 
+            left: 63px; 
+            width: 502px; 
+            min-height: 58px; 
+            border-width: 0 9px 9px 0 ; 
+            border-style: solid; 
+            border-color: #494949; 
+            border-radius: 5px 5px 5px 5px ; 
+        }
         }
     
