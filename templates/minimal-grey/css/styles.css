@@ -265,7 +265,7 @@
             top: 324px; 
             left: 50px; 
             background-color: transparent; 
-            background-image: url('../assets/vue_appart_02.png%5C'); 
+            background-image: url('../assets/vue_appart_02.png'); 
             background-size: auto; 
             background-repeat-x: repeat; 
             background-repeat-y: repeat; 
@@ -328,8 +328,8 @@
             top: 550px; 
             left: 50px; 
             background-color: transparent; 
-            background-image: url('../assets/silex-screenshot.png%5C'); 
-            background-size: auto; 
+            background-image: url('../assets/silex-screenshot.png'); 
+            background-size: cover; 
             background-repeat-x: no-repeat; 
             background-repeat-y: no-repeat; 
             min-height: 570px; 
