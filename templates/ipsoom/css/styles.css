@@ -304,7 +304,7 @@
             top: 5px; 
             left: 232px; 
             box-sizing: content-box; 
-            background-image: url('../assets/xpdPwXTASnOUXFpIPgDs_IMG_1460_edt.jpg%5C'); 
+            background-image: url('../assets/xpdPwXTASnOUXFpIPgDs_IMG_1460_edt.jpg'); 
             background-color: transparent; 
             background-size: cover; 
             min-height: 474px; 
@@ -341,7 +341,7 @@
             top: 5px; 
             left: 232px; 
             box-sizing: content-box; 
-            background-image: url('../assets/UJO0jYLtRte4qpyA37Xu_9X6A7388.jpg%5C'); 
+            background-image: url('../assets/UJO0jYLtRte4qpyA37Xu_9X6A7388.jpg'); 
             background-color: transparent; 
             background-size: cover; 
             min-height: 474px; 
@@ -351,7 +351,7 @@
             top: 8px; 
             left: 233px; 
             box-sizing: content-box; 
-            background-image: url('../assets/8bc72ed7.jpg%5C'); 
+            background-image: url('../assets/8bc72ed7.jpg'); 
             background-color: transparent; 
             background-size: cover; 
             min-height: 474px; 
@@ -431,7 +431,7 @@
             border-image-width: initial; 
             border-image-outset: initial; 
             border-image-repeat: initial; 
-            background-image: url('../assets/wood.jpg%5C'); 
+            background-image: url('../assets/wood.jpg'); 
             background-color: rgb(0, 0, 0); 
             background-size: cover; 
             min-height: 94px; 
@@ -516,7 +516,7 @@
             border-image-width: initial; 
             border-image-outset: initial; 
             border-image-repeat: initial; 
-            background-image: url('../assets/night.jpg%5C'); 
+            background-image: url('../assets/night.jpg'); 
             background-color: rgb(0, 0, 0); 
             background-size: cover; 
             min-height: 94px; 
@@ -593,7 +593,7 @@
             border-image-width: initial; 
             border-image-outset: initial; 
             border-image-repeat: initial; 
-            background-image: url('../assets/bench.jpg%5C'); 
+            background-image: url('../assets/bench.jpg'); 
             background-color: rgb(0, 0, 0); 
             background-size: cover; 
             min-height: 94px; 
@@ -710,19 +710,7 @@
             box-sizing: content-box; 
             min-height: 189px; 
         }
-        .silex-id-1439554961533-4 {
-            width: 726px; 
-            top: 321px; 
-            left: 2px; 
-            min-height: 474px; 
-        }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1439554961533-4 {
-            top: 797px; 
-            left: 11px; 
-            width: 423px; 
-            min-height: 307px; 
-        }
-        }.silex-id-1439554961432-3 {
+        .silex-id-1439554961432-3 {
             width: 817px; 
             top: 150px; 
             left: 2px; 
