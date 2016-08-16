@@ -36,7 +36,7 @@
     
         .body-initial {
             background-color: rgb(159, 141, 103); 
-            background-image: url('../assets/wood.jpg%5C'); 
+            background-image: url('../assets/wood.jpg'); 
             background-position-x: 50%; 
             background-position-y: 50%; 
             background-size: cover; 
@@ -107,7 +107,7 @@
             border-right-color: rgb(254, 255, 253); 
             border-bottom-color: rgb(254, 255, 253); 
             border-left-color: rgb(254, 255, 253); 
-            min-height: 477px; 
+            min-height: 455px; 
         }
         @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1424920356950 {
             width: 450px; 
@@ -115,7 +115,7 @@
         }
         }.silex-id-1425063529504 {
             background-color: rgb(254, 255, 253); 
-            background-image: url('../assets/cafe2.jpg%5C'); 
+            background-image: url('../assets/cafe2.jpg'); 
             background-size: cover; 
             border-top-style: solid; 
             border-right-style: solid; 
@@ -185,7 +185,7 @@
         }
         }.silex-id-1425063611139 {
             background-color: rgb(254, 255, 253); 
-            background-image: url('../assets/cafe.jpg%5C'); 
+            background-image: url('../assets/cafe.jpg'); 
             background-size: cover; 
             border-top-style: solid; 
             border-right-style: solid; 
