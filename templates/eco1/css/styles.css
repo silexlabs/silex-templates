@@ -59,7 +59,7 @@
             border-bottom-style: solid; 
             border-left-style: solid; 
             opacity: 1; 
-            background-image: url('../assets/seamless_paper_texture.png%5C'); 
+            background-image: url('../assets/seamless_paper_texture.png'); 
             min-height: 139px; 
         }
         .silex-id-1439156722728-49 {
@@ -86,7 +86,7 @@
             top: 540px; 
             left: 0px; 
             background-color: rgb(250, 250, 250); 
-            background-image: url('../assets/halftone.png%5C'); 
+            background-image: url('../assets/halftone.png'); 
             min-height: 299px; 
         }
         .silex-id-1439156722526-47 {
@@ -96,7 +96,7 @@
             left: 0px; 
             bottom: 0px; 
             background-color: rgb(56, 56, 56); 
-            background-image: url('../assets/footer_lodyas.png%5C'); 
+            background-image: url('../assets/footer_lodyas.png'); 
         }
         .silex-id-1439156722424-46 {
             background-color: transparent; 
@@ -173,7 +173,7 @@
             border-right-color: rgb(255, 255, 255); 
             border-bottom-color: rgb(255, 255, 255); 
             border-left-color: rgb(255, 255, 255); 
-            background-image: url('../assets/young-city.jpg%5C'); 
+            background-image: url('../assets/young-city.jpg'); 
             background-position-x: 50%; 
             background-position-y: 50%; 
             background-repeat-x: no-repeat; 
@@ -193,7 +193,7 @@
             top: 5px; 
             left: 0px; 
             background-color: rgb(255, 255, 255); 
-            background-image: url('../assets/duck.jpg%5C'); 
+            background-image: url('../assets/duck.jpg'); 
             background-size: cover; 
             background-repeat-x: no-repeat; 
             background-repeat-y: no-repeat; 
@@ -237,7 +237,7 @@
             top: 5px; 
             left: 0px; 
             background-color: rgb(255, 255, 255); 
-            background-image: url('../assets/goat.jpg%5C'); 
+            background-image: url('../assets/goat.jpg'); 
             background-size: cover; 
             background-repeat-x: no-repeat; 
             background-repeat-y: no-repeat; 
@@ -281,7 +281,7 @@
             top: 5px; 
             left: 0px; 
             background-color: rgb(255, 255, 255); 
-            background-image: url('../assets/boat.jpg%5C'); 
+            background-image: url('../assets/boat.jpg'); 
             background-size: cover; 
             background-repeat-x: no-repeat; 
             background-repeat-y: no-repeat; 
