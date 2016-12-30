@@ -51,31 +51,18 @@
         }
         .link-menu .normal{
             padding-top: 5px;
+            color: #000000;
         }
         /* animated colors widget
             https://github.com/silexlabs/Silex/issues/138
         */
         .link-menu .page-link-active {
             background-color: rgb(73, 187, 204);
-            /* Firefox */
-            -moz-transition: background-color 0.5s ease-in;
-            /* WebKit */
-            -webkit-transition: background-color 0.5s ease-in;
-            /* Opera */
-            -o-transition: background-color 0.5s ease-in;
-            /* Standard */
             transition: background-color 0.5s ease-in;
         
         }
         .link-menu .page-link-active .normal {
-            color: #FFFFFF !important;
-            /* Firefox */
-            -moz-transition: color 0.5s ease-in;
-            /* WebKit */
-            -webkit-transition: color 0.5s ease-in;
-            /* Opera */
-            -o-transition: color 0.5s ease-in;
-            /* Standard */
+            color: #FFFFFF;
             transition: color 0.5s ease-in;
         }
     
