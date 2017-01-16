@@ -49,10 +49,9 @@
             });
             $('.hero-centered').each(function() {
                 var minHeight = $(this).css('min-height');
-                alert(minHeight + "xxxx" + Math.round(-parseInt(minHeight) / 2));
                 $(this).css({
                     'top': '50%',
-                    'margin-top': Math.round(-minHeight / 2) + 'px'
+                    'margin-top': Math.round(-parseInt(minHeight) / 2) + 'px'
                 });
             });
         }
