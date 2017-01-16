@@ -14,11 +14,16 @@
     <link rel="stylesheet" href="//localhost:6805/static/2.7/normalize.css" data-silex-static="">
     <link rel="stylesheet" href="//localhost:6805/static/2.7/front-end.css" data-silex-static="">
     <style type="text/css" class="silex-style">
-        div.full-height {
-            height: 100%;
+        div.bottom {
+            top: auto;
+            bottom: 0;
         }
     </style>
-    <script type="text/javascript" class="silex-script"></script>
+    <script type="text/javascript" class="silex-script">
+        $(window).resize(function() {
+            $('.full-height').height($(window).height());
+        });
+    </script>
     <style class="silex-inline-styles" type="text/css">
         .body-initial {
             background-color: rgba(255,255,255,1); 
@@ -29,15 +34,15 @@
             background-color: rgba(99,178,216,1); 
         }
         .silex-id-1474394621032-2 {
-            min-height: 721px; 
+            min-height: 20px; 
             background-color: transparent; 
             width: 1200px; 
         }
         .silex-id-1484575087818-2 {
-            min-height: 448px; 
-            width: 586px; 
-            top: 271px; 
-            left: 614px; 
+            min-height: 1052px; 
+            width: 715px; 
+            top: 614px; 
+            left: 485px; 
         }
         .silex-id-1478366450713-3 {
             top: 100px; 
@@ -58,7 +63,7 @@
     </style>
     <title></title>
     <script type="text/javascript" class="silex-json-styles">
-        [{"desktop":{"body-initial":{"background-color":"rgba(255,255,255,1)"},"silex-id-1474394621033-3":{"top":"0px","left":"0px","background-color":"rgba(99,178,216,1)"},"silex-id-1474394621032-2":{"min-height":"721px","background-color":"transparent","width":"1200px"},"silex-id-1474394605264-1":{"min-height":"100px","width":"100px","top":"100px","left":"100px"},"silex-id-1474394605263-0":{"min-height":"100px","background-color":"transparent"},"silex-id-1442914737143-3":{"min-height":"53px","width":"349px","top":"29px","left":"430px"},"silex-id-1478366444112-0":{"min-height":"100px","background-color":"transparent","width":"1200px"},"silex-id-1478366450713-2":{"min-height":"100px","background-color":"transparent","width":"1200px"},"silex-id-1478366450713-3":{"top":"100px","left":"NaNpx","background-color":"transparent"},"silex-id-1484575087818-2":{"min-height":"448px","width":"586px","top":"271px","left":"614px"}},"mobile":{},"componentData":{}}]
+        [{"desktop":{"body-initial":{"background-color":"rgba(255,255,255,1)"},"silex-id-1474394621033-3":{"top":"0px","left":"0px","background-color":"rgba(99,178,216,1)"},"silex-id-1474394621032-2":{"min-height":"20px","background-color":"transparent","width":"1200px"},"silex-id-1474394605264-1":{"min-height":"100px","width":"100px","top":"100px","left":"100px"},"silex-id-1474394605263-0":{"min-height":"100px","background-color":"transparent"},"silex-id-1442914737143-3":{"min-height":"53px","width":"349px","top":"29px","left":"430px"},"silex-id-1478366444112-0":{"min-height":"100px","background-color":"transparent","width":"1200px"},"silex-id-1478366450713-2":{"min-height":"100px","background-color":"transparent","width":"1200px"},"silex-id-1478366450713-3":{"top":"100px","left":"NaNpx","background-color":"transparent"},"silex-id-1484575087818-2":{"min-height":"1052px","width":"715px","top":"614px","left":"485px"}},"mobile":{},"componentData":{}}]
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.2" data-silex-viewport="">
 
