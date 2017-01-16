@@ -36,8 +36,10 @@
     <script type="text/javascript" class="silex-script">
         function fullHeight() {
             $('.full-height').each(function() {
-                // 
+                // get section content (for sections only)
                 var sectionContent = $(this).find('.silex-element-content');
+                // if this is a section, get its content container's min-height and apply it to the section
+                // so that the section has a minimum height
                 var minHeight = sectionContent.length ? sectionContent.css('min-height') : '';
                 $(this).css({
                     'height': $(window).height()*3/4,
