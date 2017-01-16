@@ -36,11 +36,12 @@
     <script type="text/javascript" class="silex-script">
         function fullHeight() {
             $('.full-height').each(function() {
+                // 
                 var sectionContent = $(this).find('.silex-element-content');
-                var minHeight = sectionContent.css('min-height');
+                if(sectionContent.length) var minHeight = sectionContent.css('min-height');
                 $(this).css({
                     'height': $(window).height()*3/4,
-                    'min-height': minHeight
+                    'min-height': minHeight ? minHeight : ''
                 });
                 sectionContent.css('min-height', 'auto');
             });
