@@ -51,7 +51,7 @@
                 var minHeight = $(this).css('min-height');
                 $(this).css({
                     'top': '50%',
-                    'margin-top': '-' + Math.round(minHeight / 2) + 'px'
+                    'margin-top': -Math.round(minHeight / 2) + 'px'
                 });
             });
         }
