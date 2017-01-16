@@ -35,6 +35,7 @@
     </style>
     <script type="text/javascript" class="silex-script">
         function fullHeight() {
+            var RATIO = 1; // 3/4
             $('.hero').each(function() {
                 // get section content (for sections only)
                 var sectionContent = $(this).find('.silex-element-content');
@@ -42,7 +43,7 @@
                 // so that the section has a minimum height
                 var minHeight = sectionContent.length ? sectionContent.css('min-height') : '';
                 $(this).css({
-                    'height': $(window).height()*3/4,
+                    'height': $(window).height()*RATIO,
                     'min-height': minHeight
                 });
             });
