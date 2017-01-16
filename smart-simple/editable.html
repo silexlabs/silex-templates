@@ -38,12 +38,12 @@
             $('.full-height').each(function() {
                 // 
                 var sectionContent = $(this).find('.silex-element-content');
-                if(sectionContent.length) var minHeight = sectionContent.css('min-height');
+                var minHeight = sectionContent.length ? sectionContent.css('min-height') : '';
                 $(this).css({
                     'height': $(window).height()*3/4,
-                    'min-height': minHeight ? minHeight : ''
+                    'min-height': minHeight
                 });
-                sectionContent.css('min-height', 'auto');
+                if(sectionContent.length) sectionContent.css('min-height', 'auto');
             });
         }
         $(window).resize(fullHeight);
