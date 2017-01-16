@@ -35,8 +35,10 @@
     </style>
     <script type="text/javascript" class="silex-script">
         function fullHeight() {
-            $('.full-height').css({
-                'height': $(window).height()*3/4
+            $('.full-height').forEach(function() {
+                this.css({
+                    'height': $(window).height()*3/4
+                });
             });
         }
         $(window).resize(fullHeight);
