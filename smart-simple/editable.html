@@ -47,9 +47,9 @@
                     'min-height': minHeight
                 });
             });
-            alert(Math.round(-minHeight / 2));
             $('.hero-centered').each(function() {
                 var minHeight = $(this).css('min-height');
+                alert(Math.round(-minHeight / 2));
                 $(this).css({
                     'top': '50%',
                     'margin-top': Math.round(-minHeight / 2) + 'px'
