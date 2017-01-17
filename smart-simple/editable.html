@@ -70,15 +70,16 @@
         }
         $(window).resize(fullHeight);
         $(window).ready(fullHeight);
-    
-$('.scroll-down').click(function() {
-    console.log('xxxx');
-    var container = $('html,body'),
-    scrollTo = $('.fold');
-container.animate({
-    scrollTop: scrollTo.offset().top - container.offset().top + container.scrollTop()
-});
-});
+    $(window).ready(function() {
+        $('.scroll-down').click(function() {
+            console.log('xxxx');
+            var container = $('html,body'),
+            scrollTo = $('.fold');
+        container.animate({
+            scrollTop: scrollTo.offset().top - container.offset().top + container.scrollTop()
+        });
+        });
+    });
     </script>
     <style class="silex-inline-styles" type="text/css">
         .body-initial {
