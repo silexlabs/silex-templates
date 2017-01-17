@@ -52,7 +52,7 @@
     </style>
     <script type="text/javascript" class="silex-script">
         function fullHeight() {
-            alert($(window).width())
+            if($(window).width() < 480) return;
             var RATIO = 1; // 3/4
             $('.hero').each(function() {
                 // get section content (for sections only)
