@@ -41,33 +41,15 @@
             background-position-y: 50%; 
             background-size: cover; 
         }
-        .background-initial {
-            background-color: transparent; 
-            left: 55px; 
-            top: 5px; 
-            width: 960px; 
-            border-top-color: rgb(0, 0, 0); 
-            border-right-color: rgb(0, 0, 0); 
-            border-bottom-color: rgb(0, 0, 0); 
-            border-left-color: rgb(0, 0, 0); 
-            min-height: 1089px; 
-        }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.background-initial {
-            top: 60px; 
-            left: 12px; 
-            width: 445px; 
-            min-height: 1579px; 
-        }
-        }.silex-id-1424647102274 {
+        .silex-id-1484949224320-1 {
+            min-height: 100px; 
+            top: 0px; 
             left: 0px; 
-            top: 7px; 
-            width: 960px; 
-            border-top-left-radius: 10px; 
-            border-top-right-radius: 10px; 
-            border-bottom-right-radius: 0px; 
-            border-bottom-left-radius: 0px; 
             background-color: transparent; 
-            min-height: 157px; 
+        }
+        .silex-id-1484949224320-0 {
+            min-height: 235px; 
+            background-color: transparent; 
         }
         .silex-id-1424647173853 {
             background-color: transparent; 
@@ -76,7 +58,7 @@
             border-bottom-color: rgb(0, 0, 0); 
             border-left-color: rgb(0, 0, 0); 
             left: 150px; 
-            top: -1px; 
+            top: 13px; 
             width: 700px; 
             min-height: 110px; 
         }
@@ -86,136 +68,18 @@
             border-right-color: rgb(0, 0, 0); 
             border-top-color: rgb(0, 0, 0); 
             left: 292px; 
-            top: 105px; 
+            top: 119px; 
             width: 389px; 
             min-height: 47px; 
         }
-        .silex-id-1424920356950 {
-            background-color: rgb(254, 255, 253); 
-            border-top-style: solid; 
-            border-right-style: solid; 
-            border-bottom-style: solid; 
-            border-left-style: solid; 
-            border-top-width: 10px; 
-            border-right-width: 10px; 
-            border-bottom-width: 10px; 
-            border-left-width: 10px; 
-            left: 644px; 
-            top: 205px; 
-            width: 295px; 
-            border-top-color: rgb(254, 255, 253); 
-            border-right-color: rgb(254, 255, 253); 
-            border-bottom-color: rgb(254, 255, 253); 
-            border-left-color: rgb(254, 255, 253); 
-            min-height: 455px; 
-        }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1424920356950 {
-            width: 450px; 
-            min-height: 338px; 
-        }
-        }.silex-id-1425063529504 {
-            background-color: rgb(254, 255, 253); 
-            background-image: url('../assets/cafe2.jpg'); 
-            background-size: cover; 
-            border-top-style: solid; 
-            border-right-style: solid; 
-            border-bottom-style: solid; 
-            border-left-style: solid; 
-            border-top-width: 10px; 
-            border-right-width: 10px; 
-            border-bottom-width: 10px; 
-            border-left-width: 10px; 
-            left: 323px; 
-            top: 205px; 
-            width: 295px; 
-            border-top-color: rgb(254, 255, 253); 
-            border-right-color: rgb(254, 255, 253); 
-            border-bottom-color: rgb(254, 255, 253); 
-            border-left-color: rgb(254, 255, 253); 
-            min-height: 225px; 
-        }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1425063529504 {
-            width: 450px; 
-            background-image: url('../assets/cafe2.jpg'); 
-        }
-        }.silex-id-1424921460631 {
-            left: 0px; 
-            top: 711px; 
-            width: 188px; 
-            background-color: rgb(254, 255, 253); 
-            border-top-width: 10px; 
-            border-right-width: 10px; 
-            border-bottom-width: 10px; 
-            border-left-width: 10px; 
-            border-top-style: solid; 
-            border-right-style: solid; 
-            border-bottom-style: solid; 
-            border-left-style: solid; 
-            border-top-color: rgb(254, 255, 253); 
-            border-right-color: rgb(254, 255, 253); 
-            border-bottom-color: rgb(254, 255, 253); 
-            border-left-color: rgb(254, 255, 253); 
-            min-height: 190px; 
-        }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1424921460631 {
-            min-height: 100px; 
-            width: 450px; 
-        }
-        }.silex-id-1434426151026-1 {
-            width: 740px; 
-            top: 711px; 
-            left: 198px; 
-            background-color: rgb(254, 255, 253); 
-            border-top-width: 10px; 
-            border-right-width: 10px; 
-            border-bottom-width: 10px; 
-            border-left-width: 10px; 
-            border-top-style: solid; 
-            border-right-style: solid; 
-            border-bottom-style: solid; 
-            border-left-style: solid; 
-            border-top-color: rgb(254, 255, 253); 
-            border-right-color: rgb(254, 255, 253); 
-            border-bottom-color: rgb(254, 255, 253); 
-            border-left-color: rgb(254, 255, 253); 
-            min-height: 190px; 
-        }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1434426151026-1 {
-            width: 450px; 
-        }
-        }.silex-id-1425063611139 {
-            background-color: rgb(254, 255, 253); 
-            background-image: url('../assets/cafe.jpg'); 
-            background-size: cover; 
-            border-top-style: solid; 
-            border-right-style: solid; 
-            border-bottom-style: solid; 
-            border-left-style: solid; 
-            border-top-width: 10px; 
-            border-right-width: 10px; 
-            border-bottom-width: 10px; 
-            border-left-width: 10px; 
-            left: 322px; 
-            top: 457px; 
-            width: 295px; 
-            border-top-color: rgb(254, 255, 253); 
-            border-right-color: rgb(254, 255, 253); 
-            border-bottom-color: rgb(254, 255, 253); 
-            border-left-color: rgb(254, 255, 253); 
-            min-height: 225px; 
-        }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1425063611139 {
-            width: 450px; 
-            background-image: url('../assets/cafe.jpg'); 
-        }
-        }.silex-id-1424710230648 {
+        .silex-id-1424710230648 {
             background-color: rgb(254, 255, 253); 
             border-top-color: rgb(0, 0, 0); 
             border-right-color: rgb(0, 0, 0); 
             border-bottom-color: rgb(0, 0, 0); 
             border-left-color: rgb(0, 0, 0); 
             left: 0px; 
-            top: 167px; 
+            top: 174px; 
             width: 960px; 
             border-top-left-radius: 5px; 
             border-top-right-radius: 5px; 
@@ -275,7 +139,135 @@
             width: 106px; 
             min-height: 30px; 
         }
-        .silex-id-1425063401661 {
+        .silex-id-1484949486466-5 {
+            min-height: 100px; 
+            top: 1354px; 
+            left: 0px; 
+            background-color: transparent; 
+        }
+        .silex-id-1484949486465-4 {
+            min-height: 798px; 
+            background-color: transparent; 
+        }
+        .silex-id-1424920356950 {
+            background-color: rgb(254, 255, 253); 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-width: 10px; 
+            border-right-width: 10px; 
+            border-bottom-width: 10px; 
+            border-left-width: 10px; 
+            left: 644px; 
+            top: 33px; 
+            width: 295px; 
+            border-top-color: rgb(254, 255, 253); 
+            border-right-color: rgb(254, 255, 253); 
+            border-bottom-color: rgb(254, 255, 253); 
+            border-left-color: rgb(254, 255, 253); 
+            min-height: 477px; 
+        }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1424920356950 {
+            width: 450px; 
+            min-height: 338px; 
+        }
+        }.silex-id-1425063529504 {
+            background-color: rgb(254, 255, 253); 
+            background-image: url('../assets/cafe2.jpg'); 
+            background-size: cover; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-width: 10px; 
+            border-right-width: 10px; 
+            border-bottom-width: 10px; 
+            border-left-width: 10px; 
+            left: 323px; 
+            top: 33px; 
+            width: 295px; 
+            border-top-color: rgb(254, 255, 253); 
+            border-right-color: rgb(254, 255, 253); 
+            border-bottom-color: rgb(254, 255, 253); 
+            border-left-color: rgb(254, 255, 253); 
+            min-height: 225px; 
+        }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1425063529504 {
+            width: 450px; 
+            background-image: url('../assets/cafe2.jpg'); 
+        }
+        }.silex-id-1424921460631 {
+            left: 0px; 
+            top: 539px; 
+            width: 188px; 
+            background-color: rgb(254, 255, 253); 
+            border-top-width: 10px; 
+            border-right-width: 10px; 
+            border-bottom-width: 10px; 
+            border-left-width: 10px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-color: rgb(254, 255, 253); 
+            border-right-color: rgb(254, 255, 253); 
+            border-bottom-color: rgb(254, 255, 253); 
+            border-left-color: rgb(254, 255, 253); 
+            min-height: 190px; 
+        }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1424921460631 {
+            min-height: 100px; 
+            width: 450px; 
+        }
+        }.silex-id-1434426151026-1 {
+            width: 740px; 
+            top: 539px; 
+            left: 198px; 
+            background-color: rgb(254, 255, 253); 
+            border-top-width: 10px; 
+            border-right-width: 10px; 
+            border-bottom-width: 10px; 
+            border-left-width: 10px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-color: rgb(254, 255, 253); 
+            border-right-color: rgb(254, 255, 253); 
+            border-bottom-color: rgb(254, 255, 253); 
+            border-left-color: rgb(254, 255, 253); 
+            min-height: 190px; 
+        }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1434426151026-1 {
+            width: 450px; 
+        }
+        }.silex-id-1425063611139 {
+            background-color: rgb(254, 255, 253); 
+            background-image: url('../assets/cafe.jpg'); 
+            background-size: cover; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-width: 10px; 
+            border-right-width: 10px; 
+            border-bottom-width: 10px; 
+            border-left-width: 10px; 
+            left: 322px; 
+            top: 285px; 
+            width: 295px; 
+            border-top-color: rgb(254, 255, 253); 
+            border-right-color: rgb(254, 255, 253); 
+            border-bottom-color: rgb(254, 255, 253); 
+            border-left-color: rgb(254, 255, 253); 
+            min-height: 225px; 
+        }
+        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1425063611139 {
+            width: 450px; 
+            background-image: url('../assets/cafe.jpg'); 
+        }
+        }.silex-id-1425063401661 {
             background-color: rgb(254, 255, 253); 
             background-image: url('../assets/people.jpeg'); 
             background-size: cover; 
@@ -288,7 +280,7 @@
             border-bottom-width: 10px; 
             border-left-width: 10px; 
             left: 0px; 
-            top: 205px; 
+            top: 33px; 
             width: 295px; 
             border-top-color: rgb(254, 255, 253); 
             border-right-color: rgb(254, 255, 253); 
@@ -298,9 +290,19 @@
             background-position-y: 50%; 
             min-height: 477px; 
         }
-        .silex-id-1434426485636-2 {
+        .silex-id-1484949640479-7 {
+            min-height: 100px; 
+            top: 235px; 
             left: 0px; 
-            top: 218px; 
+            background-color: transparent; 
+        }
+        .silex-id-1484949640479-6 {
+            min-height: 813px; 
+            background-color: transparent; 
+        }
+        .silex-id-1434426485636-2 {
+            left: 1px; 
+            top: 23px; 
             width: 188px; 
             background-color: rgb(254, 255, 253); 
             border-top-width: 10px; 
@@ -323,8 +325,8 @@
         }
         }.silex-id-1434426485665-3 {
             width: 740px; 
-            top: 218px; 
-            left: 198px; 
+            top: 23px; 
+            left: 199px; 
             background-color: rgb(254, 255, 253); 
             border-top-width: 10px; 
             border-right-width: 10px; 
@@ -345,8 +347,8 @@
         }
         }.silex-id-1434426787582-9 {
             width: 937px; 
-            top: 451px; 
-            left: 2px; 
+            top: 256px; 
+            left: 3px; 
             background-color: rgb(254, 255, 253); 
             border-top-width: 10px; 
             border-right-width: 10px; 
@@ -367,8 +369,8 @@
             min-height: 244px; 
         }
         .silex-id-1434426613625-5 {
-            left: 750px; 
-            top: 736px; 
+            left: 751px; 
+            top: 541px; 
             width: 188px; 
             background-color: rgb(254, 255, 253); 
             border-top-width: 10px; 
@@ -390,8 +392,8 @@
         }
         }.silex-id-1434426613658-6 {
             width: 740px; 
-            top: 736px; 
-            left: 1px; 
+            top: 541px; 
+            left: 2px; 
             background-color: rgb(254, 255, 253); 
             border-top-width: 10px; 
             border-right-width: 10px; 
@@ -407,10 +409,19 @@
             border-left-color: rgb(254, 255, 253); 
             min-height: 190px; 
         }
+        .silex-id-1484949717487-9 {
+            min-height: 100px; 
+            top: 1354px; 
+            left: 0px; 
+        }
+        .silex-id-1484949717486-8 {
+            min-height: 345px; 
+            background-color: transparent; 
+        }
         .silex-id-1471343044963-3 {
             width: 959px; 
-            top: 208px; 
-            left: 0px; 
+            top: 35px; 
+            left: -10px; 
             background-color: rgb(254, 255, 253); 
             border-top-width: 10px; 
             border-right-width: 10px; 
@@ -424,19 +435,31 @@
             border-right-color: rgb(254, 255, 253); 
             border-bottom-color: rgb(254, 255, 253); 
             border-left-color: rgb(254, 255, 253); 
-            min-height: 749px; 
+            min-height: 261px; 
         }
         @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1471343044963-3 {
-            min-height: 1300px; 
+            min-height: 442px; 
+            top: 0px; 
+            left: 1px; 
+            width: 423px; 
         }
-        }.silex-id-1425063986632 {
+        }.silex-id-1484949434473-3 {
+            min-height: 100px; 
+            top: 1354px; 
             left: 0px; 
-            top: 1002px; 
-            width: 960px; 
+        }
+        .silex-id-1484949434473-2 {
+            min-height: 100px; 
+            background-color: transparent; 
+        }
+        .silex-id-1425063986632 {
+            left: 50px; 
+            top: 44px; 
+            width: 841px; 
             border-top-color: rgb(0, 0, 0); 
             border-right-color: rgb(0, 0, 0); 
             border-bottom-color: rgb(0, 0, 0); 
             border-left-color: rgb(0, 0, 0); 
-            min-height: 78px; 
+            min-height: 20px; 
         }
     
