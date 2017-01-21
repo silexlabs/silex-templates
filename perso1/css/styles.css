@@ -62,7 +62,7 @@
             top: 100px; 
             left: 0px; 
             box-sizing: content-box; 
-            background-image: url('../assets/richard3.jpg%5C'); 
+            background-image: url('../assets/richard3.jpg'); 
             background-color: rgb(0, 0, 0); 
             background-size: auto; 
             background-position-x: 100%; 
@@ -130,24 +130,11 @@
             box-sizing: content-box; 
             min-height: 40px; 
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1439572547830-0 {
-            top: 812px; 
-            left: 109px; 
-            width: 227px; 
-            min-height: 80px; 
-        }
-        }.silex-id-1439572547935-1 {
+        .silex-id-1439572547935-1 {
             width: 747px; 
             top: 614px; 
             left: 2px; 
             box-sizing: content-box; 
             min-height: 30px; 
-        }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1439572547935-1 {
-            top: 892px; 
-            left: 109px; 
-            width: 227px; 
-            min-height: 30px; 
-        }
         }
     
