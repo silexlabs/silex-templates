@@ -1,5 +1,5 @@
 
-        @import url('http://fonts.googleapis.com/css?family=Josefin+Slab');
+        @import url('//fonts.googleapis.com/css?family=Josefin+Slab');
         @import url('http://fonts.googleapis.com/css?family=Oxygen:300');
         
         .normal{
@@ -62,7 +62,7 @@
             top: 100px; 
             left: 0px; 
             box-sizing: content-box; 
-            background-image: url('../assets/richard3.jpg'); 
+            background-image: url('http://preprod.silex.me/api/1.0/github/exec/get/silex-templates/wip/perso1/assets/richard3.jpg'); 
             background-color: rgb(0, 0, 0); 
             background-size: auto; 
             background-position-x: 100%; 
