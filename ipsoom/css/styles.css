@@ -876,20 +876,26 @@
             background-color: transparent;
             top: 171px;
             left: 0px;
+            border-color: #000000;
+            min-width: 960px;
         }
         
         .silex-id-1490694258062-16 {
-            min-height: 869px;
+            min-height: 744px;
             background-color: transparent;
+            border-color: #000000;
+            top: 15px;
+            left: 329px;
+            width: 960px;
         }
         
         .silex-id-1439554961128-0 {
-            width: 942px;
-            top: 16px;
-            left: 17px;
+            width: 825px;
+            top: 6px;
+            left: 104px;
             box-sizing: content-box;
             background-color: transparent;
-            min-height: 700px;
+            min-height: 800px;
         }
         
         @media only screen and (max-width: 480px),
@@ -1015,25 +1021,25 @@
         
         .silex-id-1490694042605-9 {
             background-color: transparent;
-            top: 2961px;
+            top: 931px;
             left: 0px;
         }
         
         .silex-id-1490694042604-8 {
-            min-height: 210px;
+            min-height: 269px;
             background-color: transparent;
         }
         
         .silex-id-1439554962589-14 {
             width: 88px;
-            top: 11px;
+            top: 88px;
             left: 834px;
             min-height: 37px;
         }
         
         .silex-id-1439554962691-15 {
             width: 264px;
-            top: 8px;
+            top: 85px;
             left: 37px;
             box-sizing: content-box;
             min-height: 67px;
@@ -1051,14 +1057,14 @@
         
         .silex-id-1439554962488-13 {
             width: 40px;
-            top: 9px;
+            top: 86px;
             left: 771px;
             min-height: 40px;
         }
         
         .silex-id-1439554962386-12 {
             width: 25px;
-            top: 62px;
+            top: 139px;
             left: 663px;
             box-sizing: content-box;
             min-height: 34.5676px;
@@ -1066,7 +1072,7 @@
         
         .silex-id-1439554962283-11 {
             width: 240px;
-            top: 50px;
+            top: 127px;
             left: 698px;
             box-sizing: content-box;
             min-height: 52px;
@@ -1084,7 +1090,7 @@
         
         .silex-id-1439554962181-10 {
             width: 102px;
-            top: 59px;
+            top: 136px;
             left: 539px;
             box-sizing: content-box;
             min-height: 45px;
@@ -1092,7 +1098,7 @@
         
         .silex-id-1439554962078-9 {
             width: 133px;
-            top: 59px;
+            top: 136px;
             left: 400px;
             box-sizing: content-box;
             min-height: 45px;
@@ -1100,7 +1106,7 @@
         
         .silex-id-1439554961964-8 {
             width: 146px;
-            top: 59px;
+            top: 136px;
             left: 247px;
             box-sizing: content-box;
             min-height: 45px;
@@ -1108,7 +1114,7 @@
         
         .silex-id-1439554961840-7 {
             width: 134px;
-            top: 59px;
+            top: 136px;
             left: 107px;
             box-sizing: content-box;
             min-height: 45px;
@@ -1116,7 +1122,7 @@
         
         .silex-id-1439554961739-6 {
             width: 65px;
-            top: 59px;
+            top: 136px;
             left: 37px;
             box-sizing: content-box;
             min-height: 45px;
@@ -1124,7 +1130,7 @@
         
         .silex-id-1439554962792-16 {
             width: 600px;
-            top: 131px;
+            top: 208px;
             left: 180px;
             box-sizing: content-box;
             background-color: transparent;
