@@ -57,14 +57,20 @@ body.silex-runtime .silex-element-content {
   left: 0;
   top: 0;
   right: 0;
+  padding: 15px 0;
 }
 .default-site-width, /* for backward compat, FIXME: remove in a while */
 .website-width {
   width: 960px;
 }
+/* minimum size of the body during edition */
 .website-min-width {
   min-width: 1260px;
 }
+.silex-runtime .website-min-width {
+  min-width: 0;
+}
+/* */
 .section-element .silex-container-content {
   position: relative;
   left: 0;
