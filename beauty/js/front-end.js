@@ -42,7 +42,7 @@ $(function() {
    * and the bounding box (0,0) (width, height) contains all the elements in the body
    * even if the elements are absolute positioned
    * @return {width, height}
-   */
+   *
   function getBodySize() {
     var width = 0;
     var height = 0;
@@ -54,7 +54,6 @@ $(function() {
         (!el.hasClass('hide-on-mobile') || win.width() >= 480)
       ) {
         if(el.hasClass('section-element') && win.width() >= 480) {
-          console.log('SECTION', el.children('.silex-container-content'))
           var position = el.children('.silex-container-content').position();
           var right = position.left + el.width();
           var bottom = position.top + el.height();
@@ -63,7 +62,6 @@ $(function() {
           var position = el.position();
           var right = position.left + el.width();
           var bottom = position.top + el.height();
-          console.log('getBodySize', el.position(), el.width(), el.height())
         }
         if (width < right) width = right;
         if (height < bottom) height = bottom;
@@ -74,6 +72,7 @@ $(function() {
       'height': height || win.height()
     };
   }
+*/
   /**
    * resize body to the size of its content
    * this is needed since the content has absolute position
@@ -130,7 +129,7 @@ $(function() {
     bodyEl.removeClass('compute-body-size-pending');
     // dispatch an event so that components can update
 */
-    console.log('resizeBody');
+
     $(document).trigger('silex:resize');
   }, 500);
 
