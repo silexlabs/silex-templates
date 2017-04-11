@@ -559,11 +559,14 @@
         
         .silex-id-1491511864480-12 {
             background-color: rgba(253, 246, 235, 1);
+            min-width: 1000px;
         }
         
         .silex-id-1491511864479-11 {
-            width: 100px;
+            width: 1000px;
             min-height: 100px;
+            top: 15px;
+            left: 627px;
         }
         
         .silex-id-1491511866976-13 {
