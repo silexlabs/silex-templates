@@ -102,7 +102,7 @@
             min-width: 1000px;
             border-color: #000000;
             background-image: url('../assets/unsplash1.jpg');
-            background-size: cover;
+            background-size: contain;
             background-position: center center;
             background-attachment: fixed;
             background-repeat: no-repeat;
