@@ -102,8 +102,8 @@
             min-width: 1000px;
             border-color: #000000;
             background-image: url('../assets/unsplash1.jpg');
-            background-size: contain;
-            background-position: top center;
+            background-size: cover;
+            background-position: bottom center;
             background-attachment: scroll;
             background-repeat: repeat-x;
         }
@@ -111,7 +111,7 @@
         .silex-id-1491510465971-0 {
             width: 1000px;
             background-color: transparent;
-            min-height: 665px;
+            min-height: 511px;
             top: 15px;
             left: 627px;
             background-size: auto;
@@ -120,11 +120,20 @@
             background-repeat: no-repeat;
         }
         
+        .silex-id-1491939403933-3 {
+            width: 1000px;
+            background-color: rgba(48, 147, 178, 0.2980392156862745);
+            min-height: 253px;
+            top: 118px;
+            left: 0px;
+        }
+        
         .silex-id-1491513485462-16 {
             width: 651px;
             min-height: 134px;
-            top: 173px;
-            left: 160px;
+            top: 24px;
+            left: 192px;
+            background-color: transparent;
         }
         
         .silex-id-1491514047727-17 {
