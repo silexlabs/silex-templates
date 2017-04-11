@@ -101,15 +101,19 @@
             left: 5px;
             min-width: 1000px;
             border-color: #000000;
+            background-image: url('../assets/unsplash1.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
         }
         
         .silex-id-1491510465971-0 {
             width: 1000px;
-            background-color: rgba(255, 255, 255, 1);
+            background-color: transparent;
             min-height: 567px;
             top: 15px;
             left: 250px;
-            background-image: url('../assets/unsplash1.jpg');
             background-size: cover;
             background-position: center center;
             background-attachment: fixed;
@@ -256,6 +260,13 @@
         .silex-id-1491515247117-24 {
             background-color: rgba(253, 246, 235, 1);
             min-width: 1000px;
+            background-image: url('../assets/unsplash2.jpg');
+            background-attachment: scroll;
+            background-size: contain;
+            background-position: center center;
+            background-repeat: repeat;
+            top: 1451px;
+            left: 5px;
         }
         
         @media only screen and (max-width: 480px),
@@ -268,11 +279,10 @@
         
         .silex-id-1491515247116-23 {
             width: 1000px;
-            background-color: rgba(255, 255, 255, 1);
-            min-height: 718px;
+            background-color: transparent;
+            min-height: 498px;
             top: 15px;
             left: 250px;
-            background-image: url('../assets/unsplash2.jpg');
             background-attachment: fixed;
             background-size: cover;
         }
