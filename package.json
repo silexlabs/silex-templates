@@ -1,0 +1,14 @@
+{
+  "name": "silex-templates",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silexlabs/silex-templates.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/silexlabs/silex-templates/issues"
+  },
+  "homepage": "https://github.com/silexlabs/silex-templates#readme"
+}
