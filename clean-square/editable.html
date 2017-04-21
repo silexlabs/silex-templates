@@ -8,67 +8,78 @@
 
     <style type="text/css" class="silex-style">
         @import url('//fonts.googleapis.com/css?family=Oswald:200,300');
-        
         /* define a style for Title, Headings and Normal texts */
+        
         .title,
         .heading1,
         .heading2,
         .heading3,
         .normal {
-          color: black;
-          font-family:'Oswald',sans-serif;
-          margin: 0;
-          font-weight: normal;
+            color: black;
+            font-family: 'Oswald', sans-serif;
+            margin: 0;
+            font-weight: normal;
         }
         /* force element height to be smaller than sections can be in silex */
+        
         .editable-style.small-height {
             min-height: 10px;
             height: 10px;
             max-height: 10px;
         }
         /* title style */
+        
         .title {
-          font-size: 60px;
-          color: rgb(73, 187, 204);
+            font-size: 60px;
+            color: rgb(73, 187, 204);
         }
+        
         .heading1 {
-          font-size: 24px;
+            font-size: 24px;
         }
+        
         .editable-style.right {
             left: initial;
             right: 0px;
         }
-        .grey-text .normal{
+        
+        .grey-text .normal {
             color: grey;
         }
-        .small-text .normal{
+        
+        .small-text .normal {
             color: grey;
             font-size: 10px;
         }
+        
         .product-details .heading1 {
-          color: rgb(73, 187, 204);
+            color: rgb(73, 187, 204);
         }
+        
         .product-details .heading3 {
-          color: white;
-          background-color: rgb(73, 187, 204);
-          float: right;
-          padding: 2px 25px;
+            color: white;
+            background-color: rgb(73, 187, 204);
+            float: right;
+            padding: 2px 25px;
         }
+        
         .in-front {
             z-index: 1000;
         }
-        .link-menu .normal{
+        
+        .link-menu .normal {
             padding-top: 5px;
             color: #000000;
         }
         /* animated colors widget
             https://github.com/silexlabs/Silex/issues/138
         */
+        
         .link-menu .page-link-active {
             background-color: rgb(73, 187, 204);
             transition: background-color 0.5s ease-in;
-        
         }
+        
         .link-menu .page-link-active .normal {
             color: #FFFFFF;
             transition: color 0.5s ease-in;
@@ -77,263 +88,354 @@
     <script type="text/javascript" class="silex-script"></script>
     <style class="silex-inline-styles" type="text/css">
         .silex-id-1436036524732-32 {
-            cursor: auto; 
-            background-image: url('assets/bg-tile3.png'); 
-            background-color: rgb(255, 255, 255); 
+            cursor: auto;
+            background-color: rgb(255, 255, 255);
         }
+        
         .silex-id-1483130857943-13 {
-            top: 100px; 
-            left: NaNpx; 
-            background-color: rgba(180,229,232,1); 
+            top: 100px;
+            left: NaNpx;
+            background-color: rgba(180, 229, 232, 1);
         }
+        
         .silex-id-1483130857943-12 {
-            min-height: 20px; 
-            background-color: transparent; 
+            min-height: 20px;
+            background-color: transparent;
         }
+        
         .silex-id-1483130355289-7 {
-            top: 10px; 
-            left: 0px; 
+            top: 10px;
+            left: 0px;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483130355289-7 {
-            top: 70px; 
-            left: 0px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483130355289-7 {
+                top: 70px;
+                left: 0px;
+            }
         }
-        }.silex-id-1483130355289-6 {
-            min-height: 331px; 
-            background-color: transparent; 
+        
+        .silex-id-1483130355289-6 {
+            min-height: 331px;
+            background-color: transparent;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483130355289-6 {
-            min-height: 218px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483130355289-6 {
+                min-height: 218px;
+            }
         }
-        }.silex-id-1436036524531-30 {
-            width: 408px; 
-            top: 106px; 
-            left: 90px; 
-            background-color: transparent; 
-            min-height: 141px; 
+        
+        .silex-id-1436036524531-30 {
+            width: 408px;
+            top: 106px;
+            left: 90px;
+            background-color: transparent;
+            min-height: 141px;
         }
+        
         .silex-id-1436036524431-29 {
-            width: 117px; 
-            top: 3px; 
-            left: 2px; 
-            min-height: 117px; 
+            width: 117px;
+            top: 3px;
+            left: 2px;
+            min-height: 117px;
         }
+        
         .silex-id-1436036524330-28 {
-            width: 283px; 
-            top: 21px; 
-            left: 120px; 
-            min-height: 100px; 
+            width: 283px;
+            top: 21px;
+            left: 120px;
+            min-height: 100px;
         }
+        
         .silex-id-1436036522119-6 {
-            width: 383px; 
-            top: 108px; 
-            left: 536px; 
-            background-color: transparent; 
-            min-height: 100px; 
+            width: 383px;
+            top: 108px;
+            left: 536px;
+            background-color: transparent;
+            min-height: 100px;
         }
+        
         .silex-id-1436036522018-5 {
-            width: 90px; 
-            top: 20px; 
-            left: 142px; 
-            min-height: 33px; 
+            width: 90px;
+            top: 20px;
+            left: 142px;
+            min-height: 33px;
         }
+        
         .silex-id-1436036521917-4 {
-            width: 90px; 
-            top: 20px; 
-            left: 238px; 
-            min-height: 33px; 
+            width: 90px;
+            top: 20px;
+            left: 238px;
+            min-height: 33px;
         }
+        
         .silex-id-1483131519736-31 {
-            top: 708px; 
-            left: 0px; 
+            top: 708px;
+            left: 0px;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483131519736-31 {
-            top: 401px; 
-            left: 0px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131519736-31 {
+                top: 401px;
+                left: 0px;
+            }
         }
-        }.silex-id-1483131519736-30 {
-            min-height: 329px; 
-            background-color: transparent; 
+        
+        .silex-id-1483131519736-30 {
+            min-height: 329px;
+            background-color: transparent;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483131519736-30 {
-            min-height: 415px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131519736-30 {
+                min-height: 415px;
+            }
         }
-        }.silex-id-1436036524230-27 {
-            width: 822px; 
-            top: 44px; 
-            left: 100px; 
-            min-height: 231px; 
+        
+        .silex-id-1436036524230-27 {
+            width: 822px;
+            top: 44px;
+            left: 100px;
+            min-height: 231px;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1436036524230-27 {
-            top: 137px; 
-            left: 11px; 
-            width: 421px; 
-            min-height: 372px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1436036524230-27 {
+                top: 137px;
+                left: 11px;
+                width: 421px;
+                min-height: 372px;
+            }
         }
-        }.silex-id-1483130397853-8 {
-            top: 1220px; 
-            left: 0px; 
+        
+        .silex-id-1483130397853-8 {
+            top: 1220px;
+            left: 0px;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483130397853-8 {
-            top: 730px; 
-            left: 0px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483130397853-8 {
+                top: 730px;
+                left: 0px;
+            }
         }
-        }.silex-id-1483130397854-9 {
-            min-height: 525px; 
-            background-color: transparent; 
+        
+        .silex-id-1483130397854-9 {
+            min-height: 525px;
+            background-color: transparent;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483130397854-9 {
-            min-height: 767px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483130397854-9 {
+                min-height: 767px;
+            }
         }
-        }.silex-id-1436036523928-24 {
-            width: 978px; 
-            top: 22px; 
-            left: 1px; 
-            min-height: 26px; 
+        
+        .silex-id-1436036523928-24 {
+            width: 978px;
+            top: 22px;
+            left: 1px;
+            min-height: 26px;
         }
+        
         .silex-id-1436036524028-25 {
-            width: 368px; 
-            top: 134px; 
-            left: 46px; 
-            min-height: 256px; 
+            width: 368px;
+            top: 134px;
+            left: 46px;
+            min-height: 256px;
         }
+        
         .silex-id-1436036523626-21 {
-            width: 415px; 
-            top: 129px; 
-            left: 513px; 
-            min-height: 302px; 
+            width: 415px;
+            top: 129px;
+            left: 513px;
+            min-height: 302px;
         }
+        
         .silex-id-1483131239726-14 {
-            top: 572px; 
-            left: NaNpx; 
+            top: 572px;
+            left: NaNpx;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483131239726-14 {
-            top: 1470px; 
-            left: 0px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131239726-14 {
+                top: 1470px;
+                left: 0px;
+            }
         }
-        }.silex-id-1483131239727-15 {
-            min-height: 525px; 
-            background-color: transparent; 
+        
+        .silex-id-1483131239727-15 {
+            min-height: 525px;
+            background-color: transparent;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483131239727-15 {
-            min-height: 735px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131239727-15 {
+                min-height: 735px;
+            }
         }
-        }.silex-id-1483131239727-17 {
-            width: 978px; 
-            top: 22px; 
-            left: 1px; 
-            min-height: 26px; 
+        
+        .silex-id-1483131239727-17 {
+            width: 978px;
+            top: 22px;
+            left: 1px;
+            min-height: 26px;
         }
+        
         .silex-id-1483131239727-16 {
-            width: 368px; 
-            top: 134px; 
-            left: 46px; 
-            min-height: 256px; 
+            width: 368px;
+            top: 134px;
+            left: 46px;
+            min-height: 256px;
         }
+        
         .silex-id-1483131239727-18 {
-            width: 415px; 
-            top: 129px; 
-            left: 513px; 
-            min-height: 302px; 
+            width: 415px;
+            top: 129px;
+            left: 513px;
+            min-height: 302px;
         }
+        
         .silex-id-1483131242514-19 {
-            top: 572px; 
-            left: NaNpx; 
+            top: 572px;
+            left: NaNpx;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483131242514-19 {
-            top: 2205px; 
-            left: 0px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131242514-19 {
+                top: 2205px;
+                left: 0px;
+            }
         }
-        }.silex-id-1483131242514-20 {
-            min-height: 525px; 
-            background-color: transparent; 
+        
+        .silex-id-1483131242514-20 {
+            min-height: 525px;
+            background-color: transparent;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483131242514-20 {
-            min-height: 718px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131242514-20 {
+                min-height: 718px;
+            }
         }
-        }.silex-id-1483131242515-22 {
-            width: 978px; 
-            top: 22px; 
-            left: 1px; 
-            min-height: 26px; 
+        
+        .silex-id-1483131242515-22 {
+            width: 978px;
+            top: 22px;
+            left: 1px;
+            min-height: 26px;
         }
+        
         .silex-id-1483131242515-21 {
-            width: 368px; 
-            top: 134px; 
-            left: 46px; 
-            min-height: 256px; 
+            width: 368px;
+            top: 134px;
+            left: 46px;
+            min-height: 256px;
         }
+        
         .silex-id-1483131242515-23 {
-            width: 415px; 
-            top: 129px; 
-            left: 513px; 
-            min-height: 302px; 
+            width: 415px;
+            top: 129px;
+            left: 513px;
+            min-height: 302px;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483131242515-23 {
-            top: 384px; 
-            left: 15px; 
-            width: 415px; 
-            min-height: 314px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131242515-23 {
+                top: 384px;
+                left: 15px;
+                width: 415px;
+                min-height: 314px;
+            }
         }
-        }.silex-id-1447077029886-3 {
-            width: 108px; 
-            top: 0px; 
-            left: 1559px; 
-            min-height: 113px; 
+        
+        .silex-id-1447077029886-3 {
+            width: 108px;
+            top: 0px;
+            left: 1559px;
+            min-height: 113px;
         }
+        
         .silex-id-1483131410736-25 {
-            top: 259px; 
-            left: NaNpx; 
+            top: 259px;
+            left: NaNpx;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483131410736-25 {
-            top: 401px; 
-            left: 0px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131410736-25 {
+                top: 401px;
+                left: 0px;
+            }
         }
-        }.silex-id-1483131410737-26 {
-            min-height: 525px; 
-            background-color: transparent; 
+        
+        .silex-id-1483131410737-26 {
+            min-height: 525px;
+            background-color: transparent;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483131410737-26 {
-            top: 0px; 
-            left: 12px; 
-            width: 445px; 
-            min-height: 791px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131410737-26 {
+                top: 0px;
+                left: 12px;
+                width: 445px;
+                min-height: 791px;
+            }
         }
-        }.silex-id-1436036521716-2 {
-            width: 389px; 
-            top: 59px; 
-            left: 539px; 
-            min-height: 325px; 
+        
+        .silex-id-1436036521716-2 {
+            width: 389px;
+            top: 59px;
+            left: 539px;
+            min-height: 325px;
         }
+        
         .silex-id-1436036521615-1 {
-            width: 400px; 
-            top: 51px; 
-            left: 111px; 
-            background-color: transparent; 
-            min-height: 396px; 
+            width: 400px;
+            top: 51px;
+            left: 111px;
+            background-color: transparent;
+            min-height: 396px;
         }
+        
         .silex-id-1483130400381-10 {
-            top: 2236px; 
-            left: 0px; 
+            top: 2236px;
+            left: 0px;
         }
+        
         .silex-id-1483130400382-11 {
-            min-height: 82px; 
-            background-color: transparent; 
+            min-height: 82px;
+            background-color: transparent;
         }
+        
         .silex-id-1436036522220-7 {
-            width: 238px; 
-            top: 17px; 
-            min-height: 40px; 
-            left: 367px; 
+            width: 238px;
+            top: 17px;
+            min-height: 40px;
+            left: 367px;
         }
     </style>
 
-    <script type="text/javascript" src="//editor.silex.me/static/2.7/jquery.js" data-silex-static=""></script>
-    <script type="text/javascript" src="//editor.silex.me/static/2.7/jquery-ui.js" data-silex-static=""></script>
-    <script type="text/javascript" src="//editor.silex.me/static/2.7/pageable.js" data-silex-static=""></script>
-    <script type="text/javascript" src="//editor.silex.me/static/2.7/front-end.js" data-silex-static=""></script>
-    <link rel="stylesheet" href="//editor.silex.me/static/2.7/normalize.css" data-silex-static="">
-    <link rel="stylesheet" href="//editor.silex.me/static/2.7/front-end.css" data-silex-static="">
+    <script type="text/javascript" src="//localhost:6805/static/2.7/jquery.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//localhost:6805/static/2.7/jquery-ui.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//localhost:6805/static/2.7/pageable.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//localhost:6805/static/2.7/front-end.js" data-silex-static=""></script>
+    <link rel="stylesheet" href="//localhost:6805/static/2.7/normalize.css" data-silex-static="">
+    <link rel="stylesheet" href="//localhost:6805/static/2.7/front-end.css" data-silex-static="">
 
     <meta name="publicationPath" content="/api/1.0/github/exec/put//silex-templates/wip/clean-square">
 
@@ -352,11 +454,14 @@
     <style type="text/css" class="silex-style-settings">
         .website-width {
             width: 980px;
-          }
-          .website-min-width {
+        }
+        
+        .website-min-width {
             min-width: 1280px;
-          }
+        }
     </style>
+
+
 
 
 
@@ -387,7 +492,9 @@
 
 
     <style id="current-page-style">
-        .page-home{display:inherit; }
+        .page-home {
+            display: inherit;
+        }
     </style>
     <!-- Silex HEAD tag do not remove -->
     <!-- End of Silex HEAD tag do not remove -->
@@ -509,7 +616,7 @@
 
     <div class="silex-pages">
         <div class="menu-button editable-style silex-id-hamburger-menu image-element page-page-1 paged-element prevent-draggable prevent-resizable" data-silex-id="silex-id-hamburger-menu" data-silex-type="image"><img class="silex-element-content" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII="
-            alt="open mobile menu"></div><a id="page-home" data-silex-type="page" class="page-element page-link-active">Home</a><a id="page-contact" data-silex-type="page" class="page-element">Contact</a></div>
+                alt="open mobile menu"></div><a id="page-home" data-silex-type="page" class="page-element page-link-active">Home</a><a id="page-contact" data-silex-type="page" class="page-element">Contact</a></div>
 
 
 
@@ -619,7 +726,19 @@
             <div data-silex-type="text" class="editable-style text-element product-details silex-id-1436036521716-2" data-silex-id="silex-id-1436036521716-2">
                 <div class="silex-element-content normal">
                     <h1 class="heading1">Contact Us</h1>
-                    <h1 class="heading1"><div style="color: rgb(0, 0, 0); font-size: medium;"><br></div><div style="color: rgb(0, 0, 0); font-size: medium;"><p class="normal">Lorem ipsum dolor sit amet, consecteteur. A. Non viverra vehicula augue justo rutrum in. Varius at diam lacus ut bibendum. Mus fringilla primis maecenas penatibus a. Ac nisl ultrices eros, integer augue pede accumsan porttitor. Dapibus ante elit amet ante habitasse rutrum porta sed nibh.</p><ul><li><a href="//twitter.com/silexlabs">twitter</a></li><li><a href="//www.silexlabs.org/">Google plus</a></li><li><a href="//facebook.com/silexlabs">Facebook</a></li><li><a href="//disap.org/">Diaspora</a></li></ul></div></h1>
+                    <h1 class="heading1">
+                        <div style="color: rgb(0, 0, 0); font-size: medium;"><br></div>
+                        <div style="color: rgb(0, 0, 0); font-size: medium;">
+                            <p class="normal">Lorem ipsum dolor sit amet, consecteteur. A. Non viverra vehicula augue justo rutrum in. Varius at diam lacus ut bibendum. Mus fringilla primis maecenas penatibus a. Ac nisl ultrices eros, integer augue pede accumsan porttitor.
+                                Dapibus ante elit amet ante habitasse rutrum porta sed nibh.</p>
+                            <ul>
+                                <li><a href="//twitter.com/silexlabs">twitter</a></li>
+                                <li><a href="//www.silexlabs.org/">Google plus</a></li>
+                                <li><a href="//facebook.com/silexlabs">Facebook</a></li>
+                                <li><a href="//disap.org/">Diaspora</a></li>
+                            </ul>
+                        </div>
+                    </h1>
                 </div>
             </div>
             <div data-silex-type="html" class="editable-style html-element silex-id-1436036521615-1" data-silex-id="silex-id-1436036521615-1">
@@ -632,39 +751,39 @@
                                         <label class="ss-q-item-label" for="entry_434503818">
                                             <div class="ss-q-title">Your email
                                                 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-                                                <span class="ss-required-asterisk">*</span>
-                                            </div>
-                                            <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
-                                        </label>
-                                        <input name="entry.434503818" value="" class="ss-q-short" id="entry_434503818" dir="auto" aria-required="true" required="" title="" type="text">
-                                        <div class="error-message"></div>
-
+                                        <span class="ss-required-asterisk">*</span>
                                     </div>
+                                    <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                    </label>
+                                    <input name="entry.434503818" value="" class="ss-q-short" id="entry_434503818" dir="auto" aria-required="true" required="" title="" type="text">
+                                    <div class="error-message"></div>
+
                                 </div>
                             </div>
-                            <div class="ss-form-question errorbox-good">
-                                <div dir="ltr" class="ss-item  ss-paragraph-text">
-                                    <div class="ss-form-entry">
-                                        <label class="ss-q-item-label" for="entry_1644758698">
+                </div>
+                <div class="ss-form-question errorbox-good">
+                    <div dir="ltr" class="ss-item  ss-paragraph-text">
+                        <div class="ss-form-entry">
+                            <label class="ss-q-item-label" for="entry_1644758698">
                                             <div class="ss-q-title">Message
                                             </div>
                                         </label>
-                                        <textarea name="entry.1644758698" rows="8" cols="0" class="ss-q-long" id="entry_1644758698" dir="auto" style="margin: 0px; width: 374px; height: 257px;"></textarea>
-                                        <div class="error-message"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <input name="draftResponse" value="[]
-" type="hidden">
-                            <input name="pageHistory" value="0" type="hidden">
-                            <input name="submit" value="Submit" id="ss-submit" type="submit">
-
-
-                        </ol>
-                    </form>
+                            <textarea name="entry.1644758698" rows="8" cols="0" class="ss-q-long" id="entry_1644758698" dir="auto" style="margin: 0px; width: 374px; height: 257px;"></textarea>
+                            <div class="error-message"></div>
+                        </div>
+                    </div>
                 </div>
+                <input name="draftResponse" value="[]
+" type="hidden">
+                <input name="pageHistory" value="0" type="hidden">
+                <input name="submit" value="Submit" id="ss-submit" type="submit">
+
+
+                </ol>
+                </form>
             </div>
         </div>
+    </div>
     </div>
     <div data-silex-type="container" class="prevent-draggable container-element editable-style section-element silex-id-1483130400381-10 website-min-width" data-silex-id="silex-id-1483130400381-10">
         <div data-silex-type="container" class="editable-style silex-element-content website-width silex-container-content container-element prevent-draggable silex-id-1483130400382-11" data-silex-id="silex-id-1483130400382-11">
@@ -677,6 +796,8 @@
             </div>
         </div>
     </div>
+
+
 
 
 
