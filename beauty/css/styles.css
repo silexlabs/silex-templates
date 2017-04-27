@@ -8,6 +8,7 @@
             color: #A2AC87;
             font-size: 14px;
             letter-spacing: 4px;
+            text-align: center;
         }
         
         h1,
@@ -22,6 +23,26 @@
             color: #444444;
             font-size: 16px;
         }
+        
+        .active-menu {
+            font-weight: bold;
+        }
+        
+        body.enable-mobile {
+            padding: 0;
+        }
+        /* ******************* *
+ * always visible menu */
+        
+        .silex-runtime .editable-style.nav-section {
+            position: fixed;
+            z-index: 9999;
+        }
+        
+        .silex-runtime .nav-section+.editable-style {
+            margin-top: 100px;
+        }
+        /* ******************* */
     
         .body-initial {
             background-color: rgba(253, 246, 235, 1);
@@ -83,6 +104,7 @@
             min-height: 42px;
             top: 15px;
             left: 404px;
+            border-color: #000000;
         }
         
         .silex-id-1491512744410-15 {
@@ -588,11 +610,13 @@
         .silex-id-1491511864480-12 {
             background-color: rgba(253, 246, 235, 1);
             min-width: 1000px;
+            top: 3892px;
+            left: 5px;
         }
         
         .silex-id-1491511864479-11 {
             width: 1000px;
-            min-height: 100px;
+            min-height: 414px;
             top: 15px;
             left: 627px;
         }
@@ -600,7 +624,7 @@
         .silex-id-1491511866976-13 {
             width: 409px;
             min-height: 56px;
-            top: 16px;
+            top: 292px;
             left: 303px;
         }
     
