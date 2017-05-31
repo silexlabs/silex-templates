@@ -1,0 +1,740 @@
+
+        .normal,
+        h1,
+        h2,
+        h3 {
+            line-height: 2;
+            font-weight: 100 !important;
+        }
+        
+        h1 {
+            font-size: 40px;
+        }
+        /* for links after published*/
+        
+        body.silex-runtime a:hover {
+            text-decoration: none;
+        }
+        /* remove white space in header in mobile version */
+        
+        body.body-initial {
+            padding-top: 0;
+        }
+        /* hamburger menu */
+        
+        @media (max-width: 480px) {
+            body.silex-runtime.is-not-active .show-when-active {
+                display: none;
+            }
+            body.silex-runtime.is-active .show-when-not-active {
+                display: none;
+            }
+        }
+        
+        @media (min-width: 480px) {
+            .close-btn,
+            .open-btn {
+                cursor: pointer;
+            }
+            /* menu hide */
+            body.silex-runtime .show-when-active {
+                bottom: 100%;
+                top: inherit;
+                position: absolute !important;
+            }
+        }
+        /* menu show */
+        
+        html {
+            background: linear-gradient(to left, #ff7e5f, #feb47b) !important;
+            width: 100%;
+            height: 100%;
+        }
+        
+        body.silex-runtime {
+            transition: .2s all ease-out;
+        }
+        
+        body.is-active.silex-runtime>.section-element {
+            margin-bottom: -1px;
+        }
+        
+        body.is-active.silex-runtime {
+            box-shadow: 0 -2px 10px 8px rgba(0, 0, 0, 0.11);
+        }
+        
+        body.is-active .show-when-not-active {
+            height: 0;
+        }
+        
+        @media (min-width: 480px) {
+            body.is-active.silex-runtime {
+                transform: scale(0.9, 0.9) translateY(100px);
+            }
+        }
+        /* ************** */
+        /* thumb */
+        
+        @media (min-width: 480px) {
+            .silex-runtime .thumb .text-element {
+                opacity: 0;
+                transition: opacity .5s;
+            }
+        }
+        
+        .silex-runtime .thumb:hover .text-element {
+            opacity: 1;
+        }
+        
+        .silex-runtime .thumb .text-element {
+            width: 100%;
+            left: 0;
+            height: 100%;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .silex-runtime .thumb .text-element .silex-element-content {
+            height: auto;
+        }
+    
+        .body-initial {
+            background-color: transparent;
+        }
+        
+        .silex-id-1496137851436-2 {
+            min-width: 1000px;
+            background-color: transparent;
+            top: 5px;
+            left: 5px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496137851436-2 {
+                top: 60px;
+                left: 0px;
+            }
+        }
+        
+        .silex-id-1496137851435-1 {
+            width: 1000px;
+            min-height: 135px;
+            top: 15px;
+            left: 385px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496137851435-1 {
+                min-height: 340px;
+            }
+        }
+        
+        .silex-id-1496159080195-1 {
+            width: 200px;
+            min-height: 45px;
+            top: 52px;
+            left: 0px;
+        }
+        
+        .silex-id-1496138076573-3 {
+            width: 92px;
+            min-height: 20px;
+            top: 63px;
+            left: 518px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496138076573-3 {
+                top: 45px;
+                left: 11px;
+                width: 423px;
+                min-height: 32px;
+            }
+        }
+        
+        .silex-id-1496149356935-6 {
+            width: 92px;
+            min-height: 20px;
+            top: 63px;
+            left: 638px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496149356935-6 {
+                top: 77px;
+                left: 11px;
+                width: 423px;
+                min-height: 32px;
+            }
+        }
+        
+        .silex-id-1496149361299-7 {
+            width: 92px;
+            min-height: 20px;
+            top: 63px;
+            left: 757px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496149361299-7 {
+                top: 110px;
+                left: 11px;
+                width: 423px;
+                min-height: 32px;
+            }
+        }
+        
+        .silex-id-1496162110372-8 {
+            width: 30px;
+            min-height: 30px;
+            top: 54px;
+            left: 974px;
+        }
+        
+        .silex-id-1478366444112-1 {
+            top: 100px;
+            left: NaNpx;
+            background-color: rgba(255, 255, 255, 1);
+            min-width: 1000px;
+        }
+        
+        .silex-id-1478366444112-0 {
+            min-height: 133px;
+            background-color: transparent;
+            width: 1000px;
+            top: 15px;
+            left: 385px;
+        }
+        
+        .silex-id-1496137172968-2 {
+            width: 200px;
+            min-height: 45px;
+            top: 46px;
+            left: 0px;
+        }
+        
+        .silex-id-1496160336487-5 {
+            width: 30px;
+            min-height: 30px;
+            top: 56px;
+            left: 969px;
+        }
+        
+        .silex-id-1496169913595-60 {
+            background-color: rgba(255, 255, 255, 1);
+        }
+        
+        .silex-id-1496169913594-59 {
+            min-height: 100px;
+        }
+        
+        .silex-id-1474394621033-3 {
+            top: 5px;
+            left: 0px;
+            background-color: rgba(255, 255, 255, 1);
+            min-width: 1000px;
+        }
+        
+        .silex-id-1474394621032-2 {
+            min-height: 373px;
+            background-color: transparent;
+            width: 1000px;
+            top: 15px;
+            left: 408px;
+        }
+        
+        .silex-id-1496136970330-0 {
+            width: 781px;
+            min-height: 150px;
+            top: 25px;
+            left: 114px;
+        }
+        
+        .silex-id-1496162471647-9 {
+            width: 147px;
+            min-height: 68px;
+            background-color: transparent;
+            top: 234px;
+            left: 408px;
+        }
+        
+        .silex-id-1496148764365-5 {
+            top: 751px;
+            left: 5px;
+            background-color: rgba(255, 255, 255, 1);
+            min-width: 1000px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496148764365-5 {
+                top: 899px;
+                left: 0px;
+            }
+        }
+        
+        .silex-id-1496148764363-4 {
+            width: 1000px;
+            min-height: 1129px;
+            top: 15px;
+            left: 478px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496148764363-4 {
+                min-height: 3015px;
+            }
+        }
+        
+        .silex-id-1496166951111-22 {
+            width: 300px;
+            background-color: transparent;
+            min-height: 300px;
+            top: 30px;
+            left: 30px;
+            background-image: url('../assets/clark-street-mercantile-33931.jpg');
+            background-size: cover;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496166951111-22 {
+                top: 0px;
+                left: 11px;
+                width: 423px;
+                min-height: 300px;
+            }
+        }
+        
+        .silex-id-1496167267077-28 {
+            width: 100px;
+            min-height: 100px;
+            top: 96px;
+            left: 103px;
+            background-color: rgba(255, 255, 255, 0.7843137254901961);
+        }
+        
+        .silex-id-1496166978739-23 {
+            width: 300px;
+            background-color: transparent;
+            min-height: 300px;
+            top: 30px;
+            left: 350px;
+            background-image: url('../assets/clem-onojeghuo-160190.jpg');
+            background-size: cover;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496166978739-23 {
+                top: 300px;
+                left: 11px;
+                width: 423px;
+                min-height: 300px;
+            }
+        }
+        
+        .silex-id-1496168398768-29 {
+            width: 130px;
+            min-height: 133px;
+            top: 105px;
+            left: 100px;
+            background-color: rgba(255, 255, 255, 0.7843137254901961);
+        }
+        
+        .silex-id-1496166990971-24 {
+            width: 300px;
+            background-color: transparent;
+            min-height: 300px;
+            top: 30px;
+            left: 670px;
+            background-image: url('../assets/crew-59379.jpg');
+            background-size: cover;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496166990971-24 {
+                top: 600px;
+                left: 11px;
+                width: 423px;
+                min-height: 300px;
+            }
+        }
+        
+        .silex-id-1496168438145-30 {
+            width: 100px;
+            min-height: 100px;
+            top: 112px;
+            left: 80px;
+            background-color: rgba(255, 255, 255, 0.7843137254901961);
+        }
+        
+        .silex-id-1496167019983-25 {
+            width: 300px;
+            background-color: transparent;
+            min-height: 300px;
+            top: 400px;
+            left: 30px;
+            background-image: url('../assets/david-cohen-172050.jpg');
+            background-size: cover;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496167019983-25 {
+                top: 900px;
+                left: 11px;
+                width: 423px;
+                min-height: 300px;
+            }
+        }
+        
+        .silex-id-1496168456982-33 {
+            width: 100px;
+            min-height: 100px;
+            top: 79px;
+            left: 104px;
+            background-color: rgba(255, 255, 255, 0.7843137254901961);
+        }
+        
+        .silex-id-1496167019994-27 {
+            width: 300px;
+            background-color: transparent;
+            min-height: 300px;
+            top: 400px;
+            left: 670px;
+            background-image: url('../assets/timothy-muza-572.jpg');
+            background-size: cover;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496167019994-27 {
+                top: 1200px;
+                left: 11px;
+                width: 423px;
+                min-height: 300px;
+            }
+        }
+        
+        .silex-id-1496168453028-32 {
+            width: 130px;
+            min-height: 133px;
+            top: 76px;
+            left: 116px;
+            background-color: rgba(255, 255, 255, 0.7843137254901961);
+        }
+        
+        .silex-id-1496167019992-26 {
+            width: 300px;
+            background-color: transparent;
+            min-height: 300px;
+            top: 400px;
+            left: 350px;
+            background-image: url('../assets/freestocks-org-182582.jpg');
+            background-size: cover;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496167019992-26 {
+                top: 1500px;
+                left: 11px;
+                width: 423px;
+                min-height: 300px;
+            }
+        }
+        
+        .silex-id-1496168449616-31 {
+            width: 100px;
+            min-height: 100px;
+            top: 80px;
+            left: 113px;
+            background-color: rgba(255, 255, 255, 0.7843137254901961);
+        }
+        
+        .silex-id-1496168814589-44 {
+            width: 300px;
+            background-color: transparent;
+            min-height: 300px;
+            top: 770px;
+            left: 670px;
+            background-image: url('../assets/clem-onojeghuo-160190.jpg');
+            background-size: cover;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496168814589-44 {
+                top: 1800px;
+                left: 11px;
+                width: 423px;
+                min-height: 300px;
+            }
+        }
+        
+        .silex-id-1496168814589-45 {
+            width: 130px;
+            min-height: 148px;
+            top: 90px;
+            left: 100px;
+            background-color: rgba(255, 255, 255, 0.7843137254901961);
+        }
+        
+        .silex-id-1496168814592-46 {
+            width: 300px;
+            background-color: transparent;
+            min-height: 300px;
+            top: 770px;
+            left: 30px;
+            background-image: url('../assets/crew-59379.jpg');
+            background-size: cover;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496168814592-46 {
+                top: 2100px;
+                left: 11px;
+                width: 423px;
+                min-height: 300px;
+            }
+        }
+        
+        .silex-id-1496168814592-47 {
+            width: 100px;
+            min-height: 100px;
+            top: 112px;
+            left: 80px;
+            background-color: rgba(255, 255, 255, 0.7843137254901961);
+        }
+        
+        .silex-id-1496168814577-42 {
+            width: 300px;
+            background-color: transparent;
+            min-height: 300px;
+            top: 770px;
+            left: 350px;
+            background-image: url('../assets/clark-street-mercantile-33931.jpg');
+            background-size: cover;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496168814577-42 {
+                top: 2400px;
+                left: 11px;
+                width: 423px;
+                min-height: 300px;
+            }
+        }
+        
+        .silex-id-1496168814577-43 {
+            width: 100px;
+            min-height: 100px;
+            top: 96px;
+            left: 103px;
+            background-color: rgba(255, 255, 255, 0.7843137254901961);
+        }
+        
+        .silex-id-1496168536497-35 {
+            background-color: rgba(255, 255, 255, 1);
+            top: 343px;
+            left: 5px;
+            min-width: 1000px;
+        }
+        
+        .silex-id-1496168536496-34 {
+            width: 1000px;
+            min-height: 666px;
+            top: 15px;
+            left: 598px;
+            background-image: url('../assets/clem-onojeghuo-173078.jpg');
+            background-size: cover;
+            background-position: top center;
+        }
+        
+        .silex-id-1496169474610-49 {
+            background-color: rgba(255, 255, 255, 1);
+            top: 1044px;
+            left: 5px;
+            min-width: 1000px;
+        }
+        
+        .silex-id-1496169474609-48 {
+            width: 1000px;
+            min-height: 406px;
+            top: 15px;
+            left: 598px;
+        }
+        
+        .silex-id-1496169503613-50 {
+            width: 1000px;
+            min-height: 332px;
+            top: 31px;
+            left: 0px;
+        }
+        
+        .silex-id-1496169649756-52 {
+            background-color: rgba(255, 255, 255, 1);
+            min-width: 1000px;
+        }
+        
+        .silex-id-1496169649755-51 {
+            width: 1000px;
+            min-height: 809px;
+            top: 15px;
+            left: 598px;
+        }
+        
+        .silex-id-1496169673047-55 {
+            width: 480px;
+            background-color: transparent;
+            min-height: 325px;
+            top: 100px;
+            left: 0px;
+            background-image: url('../assets/freestocks-org-182582.jpg');
+            background-size: cover;
+        }
+        
+        .silex-id-1496169673047-56 {
+            width: 195px;
+            min-height: 159px;
+            top: 75px;
+            left: 128px;
+            background-color: rgba(255, 255, 255, 0.7843137254901961);
+        }
+        
+        .silex-id-1496169687166-57 {
+            width: 326px;
+            min-height: 52px;
+            top: 19px;
+            left: 0px;
+        }
+        
+        .silex-id-1496169673037-53 {
+            width: 480px;
+            background-color: transparent;
+            min-height: 325px;
+            top: 100px;
+            left: 520px;
+            background-image: url('../assets/david-cohen-172050.jpg');
+            background-size: cover;
+        }
+        
+        .silex-id-1496169673037-54 {
+            width: 210px;
+            min-height: 158px;
+            top: 86px;
+            left: 136px;
+            background-color: rgba(255, 255, 255, 0.7843137254901961);
+        }
+        
+        .silex-id-1496169810519-58 {
+            width: 1000px;
+            min-height: 332px;
+            top: 443px;
+            left: -1px;
+        }
+        
+        .silex-id-1478366450713-3 {
+            top: 100px;
+            left: NaNpx;
+            background-color: rgba(255, 255, 255, 1);
+            min-width: 1000px;
+        }
+        
+        .silex-id-1478366450713-2 {
+            min-height: 391px;
+            background-color: transparent;
+            width: 1000px;
+            top: 15px;
+            left: 478px;
+        }
+        
+        .silex-id-1442914737143-3 {
+            min-height: 53px;
+            width: 349px;
+            top: 172px;
+            left: 354px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1442914737143-3 {
+                top: 57px;
+                left: 11px;
+                width: 423px;
+                min-height: 96px;
+            }
+        }
+        
+        .silex-id-1496168656864-38 {
+            width: 92px;
+            min-height: 20px;
+            top: 45px;
+            left: 606px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496168656864-38 {
+                top: 194px;
+                left: 10px;
+                width: 128px;
+                min-height: 32px;
+            }
+        }
+        
+        .silex-id-1496168656861-37 {
+            width: 92px;
+            min-height: 20px;
+            top: 45px;
+            left: 476px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496168656861-37 {
+                top: 194px;
+                left: 159px;
+                width: 128px;
+                min-height: 32px;
+            }
+        }
+        
+        .silex-id-1496168656857-36 {
+            width: 92px;
+            min-height: 20px;
+            top: 45px;
+            left: 338px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1496168656857-36 {
+                top: 194px;
+                left: 307px;
+                width: 128px;
+                min-height: 32px;
+            }
+        }
+        
+        .silex-id-1496168764134-41 {
+            width: 147px;
+            min-height: 68px;
+            background-color: transparent;
+            top: 103px;
+            left: 449px;
+        }
+    
