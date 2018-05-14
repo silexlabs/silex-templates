@@ -1,0 +1,135 @@
+<!DOCTYPE html><html><head>
+    <meta charset="UTF-8">
+    <!-- generator meta tag -->
+    <!-- leave this for stats and Silex version check -->
+    <meta name="generator" content="Silex v2.2.7">
+    <!-- End of generator meta tag -->
+    <script type="text/javascript" src="http://localhost:6805/static/2.7/jquery.js" data-silex-static=""></script>
+    <script type="text/javascript" src="http://localhost:6805/static/2.7/jquery-ui.js" data-silex-static=""></script>
+    <script type="text/javascript" src="http://localhost:6805/static/2.7/pageable.js" data-silex-static=""></script>
+    <script type="text/javascript" src="http://localhost:6805/static/2.7/front-end.js" data-silex-static=""></script>
+    <link rel="stylesheet" href="http://localhost:6805/static/2.7/normalize.css" data-silex-static="">
+    <link rel="stylesheet" href="http://localhost:6805/static/2.7/front-end.css" data-silex-static="">
+
+    <style type="text/css" class="silex-style"></style>
+    <script type="text/javascript" class="silex-script"></script>
+    <style class="silex-inline-styles" type="text/css">.body-initial {background-color: rgba(255,255,255,1);}.silex-id-1478366444112-1 {top: 100px; background-color: transparent; min-height: 100px;}.silex-id-1478366444112-0 {min-height: 100px; background-color: transparent; width: 1200px;}.silex-id-1474394621033-3 {top: 5px; left: 0px;}.silex-id-1474394621032-2 {min-height: 600px; background-color: transparent; width: 1200px;}.silex-id-1526288156408-0 {height: 400px; width: 400px; background-color: transparent; top: 103px; left: 80px;}.silex-id-1478366450713-3 {top: 100px; background-color: transparent;}.silex-id-1478366450713-2 {min-height: 100px; background-color: transparent; width: 1200px;}.silex-id-1442914737143-3 {min-height: 53px; width: 349px; top: 29px; left: 430px;}</style>
+    <title></title>
+    <script type="text/json" class="silex-json-styles">[{"desktop":{"body-initial":{"background-color":"rgba(255,255,255,1)"},"silex-id-1474394621033-3":{"top":"5px","left":"0px"},"silex-id-1474394621032-2":{"min-height":"600px","background-color":"transparent","width":"1200px","top":"","left":"","height":""},"silex-id-1474394605264-1":{"min-height":"100px","width":"100px","top":"100px","left":"100px"},"silex-id-1474394605263-0":{"min-height":"100px","background-color":"transparent"},"silex-id-1442914737143-3":{"min-height":"53px","width":"349px","top":"29px","left":"430px","height":""},"silex-id-1478366444112-0":{"min-height":"100px","background-color":"transparent","width":"1200px","top":"","left":"","height":""},"silex-id-1478366444112-1":{"top":"100px","background-color":"transparent","min-height":"100px","left":"","height":""},"silex-id-1478366450713-2":{"min-height":"100px","background-color":"transparent","width":"1200px","top":"","left":"","height":""},"silex-id-1478366450713-3":{"top":"100px","background-color":"transparent"},"silex-id-1526288156408-0":{"height":"400px","width":"400px","background-color":"transparent","top":"103px","left":"80px"}},"mobile":{},"prodotypeData":{"component":{"silex-id-1526288156408-0":{"name":"slideshow1","templateName":"slideshow","slides":[{"text":"aaa"}]}},"style":{"all-style":{"className":"all-style","templateName":"text","displayName":"All style","styles":{"desktop":{"normal":{"className":"all-style","pseudoClass":"normal"}}}}}}}]</script>
+
+    
+<style class="silex-prodotype-style" type="text/css" data-style-id="all-style"></style><script src="/static/2.7/unslider/unslider-min.js" data-silex-static="" data-dependency=""></script><link rel="stylesheet" href="/static/2.7/unslider/unslider.css" data-silex-static="" data-dependency=""><!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove --></head>
+
+<body data-silex-id="body-initial" class="body-initial all-style silex-runtime" data-silex-type="container">
+    <div class="silex-pages">
+        <div data-silex-type="image" class="editable-style silex-id-hamburger-menu image-element menu-button prevent-draggable prevent-resizable" data-silex-id="silex-id-hamburger-menu">
+            <img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII=" class="silex-element-content">
+        </div>
+
+        <a id="page-page-1" data-silex-type="page" class="page-element">Page 1</a></div>
+
+
+
+
+
+
+
+
+
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1478366444112-1 section-element" data-silex-id="silex-id-1478366444112-1" style="">
+        <div data-silex-type="container" class="editable-style silex-element-content silex-id-1478366444112-0 silex-container-content container-element prevent-draggable website-width" data-silex-id="silex-id-1478366444112-0"></div>
+    </div>
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1474394621033-3 section-element" data-silex-id="silex-id-1474394621033-3" style="">
+        <div data-silex-type="container" class="editable-style silex-element-content silex-id-1474394621032-2 silex-container-content container-element prevent-draggable website-width" data-silex-id="silex-id-1474394621032-2"><div data-silex-type="html" class="editable-style silex-id-1526288156408-0 html-element silex-component silex-component-slideshow silex-use-height-not-minheight" data-silex-id="silex-id-1526288156408-0" style=""><div class="silex-element-content"><div id="parent_1526288175168_744">
+<!-- preview -->
+<div class="prodotype-preview">
+  
+  <div class="preview-text prodotype-force-size"><p>~ Preview ~</p></div>
+  <figure class="slide-0">
+    <div class="slide-image prodotype-force-size">
+      
+        <figcaption>aaa</figcaption>
+      
+    </div>
+  </figure>
+  
+</div>
+<div id="id_1526288175168_744">
+  <!-- runtime -->
+  <!-- the whole slideshow -->
+  <ul class="prodotype-runtime">
+  
+    <li><figure class="slide-0">
+      
+      <div class="slide-image">
+        
+          <figcaption>aaa</figcaption>
+        
+      </div>
+      
+    </figure></li>
+  
+  </ul>
+</div>
+</div>
+<style type="text/css">#parent_1526288175168_744 .prodotype-preview {list-style-type: none; margin: 0; padding: 0;}#parent_1526288175168_744 .prodotype-preview .preview-text {display: flex; align-items: center; justify-content: center;}#parent_1526288175168_744 .prodotype-preview .preview-text p {z-index: 1; background-color: black; color: white;}#parent_1526288175168_744 .slide-0 .slide-image {}#parent_1526288175168_744 .slide-image {width: 100%; display: flex; justify-content: center; background-repeat: no-repeat; background-size: cover; background-position: 50%; align-items: flex-end;}#parent_1526288175168_744 figcaption {padding: 50px; color: white; background-color: rgba(0,0,0,0.5); width: 100%; text-align: center;}#parent_1526288175168_744 .unslider-nav {position: absolute; bottom: 10px; left: 0; right: 0; top: auto; margin: 0;}#parent_1526288175168_744 .unslider-nav ol {text-align: center;}#parent_1526288175168_744 .unslider-nav ol li.unslider-active {background: #fff; cursor: default; opacity: 1;}#parent_1526288175168_744 .unslider-nav ol li {display: inline-block; float: none; width: 6px; height: 6px; margin: 0 4px; padding: 3px; background: transparent; border-radius: 10px; overflow: hidden; text-indent: -999em; border: 2px solid #fff; cursor: pointer; opacity: .4;}#parent_1526288175168_744 .unslider-arrow {display: block; width: 32px; height: 32px; top: 50%; right: 16px; left: auto; margin-top: -16px; overflow: hidden; background: rgba(0,0,0,.2) no-repeat 50% 50%; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg=='); background-size: 7px 11px; border-radius: 32px; text-indent: -999em; opacity: .6; transition: opacity .2s;}#parent_1526288175168_744 .unslider-arrow.prev {left: 16px; right: auto; -ms-transform: rotate(-180deg); transform: rotate(-180deg);}</style>
+<script type="text/javascript">
+  (function() {
+    function initUnslider() {
+      // do not start in the editor (it would mess with the markup)
+      if(!$('body').hasClass('silex-runtime')) return;
+
+      var slider = $('#id_1526288175168_744').unslider({
+        'autoplay': false,
+        'speed': 750,
+        'delay': 3000,
+        'index': 0,
+        'nav': true,
+        'animation': 'horizontal',
+        'arrows': true
+      });
+      //  Listen to slide changes
+      
+      // apply element height to the images
+      var silexElement = $('#id_1526288175168_744').closest('.editable-style');
+      var elementMinHeight = silexElement.css('height');
+      var elementWidth = silexElement.css('width');
+      $('#id_1526288175168_744 li .slide-image').css({
+        'height': elementMinHeight
+      });
+      
+  }
+    initUnslider();
+  })();
+</script>
+</div></div></div>
+    </div>
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1478366450713-3 section-element" data-silex-id="silex-id-1478366450713-3" style="">
+        <div data-silex-type="container" class="editable-style silex-element-content silex-id-1478366450713-2 silex-container-content container-element prevent-draggable website-width" data-silex-id="silex-id-1478366450713-2">
+
+            <div data-silex-id="silex-id-1442914737143-3" class="editable-style silex-id-1442914737143-3 text-element" data-silex-type="text" style="">
+                <div class="silex-element-content normal">
+                    <br>
+                    <div style="text-align: center;"><a href="//www.silex.me/">Powered by Silex</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
