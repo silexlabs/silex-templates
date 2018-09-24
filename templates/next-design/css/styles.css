@@ -1,0 +1,170 @@
+
+        h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        body {
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .editable-style.full-width {
+            left: 0;
+            width: 100%;
+        }
+        .shadow {
+            box-shadow: inset 0 0 0 2px white, 0 0 2px 1px rgba(0, 0, 0, 0.3);
+        }
+        .foreground {
+            z-index: 1;
+        }
+        .menu {
+            background-image: linear-gradient(#444, #111);
+        }
+    
+        .body-initial {
+            background-color: rgb(251, 251, 251); 
+        }
+        .background-initial {
+            background-color: transparent; 
+            top: 6px; 
+            left: 179px; 
+            width: 960px; 
+            height: 2000px; 
+        }
+        .silex-id-1448818294398-2 {
+            height: 679px; 
+            width: 959px; 
+            top: 34px; 
+            left: 0px; 
+            background-color: transparent; 
+            background-image: url('../assets/anim.gif'); 
+            background-repeat-x: no-repeat; 
+            background-repeat-y: no-repeat; 
+            background-size: cover; 
+        }
+        .silex-id-1448891106612-1 {
+            height: 1009px; 
+            width: 968px; 
+            top: 840px; 
+            left: 0px; 
+            background-color: transparent; 
+            padding-left: 8px; 
+        }
+        .silex-id-1448893740425-2 {
+            height: 100px; 
+            width: 100px; 
+            top: 580px; 
+            left: 336px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1448893815503-3 {
+            height: 61px; 
+            width: 256px; 
+            top: 750px; 
+            left: -10px; 
+            background-color: rgb(255, 0, 0); 
+        }
+        .silex-id-1448893956466-4 {
+            height: 58px; 
+            width: 216px; 
+            top: 2px; 
+            left: 23px; 
+        }
+        .silex-id-1448894989287-8 {
+            height: 55px; 
+            width: 374px; 
+            top: 766px; 
+            left: 576px; 
+        }
+        .silex-id-1442914589168-2 {
+            height: 580px; 
+            width: 1209px; 
+            top: 1923px; 
+            left: 0px; 
+            background-color: rgb(247, 197, 0); 
+        }
+        .silex-id-1449494511886-0 {
+            height: 567px; 
+            width: 960px; 
+            top: 0px; 
+            left: 179px; 
+            background-color: #FFFFFF; 
+            background-color: transparent; 
+        }
+        .silex-id-1442914737143-3 {
+            height: 30px; 
+            width: 548px; 
+            top: 536px; 
+            left: 20px; 
+        }
+        .silex-id-1449494797365-1 {
+            height: 54px; 
+            width: 160px; 
+            top: 20px; 
+            left: 20px; 
+            background-color: rgba(0,0,0,1); 
+            border-width: 20px 20px 20px 20px ; 
+            border-style: solid; 
+        }
+        .silex-id-1449494869007-3 {
+            height: 55px; 
+            width: 192px; 
+            top: 39px; 
+            left: 238px; 
+        }
+        .silex-id-1449496081248-1 {
+            height: 591px; 
+            width: 487px; 
+            top: -20px; 
+            left: 476px; 
+            background-color: #FFFFFF; 
+            background-color: transparent; 
+        }
+        .silex-id-1449497070832-2 {
+            height: 273px; 
+            width: 409px; 
+            top: 129px; 
+            left: 22px; 
+        }
+        .silex-id-1448818638669-3 {
+            height: 300px; 
+            width: 100px; 
+            top: 419px; 
+            left: 0px; 
+            background-color: rgba(51, 215, 213, 0.941176); 
+        }
+        .silex-id-1448818752522-4 {
+            height: 300px; 
+            width: 960px; 
+            top: 10px; 
+            left: 179px; 
+            background-color: transparent; 
+        }
+        .silex-id-1448818845997-5 {
+            height: 211px; 
+            width: 892px; 
+            top: 56px; 
+            left: 27px; 
+        }
+        .silex-id-1448894160905-5 {
+            height: 40px; 
+            width: 100px; 
+            top: 0px; 
+            left: 0px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1448894434340-6 {
+            height: 47px; 
+            width: 960px; 
+            top: 0px; 
+            left: 180px; 
+            background-color: transparent; 
+        }
+        .silex-id-1448894473062-7 {
+            height: 39px; 
+            width: 399px; 
+            top: 9px; 
+            left: 25px; 
+            background-color: transparent; 
+        }
+    
