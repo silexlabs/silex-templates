@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'GIBold';
+        src: url('/assets/fonts/glacial-indifference/142d1db816ff8e0442b736c6d3af44c1/b82a02b21dda923edfc130f599d4e77d/GIBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'GIRegular';
+        src: url('/assets/fonts/glacial-indifference/142d1db816ff8e0442b736c6d3af44c1/293a9a0dbaf9f545d2e015780e61400c/GIRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'GlacialIndifferenceBold';
+        src: url('/assets/fonts/glacial-indifference/d5685ab72a80d2da1644a88c3c3b33cd/f801e234d51049bd538d3d95f6f4e110/GlacialIndifferenceBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'GlacialIndifferenceItalic';
+        src: url('/assets/fonts/glacial-indifference/d5685ab72a80d2da1644a88c3c3b33cd/69b161f1f0d94f15afefbd34a37566d8/GlacialIndifferenceItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'GlacialIndifferenceMedium';
+        src: url('/assets/fonts/glacial-indifference/b18eb6e60cb345c59aa1ad98d1b43b7f/a1424d62ea0f8b960139263c364a0f10/GlacialIndifferenceMedium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'GlacialIndifferenceRegular';
+        src: url('/assets/fonts/glacial-indifference/d5685ab72a80d2da1644a88c3c3b33cd/13dc531a2ffd9ca7eeb500515774fa74/GlacialIndifferenceRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+ /* The following rules are deprecated. */ 
+
+@font-face {
+    font-family: 'GI';
+        src: url('/assets/fonts/glacial-indifference/142d1db816ff8e0442b736c6d3af44c1/b82a02b21dda923edfc130f599d4e77d/GIBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'GI';
+        src: url('/assets/fonts/glacial-indifference/142d1db816ff8e0442b736c6d3af44c1/293a9a0dbaf9f545d2e015780e61400c/GIRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Glacial Indifference';
+        src: url('/assets/fonts/glacial-indifference/d5685ab72a80d2da1644a88c3c3b33cd/f801e234d51049bd538d3d95f6f4e110/GlacialIndifferenceBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Glacial Indifference';
+        src: url('/assets/fonts/glacial-indifference/d5685ab72a80d2da1644a88c3c3b33cd/69b161f1f0d94f15afefbd34a37566d8/GlacialIndifferenceItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Glacial Indifference';
+        src: url('/assets/fonts/glacial-indifference/b18eb6e60cb345c59aa1ad98d1b43b7f/a1424d62ea0f8b960139263c364a0f10/GlacialIndifferenceMedium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Glacial Indifference';
+        src: url('/assets/fonts/glacial-indifference/d5685ab72a80d2da1644a88c3c3b33cd/13dc531a2ffd9ca7eeb500515774fa74/GlacialIndifferenceRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
