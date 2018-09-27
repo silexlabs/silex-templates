@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stratup template</title>
+    <meta charset="UTF-8">
+    <meta name="generator" content="Silex v2.2.4">
+    <!-- leave this for stats -->
+    <script type="text/javascript" src="http://static.silex.me/2.4/jquery.js"></script>
+    <script type="text/javascript" src="http://static.silex.me/2.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="http://static.silex.me/2.4/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="http://static.silex.me/2.4/pageable.js"></script>
+    <script type="text/javascript" src="http://static.silex.me/2.4/front-end.js"></script>
+    <!-- Normalize -->
+    <link href="http://static.silex.me/2.4/normalize.css" rel="stylesheet">
+    <!-- Silex style -->
+    <link href="http://static.silex.me/2.4/front-end.css" rel="stylesheet">
+    <style type="text/css" class="silex-style">
+        .normal {
+            color: #A2A2A2;
+            line-height: 30px;
+            font-family: Helvetica, sans-serif;
+        }
+        .full-width {
+            width: 100% !important;
+            left: 0 !important;
+        }
+        .bottom {
+            top: initial !important;
+            bottom: 0;
+        }
+        .title {
+            font-weight: 100;
+            font-size: 30px;
+            line-height: 40px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .heading1 {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 40px;
+            color: #787878;
+        }
+        .button {
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+        }
+        .button:hover {
+            border-color: #49bf9d !important;
+        }
+        .button:hover .normal {
+            color: #49bf9d;
+        }
+        .pic .heading2 {
+            margin: 0;
+            line-height: 10px;
+            color: #676d79;
+            font-size: 16px;
+            font-weight: normal;
+        }
+        .pic .normal {
+            font-size: 13px;
+            line-height: 20px;
+            color: #A2A2A2;
+        }
+        .bg-light-box {
+            z-index: 100;
+            width: 100% !important;
+            height: 100% !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .bg-light-box > div {
+            position: fixed !important;
+        }
+        .pic-light-box {
+            top: 10px !important;
+            bottom: 100px !important;
+            left: 10px !important;
+            right: 10px !important;
+            width: initial !important;
+            height: initial !important;
+        }
+    </style>
+    <script type="text/javascript" class="silex-script">
+        document.write('<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />');
+        document.write('<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></scr'+'ipt>');
+        $(document).ready(function() {
+        	$('.fancybox').each(function () {
+        	    var href = this.getAttribute('data-silex-href') || this.getAttribute('href');
+        	    if (this.getAttribute('data-silex-href')) {
+            	    this.removeAttribute('data-silex-href');
+            	    // for the fancybox script
+            	    this.setAttribute('href', href);
+            	    // prevent silex from opening link
+            	    $(this).off('click');
+        	    }
+        	    // this is a galery
+        	    this.setAttribute('data-fancybox-group', 'group1');
+        	});
+        	// create the fancybox
+        	$('.fancybox').fancybox();
+        });
+    </script>
+    <style type="text/css" class="silex-inline-styles">
+        .silex-id-1432759240382-31 {
+            left: 0px; 
+            top: 0px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1432759240231-30 {
+            top: 5px; 
+            left: 64px; 
+            width: 830px; 
+            height: 2888px; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1432759240091-29 {
+            height: 174px; 
+            width: 667px; 
+            top: 217px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1432759239981-28 {
+            height: 395.889px; 
+            width: 830px; 
+            top: 478px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            border-top-width: 0px; 
+            border-right-width: 0px; 
+            border-bottom-width: 2px; 
+            border-left-width: 0px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-color: rgb(239, 239, 239); 
+            border-right-color: rgb(239, 239, 239); 
+            border-bottom-color: rgb(239, 239, 239); 
+            border-left-color: rgb(239, 239, 239); 
+            background-color: transparent; 
+        }
+        .silex-id-1432759239878-27 {
+            height: 265px; 
+            width: 830px; 
+            top: 10px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1432759239777-26 {
+            height: 50px; 
+            width: 160px; 
+            top: 280px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            border-top-width: 3px; 
+            border-right-width: 3px; 
+            border-bottom-width: 3px; 
+            border-left-width: 3px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-color: rgb(239, 239, 239); 
+            border-right-color: rgb(239, 239, 239); 
+            border-bottom-color: rgb(239, 239, 239); 
+            border-left-color: rgb(239, 239, 239); 
+            border-image-source: none; 
+            border-image-slice: 100%; 
+            border-image-width: 1; 
+            border-image-outset: 0; 
+            border-image-repeat: stretch; 
+            border-top-left-radius: 11px; 
+            border-top-right-radius: 11px; 
+            border-bottom-right-radius: 11px; 
+            border-bottom-left-radius: 11px; 
+            background-color: transparent; 
+        }
+        .silex-id-1432759239676-25 {
+            height: 30px; 
+            width: 98px; 
+            top: 10px; 
+            left: 29px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1432759239575-24 {
+            height: 123px; 
+            width: 123px; 
+            top: 39px; 
+            left: 336px; 
+            position: absolute; 
+            border-top-left-radius: 80px; 
+            border-top-right-radius: 80px; 
+            border-bottom-right-radius: 80px; 
+            border-bottom-left-radius: 80px; 
+            border-top-width: 2px; 
+            border-right-width: 2px; 
+            border-bottom-width: 2px; 
+            border-left-width: 2px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-color: rgb(239, 239, 239); 
+            border-right-color: rgb(239, 239, 239); 
+            border-bottom-color: rgb(239, 239, 239); 
+            border-left-color: rgb(239, 239, 239); 
+            border-image-source: none; 
+            border-image-slice: 100%; 
+            border-image-width: 1; 
+            border-image-outset: 0; 
+            border-image-repeat: stretch; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1432759239473-23 {
+            height: 75px; 
+            width: 830px; 
+            top: 2808px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1432759239373-22 {
+            height: 1350px; 
+            width: 830px; 
+            top: 908px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            border-top-width: 0px; 
+            border-right-width: 0px; 
+            border-bottom-width: 2px; 
+            border-left-width: 0px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-color: rgb(239, 239, 239); 
+            border-right-color: rgb(239, 239, 239); 
+            border-bottom-color: rgb(239, 239, 239); 
+            border-left-color: rgb(239, 239, 239); 
+            background-color: transparent; 
+        }
+        .silex-id-1432759239272-21 {
+            height: 50px; 
+            width: 160px; 
+            top: 1241px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            border-top-width: 3px; 
+            border-right-width: 3px; 
+            border-bottom-width: 3px; 
+            border-left-width: 3px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-color: rgb(239, 239, 239); 
+            border-right-color: rgb(239, 239, 239); 
+            border-bottom-color: rgb(239, 239, 239); 
+            border-left-color: rgb(239, 239, 239); 
+            border-image-source: none; 
+            border-image-slice: 100%; 
+            border-image-width: 1; 
+            border-image-outset: 0; 
+            border-image-repeat: stretch; 
+            border-top-left-radius: 11px; 
+            border-top-right-radius: 11px; 
+            border-bottom-right-radius: 11px; 
+            border-bottom-left-radius: 11px; 
+            background-color: transparent; 
+        }
+        .silex-id-1432759239171-20 {
+            height: 30px; 
+            width: 98px; 
+            top: 10px; 
+            left: 29px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1432759239070-19 {
+            height: 83px; 
+            width: 241px; 
+            top: 0px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1432759238970-18 {
+            height: 363px; 
+            width: 400px; 
+            top: 491px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1432759238867-17 {
+            height: 235px; 
+            width: 400px; 
+            top: 11px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-image: url('assets/deck.jpeg'); 
+            background-color: transparent; 
+            background-size: cover; 
+            background-position-x: 50%; 
+            background-position-y: 50%; 
+            border-top-left-radius: 5px; 
+            border-top-right-radius: 5px; 
+            border-bottom-right-radius: 5px; 
+            border-bottom-left-radius: 5px; 
+        }
+        .silex-id-1432759238765-16 {
+            height: 80px; 
+            width: 400px; 
+            top: 262px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1432759238664-15 {
+            height: 363px; 
+            width: 400px; 
+            top: 491px; 
+            left: 429px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1432759238561-14 {
+            height: 235px; 
+            width: 400px; 
+            top: 11px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-image: url('assets/swimingpool.jpeg'); 
+            background-color: transparent; 
+            background-size: cover; 
+            background-position-x: 50%; 
+            background-position-y: 50%; 
+            border-top-left-radius: 5px; 
+            border-top-right-radius: 5px; 
+            border-bottom-right-radius: 5px; 
+            border-bottom-left-radius: 5px; 
+        }
+        .silex-id-1432759238460-13 {
+            height: 80px; 
+            width: 400px; 
+            top: 262px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1432759238358-12 {
+            height: 363px; 
+            width: 400px; 
+            top: 117px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1432759238256-11 {
+            height: 235px; 
+            width: 400px; 
+            top: 11px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-image: url('assets/see2.jpeg'); 
+            background-color: transparent; 
+            background-size: cover; 
+            background-position-x: 50%; 
+            background-position-y: 50%; 
+            border-top-left-radius: 5px; 
+            border-top-right-radius: 5px; 
+            border-bottom-right-radius: 5px; 
+            border-bottom-left-radius: 5px; 
+        }
+        .silex-id-1432759238155-10 {
+            height: 80px; 
+            width: 400px; 
+            top: 262px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1432759238054-9 {
+            height: 363px; 
+            width: 400px; 
+            top: 117px; 
+            left: 431px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1432759237951-8 {
+            height: 235px; 
+            width: 400px; 
+            top: 11px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-image: url('assets/sea3.jpeg'); 
+            background-color: transparent; 
+            background-size: cover; 
+            background-position-x: 50%; 
+            background-position-y: 50%; 
+            border-top-left-radius: 5px; 
+            border-top-right-radius: 5px; 
+            border-bottom-right-radius: 5px; 
+            border-bottom-left-radius: 5px; 
+        }
+        .silex-id-1432759237849-7 {
+            height: 80px; 
+            width: 400px; 
+            top: 262px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1432759237748-6 {
+            height: 363px; 
+            width: 400px; 
+            top: 866px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1432759237642-5 {
+            height: 235px; 
+            width: 400px; 
+            top: 11px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-image: url('assets/subsea.jpeg'); 
+            background-color: transparent; 
+            background-size: cover; 
+            background-position-x: 50%; 
+            background-position-y: 50%; 
+            border-top-left-radius: 5px; 
+            border-top-right-radius: 5px; 
+            border-bottom-right-radius: 5px; 
+            border-bottom-left-radius: 5px; 
+        }
+        .silex-id-1432759237541-4 {
+            height: 80px; 
+            width: 400px; 
+            top: 262px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1432759237440-3 {
+            height: 363px; 
+            width: 400px; 
+            top: 866px; 
+            left: 429px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1432759237339-2 {
+            height: 235px; 
+            width: 400px; 
+            top: 11px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-image: url('assets/medusa.jpeg'); 
+            background-color: transparent; 
+            background-size: cover; 
+            background-position-x: 50%; 
+            background-position-y: 50%; 
+            border-top-left-radius: 5px; 
+            border-top-right-radius: 5px; 
+            border-bottom-right-radius: 5px; 
+            border-bottom-left-radius: 5px; 
+        }
+        .silex-id-1432759237239-1 {
+            height: 80px; 
+            width: 400px; 
+            top: 262px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+        }
+        .silex-id-1432761745738-32 {
+            height: 389px; 
+            width: 830px; 
+            top: 2377px; 
+            left: 0px; 
+            background-color: rgb(255, 255, 255); 
+        }
+        .silex-id-1432761834390-33 {
+            height: 83px; 
+            width: 241px; 
+            top: 2267px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-color: transparent; 
+        }
+        .silex-id-1432759237134-0 {
+            height: 460px; 
+            width: 967px; 
+            top: 0px; 
+            left: 0px; 
+            position: absolute; 
+            box-sizing: content-box; 
+            background-image: url('../../../..//sites-silex/silex-templates/templates/stratup/assets/see1.jpeg'); 
+            background-color: rgb(162, 162, 162); 
+            background-size: cover; 
+            background-position-x: 50%; 
+            background-position-y: 50%; 
+            background-repeat-x: no-repeat; 
+            background-repeat-y: no-repeat; 
+        }
+    </style>
+
+
+
+
+
+
+    <style id="current-page-style">
+        .page-home{display:inherit; }
+    </style>
+    <meta name="publicationPath" content="http://localhost:6805/api/1.0/dropbox/exec/put/sites-silex/silex-templates/templates/stratup">
+    <!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove -->
+</head>
+
+
+<body data-silex-id="silex-id-1432759240382-31" data-silex-type="container" class="silex-id-1432759240382-31 silex-runtime">
+    <a id="page-home" data-silex-type="page" class="page-element">Home</a>
+    <div data-silex-id="silex-id-1432759240231-30" class="background editable-style container-element prevent-draggable silex-id-1432759240231-30" data-silex-type="container">
+
+
+
+
+
+
+
+
+
+
+        <div data-silex-id="silex-id-1432759240091-29" data-silex-type="text" class="editable-style text-element full-width silex-id-1432759240091-29">
+            <div class="silex-element-content normal">
+                <h1 class="title" style="text-align: center;"><header class="title" style="text-align: center;">Landjaeger
+ pork loin
+ ham
+ culpa,&nbsp;</header><header><div style="text-align: center;">laboris
+ meatloaf
+ proident.&nbsp;</div><div style="text-align: center;">&nbsp;Duis
+ tenderloin
+ in.</div></header></h1>
+            </div>
+        </div>
+
+
+
+        <div data-silex-id="silex-id-1432759239981-28" data-silex-type="container" class="editable-style container-element full-width silex-id-1432759239981-28">
+
+
+            <div data-silex-id="silex-id-1432759239878-27" data-silex-type="text" class="editable-style text-element full-width silex-id-1432759239878-27">
+                <div class="silex-element-content normal">
+                    <h1 class="heading1">Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque.</h1>
+                    <div>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim
+                        arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</div>
+                    <div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div data-silex-id="silex-id-1432759239777-26" data-silex-type="container" class="editable-style container-element button silex-id-1432759239777-26 page-link-active" data-silex-href="#!page-home">
+
+
+                <div data-silex-id="silex-id-1432759239676-25" data-silex-type="text" class="editable-style text-element silex-id-1432759239676-25">
+                    <div class="silex-element-content normal">
+                        <div style="text-align: center;">Learn More</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div data-silex-id="silex-id-1432759239575-24" data-silex-type="image" class="editable-style image-element silex-id-1432759239575-24">
+            <img class="silex-element-content" src="assets/avatar.jpg">
+        </div>
+        <div data-silex-id="silex-id-1432759239473-23" data-silex-type="text" class="editable-style text-element full-width silex-id-1432759239473-23">
+            <div class="silex-element-content normal">
+                <div style="text-align: center;">Inspired by <a href="http://html5up.net/strata">this template</a>&nbsp;of&nbsp;<a href="http://html5up.net/">HTML5up</a>
+                </div>
+                <div style="text-align: center;">Images by <a href="https://unsplash.com/">unsplash.com</a>
+                </div>
+            </div>
+        </div>
+
+        <div data-silex-id="silex-id-1432759239373-22" data-silex-type="container" class="editable-style container-element full-width silex-id-1432759239373-22">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div data-silex-id="silex-id-1432759239272-21" data-silex-type="container" class="editable-style container-element button silex-id-1432759239272-21 page-link-active" data-silex-href="#!page-home">
+
+
+                <div data-silex-id="silex-id-1432759239171-20" data-silex-type="text" class="editable-style text-element silex-id-1432759239171-20">
+                    <div class="silex-element-content normal">
+                        <div style="text-align: center;">More Works</div>
+                    </div>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1432759239070-19" data-silex-type="text" class="editable-style text-element silex-id-1432759239070-19">
+                <div class="silex-element-content normal">
+                    <h1 class="heading1">Recent Work</h1>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1432759238970-18" data-silex-type="container" class="editable-style container-element  silex-id-1432759238970-18 pic button">
+
+
+                <div data-silex-id="silex-id-1432759238867-17" data-silex-type="container" class="editable-style container-element fancybox silex-id-1432759238867-17" data-silex-href="assets/deck-big.jpeg">
+                </div>
+
+                <div data-silex-id="silex-id-1432759238765-16" data-silex-type="text" class="editable-style text-element full-width silex-id-1432759238765-16">
+                    <div class="silex-element-content normal">
+                        <p class="normal"></p>
+                        <h2 class="heading2">Landjaeger
+ pork</h2>
+                        <p class="normal"></p>
+                        <p class="normal">Landjaeger pork loin ham culpa, laboris meatloaf proident.&nbsp;
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1432759238664-15" data-silex-type="container" class="editable-style container-element  silex-id-1432759238664-15 pic button">
+
+
+                <div data-silex-id="silex-id-1432759238561-14" data-silex-type="container" class="editable-style container-element fancybox silex-id-1432759238561-14" data-silex-href="assets/swimingpool-big.jpeg" title="Lorem ipsum caption">
+                </div>
+
+                <div data-silex-id="silex-id-1432759238460-13" data-silex-type="text" class="editable-style text-element full-width silex-id-1432759238460-13">
+                    <div class="silex-element-content normal">
+                        <p class="normal"></p>
+                        <h2 class="heading2">Landjaeger
+ pork</h2>
+                        <p class="normal"></p>
+                        <p class="normal">Landjaeger pork loin ham culpa, laboris meatloaf proident.&nbsp;
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div data-silex-id="silex-id-1432759238358-12" data-silex-type="container" class="editable-style container-element  silex-id-1432759238358-12 pic button">
+
+
+                <div data-silex-id="silex-id-1432759238256-11" data-silex-type="container" class="editable-style container-element  silex-id-1432759238256-11 fancybox button" data-silex-href="assets/see2-big.jpeg" title="The caption of this picture">
+                </div>
+
+                <div data-silex-id="silex-id-1432759238155-10" data-silex-type="text" class="editable-style text-element full-width silex-id-1432759238155-10">
+                    <div class="silex-element-content normal">
+                        <p class="normal"></p>
+                        <h2 class="heading2">Landjaeger
+ pork</h2>
+                        <p class="normal"></p>
+                        <p class="normal">Landjaeger pork loin ham culpa, laboris meatloaf proident.&nbsp;
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1432759238054-9" data-silex-type="container" class="editable-style container-element  silex-id-1432759238054-9 pic button">
+
+
+                <div data-silex-id="silex-id-1432759237951-8" data-silex-type="container" class="editable-style container-element fancybox silex-id-1432759237951-8" data-silex-href="assets/sea3-big.jpeg" title="The caption is set in the &quot;title and tooltip&quot; property in Silex">
+                </div>
+
+                <div data-silex-id="silex-id-1432759237849-7" data-silex-type="text" class="editable-style text-element full-width silex-id-1432759237849-7">
+                    <div class="silex-element-content normal">
+                        <p class="normal"></p>
+                        <h2 class="heading2">Landjaeger
+ pork</h2>
+                        <p class="normal"></p>
+                        <p class="normal">Landjaeger pork loin ham culpa, laboris meatloaf proident.&nbsp;
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1432759237748-6" data-silex-type="container" class="editable-style container-element  silex-id-1432759237748-6 pic button">
+
+
+                <div data-silex-id="silex-id-1432759237642-5" data-silex-type="container" class="editable-style container-element fancybox silex-id-1432759237642-5" data-silex-href="assets/subsea-big.jpeg">
+                </div>
+
+                <div data-silex-id="silex-id-1432759237541-4" data-silex-type="text" class="editable-style text-element full-width silex-id-1432759237541-4">
+                    <div class="silex-element-content normal">
+                        <p class="normal"></p>
+                        <h2 class="heading2">Landjaeger
+ pork</h2>
+                        <p class="normal"></p>
+                        <p class="normal">Landjaeger pork loin ham culpa, laboris meatloaf proident.&nbsp;
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1432759237440-3" data-silex-type="container" class="editable-style container-element  silex-id-1432759237440-3 pic button">
+
+
+                <div data-silex-id="silex-id-1432759237339-2" data-silex-type="container" class="editable-style container-element fancybox silex-id-1432759237339-2" data-silex-href="assets/medusa-big.jpeg">
+                </div>
+
+                <div data-silex-id="silex-id-1432759237239-1" data-silex-type="text" class="editable-style text-element full-width silex-id-1432759237239-1">
+                    <div class="silex-element-content normal">
+                        <p class="normal"></p>
+                        <h2 class="heading2">Landjaeger
+ pork</h2>
+                        <p class="normal"></p>
+                        <p class="normal">Landjaeger pork loin ham culpa, laboris meatloaf proident.&nbsp;
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div data-silex-id="silex-id-1432761745738-32" class="editable-style silex-id-1432761745738-32 html-element page-home paged-element full-width" data-silex-type="html">
+            <div class="silex-element-content">
+                <!-- Begin MailChimp Signup Form -->
+
+
+                <style type="text/css">
+                    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                    	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                    	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                    <form action="//lexoyo.us7.list-manage.com/subscribe/post?u=3ec1ea212adc44025d91ed004&amp;id=88a7fd2551" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                        <div id="mc_embed_signup_scroll">
+
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Email Address </label>
+                                <input value="" name="EMAIL" class="required email" id="mce-EMAIL" type="email">
+                            </div>
+                            <div class="mc-field-group">
+                                <label for="mce-NAME">Name </label>
+                                <input value="" name="NAME" class="required" id="mce-NAME" type="text">
+                            </div>
+                            <div class="mc-field-group " style="width: 760px; left: 0px">
+                                <label for="mce-MESSAGE">Message </label>
+                                <textarea value="" name="MESSAGE" class="required" id="mce-MESSAGE" type="text" style="height: 200px; width: 100%;"></textarea>
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;">
+                                <input name="b_3ec1ea212adc44025d91ed004_88a7fd2551" tabindex="-1" value="" type="text">
+                            </div>
+                            <div class="clear">
+                                <input value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" type="submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div data-silex-id="silex-id-1432761834390-33" data-silex-type="text" class="editable-style text-element silex-id-1432761834390-33 page-home paged-element">
+            <div class="silex-element-content normal">
+                <h1 class="heading1">Get In Touch<br></h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div data-silex-id="silex-id-1432759237134-0" data-silex-type="container" class="editable-style container-element full-width silex-id-1432759237134-0">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
