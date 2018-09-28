@@ -7,10 +7,6 @@
 body {
   min-width: 100%;
   min-height: 100%;
-  position: absolute;
-  transition: min-width .5s ease-out, min-height .5s ease-out; /* smooth body resize when dragging elements near the side, or when page have different size */
-  font-family: Arial, sans-serif;
-  font-weight: lighter;
 }
 body.compute-body-size-pending {
   transition: none;
@@ -37,6 +33,22 @@ body.compute-body-size-pending {
 }
 .silex-element-content {
   pointer-events: none;
+}
+.silex-element-content[contenteditable="true"] {
+  min-height: 20px;
+  cursor: text;
+  pointer-events: auto;
+}
+.editable-style.silex-selected.text-editor-focus {
+  /* remove text box selection markers
+  box-shadow: none;
+  */
+  /* a click on current text box will select it */
+  cursor: pointer;
+}
+.text-editor-focus .ui-resizable-handle {
+  /* remove text box UI handles for resize */
+  display: none;
 }
 .section-element > .silex-element-content {
   /* section have a content element, and it needs to keep pointer events
@@ -91,22 +103,22 @@ body.silex-runtime .silex-element-content {
   position: absolute;
   border-radius: inherit; /* this is to follow the element's radius */
 }
-/* links default formatting */
-.editable-style[data-silex-href]{
-  cursor: pointer;
+/* wysihtml text editor styles */
+.wysiwyg-float-left {
+  float: left;
+  margin: 0 8px 8px 0;
 }
-.text-element a, a.text-element{
-  color: inherit;
-  text-decoration: initial;
-}
-.text-element a:hover, a.text-element:hover{
-  color: inherit;
-  text-decoration: underline;
+.wysiwyg-float-right {
+  float: right;
+  margin: 0 0 8px 8px;
 }
 /* Remove dots surrounding links in Firefox
     because of normalize.css */
 a:focus{ outline: none;}
 
+body.silex-runtime .editable-style[data-silex-href] {
+  cursor: pointer;
+}
 .silex-pages .menu-button {
   display: none;
 }
@@ -159,17 +171,11 @@ a:focus{ outline: none;}
     background-color: #262626;
   }
   /* elements styles */
-  body.enable-mobile {
-    padding: 60px 0 0 0; /* leave space for the hamburger button */
-  }
   body.enable-mobile .background {
     height: initial;
     padding-bottom: 50px;
   }
-  body.enable-mobile {
-    min-height: 100%;
-    max-width: 100%;
-  }
+  /* mobile mode */
   body.enable-mobile .editable-style,
   body.enable-mobile .background.background-initial {
     position: relative;
