@@ -11,5 +11,5 @@
 [href^="http://www.linkbucks.com/referral/"],
 [href^="http://www.freefilesdownloader.com/"] {display: none !important;}
 .website-width {width: 980px;}
-h1 {color: #B4E5E8; line-height: 0.5;}.text-element > .silex-element-content {font-family: 'Oswald', sans-serif; font-weight: normal;}p {color: #606060;}a {color: #B4E5E8;}[data-silex-href] {color: #B4E5E8;}@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {h1 {line-height: 1;}.text-element > .silex-element-content {font-size: 22px;}}
+h1 {color: #B4E5E8; line-height: 0.5;}.text-element > .silex-element-content {font-family: 'Oswald', sans-serif; font-weight: normal;}p {color: #606060;}a {color: #B4E5E8; text-decoration: none;}[data-silex-href] {color: #B4E5E8; text-decoration: none;}@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {h1 {line-height: 1;}.text-element > .silex-element-content {font-size: 22px;}}
 .nav.text-element > .silex-element-content {text-align: center;}.nav a {color: #000000; background-color: #cb4c4c; text-decoration: none; line-height: 3;}.nav [data-silex-href] {color: #000000; background-color: #cb4c4c; text-decoration: none; line-height: 3;}.nav .page-link-active {text-decoration: underline;}body.silex-runtime {opacity: 1;}
