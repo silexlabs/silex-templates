@@ -27,6 +27,14 @@
 [href^="http://www.linkbucks.com/referral/"],
 [href^="http://www.freefilesdownloader.com/"] {display: none !important;}</style><style>[href^="http://www.faceporn.net/free?"],
 [href^="http://www.linkbucks.com/referral/"],
+[href^="http://www.freefilesdownloader.com/"] {display: none !important;}</style><style>[href^="http://www.faceporn.net/free?"],
+[href^="http://www.linkbucks.com/referral/"],
+[href^="http://www.freefilesdownloader.com/"] {display: none !important;}</style><style>[href^="http://www.faceporn.net/free?"],
+[href^="http://www.linkbucks.com/referral/"],
+[href^="http://www.freefilesdownloader.com/"] {display: none !important;}</style><style>[href^="http://www.faceporn.net/free?"],
+[href^="http://www.linkbucks.com/referral/"],
+[href^="http://www.freefilesdownloader.com/"] {display: none !important;}</style><style>[href^="http://www.faceporn.net/free?"],
+[href^="http://www.linkbucks.com/referral/"],
 [href^="http://www.freefilesdownloader.com/"] {display: none !important;}</style>
     <script type="text/javascript" src="http://localhost:6805/static/2.7/jquery-ui.js" data-silex-static=""></script>
 
@@ -37,13 +45,14 @@
     <!-- Silex style -->
     <link href="http://localhost:6805/static/2.7/front-end.css" rel="stylesheet" data-silex-static="">
 
-    <style type="text/css" class="silex-style">.nav-mark {border-bottom: 1px solid #FEFFFD; transition: border .2s ease-out, background-color .2s ease-out;}.nav-mark:hover {border-bottom: 1px solid #FF9900;}.nav-mark.page-link-active {background-color: #FF9900;}.sub-nav.page-link-active {width: 250px; box-shadow: 0 1px 10px black;}.sub-nav {transition: all .15s ease-out; z-index: 100;}</style>
+    <style type="text/css" class="silex-style">.nav-mark {border-bottom: 1px solid #FEFFFD; transition: border .2s ease-out, background-color .2s ease-out;}.nav-mark:hover {border-bottom: 1px solid #FF9900;}.nav-mark.page-link-active {background-color: #FF9900;}.sub-nav.sub-nav-active {width: 250px; box-shadow: 0 1px 10px black;}.sub-nav {transition: all .15s ease-out; z-index: 100;}</style>
     <script type="text/javascript" class="silex-script">$(function() {
     var slider = $('.slider .unslider').children().get(0);
     var unslider = $(slider).data('unslider');
     $('.sub-nav').click(function() {
         unslider.next()
-        $(this).addClass('page-link-active');
+        $('.sub-nav-active').removeClass('sub-nav-active');
+        $(this).addClass('sub-nav-active');
     });
 })</script>
     
@@ -276,7 +285,7 @@
                         </div>
                     </div>
                 </div>
-                <div data-silex-type="container" class="editable-style container-element silex-id-1439554966154-49 hide-on-mobile sub-nav page-link-active" data-silex-id="silex-id-1439554966154-49">
+                <div data-silex-type="container" class="editable-style container-element silex-id-1439554966154-49 hide-on-mobile sub-nav sub-nav-active" data-silex-id="silex-id-1439554966154-49">
 
 
 
@@ -295,7 +304,7 @@
 
 
 
-                    <div data-silex-type="text" class="editable-style text-element silex-id-1439554965740-45 buttons" data-silex-href="#!page-home" data-silex-id="silex-id-1439554965740-45">
+                    <div data-silex-type="text" class="editable-style text-element silex-id-1439554965740-45 buttons page-link-active" data-silex-href="#!page-home" data-silex-id="silex-id-1439554965740-45">
                         <div class="silex-element-content normal">
                             <h2>Tip<br></h2><h3>Children<br></h3></div>
                     </div>
@@ -384,7 +393,7 @@
 
                 </div>
             </div>
-            <div data-silex-type="text" class="editable-style text-element silex-id-1439554964011-28 content page-link-active" data-silex-href="#!page-home" data-silex-id="silex-id-1439554964011-28">
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439554964011-28 content" data-silex-href="#!page-home" data-silex-id="silex-id-1439554964011-28">
                 <div class="silex-element-content normal">
                     <h2>Our Mission</h2>
                     
@@ -468,7 +477,7 @@
 
 
 
-                <div data-silex-type="text" class="editable-style text-element button-read-more silex-id-1439554963502-23 buttons" data-silex-href="#!page-home" data-silex-id="silex-id-1439554963502-23" style="">
+                <div data-silex-type="text" class="editable-style text-element button-read-more silex-id-1439554963502-23 buttons page-link-active" data-silex-href="#!page-home" data-silex-id="silex-id-1439554963502-23" style="">
                     <div class="silex-element-content normal"><p>READ MORE</p>
                     </div>
                 </div>
@@ -579,7 +588,7 @@
 
 
     <div class="silex-pages">
-        <div data-silex-type="image" data-silex-id="silex-id-hamburger-menu" class="menu-button editable-style silex-id-hamburger-menu image-element page-page-1 paged-element prevent-draggable prevent-resizable"><img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII=" class="silex-element-content"></div><a id="page-home" data-silex-type="page" class="page-element page-link-active">Home</a><a id="page-our-mission" data-silex-type="page" class="page-element">Our Mission</a><a id="page-news-press" data-silex-type="page" class="page-element">News &amp; Press</a><a id="page-how-to-help" data-silex-type="page" class="page-element">How to Help</a><a id="page-contact" data-silex-type="page" class="page-element">Contact</a></div>
+        <div data-silex-type="image" data-silex-id="silex-id-hamburger-menu" class="menu-button editable-style silex-id-hamburger-menu image-element page-page-1 paged-element prevent-draggable prevent-resizable"><img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII=" class="silex-element-content"></div><a id="page-home" data-silex-type="page" class="page-element">Home</a><a id="page-our-mission" data-silex-type="page" class="page-element">Our Mission</a><a id="page-news-press" data-silex-type="page" class="page-element">News &amp; Press</a><a id="page-how-to-help" data-silex-type="page" class="page-element">How to Help</a><a id="page-contact" data-silex-type="page" class="page-element">Contact</a></div>
 
 
 
@@ -780,7 +789,7 @@
     <div data-silex-type="container" class="prevent-draggable container-element website-min-width editable-style silex-id-1490694042605-9 section-element" data-silex-id="silex-id-1490694042605-9">
         <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1490694042604-8 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1490694042604-8">
             
-            <div data-silex-type="text" class="editable-style text-element logo silex-id-1439554962691-15" data-silex-href="#!page-home" data-silex-id="silex-id-1439554962691-15" style="">
+            <div data-silex-type="text" class="editable-style text-element logo silex-id-1439554962691-15 page-link-active" data-silex-href="#!page-home" data-silex-id="silex-id-1439554962691-15" style="">
                 <div class="silex-element-content normal">
                     <h2>
                         Ipsoom&nbsp;Center
@@ -811,7 +820,7 @@
                 <div class="silex-element-content normal"><p>Our mission</p>
                 </div>
             </div>
-            <div data-silex-type="text" class="editable-style text-element silex-id-1439554961739-6 nav hide-on-mobile nav-mark page-link-active" data-silex-href="#!page-home" data-silex-id="silex-id-1439554961739-6">
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439554961739-6 nav hide-on-mobile nav-mark" data-silex-href="#!page-home" data-silex-id="silex-id-1439554961739-6">
                 <div class="silex-element-content normal"><p>Home</p>
                 </div>
             </div>
