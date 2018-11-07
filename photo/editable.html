@@ -105,6 +105,7 @@ $(function() {
             }
        });
        // Get id of current scroll item
+                console.log('xxx', height)
        var cur = scrollItems.map(function(){
          if ($(this.item).offset().top <= fromTop + height + 1)
            return this;
