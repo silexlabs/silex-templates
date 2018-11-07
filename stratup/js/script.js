@@ -1,4 +1,5 @@
 
+
         document.write('<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />');
         document.write('<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></scr'+'ipt>');
         $(document).ready(function() {
