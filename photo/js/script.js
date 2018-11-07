@@ -13,6 +13,7 @@ $(function() {
     var lastId,
         // All list items
         menuItems = $(".anchor-link, .anchor-container a"),
+        height = menuItems.parent().height(),
         // Anchors corresponding to menu items
         // find the name of the elements which are anchors
         scrollItems = menuItems.map(function(){
@@ -58,7 +59,7 @@ $(function() {
             // leave time for the page to open
             // and then scroll
             setTimeout(function() {
-              var offsetTop = $(item).offset().top - 46;
+              var offsetTop = $(item).offset().top - height;
               $('html, body').stop().animate({
                   scrollTop: offsetTop
               }, 300);
@@ -90,9 +91,10 @@ $(function() {
             }
        });
        // Get id of current scroll item
-       var cur = scrollItems.map(function(){
-         if ($(this.item).offset().top <= fromTop + 47)
-           return this;
+       var cur = scrollItems.filter(function(){
+         if ($(this.item).offset().top <= fromTop + height + 1)
+           return true;
+         else return false;
        });
        // add the css class on the current menu item
        $(".active-menu").removeClass("active-menu");
