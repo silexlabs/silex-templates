@@ -1,98 +1,18 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<!DOCTYPE html><html><head>
     <title>Stratup template</title>
     <meta charset="UTF-8">
     <meta name="generator" content="Silex v2.2.7">
     <!-- leave this for stats -->
-    <script type="text/javascript" src="//old.silex.me/static/2.7/jquery.js" data-silex-static=""></script>
-    <script type="text/javascript" src="//old.silex.me/static/2.7/jquery-ui.js" data-silex-static=""></script>
+    <script type="text/javascript" src="http://localhost:6805/static/2.7/jquery.js" data-silex-static=""></script>
+    <script type="text/javascript" src="http://localhost:6805/static/2.7/jquery-ui.js" data-silex-static=""></script>
 
-    <script type="text/javascript" src="//old.silex.me/static/2.7/pageable.js" data-silex-static=""></script>
-    <script type="text/javascript" src="//old.silex.me/static/2.7/front-end.js" data-silex-static=""></script>
+    <script type="text/javascript" src="http://localhost:6805/static/2.7/pageable.js" data-silex-static=""></script>
+    <script type="text/javascript" src="http://localhost:6805/static/2.7/front-end.js" data-silex-static=""></script>
     <!-- Normalize -->
-    <link href="//old.silex.me/static/2.7/normalize.css" rel="stylesheet" data-silex-static="">
+    <link href="http://localhost:6805/static/2.7/normalize.css" rel="stylesheet" data-silex-static="">
     <!-- Silex style -->
-    <link href="//old.silex.me/static/2.7/front-end.css" rel="stylesheet" data-silex-static="">
-    <style type="text/css" class="silex-style">
-        .normal {
-            color: #A2A2A2;
-            line-height: 30px;
-            font-family: Helvetica, sans-serif;
-        }
-        
-        .full-width {
-            width: 100% !important;
-            left: 0 !important;
-        }
-        
-        .bottom {
-            top: initial !important;
-            bottom: 0;
-        }
-        
-        .title {
-            font-weight: 100;
-            font-size: 30px;
-            line-height: 40px;
-            color: rgba(255, 255, 255, 0.5);
-        }
-        
-        .heading1 {
-            font-weight: 400;
-            font-size: 30px;
-            line-height: 40px;
-            color: #787878;
-        }
-        
-        .button {
-            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-        }
-        
-        .button:hover {
-            border-color: #49bf9d !important;
-        }
-        
-        .button:hover .normal {
-            color: #49bf9d;
-        }
-        
-        .pic .heading2 {
-            margin: 0;
-            line-height: 10px;
-            color: #676d79;
-            font-size: 16px;
-            font-weight: normal;
-        }
-        
-        .pic .normal {
-            font-size: 13px;
-            line-height: 20px;
-            color: #A2A2A2;
-        }
-        
-        .bg-light-box {
-            z-index: 100;
-            width: 100% !important;
-            height: 100% !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        
-        .bg-light-box>div {
-            position: fixed !important;
-        }
-        
-        .pic-light-box {
-            top: 10px !important;
-            bottom: 100px !important;
-            left: 10px !important;
-            right: 10px !important;
-            width: initial !important;
-            height: initial !important;
-        }
-    </style>
+    <link href="http://localhost:6805/static/2.7/front-end.css" rel="stylesheet" data-silex-static="">
+    <style type="text/css" class="silex-style">.normal {color: #A2A2A2; line-height: 30px; font-family: Helvetica, sans-serif;}.full-width {width: 100% !important; left: 0 !important;}.bottom {top: initial !important; bottom: 0;}.title {font-weight: 100; font-size: 30px; line-height: 40px; color: rgba(255, 255, 255, 0.5);}.heading1 {font-weight: 400; font-size: 30px; line-height: 40px; color: #787878;}.button {transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;}.button:hover {border-color: #49bf9d !important;}.button:hover .normal {color: #49bf9d;}.pic .heading2 {margin: 0; line-height: 10px; color: #676d79; font-size: 16px; font-weight: normal;}.pic .normal {font-size: 13px; line-height: 20px; color: #A2A2A2;}.bg-light-box {z-index: 100; width: 100% !important; height: 100% !important; top: 0 !important; left: 0 !important;}.bg-light-box>div {position: fixed !important;}.pic-light-box {top: 10px !important; bottom: 100px !important; left: 10px !important; right: 10px !important; width: initial !important; height: initial !important;}</style>
     <script type="text/javascript" class="silex-script">
         document.write('<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />');
         document.write('<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></scr'+'ipt>');
@@ -113,436 +33,7 @@
         	$('.fancybox').fancybox();
         });
     </script>
-    <style type="text/css" class="silex-inline-styles">
-        .silex-id-1432759240382-31 {
-            left: 0px;
-            top: 0px;
-            background-color: rgb(255, 255, 255);
-        }
-        
-        .silex-id-1432759240231-30 {
-            top: 5px;
-            left: 64px;
-            width: 830px;
-            box-sizing: content-box;
-            background-color: transparent;
-            min-height: 2888px;
-        }
-        
-        .silex-id-1432759240091-29 {
-            width: 667px;
-            top: 217px;
-            left: 0px;
-            box-sizing: content-box;
-            min-height: 174px;
-        }
-        
-        .silex-id-1432759239981-28 {
-            width: 830px;
-            top: 478px;
-            left: 0px;
-            box-sizing: content-box;
-            border-top-width: 0px;
-            border-right-width: 0px;
-            border-bottom-width: 2px;
-            border-left-width: 0px;
-            border-top-style: solid;
-            border-right-style: solid;
-            border-bottom-style: solid;
-            border-left-style: solid;
-            border-top-color: rgb(239, 239, 239);
-            border-right-color: rgb(239, 239, 239);
-            border-bottom-color: rgb(239, 239, 239);
-            border-left-color: rgb(239, 239, 239);
-            background-color: transparent;
-            min-height: 395.889px;
-        }
-        
-        .silex-id-1432759239878-27 {
-            width: 830px;
-            top: 10px;
-            left: 0px;
-            box-sizing: content-box;
-            min-height: 265px;
-        }
-        
-        .silex-id-1432759239777-26 {
-            width: 160px;
-            top: 280px;
-            left: 0px;
-            box-sizing: content-box;
-            border-top-width: 3px;
-            border-right-width: 3px;
-            border-bottom-width: 3px;
-            border-left-width: 3px;
-            border-top-style: solid;
-            border-right-style: solid;
-            border-bottom-style: solid;
-            border-left-style: solid;
-            border-top-color: rgb(239, 239, 239);
-            border-right-color: rgb(239, 239, 239);
-            border-bottom-color: rgb(239, 239, 239);
-            border-left-color: rgb(239, 239, 239);
-            border-image-source: none;
-            border-image-slice: 100%;
-            border-image-width: 1;
-            border-image-outset: 0;
-            border-image-repeat: stretch;
-            border-top-left-radius: 11px;
-            border-top-right-radius: 11px;
-            border-bottom-right-radius: 11px;
-            border-bottom-left-radius: 11px;
-            background-color: transparent;
-            min-height: 50px;
-        }
-        
-        .silex-id-1432759239676-25 {
-            width: 98px;
-            top: 10px;
-            left: 29px;
-            box-sizing: content-box;
-            min-height: 30px;
-        }
-        
-        .silex-id-1432759239575-24 {
-            width: 123px;
-            top: 39px;
-            left: 336px;
-            border-top-left-radius: 80px;
-            border-top-right-radius: 80px;
-            border-bottom-right-radius: 80px;
-            border-bottom-left-radius: 80px;
-            border-top-width: 2px;
-            border-right-width: 2px;
-            border-bottom-width: 2px;
-            border-left-width: 2px;
-            border-top-style: solid;
-            border-right-style: solid;
-            border-bottom-style: solid;
-            border-left-style: solid;
-            border-top-color: rgb(239, 239, 239);
-            border-right-color: rgb(239, 239, 239);
-            border-bottom-color: rgb(239, 239, 239);
-            border-left-color: rgb(239, 239, 239);
-            border-image-source: none;
-            border-image-slice: 100%;
-            border-image-width: 1;
-            border-image-outset: 0;
-            border-image-repeat: stretch;
-            background-color: rgb(255, 255, 255);
-            min-height: 123px;
-        }
-        
-        .silex-id-1432759239473-23 {
-            width: 830px;
-            top: 2808px;
-            left: 0px;
-            box-sizing: content-box;
-            min-height: 75px;
-        }
-        
-        .silex-id-1432759239373-22 {
-            width: 830px;
-            top: 908px;
-            left: 0px;
-            box-sizing: content-box;
-            border-top-width: 0px;
-            border-right-width: 0px;
-            border-bottom-width: 2px;
-            border-left-width: 0px;
-            border-top-style: solid;
-            border-right-style: solid;
-            border-bottom-style: solid;
-            border-left-style: solid;
-            border-top-color: rgb(239, 239, 239);
-            border-right-color: rgb(239, 239, 239);
-            border-bottom-color: rgb(239, 239, 239);
-            border-left-color: rgb(239, 239, 239);
-            background-color: transparent;
-            min-height: 1350px;
-        }
-        
-        .silex-id-1432759239272-21 {
-            width: 160px;
-            top: 1241px;
-            left: 0px;
-            box-sizing: content-box;
-            border-top-width: 3px;
-            border-right-width: 3px;
-            border-bottom-width: 3px;
-            border-left-width: 3px;
-            border-top-style: solid;
-            border-right-style: solid;
-            border-bottom-style: solid;
-            border-left-style: solid;
-            border-top-color: rgb(239, 239, 239);
-            border-right-color: rgb(239, 239, 239);
-            border-bottom-color: rgb(239, 239, 239);
-            border-left-color: rgb(239, 239, 239);
-            border-image-source: none;
-            border-image-slice: 100%;
-            border-image-width: 1;
-            border-image-outset: 0;
-            border-image-repeat: stretch;
-            border-top-left-radius: 11px;
-            border-top-right-radius: 11px;
-            border-bottom-right-radius: 11px;
-            border-bottom-left-radius: 11px;
-            background-color: transparent;
-            min-height: 50px;
-        }
-        
-        .silex-id-1432759239171-20 {
-            width: 98px;
-            top: 10px;
-            left: 29px;
-            box-sizing: content-box;
-            min-height: 30px;
-        }
-        
-        .silex-id-1432759239070-19 {
-            width: 241px;
-            top: 0px;
-            left: 0px;
-            box-sizing: content-box;
-            background-color: transparent;
-            min-height: 83px;
-        }
-        
-        .silex-id-1432759238970-18 {
-            width: 400px;
-            top: 491px;
-            left: 0px;
-            box-sizing: content-box;
-            background-color: transparent;
-            min-height: 363px;
-        }
-        
-        .silex-id-1432759238867-17 {
-            width: 400px;
-            top: 11px;
-            left: 0px;
-            box-sizing: content-box;
-            background-image: url('assets/deck.jpeg');
-            background-color: transparent;
-            background-size: cover;
-            background-position-x: 50%;
-            background-position-y: 50%;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;
-            border-bottom-left-radius: 5px;
-            min-height: 235px;
-        }
-        
-        .silex-id-1432759238765-16 {
-            width: 400px;
-            top: 262px;
-            left: 0px;
-            box-sizing: content-box;
-            min-height: 80px;
-        }
-        
-        .silex-id-1432759238664-15 {
-            width: 400px;
-            top: 491px;
-            left: 429px;
-            box-sizing: content-box;
-            background-color: transparent;
-            min-height: 363px;
-        }
-        
-        .silex-id-1432759238561-14 {
-            width: 400px;
-            top: 11px;
-            left: 0px;
-            box-sizing: content-box;
-            background-image: url('assets/swimingpool.jpeg');
-            background-color: transparent;
-            background-size: cover;
-            background-position-x: 50%;
-            background-position-y: 50%;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;
-            border-bottom-left-radius: 5px;
-            min-height: 235px;
-        }
-        
-        .silex-id-1432759238460-13 {
-            width: 400px;
-            top: 262px;
-            left: 0px;
-            box-sizing: content-box;
-            min-height: 80px;
-        }
-        
-        .silex-id-1432759238358-12 {
-            width: 400px;
-            top: 117px;
-            left: 0px;
-            box-sizing: content-box;
-            background-color: transparent;
-            min-height: 363px;
-        }
-        
-        .silex-id-1432759238256-11 {
-            width: 400px;
-            top: 11px;
-            left: 0px;
-            box-sizing: content-box;
-            background-image: url('assets/see2.jpeg');
-            background-color: transparent;
-            background-size: cover;
-            background-position-x: 50%;
-            background-position-y: 50%;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;
-            border-bottom-left-radius: 5px;
-            min-height: 235px;
-        }
-        
-        .silex-id-1432759238155-10 {
-            width: 400px;
-            top: 262px;
-            left: 0px;
-            box-sizing: content-box;
-            min-height: 80px;
-        }
-        
-        .silex-id-1432759238054-9 {
-            width: 400px;
-            top: 117px;
-            left: 431px;
-            box-sizing: content-box;
-            background-color: transparent;
-            min-height: 363px;
-        }
-        
-        .silex-id-1432759237951-8 {
-            width: 400px;
-            top: 11px;
-            left: 0px;
-            box-sizing: content-box;
-            background-image: url('assets/sea3.jpeg');
-            background-color: transparent;
-            background-size: cover;
-            background-position-x: 50%;
-            background-position-y: 50%;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;
-            border-bottom-left-radius: 5px;
-            min-height: 235px;
-        }
-        
-        .silex-id-1432759237849-7 {
-            width: 400px;
-            top: 262px;
-            left: 0px;
-            box-sizing: content-box;
-            min-height: 80px;
-        }
-        
-        .silex-id-1432759237748-6 {
-            width: 400px;
-            top: 866px;
-            left: 0px;
-            box-sizing: content-box;
-            background-color: transparent;
-            min-height: 363px;
-        }
-        
-        .silex-id-1432759237642-5 {
-            width: 400px;
-            top: 11px;
-            left: 0px;
-            box-sizing: content-box;
-            background-image: url('assets/subsea.jpeg');
-            background-color: transparent;
-            background-size: cover;
-            background-position-x: 50%;
-            background-position-y: 50%;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;
-            border-bottom-left-radius: 5px;
-            min-height: 235px;
-        }
-        
-        .silex-id-1432759237541-4 {
-            width: 400px;
-            top: 262px;
-            left: 0px;
-            box-sizing: content-box;
-            min-height: 80px;
-        }
-        
-        .silex-id-1432759237440-3 {
-            width: 400px;
-            top: 866px;
-            left: 429px;
-            box-sizing: content-box;
-            background-color: transparent;
-            min-height: 363px;
-        }
-        
-        .silex-id-1432759237339-2 {
-            width: 400px;
-            top: 11px;
-            left: 0px;
-            box-sizing: content-box;
-            background-image: url('assets/medusa.jpeg');
-            background-color: transparent;
-            background-size: cover;
-            background-position-x: 50%;
-            background-position-y: 50%;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;
-            border-bottom-left-radius: 5px;
-            min-height: 235px;
-        }
-        
-        .silex-id-1432759237239-1 {
-            width: 400px;
-            top: 262px;
-            left: 0px;
-            box-sizing: content-box;
-            min-height: 80px;
-        }
-        
-        .silex-id-1432761745738-32 {
-            width: 830px;
-            top: 2377px;
-            left: 0px;
-            background-color: rgb(255, 255, 255);
-            min-height: 389px;
-        }
-        
-        .silex-id-1432761834390-33 {
-            width: 241px;
-            top: 2267px;
-            left: 0px;
-            box-sizing: content-box;
-            background-color: transparent;
-            min-height: 83px;
-        }
-        
-        .silex-id-1432759237134-0 {
-            width: 967px;
-            top: 0px;
-            left: 0px;
-            box-sizing: content-box;
-            background-image: url('../../../..//sites-silex/silex-templates/templates/stratup/assets/see1.jpeg');
-            background-color: rgb(162, 162, 162);
-            background-size: cover;
-            background-position-x: 50%;
-            background-position-y: 50%;
-            min-height: 460px;
-        }
-    </style>
+    <style type="text/css" class="silex-inline-styles">.silex-id-1432759240382-31 {left: 0px; top: 0px; background-color: rgb(255, 255, 255);}.silex-id-1432759240231-30 {top: 5px; left: 64px; width: 830px; box-sizing: content-box; background-color: transparent; min-height: 2888px;}.silex-id-1432759240091-29 {width: 667px; top: 217px; left: 0px; box-sizing: content-box; min-height: 174px;}.silex-id-1432759239981-28 {width: 830px; top: 478px; left: 0px; box-sizing: content-box; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 2px; border-left-width: 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(239, 239, 239); border-right-color: rgb(239, 239, 239); border-bottom-color: rgb(239, 239, 239); border-left-color: rgb(239, 239, 239); background-color: transparent; min-height: 395.889px;}.silex-id-1432759239878-27 {width: 830px; top: 10px; left: 0px; box-sizing: content-box; min-height: 265px;}.silex-id-1432759239777-26 {width: 160px; top: 280px; left: 0px; box-sizing: content-box; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(239, 239, 239); border-right-color: rgb(239, 239, 239); border-bottom-color: rgb(239, 239, 239); border-left-color: rgb(239, 239, 239); border-image-source: none; border-image-slice: 100%; border-image-width: 1; border-image-outset: 0; border-image-repeat: stretch; border-top-left-radius: 11px; border-top-right-radius: 11px; border-bottom-right-radius: 11px; border-bottom-left-radius: 11px; background-color: transparent; min-height: 50px;}.silex-id-1432759239676-25 {width: 98px; top: 10px; left: 29px; box-sizing: content-box; min-height: 30px;}.silex-id-1432759239575-24 {width: 123px; top: 39px; left: 336px; border-top-left-radius: 80px; border-top-right-radius: 80px; border-bottom-right-radius: 80px; border-bottom-left-radius: 80px; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(239, 239, 239); border-right-color: rgb(239, 239, 239); border-bottom-color: rgb(239, 239, 239); border-left-color: rgb(239, 239, 239); border-image-source: none; border-image-slice: 100%; border-image-width: 1; border-image-outset: 0; border-image-repeat: stretch; background-color: rgb(255, 255, 255); min-height: 123px;}.silex-id-1432759239373-22 {width: 830px; top: 908px; left: 0px; box-sizing: content-box; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 2px; border-left-width: 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(239, 239, 239); border-right-color: rgb(239, 239, 239); border-bottom-color: rgb(239, 239, 239); border-left-color: rgb(239, 239, 239); background-color: transparent; min-height: 1350px;}.silex-id-1432759239272-21 {width: 160px; top: 1241px; left: 0px; box-sizing: content-box; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(239, 239, 239); border-right-color: rgb(239, 239, 239); border-bottom-color: rgb(239, 239, 239); border-left-color: rgb(239, 239, 239); border-image-source: none; border-image-slice: 100%; border-image-width: 1; border-image-outset: 0; border-image-repeat: stretch; border-top-left-radius: 11px; border-top-right-radius: 11px; border-bottom-right-radius: 11px; border-bottom-left-radius: 11px; background-color: transparent; min-height: 50px;}.silex-id-1432759239171-20 {width: 98px; top: 10px; left: 29px; box-sizing: content-box; min-height: 30px;}.silex-id-1432759239070-19 {width: 241px; top: 0px; left: 0px; box-sizing: content-box; background-color: transparent; min-height: 83px;}.silex-id-1432759238970-18 {width: 400px; top: 491px; left: 0px; box-sizing: content-box; background-color: transparent; min-height: 363px;}.silex-id-1432759238867-17 {width: 400px; top: 11px; left: 0px; box-sizing: content-box; background-image: url('assets/deck.jpeg'); background-color: transparent; background-size: cover; background-position-x: 50%; background-position-y: 50%; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; min-height: 235px;}.silex-id-1432759238765-16 {width: 400px; top: 262px; left: 0px; box-sizing: content-box; min-height: 80px;}.silex-id-1432759238664-15 {width: 400px; top: 491px; left: 429px; box-sizing: content-box; background-color: transparent; min-height: 363px;}.silex-id-1432759238561-14 {width: 400px; top: 11px; left: 0px; box-sizing: content-box; background-image: url('assets/swimingpool.jpeg'); background-color: transparent; background-size: cover; background-position-x: 50%; background-position-y: 50%; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; min-height: 235px;}.silex-id-1432759238460-13 {width: 400px; top: 262px; left: 0px; box-sizing: content-box; min-height: 80px;}.silex-id-1432759238358-12 {width: 400px; top: 117px; left: 0px; box-sizing: content-box; background-color: transparent; min-height: 363px;}.silex-id-1432759238256-11 {width: 400px; top: 11px; left: 0px; box-sizing: content-box; background-image: url('assets/see2.jpeg'); background-color: transparent; background-size: cover; background-position-x: 50%; background-position-y: 50%; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; min-height: 235px;}.silex-id-1432759238155-10 {width: 400px; top: 262px; left: 0px; box-sizing: content-box; min-height: 80px;}.silex-id-1432759238054-9 {width: 400px; top: 117px; left: 431px; box-sizing: content-box; background-color: transparent; min-height: 363px;}.silex-id-1432759237951-8 {width: 400px; top: 11px; left: 0px; box-sizing: content-box; background-image: url('assets/sea3.jpeg'); background-color: transparent; background-size: cover; background-position-x: 50%; background-position-y: 50%; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; min-height: 235px;}.silex-id-1432759237849-7 {width: 400px; top: 262px; left: 0px; box-sizing: content-box; min-height: 80px;}.silex-id-1432759237748-6 {width: 400px; top: 866px; left: 0px; box-sizing: content-box; background-color: transparent; min-height: 363px;}.silex-id-1432759237642-5 {width: 400px; top: 11px; left: 0px; box-sizing: content-box; background-image: url('assets/subsea.jpeg'); background-color: transparent; background-size: cover; background-position-x: 50%; background-position-y: 50%; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; min-height: 235px;}.silex-id-1432759237541-4 {width: 400px; top: 262px; left: 0px; box-sizing: content-box; min-height: 80px;}.silex-id-1432759237440-3 {width: 400px; top: 866px; left: 429px; box-sizing: content-box; background-color: transparent; min-height: 363px;}.silex-id-1432759237339-2 {width: 400px; top: 11px; left: 0px; box-sizing: content-box; background-image: url('assets/medusa.jpeg'); background-color: transparent; background-size: cover; background-position-x: 50%; background-position-y: 50%; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; min-height: 235px;}.silex-id-1432759237239-1 {width: 400px; top: 262px; left: 0px; box-sizing: content-box; min-height: 80px;}.silex-id-1432761834390-33 {width: 241px; top: 2267px; left: 0px; box-sizing: content-box; background-color: transparent; min-height: 83px;}.silex-id-1432759237134-0 {width: 967px; top: 0px; left: 0px; box-sizing: content-box; background-image: url('../../../../sites-silex/silex-templates/templates/stratup/assets/see1.jpeg'); background-color: rgb(162, 162, 162); background-size: cover; background-position-x: 50%; background-position-y: 50%; min-height: 460px;}.silex-id-1541607106753-3 {min-width: 960px;}.silex-id-1541607106751-2 {width: 960px; min-height: 479px; top: 15px; left: 619px;}.silex-id-1541607116447-4 {width: 960px; height: 419px; background-color: transparent; top: 37px; left: 0px;}.silex-id-1541607078776-1 {min-width: 960px;}.silex-id-1541607078769-0 {width: 960px; min-height: 154px; top: 15px; left: 619px;}.silex-id-1432759239473-23 {width: 830px; top: 13px; left: 65px; box-sizing: content-box; min-height: 75px;}</style>
 
 
 
@@ -552,17 +43,15 @@
 
 
 
-    <script type="text/javascript" class="silex-json-styles">
-        [{"desktop":{"silex-id-1432759240382-31":{"left":"0px","top":"0px","background-color":"rgb(255, 255, 255)"},"silex-id-1432759240231-30":{"top":"5px","left":"64px","width":"830px","box-sizing":"content-box","background-color":"transparent","min-height":"2888px"},"silex-id-1432759240091-29":{"width":"667px","top":"217px","left":"0px","box-sizing":"content-box","min-height":"174px"},"silex-id-1432759239981-28":{"width":"830px","top":"478px","left":"0px","box-sizing":"content-box","border-top-width":"0px","border-right-width":"0px","border-bottom-width":"2px","border-left-width":"0px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(239, 239, 239)","border-right-color":"rgb(239, 239, 239)","border-bottom-color":"rgb(239, 239, 239)","border-left-color":"rgb(239, 239, 239)","background-color":"transparent","min-height":"395.889px"},"silex-id-1432759239878-27":{"width":"830px","top":"10px","left":"0px","box-sizing":"content-box","min-height":"265px"},"silex-id-1432759239777-26":{"width":"160px","top":"280px","left":"0px","box-sizing":"content-box","border-top-width":"3px","border-right-width":"3px","border-bottom-width":"3px","border-left-width":"3px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(239, 239, 239)","border-right-color":"rgb(239, 239, 239)","border-bottom-color":"rgb(239, 239, 239)","border-left-color":"rgb(239, 239, 239)","border-image-source":"none","border-image-slice":"100%","border-image-width":"1","border-image-outset":"0","border-image-repeat":"stretch","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","background-color":"transparent","min-height":"50px"},"silex-id-1432759239676-25":{"width":"98px","top":"10px","left":"29px","box-sizing":"content-box","min-height":"30px"},"silex-id-1432759239575-24":{"width":"123px","top":"39px","left":"336px","border-top-left-radius":"80px","border-top-right-radius":"80px","border-bottom-right-radius":"80px","border-bottom-left-radius":"80px","border-top-width":"2px","border-right-width":"2px","border-bottom-width":"2px","border-left-width":"2px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(239, 239, 239)","border-right-color":"rgb(239, 239, 239)","border-bottom-color":"rgb(239, 239, 239)","border-left-color":"rgb(239, 239, 239)","border-image-source":"none","border-image-slice":"100%","border-image-width":"1","border-image-outset":"0","border-image-repeat":"stretch","background-color":"rgb(255, 255, 255)","min-height":"123px"},"silex-id-1432759239473-23":{"width":"830px","top":"2808px","left":"0px","box-sizing":"content-box","min-height":"75px"},"silex-id-1432759239373-22":{"width":"830px","top":"908px","left":"0px","box-sizing":"content-box","border-top-width":"0px","border-right-width":"0px","border-bottom-width":"2px","border-left-width":"0px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(239, 239, 239)","border-right-color":"rgb(239, 239, 239)","border-bottom-color":"rgb(239, 239, 239)","border-left-color":"rgb(239, 239, 239)","background-color":"transparent","min-height":"1350px"},"silex-id-1432759239272-21":{"width":"160px","top":"1241px","left":"0px","box-sizing":"content-box","border-top-width":"3px","border-right-width":"3px","border-bottom-width":"3px","border-left-width":"3px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(239, 239, 239)","border-right-color":"rgb(239, 239, 239)","border-bottom-color":"rgb(239, 239, 239)","border-left-color":"rgb(239, 239, 239)","border-image-source":"none","border-image-slice":"100%","border-image-width":"1","border-image-outset":"0","border-image-repeat":"stretch","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","background-color":"transparent","min-height":"50px"},"silex-id-1432759239171-20":{"width":"98px","top":"10px","left":"29px","box-sizing":"content-box","min-height":"30px"},"silex-id-1432759239070-19":{"width":"241px","top":"0px","left":"0px","box-sizing":"content-box","background-color":"transparent","min-height":"83px"},"silex-id-1432759238970-18":{"width":"400px","top":"491px","left":"0px","box-sizing":"content-box","background-color":"transparent","min-height":"363px"},"silex-id-1432759238867-17":{"width":"400px","top":"11px","left":"0px","box-sizing":"content-box","background-image":"url('assets/deck.jpeg')","background-color":"transparent","background-size":"cover","background-position-x":"50%","background-position-y":"50%","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"5px","border-bottom-left-radius":"5px","min-height":"235px"},"silex-id-1432759238765-16":{"width":"400px","top":"262px","left":"0px","box-sizing":"content-box","min-height":"80px"},"silex-id-1432759238664-15":{"width":"400px","top":"491px","left":"429px","box-sizing":"content-box","background-color":"transparent","min-height":"363px"},"silex-id-1432759238561-14":{"width":"400px","top":"11px","left":"0px","box-sizing":"content-box","background-image":"url('assets/swimingpool.jpeg')","background-color":"transparent","background-size":"cover","background-position-x":"50%","background-position-y":"50%","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"5px","border-bottom-left-radius":"5px","min-height":"235px"},"silex-id-1432759238460-13":{"width":"400px","top":"262px","left":"0px","box-sizing":"content-box","min-height":"80px"},"silex-id-1432759238358-12":{"width":"400px","top":"117px","left":"0px","box-sizing":"content-box","background-color":"transparent","min-height":"363px"},"silex-id-1432759238256-11":{"width":"400px","top":"11px","left":"0px","box-sizing":"content-box","background-image":"url('assets/see2.jpeg')","background-color":"transparent","background-size":"cover","background-position-x":"50%","background-position-y":"50%","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"5px","border-bottom-left-radius":"5px","min-height":"235px"},"silex-id-1432759238155-10":{"width":"400px","top":"262px","left":"0px","box-sizing":"content-box","min-height":"80px"},"silex-id-1432759238054-9":{"width":"400px","top":"117px","left":"431px","box-sizing":"content-box","background-color":"transparent","min-height":"363px"},"silex-id-1432759237951-8":{"width":"400px","top":"11px","left":"0px","box-sizing":"content-box","background-image":"url('assets/sea3.jpeg')","background-color":"transparent","background-size":"cover","background-position-x":"50%","background-position-y":"50%","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"5px","border-bottom-left-radius":"5px","min-height":"235px"},"silex-id-1432759237849-7":{"width":"400px","top":"262px","left":"0px","box-sizing":"content-box","min-height":"80px"},"silex-id-1432759237748-6":{"width":"400px","top":"866px","left":"0px","box-sizing":"content-box","background-color":"transparent","min-height":"363px"},"silex-id-1432759237642-5":{"width":"400px","top":"11px","left":"0px","box-sizing":"content-box","background-image":"url('assets/subsea.jpeg')","background-color":"transparent","background-size":"cover","background-position-x":"50%","background-position-y":"50%","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"5px","border-bottom-left-radius":"5px","min-height":"235px"},"silex-id-1432759237541-4":{"width":"400px","top":"262px","left":"0px","box-sizing":"content-box","min-height":"80px"},"silex-id-1432759237440-3":{"width":"400px","top":"866px","left":"429px","box-sizing":"content-box","background-color":"transparent","min-height":"363px"},"silex-id-1432759237339-2":{"width":"400px","top":"11px","left":"0px","box-sizing":"content-box","background-image":"url('assets/medusa.jpeg')","background-color":"transparent","background-size":"cover","background-position-x":"50%","background-position-y":"50%","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"5px","border-bottom-left-radius":"5px","min-height":"235px"},"silex-id-1432759237239-1":{"width":"400px","top":"262px","left":"0px","box-sizing":"content-box","min-height":"80px"},"silex-id-1432761745738-32":{"width":"830px","top":"2377px","left":"0px","background-color":"rgb(255, 255, 255)","min-height":"389px"},"silex-id-1432761834390-33":{"width":"241px","top":"2267px","left":"0px","box-sizing":"content-box","background-color":"transparent","min-height":"83px"},"silex-id-1432759237134-0":{"width":"967px","top":"0px","left":"0px","box-sizing":"content-box","background-image":"url('../../../..//sites-silex/silex-templates/templates/stratup/assets/see1.jpeg')","background-color":"rgb(162, 162, 162)","background-size":"cover","background-position-x":"50%","background-position-y":"50%","min-height":"460px"},"silex-id-1541598237774-0":{"width":"","background-color":"","min-height":"100px"},"silex-id-1541598237779-1":{"min-height":"100px"}},"mobile":{},"componentData":{}}]
-    </script>
+    <script type="text/json" class="silex-json-styles">[{"fonts":[],"desktop":{"silex-id-1432759240382-31":{"left":"0px","top":"0px","background-color":"rgb(255, 255, 255)"},"silex-id-1432759240231-30":{"top":"5px","left":"64px","width":"830px","box-sizing":"content-box","background-color":"transparent","min-height":"2888px"},"silex-id-1432759240091-29":{"width":"667px","top":"217px","left":"0px","box-sizing":"content-box","min-height":"174px"},"silex-id-1432759239981-28":{"width":"830px","top":"478px","left":"0px","box-sizing":"content-box","border-top-width":"0px","border-right-width":"0px","border-bottom-width":"2px","border-left-width":"0px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(239, 239, 239)","border-right-color":"rgb(239, 239, 239)","border-bottom-color":"rgb(239, 239, 239)","border-left-color":"rgb(239, 239, 239)","background-color":"transparent","min-height":"395.889px"},"silex-id-1432759239878-27":{"width":"830px","top":"10px","left":"0px","box-sizing":"content-box","min-height":"265px"},"silex-id-1432759239777-26":{"width":"160px","top":"280px","left":"0px","box-sizing":"content-box","border-top-width":"3px","border-right-width":"3px","border-bottom-width":"3px","border-left-width":"3px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(239, 239, 239)","border-right-color":"rgb(239, 239, 239)","border-bottom-color":"rgb(239, 239, 239)","border-left-color":"rgb(239, 239, 239)","border-image-source":"none","border-image-slice":"100%","border-image-width":"1","border-image-outset":"0","border-image-repeat":"stretch","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","background-color":"transparent","min-height":"50px"},"silex-id-1432759239676-25":{"width":"98px","top":"10px","left":"29px","box-sizing":"content-box","min-height":"30px"},"silex-id-1432759239575-24":{"width":"123px","top":"39px","left":"336px","border-top-left-radius":"80px","border-top-right-radius":"80px","border-bottom-right-radius":"80px","border-bottom-left-radius":"80px","border-top-width":"2px","border-right-width":"2px","border-bottom-width":"2px","border-left-width":"2px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(239, 239, 239)","border-right-color":"rgb(239, 239, 239)","border-bottom-color":"rgb(239, 239, 239)","border-left-color":"rgb(239, 239, 239)","border-image-source":"none","border-image-slice":"100%","border-image-width":"1","border-image-outset":"0","border-image-repeat":"stretch","background-color":"rgb(255, 255, 255)","min-height":"123px"},"silex-id-1432759239473-23":{"width":"830px","top":"13px","left":"65px","box-sizing":"content-box","min-height":"75px"},"silex-id-1432759239373-22":{"width":"830px","top":"908px","left":"0px","box-sizing":"content-box","border-top-width":"0px","border-right-width":"0px","border-bottom-width":"2px","border-left-width":"0px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(239, 239, 239)","border-right-color":"rgb(239, 239, 239)","border-bottom-color":"rgb(239, 239, 239)","border-left-color":"rgb(239, 239, 239)","background-color":"transparent","min-height":"1350px"},"silex-id-1432759239272-21":{"width":"160px","top":"1241px","left":"0px","box-sizing":"content-box","border-top-width":"3px","border-right-width":"3px","border-bottom-width":"3px","border-left-width":"3px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(239, 239, 239)","border-right-color":"rgb(239, 239, 239)","border-bottom-color":"rgb(239, 239, 239)","border-left-color":"rgb(239, 239, 239)","border-image-source":"none","border-image-slice":"100%","border-image-width":"1","border-image-outset":"0","border-image-repeat":"stretch","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","background-color":"transparent","min-height":"50px"},"silex-id-1432759239171-20":{"width":"98px","top":"10px","left":"29px","box-sizing":"content-box","min-height":"30px"},"silex-id-1432759239070-19":{"width":"241px","top":"0px","left":"0px","box-sizing":"content-box","background-color":"transparent","min-height":"83px"},"silex-id-1432759238970-18":{"width":"400px","top":"491px","left":"0px","box-sizing":"content-box","background-color":"transparent","min-height":"363px"},"silex-id-1432759238867-17":{"width":"400px","top":"11px","left":"0px","box-sizing":"content-box","background-image":"url('assets/deck.jpeg')","background-color":"transparent","background-size":"cover","background-position-x":"50%","background-position-y":"50%","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"5px","border-bottom-left-radius":"5px","min-height":"235px"},"silex-id-1432759238765-16":{"width":"400px","top":"262px","left":"0px","box-sizing":"content-box","min-height":"80px"},"silex-id-1432759238664-15":{"width":"400px","top":"491px","left":"429px","box-sizing":"content-box","background-color":"transparent","min-height":"363px"},"silex-id-1432759238561-14":{"width":"400px","top":"11px","left":"0px","box-sizing":"content-box","background-image":"url('assets/swimingpool.jpeg')","background-color":"transparent","background-size":"cover","background-position-x":"50%","background-position-y":"50%","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"5px","border-bottom-left-radius":"5px","min-height":"235px"},"silex-id-1432759238460-13":{"width":"400px","top":"262px","left":"0px","box-sizing":"content-box","min-height":"80px"},"silex-id-1432759238358-12":{"width":"400px","top":"117px","left":"0px","box-sizing":"content-box","background-color":"transparent","min-height":"363px"},"silex-id-1432759238256-11":{"width":"400px","top":"11px","left":"0px","box-sizing":"content-box","background-image":"url('assets/see2.jpeg')","background-color":"transparent","background-size":"cover","background-position-x":"50%","background-position-y":"50%","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"5px","border-bottom-left-radius":"5px","min-height":"235px"},"silex-id-1432759238155-10":{"width":"400px","top":"262px","left":"0px","box-sizing":"content-box","min-height":"80px"},"silex-id-1432759238054-9":{"width":"400px","top":"117px","left":"431px","box-sizing":"content-box","background-color":"transparent","min-height":"363px"},"silex-id-1432759237951-8":{"width":"400px","top":"11px","left":"0px","box-sizing":"content-box","background-image":"url('assets/sea3.jpeg')","background-color":"transparent","background-size":"cover","background-position-x":"50%","background-position-y":"50%","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"5px","border-bottom-left-radius":"5px","min-height":"235px"},"silex-id-1432759237849-7":{"width":"400px","top":"262px","left":"0px","box-sizing":"content-box","min-height":"80px"},"silex-id-1432759237748-6":{"width":"400px","top":"866px","left":"0px","box-sizing":"content-box","background-color":"transparent","min-height":"363px"},"silex-id-1432759237642-5":{"width":"400px","top":"11px","left":"0px","box-sizing":"content-box","background-image":"url('assets/subsea.jpeg')","background-color":"transparent","background-size":"cover","background-position-x":"50%","background-position-y":"50%","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"5px","border-bottom-left-radius":"5px","min-height":"235px"},"silex-id-1432759237541-4":{"width":"400px","top":"262px","left":"0px","box-sizing":"content-box","min-height":"80px"},"silex-id-1432759237440-3":{"width":"400px","top":"866px","left":"429px","box-sizing":"content-box","background-color":"transparent","min-height":"363px"},"silex-id-1432759237339-2":{"width":"400px","top":"11px","left":"0px","box-sizing":"content-box","background-image":"url('assets/medusa.jpeg')","background-color":"transparent","background-size":"cover","background-position-x":"50%","background-position-y":"50%","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"5px","border-bottom-left-radius":"5px","min-height":"235px"},"silex-id-1432759237239-1":{"width":"400px","top":"262px","left":"0px","box-sizing":"content-box","min-height":"80px"},"silex-id-1432761834390-33":{"width":"241px","top":"2267px","left":"0px","box-sizing":"content-box","background-color":"transparent","min-height":"83px"},"silex-id-1432759237134-0":{"width":"967px","top":"0px","left":"0px","box-sizing":"content-box","background-image":"url('../../../../sites-silex/silex-templates/templates/stratup/assets/see1.jpeg')","background-color":"rgb(162, 162, 162)","background-size":"cover","background-position-x":"50%","background-position-y":"50%","min-height":"460px"},"silex-id-1541598237774-0":{"width":"","background-color":"","min-height":"100px"},"silex-id-1541598237779-1":{"min-height":"100px"},"silex-id-1541607078769-0":{"width":"960px","background-color":"","min-height":"154px","top":"15px","left":"619px"},"silex-id-1541607078776-1":{"min-width":"960px"},"silex-id-1541607106751-2":{"width":"960px","background-color":"","min-height":"479px","top":"15px","left":"619px"},"silex-id-1541607106753-3":{"min-width":"960px"},"silex-id-1541607116447-4":{"width":"960px","height":"419px","background-color":"transparent","top":"37px","left":"0px"}},"mobile":{},"prodotypeData":{"component":{"silex-id-1541607116447-4":{"name":"form1","templateName":"form","buttonBackgroundColor":"#949494"}},"style":{"all-style":{"className":"all-style","templateName":"text","displayName":"All style","styles":{"desktop":{"normal":{"className":"all-style","pseudoClass":"normal"}}}}}}}]</script>
 
 
-    <!-- Silex HEAD tag do not remove -->
-    <!-- End of Silex HEAD tag do not remove -->
-</head>
+    
+<style class="silex-prodotype-style" type="text/css" data-style-id="all-style"></style><!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove --></head>
 
 
-<body data-silex-id="silex-id-1432759240382-31" data-silex-type="container" class="silex-id-1432759240382-31 silex-runtime">
+<body data-silex-id="silex-id-1432759240382-31" data-silex-type="container" class="silex-id-1432759240382-31 all-style silex-runtime">
 
     <div data-silex-id="silex-id-1432759240231-30" class="background editable-style container-element prevent-draggable silex-id-1432759240231-30" data-silex-type="container">
 
@@ -608,7 +97,7 @@
 
 
 
-            <div data-silex-id="silex-id-1432759239777-26" data-silex-type="container" class="editable-style container-element button silex-id-1432759239777-26 page-link-active" data-silex-href="#!page-home">
+            <div data-silex-id="silex-id-1432759239777-26" data-silex-type="container" class="editable-style container-element button silex-id-1432759239777-26" data-silex-href="#!page-home">
 
 
                 <div data-silex-id="silex-id-1432759239676-25" data-silex-type="text" class="editable-style text-element silex-id-1432759239676-25">
@@ -661,14 +150,7 @@
         <div data-silex-id="silex-id-1432759239575-24" data-silex-type="image" class="editable-style image-element silex-id-1432759239575-24">
             <img class="silex-element-content" src="assets/avatar.jpg">
         </div>
-        <div data-silex-id="silex-id-1432759239473-23" data-silex-type="text" class="editable-style text-element full-width silex-id-1432759239473-23">
-            <div class="silex-element-content normal">
-                <div style="text-align: center;">Inspired by <a href="//html5up.net/strata">this template</a>&nbsp;of&nbsp;<a href="//html5up.net/">HTML5up</a>
-                </div>
-                <div style="text-align: center;">Images by <a href="https://unsplash.com/">unsplash.com</a>
-                </div>
-            </div>
-        </div>
+        
 
         <div data-silex-id="silex-id-1432759239373-22" data-silex-type="container" class="editable-style container-element full-width silex-id-1432759239373-22">
 
@@ -829,52 +311,7 @@
 
 
 
-        <div data-silex-id="silex-id-1432761745738-32" class="editable-style silex-id-1432761745738-32 html-element page-home paged-element full-width" data-silex-type="html">
-            <div class="silex-element-content">
-                <!-- Begin MailChimp Signup Form -->
-
-
-                <style type="text/css">
-                    #mc_embed_signup {
-                        background: #fff;
-                        clear: left;
-                        font: 14px Helvetica, Arial, sans-serif;
-                    }
-                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                    	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                </style>
-                <div id="mc_embed_signup">
-                    <form action="//lexoyo.us7.list-manage.com/subscribe/post?u=3ec1ea212adc44025d91ed004&amp;id=88a7fd2551" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-                        <div id="mc_embed_signup_scroll">
-
-                            <div class="mc-field-group">
-                                <label for="mce-EMAIL">Email Address </label>
-                                <input value="" name="EMAIL" class="required email" id="mce-EMAIL" type="email">
-                            </div>
-                            <div class="mc-field-group">
-                                <label for="mce-NAME">Name </label>
-                                <input value="" name="NAME" class="required" id="mce-NAME" type="text">
-                            </div>
-                            <div class="mc-field-group " style="width: 760px; left: 0px">
-                                <label for="mce-MESSAGE">Message </label>
-                                <textarea value="" name="MESSAGE" class="required" id="mce-MESSAGE" type="text" style="height: 200px; width: 100%;"></textarea>
-                            </div>
-                            <div id="mce-responses" class="clear">
-                                <div class="response" id="mce-error-response" style="display:none"></div>
-                                <div class="response" id="mce-success-response" style="display:none"></div>
-                            </div>
-                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;">
-                                <input name="b_3ec1ea212adc44025d91ed004_88a7fd2551" tabindex="-1" value="" type="text">
-                            </div>
-                            <div class="clear">
-                                <input value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" type="submit">
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
+        
         <div data-silex-id="silex-id-1432761834390-33" data-silex-type="text" class="editable-style text-element silex-id-1432761834390-33 page-home paged-element">
             <div class="silex-element-content normal">
                 <h1 class="heading1">Get In Touch<br></h1>
@@ -901,13 +338,41 @@
 
 
     <div class="silex-pages">
-        <div data-silex-type="image" data-silex-id="silex-id-hamburger-menu" class="menu-button editable-style silex-id-hamburger-menu image-element page-page-1 paged-element prevent-draggable prevent-resizable"><img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII="
-                class="silex-element-content"></div><a id="page-home" data-silex-type="page" class="page-element page-link-active">Home</a></div>
+        <div data-silex-type="image" data-silex-id="silex-id-hamburger-menu" class="menu-button editable-style silex-id-hamburger-menu image-element page-page-1 paged-element prevent-draggable prevent-resizable"><img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII=" class="silex-element-content"></div><a id="page-home" data-silex-type="page" class="page-element">Home</a></div>
 
 
 
 
 
-</body>
 
-</html>
+
+<div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1541607106753-3 section-element" data-silex-id="silex-id-1541607106753-3"><div data-silex-type="container" class="editable-style silex-id-1541607106751-2 container-element silex-element-content silex-container-content website-width prevent-draggable" data-silex-id="silex-id-1541607106751-2"><div data-silex-type="html" class="editable-style silex-id-1541607116447-4 html-element silex-component silex-component-form silex-use-height-not-minheight" data-silex-id="silex-id-1541607116447-4" style=""><div class="silex-element-content"><form id="id_1541607220858_193" action="https://formspree.io/your@email.com" method="POST">
+  
+  <div>
+    <label for="field1">Name</label>
+    <input required="" id="field1" name="field1" placeholder="Your name" type="text">
+  </div>
+  
+  
+  <div>
+    <label for="field2">Your email adress</label>
+    <input required="" id="field2" name="field2" placeholder="your@email.com" type="text">
+  </div>
+  
+  
+  <div class="fill-vertical">
+    <label for="field3">Your message</label>
+    <textarea required="" id="field3" name="field3" placeholder="What you have to say"></textarea>
+  </div>
+  
+  <input value="Send" type="submit">
+</form>
+<style>#id_1541607220858_193 input[type=text], select {width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box;}#id_1541607220858_193 input[type=submit] {width: 100%; background-color: #949494; color: #FFFFFF; padding: 14px 20px; margin: 8px 0; border: 1px solid #4CAF50; border-radius: 3px; cursor: pointer;}#id_1541607220858_193 label {color: #000000;}#id_1541607220858_193 .fill-vertical {flex: 1 1 auto; display: flex; flex-direction: column;}#id_1541607220858_193 .fill-vertical textarea {flex: 1 1 auto; width: 100%; height: 150px; padding: 12px 20px; box-sizing: border-box; border: 2px solid #ccc; border-radius: 3px; background-color: #f8f8f8; font-size: 16px; resize: none;}#id_1541607220858_193 {border-radius: 3px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;}</style>
+
+</div></div></div></div><div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1541607078776-1 section-element" data-silex-id="silex-id-1541607078776-1"><div data-silex-type="container" class="editable-style silex-id-1541607078769-0 container-element silex-element-content silex-container-content website-width prevent-draggable" data-silex-id="silex-id-1541607078769-0"><div data-silex-id="silex-id-1432759239473-23" data-silex-type="text" class="editable-style text-element silex-id-1432759239473-23" style="">
+            <div class="silex-element-content normal">
+                <p>Inspired by <a href="//html5up.net/strata">this template</a> from <a href="//html5up.net/">HTML5up</a>
+                
+                <br></p><p>Images by <a href="https://unsplash.com/">unsplash.com</a></p>
+            </div>
+        </div></div></div></body></html>
