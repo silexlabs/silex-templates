@@ -13,7 +13,8 @@ $(function() {
     var lastId,
         // All list items
         menuItems = $(".anchor-link, .anchor-container a"),
-        height = menuItems.parent().height(),
+//        height = menuItems.parent().height(),
+        height = 55,
         // Anchors corresponding to menu items
         // find the name of the elements which are anchors
         scrollItems = menuItems.map(function(){
