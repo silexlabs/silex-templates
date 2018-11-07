@@ -29,27 +29,15 @@ $(function() {
        // static menu when off screen
        container.each(function() {
             var el = $(this); 
-            var containerTop = el.offsetHeight();
-            if(containerTop < fromTop) {
+            var top = el.offsetHeight();
+            console.log('aaa', top)
+            if(top < fromTop) {
                el.addClass('offscreen');
             }
             else {
                el.removeClass('offscreen');
             }
        });
-       // Get id of current scroll item
-       var cur = scrollItems.filter(function(){
-         if ($(this.item).offset().top <= fromTop + height + 1)
-           return true;
-         else return false;
-       });
-       console.log('xxx', cur.get(0).item)
-       // add the css class on the current menu item
-       $(".active-menu").removeClass("active-menu");
-       if(cur.length > 0) {
-           cur = cur[cur.length-1];
-           $(cur.link).addClass("active-menu");
-       }
     }
 });
 </script>
