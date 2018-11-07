@@ -105,11 +105,11 @@ $(function() {
             }
        });
        // Get id of current scroll item
-                console.log('xxx', height)
        var cur = scrollItems.map(function(){
          if ($(this.item).offset().top <= fromTop + height + 1)
            return this;
        });
+                console.log('xxx', cur)
        // add the css class on the current menu item
        $(".active-menu").removeClass("active-menu");
        if(cur.length > 0) {
