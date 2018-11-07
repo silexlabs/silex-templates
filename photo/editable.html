@@ -108,6 +108,7 @@ $(function() {
        var cur = scrollItems.filter(function(){
          if ($(this.item).offset().top <= fromTop + height + 1)
            return true;
+         else return false;
        });
                 console.log('xxx', cur)
        // add the css class on the current menu item
