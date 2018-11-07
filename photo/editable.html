@@ -72,7 +72,6 @@ $(function() {
             // leave time for the page to open
             // and then scroll
             setTimeout(function() {
-                console.log('xxx', height)
               var offsetTop = $(item).offset().top - height;
               $('html, body').stop().animate({
                   scrollTop: offsetTop
@@ -110,7 +109,6 @@ $(function() {
            return true;
          else return false;
        });
-       console.log('xxx', cur.get(0))
        // add the css class on the current menu item
        $(".active-menu").removeClass("active-menu");
        if(cur.length > 0) {
