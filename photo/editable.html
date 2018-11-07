@@ -73,7 +73,7 @@ $(function() {
             // and then scroll
             setTimeout(function() {
                 console.log('xxx', height)
-              var offsetTop = $(item).offset().top - 46;
+              var offsetTop = $(item).offset().top - height;
               $('html, body').stop().animate({
                   scrollTop: offsetTop
               }, 300);
@@ -106,7 +106,7 @@ $(function() {
        });
        // Get id of current scroll item
        var cur = scrollItems.map(function(){
-         if ($(this.item).offset().top <= fromTop + 47)
+         if ($(this.item).offset().top <= fromTop + height + 1)
            return this;
        });
        // add the css class on the current menu item
