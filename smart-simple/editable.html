@@ -30,7 +30,7 @@ $(function() {
         // Preventing default action of the event
         event.preventDefault();
         // Getting the height of the document
-        var n = $(this).parent().height();
+        var n = $(window).height();
         $('html, body').animate({ scrollTop: n }, 500);
     });
 })
