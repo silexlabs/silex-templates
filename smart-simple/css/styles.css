@@ -4,5 +4,5 @@ div.hero-bottom {top: auto; bottom: 30px; cursor: pointer;}div.hero {min-height:
 .website-width {width: 1000px;}
 h1 {font-weight: normal; line-height: 1;}h2 {font-weight: normal;}.text-element > .silex-element-content {font-family: 'Roboto', sans-serif;}a {color: #59A6BC;}[data-silex-href] {color: #59A6BC;}@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {.text-element > .silex-element-content {font-size: 150%; text-align: center;}}
 .white-text.text-element > .silex-element-content {color: #ffffff;}
-.button-text.text-element > .silex-element-content {color: #59A6BC; text-align: center; line-height: 1;}
+.button-text.text-element > .silex-element-content {color: #59A6BC; text-align: center; line-height: 1;}@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {.button-text a {text-decoration: none;}.button-text [data-silex-href] {text-decoration: none;}}
 .footer-text.text-element > .silex-element-content {text-align: center; line-height: 1;}body.silex-runtime {opacity: 1;}
