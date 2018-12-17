@@ -14,5 +14,12 @@ $(function() {
         sr.reveal('.from-top', { origin:  'top'});
         sr.reveal('.from-bottom', { origin:  'bottom'});
     }
+    $('.scroll-down').click(function(event) {
+        // Preventing default action of the event
+        event.preventDefault();
+        // Getting the height of the document
+        var n = $(window).height();
+        $('html, body').animate({ scrollTop: n }, 500);
+    });
 })
     

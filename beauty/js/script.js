@@ -1,4 +1,5 @@
 
+
         /*
          * active menu widget for Silex
          * create an element which links to an anchor, e.g. an element with a link to #anchor1
