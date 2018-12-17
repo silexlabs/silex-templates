@@ -9,4 +9,5 @@ h2 {font-weight: 400;}.text-element > .silex-element-content {font-family: 'Robo
 .phone-number.text-element > .silex-element-content {font-size: 30px; line-height: 0;}.phone-number b {font-weight: normal; color: #665847;}
 .buttons h2 {font-weight: 200;}.buttons h3 {font-weight: normal; font-size: 22px;}.buttons.text-element > .silex-element-content {font-size: 25px; text-transform: uppercase; line-height: 5px;}.buttons p {font-weight: 200; font-size: 18px; text-align: center; line-height: 0;}
 .footer.text-element > .silex-element-content {text-align: center;}
-.quote.text-element > .silex-element-content {font-size: 59px;}body.silex-runtime {opacity: 1;}
+.quote.text-element > .silex-element-content {font-size: 59px;}
+.website-width {width: 960px;}body.silex-runtime {opacity: 1;}
