@@ -1,5 +1,6 @@
 
 $(function() {
+return;
   var $container = $('<div id="smooth-container"></div>');
   var $body = $('body');
   
