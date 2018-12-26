@@ -7,5 +7,7 @@ $(function() {
   
   $container
   .appendTo($body)
-  .smoothState();
+  .smoothState({
+      prefetch: true
+  });
 });
