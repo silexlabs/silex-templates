@@ -4,16 +4,6 @@
 
 /* the body covers the whole available space */
 /* the body is resized to its content size when needed in front-end.js */
-body {
-  min-width: 100%;
-  min-height: 100%;
-  position: absolute; /* when position is absolute the body has at least the width of its content, which is good when window is smaller than section width for section containers */
-}
-body.compute-body-size-pending {
-  transition: none;
-  width: 0;
-  height: 0;
-}
 /* pages */
 .page-element{
   display: none;
@@ -33,7 +23,6 @@ body.compute-body-size-pending {
   overflow: hidden;
   border-radius: initial;
   width: 100%;
-  height: 100%;
 }
 .silex-element-content {
   pointer-events: none;
@@ -90,7 +79,6 @@ body.silex-runtime .silex-element-content {
   top: 0;
   margin-left: auto;
   margin-right: auto;
-  height: 100%;
   overflow: initial;
 }
 /* background */
@@ -106,6 +94,7 @@ body.silex-runtime .silex-element-content {
 .editable-style.image-element .silex-element-content{
   position: absolute;
   border-radius: inherit; /* this is to follow the element's radius */
+  height: 100%;
 }
 /* wysihtml text editor styles */
 .wysiwyg-float-left {
@@ -123,72 +112,67 @@ a:focus{ outline: none;}
 body.silex-runtime .editable-style[data-silex-href] {
   cursor: pointer;
 }
-.silex-pages .menu-button {
-  display: none;
-}
 body.enable-mobile .editable-style.hide-on-desktop {
   display: none;
 }
+/* mobile hamburger menu */
+body.enable-mobile .silex-pages .menu-button {
+  left: 105%;
+  top: 10px;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* mobile side bar */
+body.enable-mobile .silex-pages {
+  position: fixed;
+  z-index: 999999;
+  width: 80%;
+  height: 100%;
+  background-color: #4C4C4C;
+  right: 100%;
+  top: 0;
+  transition: right .1s ease-out;
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  border-color: #8E8E8E;
+}
+body.enable-mobile.show-mobile-menu {
+  cursor: pointer;
+}
+body.enable-mobile.show-mobile-menu .silex-pages {
+  right: 20%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+body.enable-mobile .page-element {
+  display: block;
+  cursor: pointer;
+  padding: 1em;
+  font-size: 1.6em;
+  color: #FFFFFF;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+body.enable-mobile .page-element.page-link-active {
+  background-color: #262626;
+}
+/* elements styles */
+body.enable-mobile .background {
+  height: initial;
+  padding-bottom: 50px;
+}
 /* Mobile styles */
 @media (max-width:480px) {
-  /* hide horizontal scroll bar which appears because of residual values in css */
+  /* hide horizontal scroll bar which appears because of residual values in css
   html {
     overflow-x: hidden;
   }
+  */
   body {
     position: initial; /* when position is absolute the body has the size of its content */
-  }
-  /* mobile hamburger menu */
-  body.enable-mobile .silex-pages .menu-button {
-    width: 50px;
-    height: 40px;
-    left: 105%;
-    top: 10px;
-    position: absolute;
-    cursor: pointer;
-    border-radius: 6px;
-    display: initial;
-  }
-
-  /* mobile side bar */
-  body.enable-mobile .silex-pages {
-    position: fixed;
-    z-index: 999999;
-    width: 80%;
-    height: 100%;
-    background-color: #4C4C4C;
-    right: 100%;
-    top: 0;
-    transition: right .1s ease-out;
-    border-style: solid;
-    border-width: 0 1px 0 0;
-    border-color: #8E8E8E;
-  }
-  body.enable-mobile.show-mobile-menu {
-    cursor: pointer;
-  }
-  body.enable-mobile.show-mobile-menu .silex-pages {
-    right: 20%;
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
-  body.enable-mobile .page-element {
-    display: block;
-    cursor: pointer;
-    padding: 1em;
-    font-size: 1.6em;
-    color: #FFFFFF;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  body.enable-mobile .page-element.page-link-active {
-    background-color: #262626;
-  }
-  /* elements styles */
-  body.enable-mobile .background {
-    height: initial;
-    padding-bottom: 50px;
   }
   /* mobile mode */
   body.enable-mobile .editable-style,
@@ -211,6 +195,7 @@ body.enable-mobile .editable-style.hide-on-desktop {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    height: fit-content;
   }
   /* but still hide paged elements or desktop only elements */
   .paged-element-hidden.paged-element.editable-style {
@@ -222,7 +207,6 @@ body.enable-mobile .editable-style.hide-on-desktop {
   body.enable-mobile .editable-style.hide-on-desktop {
     display: initial;
   }
-  body.silex-runtime.enable-mobile .editable-style,
   body.silex-runtime.enable-mobile .background.background-initial {
     max-width: 100%;
   }
@@ -231,6 +215,9 @@ body.enable-mobile .editable-style.hide-on-desktop {
 /**
  * prodotype components
  */
+.silex-element-content-full-height .silex-element-content {
+  height: 100%;
+}
 .prodotype-runtime {
   display: none;
 }
