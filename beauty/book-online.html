@@ -1,15 +1,15 @@
-<!doctype html><html><head>
+<!doctype html><html lang=""><head>
     <meta charset="UTF-8">
     <!-- generator meta tag -->
     <!-- leave this for stats and Silex version check -->
-    <meta name="generator" content="Silex v2.2.7">
+    <meta name="generator" content="Silex v2.2.8">
     <!-- End of generator meta tag -->
-    <script type="text/javascript" src="http://localhost:6805/static/2.8/jquery.js"></script>
-    <script type="text/javascript" src="http://localhost:6805/static/2.8/jquery-ui.js"></script>
-    <script type="text/javascript" src="http://localhost:6805/static/2.8/pageable.js"></script>
-    <script type="text/javascript" src="http://localhost:6805/static/2.8/front-end.js"></script>
-    <link rel="stylesheet" href="http://localhost:6805/static/2.8/normalize.css">
-    <link rel="stylesheet" href="http://localhost:6805/static/2.8/front-end.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    
+    
+    <script type="text/javascript" src="js/front-end.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/front-end.css">
 
     
     <script type="text/javascript" class="silex-script"></script>
@@ -41,7 +41,7 @@
 
     
     
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="http://localhost:6805/static/2.8/osm/ol.js"></script><script src="http://localhost:6805/static/2.8/osm/ol.js"></script><meta name="hostingProvider" content="unifile"><!-- Silex HEAD tag do not remove -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js" data-dependency="" type="text/javascript"></script><meta name="hostingProvider" content="unifile"><script src="js/ol.js"></script><!-- Silex HEAD tag do not remove -->
     <!-- End of Silex HEAD tag do not remove --><link href="css/styles.css" rel="stylesheet" type="text/css"><style>body { opacity: 0; transition: .25s opacity ease; }</style></head>
 
 <body class="body-initial all-style enable-mobile silex-runtime silex-published" data-silex-type="container" style="height: 100%;"><div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1491510574619-3 section-element nav-section">
@@ -73,11 +73,11 @@
     
 
     <div class="silex-pages">
-        <div data-silex-type="image" class="editable-style silex-id-hamburger-menu image-element menu-button prevent-draggable prevent-resizable">
+        <div data-silex-type="image" class="editable-style silex-id-hamburger-menu image-element menu-button prevent-draggable hide-on-desktop">
             <img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII=" class="silex-element-content">
         </div>
 
-        <a id="page-home" data-silex-type="page" class="page-element page-link-active">Home</a><a id="page-book-online" data-silex-type="page" class="page-element">Book online</a></div>
+        <a id="page-home" data-silex-type="page" class="page-element" href="index.html">Home</a><a id="page-book-online" data-silex-type="page" class="page-element page-link-active" href="book-online.html">Book online</a></div>
 
 
 
