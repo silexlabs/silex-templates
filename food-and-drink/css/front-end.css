@@ -21,6 +21,9 @@ body.compute-body-size-pending {
 .paged-element{
   display: none;
 }
+.silex-published .paged-element{
+  display: block;
+}
 /* default style for silex elements */
 .editable-style{
   position: absolute;
