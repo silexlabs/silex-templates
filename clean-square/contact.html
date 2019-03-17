@@ -1,7 +1,7 @@
 <!doctype html><html lang=""><head>
     <title>Clean &amp; Square free template - Contact</title>
     <meta charset="UTF-8">
-    <meta name="generator" content="Silex v2.2.8">
+    <meta name="generator" content="Silex v2.2.9">
 
     
     <script type="text/javascript" class="silex-script"></script>
@@ -60,15 +60,74 @@
 
     
     
-<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="hostingProvider" content="unifile"><!-- Silex HEAD tag do not remove -->
-    <!-- End of Silex HEAD tag do not remove --><link href="css/styles.css" rel="stylesheet" type="text/css"><style>body { opacity: 0; transition: .25s opacity ease; }</style></head>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="hostingProvider" content="unifile"><link href="css/styles.css" rel="stylesheet" type="text/css">
+    <style>body { opacity: 0; transition: .25s opacity ease; }</style></head>
 
 <body data-silex-type="container" class="silex-id-1436036524732-32 all-style enable-mobile silex-runtime silex-published">
     <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1483130857943-13 section-element small-height website-min-width hide-on-mobile">
         <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1483130857943-12 silex-container-content container-element prevent-draggable"></div>
     </div>
     <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1483130355289-7 section-element website-min-width">
-        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1483130355289-6 silex-container-content container-element prevent-draggable">
+        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1483130355289-6 silex-container-content container-element prevent-draggable"><div data-silex-type="text" class="editable-style silex-id-1552772425150-3 text-element silex-component silex-component-hamburger prevent-resizable hide-on-desktop hamburger-menu"><div class="silex-element-content normal"><style>.hamburger-menu_1552773232901_485 {position: absolute;}.silex-editor .hamburger-menu_1552773232901_485 nav {left: -9999px;}.hamburger-menu_1552773232901_485 nav ul {margin-top: 80px;}.hamburger-menu_1552773232901_485 nav {opacity: 0; position: absolute; background-color: #B4E5E8; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1552773232901_485.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1552773232901_485 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1552773232901_485.open .nav-container {}.hamburger-menu_1552773232901_485 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1552773232901_485 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+      opacity 0.1s ease-in,
+      transform 0.1s ease-in,
+      background 0.1s ease-in;}.hamburger-menu_1552773232901_485.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1552773232901_485 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1552773232901_485.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1552773232901_485.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1552773232901_485 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1552773232901_485.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+<!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
+<div class="hamburger-menu_1552773232901_485 closed">
+    <div class="hamburger-btn ">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-container">
+      <div class="prevent-scale">
+        <nav role="navigation" class="">
+            <ul>
+            
+                <li><a href="index.html">Home</a></li>
+            
+                <li><a href="contact.html" class="page-link-active">Contact</a></li>
+            
+                <li><a href="https://www.silex.me">Powered by Silex</a></li>
+            
+            </ul>
+        </nav>
+      </div>
+  </div>
+</div>
+<script>
+(function() {
+  var isOpen = false;
+  function close() {
+    isOpen = false;
+    $('.hamburger-menu_1552773232901_485').removeClass('open');
+    $('.hamburger-menu_1552773232901_485').addClass('closed');
+  }
+  function open() {
+    isOpen = true;
+    $('.hamburger-menu_1552773232901_485').addClass('open');
+    $('.hamburger-menu_1552773232901_485').removeClass('closed');
+  }
+  function toggle() {
+    if(isOpen) close();
+    else open();
+  }
+  var silexElement = $('.hamburger-menu_1552773232901_485').closest('.editable-style');
+  function move(data) {
+    var offset = silexElement.offset();
+    $('.hamburger-menu_1552773232901_485 .nav-container').css({
+      'transform': 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)'
+    });
+  }
+  $('.hamburger-menu_1552773232901_485 .hamburger-btn').click(function() { toggle(); });
+  $(document).on('silex.scroll silex.resize', function(e, data) {
+    close();
+    move(data);
+  });
+  close();
+})();
+</script>
+</div></div><div data-silex-type="container" class="editable-style silex-id-1552772447689-4 container-element hide-on-desktop"></div>
             <a href="index.html" data-silex-type="container" class="editable-style container-element silex-id-1436036524531-30">
                 <div data-silex-type="image" class="editable-style image-element silex-id-1436036524431-29">
                     <img src="assets/cc.png" class="silex-element-content">
@@ -135,7 +194,7 @@
 
 
     <div class="silex-pages">
-        <div class="menu-button editable-style silex-id-hamburger-menu image-element prevent-draggable hide-on-desktop" data-silex-type="image"><img class="silex-element-content" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII=" alt="open mobile menu"></div><a id="page-home" data-silex-type="page" class="page-element" href="index.html">Home</a><a id="page-contact" data-silex-type="page" class="page-element page-link-active" href="contact.html">Contact</a></div>
+        <a id="page-home" data-silex-type="page" class="page-element" href="index.html">Home</a><a id="page-contact" data-silex-type="page" class="page-element page-link-active" href="contact.html">Contact</a></div>
 
 
 

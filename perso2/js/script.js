@@ -2,7 +2,7 @@
 
         $(function () {
             $('.go-down').click(function () {
-                $('html,body').animate({scrollTop: 960}, 500);
+                $('html,body').animate({scrollTop: $('#after-hero').offset().top}, 500);
             });
         });
     

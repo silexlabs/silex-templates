@@ -1,7 +1,7 @@
 <!doctype html><html lang=""><head>
     <title>Ipsoom Center - Silex template - Home</title>
     <meta charset="UTF-8">
-    <meta name="generator" content="Silex v2.2.8">
+    <meta name="generator" content="Silex v2.2.9">
     <!-- leave this for stats -->
     <script type="text/javascript" src="js/jquery.js"></script>
     
@@ -102,40 +102,103 @@
     
     
     
-<link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="website-width" content="960"><script src="js/unslider-min.js"></script><link rel="stylesheet" href="css/unslider.css"><script src="js/ol.js"></script><!-- Silex HEAD tag do not remove -->
-    <!-- End of Silex HEAD tag do not remove --><script src="js/script.js" type="text/javascript"></script><link href="css/styles.css" rel="stylesheet" type="text/css"><style>body { opacity: 0; transition: .25s opacity ease; }</style></head>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="website-width" content="960"><meta name="hostingProvider" content="unifile"><script src="js/unslider-min.js"></script><script src="js/ol.js"></script><script src="js/ol.js"></script><link rel="stylesheet" href="css/unslider.css"><script src="js/script.js" type="text/javascript"></script><link href="css/styles.css" rel="stylesheet" type="text/css">
+    <style>body { opacity: 0; transition: .25s opacity ease; }</style></head>
 
 <body data-silex-type="container" class="silex-id-1439554967896-66 all-style enable-mobile silex-runtime silex-published"><div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1538221038117-34 section-element hide-on-desktop" style=""><div data-silex-type="container" class="editable-style silex-id-1538221038114-33 container-element silex-element-content silex-container-content website-width prevent-draggable"></div></div>
     <div data-silex-type="container" class="prevent-draggable container-element website-min-width editable-style silex-id-1490693608162-3 section-element">
-        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1490693608161-2 silex-container-content container-element prevent-draggable">
-            <a href="index.html" data-silex-type="text" class="editable-style text-element silex-id-1439554967492-62 nav-mark nav hide-on-mobile page-link-active" style="">
-                <div class="silex-element-content normal"><p>Home</p>
+        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1490693608161-2 silex-container-content container-element prevent-draggable"><div data-silex-type="text" class="editable-style silex-id-1552775712222-12 text-element silex-component silex-component-hamburger prevent-resizable hide-on-desktop nav"><div class="silex-element-content normal"><style>.hamburger-menu_1552777659518_886 {position: absolute;}.silex-editor .hamburger-menu_1552777659518_886 nav {left: -9999px;}.hamburger-menu_1552777659518_886 nav ul {margin-top: 80px;}.hamburger-menu_1552777659518_886 nav {opacity: 0; position: absolute; background-color: #333333; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1552777659518_886.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1552777659518_886 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1552777659518_886.open .nav-container {}.hamburger-menu_1552777659518_886 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1552777659518_886 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+      opacity 0.1s ease-in,
+      transform 0.1s ease-in,
+      background 0.1s ease-in;}.hamburger-menu_1552777659518_886.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1552777659518_886 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1552777659518_886.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1552777659518_886.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1552777659518_886 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1552777659518_886.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+<!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
+<div class="hamburger-menu_1552777659518_886 closed">
+    <div class="hamburger-btn fixed">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-container">
+      <div class="prevent-scale">
+        <nav role="navigation" class="">
+            <ul>
+            
+                <li><a href="index.html" class="page-link-active">Home</a></li>
+            
+                <li><a href="our-mission.html">Our mission</a></li>
+            
+                <li><a href="news-press.html">News &amp; Press</a></li>
+            
+                <li><a href="how-to-help.html">How to help</a></li>
+            
+                <li><a href="contact.html">Contact</a></li>
+            
+            </ul>
+        </nav>
+      </div>
+  </div>
+</div>
+<script>
+(function() {
+  var isOpen = false;
+  function close() {
+    isOpen = false;
+    $('.hamburger-menu_1552777659518_886').removeClass('open');
+    $('.hamburger-menu_1552777659518_886').addClass('closed');
+  }
+  function open() {
+    isOpen = true;
+    $('.hamburger-menu_1552777659518_886').addClass('open');
+    $('.hamburger-menu_1552777659518_886').removeClass('closed');
+  }
+  function toggle() {
+    if(isOpen) close();
+    else open();
+  }
+  var silexElement = $('.hamburger-menu_1552777659518_886').closest('.editable-style');
+  function move(data) {
+    var offset = silexElement.offset();
+    $('.hamburger-menu_1552777659518_886 .nav-container').css({
+      'transform': 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)'
+    });
+  }
+  $('.hamburger-menu_1552777659518_886 .hamburger-btn').click(function() { toggle(); });
+  $(document).on('silex.scroll silex.resize', function(e, data) {
+    close();
+    move(data);
+  });
+  close();
+})();
+</script>
+</div></div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439554967492-62 nav-mark nav hide-on-mobile" style="">
+                <div class="silex-element-content normal"><p><a href="index.html" class="page-link-active">Home</a></p>
                 </div>
-            </a>
-            <a href="our-mission.html" data-silex-type="text" class="editable-style text-element silex-id-1439554967286-60 nav-mark nav hide-on-mobile" style="">
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439554967286-60 nav-mark nav hide-on-mobile" style="">
                 <div class="silex-element-content normal">
-                    <p>Our mission<br></p></div>
-            </a>
-            <a href="news-press.html" data-silex-type="text" class="editable-style text-element silex-id-1439554966975-57 nav-mark nav hide-on-mobile" style="">
-                <div class="silex-element-content normal"><p>News &amp; Press</p>
+                    <p><a href="our-mission.html" class="">Our mission</a><br></p></div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439554966975-57 nav-mark nav hide-on-mobile" style="">
+                <div class="silex-element-content normal"><p><a href="news-press.html">News &amp; Press</a></p>
                 </div>
-            </a>
+            </div>
 
 
-            <a href="how-to-help.html" data-silex-type="text" class="editable-style text-element silex-id-1439554966767-55 nav-mark nav hide-on-mobile" style="">
-                <div class="silex-element-content normal"><p>How to help</p>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439554966767-55 nav-mark nav hide-on-mobile" style="">
+                <div class="silex-element-content normal"><p><a href="how-to-help.html">How to help</a></p>
                 </div>
-            </a>
-            <a href="contact.html" data-silex-type="text" class="editable-style text-element silex-id-1439554966563-53 nav-mark nav hide-on-mobile" style="">
-                <div class="silex-element-content normal"><p>Contact</p>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439554966563-53 nav-mark nav hide-on-mobile" style="">
+                <div class="silex-element-content normal"><p><a href="contact.html" class="">Contact</a></p>
                 </div>
-            </a>
+            </div>
             <a href="index.html" data-silex-type="image" class="editable-style silex-id-1490693355800-0 image-element page-link-active"><img src="assets/ipsoom-logo.png" class="silex-element-content"></a>
-        </div>
+        <div data-silex-type="container" class="editable-style silex-id-1552775732073-13 container-element hide-on-desktop"></div></div>
     </div>
     <div data-silex-type="container" class="prevent-draggable container-element website-min-width editable-style silex-id-1490693798023-5 section-element paged-element page-home hide-on-mobile page-link-active">
         <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1490693798022-4 silex-container-content container-element prevent-draggable">
-            <div data-silex-type="container" class="editable-style container-element silex-id-1439554966458-52"><div data-silex-type="html" class="editable-style silex-id-1538215480678-25 html-element silex-component slider" style=""><div class="silex-element-content"><div id="parent_1548873171072_230">
+            <div data-silex-type="container" class="editable-style container-element silex-id-1439554966458-52"><div data-silex-type="html" class="editable-style silex-id-1538215480678-25 html-element silex-component slider" style=""><div class="silex-element-content"><div id="parent_1552775961429_672">
 <!-- preview -->
 <div class="prodotype-preview">
   
@@ -147,7 +210,7 @@
   </figure>
   
 </div>
-<div id="id_1548873171072_230">
+<div id="id_1552775961429_672">
   <!-- runtime -->
   <!-- the whole slideshow -->
   <ul class="prodotype-runtime">
@@ -179,14 +242,14 @@
   </ul>
 </div>
 </div>
-<style type="text/css">#parent_1548873171072_230 .prodotype-preview {list-style-type: none; margin: 0; padding: 0;}#parent_1548873171072_230 .prodotype-preview .preview-text {display: flex; align-items: center; justify-content: center;}#parent_1548873171072_230 .prodotype-preview .preview-text p {z-index: 1; background-color: black; color: white;}#parent_1548873171072_230 .slide-0 .slide-image {background-image: url('assets/alex-bertha-215867-unsplash.jpg');}#parent_1548873171072_230 .slide-1 .slide-image {background-image: url('assets/yoann-boyer-185507-unsplash.jpg');}#parent_1548873171072_230 .slide-2 .slide-image {background-image: url('assets/jon-flobrant-234565-unsplash.jpg');}#parent_1548873171072_230 .slide-image {width: 100%; display: flex; justify-content: center; background-repeat: no-repeat; background-size: cover; background-position: 50%; align-items: flex-end;}#parent_1548873171072_230 figcaption {padding: 50px; color: white; background-color: rgba(0,0,0,0.5); width: 100%; text-align: center;}#parent_1548873171072_230 .unslider-nav {position: absolute; bottom: 10px; left: 0; right: 0; top: auto; margin: 0;}#parent_1548873171072_230 .unslider-nav ol {text-align: center;}#parent_1548873171072_230 .unslider-nav ol li.unslider-active {background: #fff; cursor: default; opacity: 1;}#parent_1548873171072_230 .unslider-nav ol li {display: inline-block; float: none; width: 6px; height: 6px; margin: 0 4px; padding: 3px; background: transparent; border-radius: 10px; overflow: hidden; text-indent: -999em; border: 2px solid #fff; cursor: pointer; opacity: .4;}#parent_1548873171072_230 .unslider-arrow {display: block; width: 32px; height: 32px; top: 50%; right: 16px; left: auto; margin-top: -16px; overflow: hidden; background: rgba(0,0,0,.2) no-repeat 50% 50%; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg=='); background-size: 7px 11px; border-radius: 32px; text-indent: -999em; opacity: .6; transition: opacity .2s;}#parent_1548873171072_230 .unslider-arrow.prev {left: 16px; right: auto; -ms-transform: rotate(-180deg); transform: rotate(-180deg);}</style>
+<style type="text/css">#parent_1552775961429_672 .prodotype-preview {list-style-type: none; margin: 0; padding: 0;}#parent_1552775961429_672 .prodotype-preview .preview-text {display: flex; align-items: center; justify-content: center;}#parent_1552775961429_672 .prodotype-preview .preview-text p {z-index: 1; background-color: black; color: white;}#parent_1552775961429_672 .slide-0 .slide-image {background-image: url('assets/alex-bertha-215867-unsplash.jpg');}#parent_1552775961429_672 .slide-1 .slide-image {background-image: url('assets/yoann-boyer-185507-unsplash.jpg');}#parent_1552775961429_672 .slide-2 .slide-image {background-image: url('assets/jon-flobrant-234565-unsplash.jpg');}#parent_1552775961429_672 .slide-image {width: 100%; display: flex; justify-content: center; background-repeat: no-repeat; background-size: cover; background-position: 50%; align-items: flex-end;}#parent_1552775961429_672 figcaption {padding: 50px; color: #ffffff; background-color: rgba(0,0,0,0.5); width: 100%; text-align: center;}#parent_1552775961429_672 .unslider-nav {position: absolute; bottom: 10px; left: 0; right: 0; top: auto; margin: 0;}#parent_1552775961429_672 .unslider-nav ol {text-align: center;}#parent_1552775961429_672 .unslider-nav ol li.unslider-active {background: #fff; cursor: default; opacity: 1;}#parent_1552775961429_672 .unslider-nav ol li {display: inline-block; float: none; width: 6px; height: 6px; margin: 0 4px; padding: 3px; background: transparent; border-radius: 10px; overflow: hidden; text-indent: -999em; border: 2px solid #fff; cursor: pointer; opacity: .4;}#parent_1552775961429_672 .unslider-arrow {display: block; width: 32px; height: 32px; top: 50%; right: 16px; left: auto; margin-top: -16px; overflow: hidden; background: rgba(0,0,0,.2) no-repeat 50% 50%; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg=='); background-size: 7px 11px; border-radius: 32px; text-indent: -999em; opacity: .6; transition: opacity .2s;}#parent_1552775961429_672 .unslider-arrow.prev {left: 16px; right: auto; -ms-transform: rotate(-180deg); transform: rotate(-180deg);}</style>
 <script type="text/javascript">
   (function() {
     function initUnslider() {
       // do not start in the editor (it would mess with the markup)
       if(!$('body').hasClass('silex-runtime')) return;
 
-      var slider = $('#id_1548873171072_230').unslider({
+      var slider = $('#id_1552775961429_672').unslider({
         'autoplay': false,
         'speed': 2000,
         'delay': 2000,
@@ -198,15 +261,15 @@
       //  Listen to slide changes
       
       // apply element height to the images
-      var silexElement = $('#id_1548873171072_230').closest('.editable-style');
+      var silexElement = $('#id_1552775961429_672').closest('.editable-style');
       var elementMinHeight = silexElement.css('height');
       var elementWidth = silexElement.css('width');
-      $('#id_1548873171072_230 li .slide-image').css({
+      $('#id_1552775961429_672 li .slide-image').css({
         'height': elementMinHeight
       });
       
       // apply element height to the container (useful for fade only)
-      $('#id_1548873171072_230 ul').css({
+      $('#id_1552775961429_672 ul').css({
         'height': elementMinHeight
       });
       
@@ -276,7 +339,7 @@
             
         </div>
     </div>
-    <div data-silex-type="container" class="prevent-draggable container-element website-min-width editable-style silex-id-1490693931165-7 section-element page-home paged-element paged-element-hidden page-link-active">
+    <div data-silex-type="container" class="prevent-draggable container-element website-min-width editable-style silex-id-1490693931165-7 section-element page-home paged-element page-link-active">
         <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1490693931163-6 silex-container-content container-element prevent-draggable">
             <div data-silex-type="container" class="editable-style container-element white-bg silex-id-1439554965432-42">
 
@@ -544,7 +607,7 @@
 
 
     <div class="silex-pages">
-        <div data-silex-type="image" class="menu-button editable-style silex-id-hamburger-menu image-element prevent-draggable hide-on-desktop"><img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII=" class="silex-element-content"></div><a id="page-home" data-silex-type="page" class="page-element page-link-active" href="index.html">Home</a><a id="page-our-mission" data-silex-type="page" class="page-element" href="our-mission.html">Our Mission</a><a id="page-news-press" data-silex-type="page" class="page-element" href="news-press.html">News &amp; Press</a><a id="page-how-to-help" data-silex-type="page" class="page-element" href="how-to-help.html">How to Help</a><a id="page-contact" data-silex-type="page" class="page-element" href="contact.html">Contact</a></div>
+        <a id="page-home" data-silex-type="page" class="page-element page-link-active" href="index.html">Home</a><a id="page-our-mission" data-silex-type="page" class="page-element" href="our-mission.html">Our Mission</a><a id="page-news-press" data-silex-type="page" class="page-element" href="news-press.html">News &amp; Press</a><a id="page-how-to-help" data-silex-type="page" class="page-element" href="how-to-help.html">How to Help</a><a id="page-contact" data-silex-type="page" class="page-element" href="contact.html">Contact</a></div>
 
 
 

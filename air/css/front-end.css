@@ -2,8 +2,6 @@
  * This file holds the basic CSS styles of Silex websites
  */
 
-/* the body covers the whole available space */
-/* the body is resized to its content size when needed in front-end.js */
 /* pages */
 .page-element{
   display: none;
@@ -68,6 +66,7 @@ body.silex-runtime .silex-element-content {
 .silex-runtime .editable-style.section-element {
   padding: 0;
   margin: 0;
+  margin-top: -1px;
 }
 .default-site-width, /* for backward compat, FIXME: remove in a while */
 .website-width {
@@ -164,6 +163,10 @@ body.enable-mobile .background {
   height: initial;
   padding-bottom: 50px;
 }
+.fixed {
+  position: absolute;
+  z-index: 5;
+}
 /* Mobile styles */
 @media (max-width:480px) {
   /* hide horizontal scroll bar which appears because of residual values in css
@@ -172,10 +175,10 @@ body.enable-mobile .background {
   }
   */
   body {
-    position: initial; /* when position is absolute the body has the size of its content */
+    position: initial; /* used to be absolute but now only in editor (editable.css), when position is absolute the body has the size of its content */
   }
   /* mobile mode */
-  body.enable-mobile .editable-style,
+  body.enable-mobile .editable-style:not(.prevent-mobile-style),
   body.enable-mobile .background.background-initial {
     position: relative;
     top: auto;
