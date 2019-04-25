@@ -50,18 +50,13 @@
 body.silex-runtime .silex-element-content {
   pointer-events: auto;
 }
-/*  needed to have the content 100% height but mess up with UI
-.html-element .silex-element-content{
-  position: absolute;
-}
-*/
 .editable-style.section-element {
   position: relative;
   left: 0;
   top: 0;
   right: 0;
-  padding: 15px 100px;
-  margin: 5px 5px;
+  padding: 0 100px;
+  margin: 0;
 }
 .silex-runtime .editable-style.section-element {
   padding: 0;
@@ -80,6 +75,13 @@ body.silex-runtime .silex-element-content {
   margin-right: auto;
   overflow: initial;
 }
+.silex-editor .section-element .silex-container-content {
+  border-left: 1px dashed;
+  border-right: 1px dashed;
+}
+.silex-editor .section-element:last-of-type .silex-container-content {
+  border-bottom: 1px dashed;
+}
 /* background */
 .background{
   position: relative !important;
@@ -90,7 +92,7 @@ body.silex-runtime .silex-element-content {
   z-index: 1;
 }
 /* resize */
-.editable-style.image-element .silex-element-content{
+.editable-style.image-element .silex-element-content {
   position: absolute;
   border-radius: inherit; /* this is to follow the element's radius */
   height: 100%;
@@ -114,50 +116,6 @@ body.silex-runtime .editable-style[data-silex-href] {
 body.enable-mobile .editable-style.hide-on-desktop {
   display: none;
 }
-/* mobile hamburger menu */
-body.enable-mobile .silex-pages .menu-button {
-  left: 105%;
-  top: 10px;
-  position: absolute;
-  cursor: pointer;
-  border-radius: 6px;
-}
-
-/* mobile side bar */
-body.enable-mobile .silex-pages {
-  position: fixed;
-  z-index: 999999;
-  width: 80%;
-  height: 100%;
-  background-color: #4C4C4C;
-  right: 100%;
-  top: 0;
-  transition: right .1s ease-out;
-  border-style: solid;
-  border-width: 0 1px 0 0;
-  border-color: #8E8E8E;
-}
-body.enable-mobile.show-mobile-menu {
-  cursor: pointer;
-}
-body.enable-mobile.show-mobile-menu .silex-pages {
-  right: 20%;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-body.enable-mobile .page-element {
-  display: block;
-  cursor: pointer;
-  padding: 1em;
-  font-size: 1.6em;
-  color: #FFFFFF;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-body.enable-mobile .page-element.page-link-active {
-  background-color: #262626;
-}
 /* elements styles */
 body.enable-mobile .background {
   height: initial;
@@ -180,13 +138,16 @@ body.enable-mobile .background {
   /* mobile mode */
   body.enable-mobile .editable-style:not(.prevent-mobile-style),
   body.enable-mobile .background.background-initial {
-    position: relative;
+    position: static;
     top: auto;
     left: auto;
     max-width: 95%; /* less than 100% in the editor to be able to resize container */
     min-width: auto; /* this is to remove sections min-width, since section min-width is set to the witdh of its content in Element::setStyle() */
     margin-left: auto;
     margin-right: auto;
+  }
+  body.enable-mobile .image-element.editable-style:not(.prevent-mobile-style) {
+    position: relative;
   }
   body.enable-mobile .editable-style.section-element {
     max-width: 100%; /* section bg should be 100% width because user do not need to grab the side and resize */
