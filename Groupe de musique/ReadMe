@@ -2,6 +2,14 @@ Mode d'emploi
 
 Pour la video de la "Home page" il vous suffit pour l'éditer de remplacer le code présent par votre vidéo sur Youtube,
 pour cela copier votre code d'integration creer par Youtube 
-( cliquer sur Partager Integrer copier et coller le code )
-dans la boite HTML
+( Dans Youtube: selectionner votre video puis,
+cliquer sur Partager;
+Integrer;
+copier le code d'integration générer par Youtube
+et coller le code dans la boite HTML de Silex )
+
+
+Live map
+
+https://github.com/silexlabs/Silex/issues/571
 
