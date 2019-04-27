@@ -11,7 +11,7 @@
             */
         
             window.sr = ScrollReveal({
-                distance: '100px'
+                distance: '1000px'
             });
             sr.reveal('.from-left', { origin:  'left'});
             sr.reveal('.from-right', { origin:  'right'});
