@@ -1,12 +1,12 @@
 {
   "name": "silex-templates",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Community templates for Silex website builder",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/silexlabs/silex-templates.git"
   },
-  "author": "",
+  "author": "lexoyo",
   "bugs": {
     "url": "https://github.com/silexlabs/silex-templates/issues"
   },
