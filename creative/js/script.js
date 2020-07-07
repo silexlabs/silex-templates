@@ -1,15 +1,18 @@
 
 
+    window.silex = window.silex || {}
+    window.silex.data = {"site":{"width":1000},"pages":[{"id":"home-page","displayName":"Home Page","link":{"type":"LinkTypePage","value":"#!page-home-page"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"product-details","displayName":"Product Details","link":{"type":"LinkTypePage","value":"#!page-product-details"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"about","displayName":"About","link":{"type":"LinkTypePage","value":"#!page-about"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false}]}
+
         $(function() {
             /* hamburger menu */
             $('.close-btn, .open-btn').click(function() {
                 $('body').toggleClass('is-not-active is-active');
             });
-        
+
             /*
                 animation widget from here: https://github.com/silexlabs/Silex/issues/443
             */
-        
+
             window.sr = ScrollReveal({
                 distance: '100px'
             });
@@ -17,6 +20,6 @@
             sr.reveal('.from-right', { origin:  'right'});
             sr.reveal('.from-top', { origin:  'top'});
             sr.reveal('.from-bottom', { origin:  'bottom'});
-        
+
         })
     

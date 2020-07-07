@@ -1,8 +1,4 @@
 
 
-        $(function () {
-            $('.go-down').click(function () {
-                $('html,body').animate({scrollTop: $('#after-hero').offset().top}, 500);
-            });
-        });
-    
+    window.silex = window.silex || {}
+    window.silex.data = {"site":{"width":960},"pages":[{"id":"design","displayName":"Design","link":{"type":"LinkTypePage","value":"#!page-design"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"photo","displayName":"Photo","link":{"type":"LinkTypePage","value":"#!page-photo"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"code","displayName":"Code","link":{"type":"LinkTypePage","value":"#!page-code"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false}]}

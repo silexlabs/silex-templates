@@ -1,12 +1,4 @@
 
-        // **
-        // google analytics
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        
-        ga('create', 'UA-19608894-20', 'silexlabs.github.io');
-        ga('send', 'pageview');
-        // **
-    
+
+    window.silex = window.silex || {}
+    window.silex.data = {"site":{"width":980},"pages":[{"id":"home","displayName":"Home","link":{"type":"LinkTypePage","value":"#!page-home"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"products","displayName":"Products","link":{"type":"LinkTypePage","value":"#!page-products"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"about","displayName":"About","link":{"type":"LinkTypePage","value":"#!page-about"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"contact","displayName":"Contact","link":{"type":"LinkTypePage","value":"#!page-contact"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false}]}

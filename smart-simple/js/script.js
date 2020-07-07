@@ -1,5 +1,8 @@
 
 
+    window.silex = window.silex || {}
+    window.silex.data = {"site":{"width":1000},"pages":[{"id":"page-1","displayName":"Page 1","link":{"type":"LinkTypePage","value":"#!page-page-1"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false}]}
+
 /*
  * animation widget from here: https://github.com/silexlabs/Silex/issues/443
  */
@@ -14,12 +17,5 @@ $(function() {
         sr.reveal('.from-top', { origin:  'top'});
         sr.reveal('.from-bottom', { origin:  'bottom'});
     }
-    $('.scroll-down').click(function(event) {
-        // Preventing default action of the event
-        event.preventDefault();
-        // Getting the height of the document
-        var n = $(window).height();
-        $('html, body').animate({ scrollTop: n }, 500);
-    });
 })
     

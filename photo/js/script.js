@@ -1,5 +1,8 @@
 
 
+    window.silex = window.silex || {}
+    window.silex.data = {"site":{"width":960},"pages":[{"id":"page-home","displayName":"Home","link":{"type":"LinkTypePage","value":"#!page-page-home"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false}]}
+
 /*
  * active menu widget for Silex
  * create an element which links to an anchor, e.g. an element with a link to #anchor1
@@ -14,13 +17,12 @@ $(function() {
     $(window).scroll(checkScroll);
     checkScroll();
     function checkScroll(){
-        // Get container scroll position
         var fromTop = $(this).scrollTop();
         if(containerTop < fromTop) {
            container.addClass('offscreen');
         }
         else {
            container.removeClass('offscreen');
-}
+        }
     }
 });

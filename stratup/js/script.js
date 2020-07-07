@@ -1,7 +1,7 @@
 
 
-        document.write('<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />');
-        document.write('<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></scr'+'ipt>');
+    window.silex = window.silex || {}
+    window.silex.data = {"site":{"width":960},"pages":[{"id":"home","displayName":"Home","link":{"type":"LinkTypePage","value":"#!page-home"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false}]}
         $(document).ready(function() {
         	$('.fancybox').each(function () {
         	    var href = this.getAttribute('data-silex-href') || this.getAttribute('href');
