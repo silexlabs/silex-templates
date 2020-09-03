@@ -1,7 +1,7 @@
 
 
     window.silex = window.silex || {}
-    window.silex.data = {"site":{"width":1000},"pages":[{"id":"home-page","displayName":"Home Page","link":{"type":"LinkTypePage","value":"#!page-home-page"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"product-details","displayName":"Product Details","link":{"type":"LinkTypePage","value":"#!page-product-details"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"about","displayName":"About","link":{"type":"LinkTypePage","value":"#!page-about"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false}]}
+    window.silex.data = {"site":{"width":1000},"pages":[{"id":"page-home-page","displayName":"Home Page","link":{"linkType":"LinkTypePage","href":"#!page-home-page"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-product-details","displayName":"Product Details","link":{"linkType":"LinkTypePage","href":"#!page-product-details"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-about","displayName":"About","link":{"linkType":"LinkTypePage","href":"#!page-about"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false}]}
 
         $(function() {
             /* hamburger menu */
