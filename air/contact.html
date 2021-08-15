@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <!-- generator meta tag -->
     <!-- leave this for stats and Silex version check -->
-    <meta name="generator" content="Silex v2.2.11">
+    <meta name="generator" content="Silex v2.2.13">
     <!-- End of generator meta tag -->
     <script type="text/javascript" src="js/jquery.js"></script>
     
@@ -31,13 +31,34 @@
 
 
 
-    <div data-silex-type="container-element" class="container-element editable-style silex-id-1478366444112-1 section-element prevent-resizable" style="">
-        <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366444112-0 container-element website-width"><div data-silex-type="text-element" class="editable-style silex-id-1552765147494-1 text-element silex-component prevent-resizable hide-on-desktop hamburger-menu prevent-auto-z-index"><div class="silex-element-content normal"><style>.hamburger-menu_1599142322326_690 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1599142322326_690 nav {left: -9999px;}.hamburger-menu_1599142322326_690 nav ul {margin-top: 80px;}.hamburger-menu_1599142322326_690 nav {opacity: 0; position: absolute; background-color: #ededed; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1599142322326_690.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1599142322326_690 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1599142322326_690.open .nav-container {}.hamburger-menu_1599142322326_690 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1599142322326_690 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section data-silex-type="container-element" class="container-element editable-style silex-id-1478366444112-1 section-element prevent-resizable" style="">
+        <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366444112-0 container-element website-width"><div data-silex-type="text-element" class="editable-style silex-id-1552765147494-1 text-element silex-component prevent-resizable hide-on-desktop hamburger-menu prevent-auto-z-index"><div class="silex-element-content normal"><style>.hamburger-menu_1629034287438_653 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1629034287438_653 nav {left: -9999px;}.hamburger-menu_1629034287438_653 nav ul {margin-top: 80px;}.hamburger-menu_1629034287438_653 nav {opacity: 0; position: absolute; background-color: #ededed; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1629034287438_653.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1629034287438_653 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1629034287438_653.open .nav-container {}.hamburger-menu_1629034287438_653 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1629034287438_653 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
       opacity 0.1s ease-in,
       transform 0.1s ease-in,
-      background 0.1s ease-in;}.hamburger-menu_1599142322326_690.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1599142322326_690 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1599142322326_690.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1599142322326_690.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1599142322326_690 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1599142322326_690.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+      background 0.1s ease-in;}.hamburger-menu_1629034287438_653.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1629034287438_653 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1629034287438_653.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1629034287438_653.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1629034287438_653 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1629034287438_653.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1599142322326_690 closed">
+<div class="hamburger-menu_1629034287438_653 closed">
     <div class="hamburger-btn fixed">
       <span></span>
       <span></span>
@@ -54,7 +75,7 @@
             
                 <li><a href="flights.html" class="">Flights</a></li>
             
-                <li><a href="hotels.html" class="">Hotels</a></li>
+                <li><a href="hotels.html">Hotels</a></li>
             
                 <li><a href="contact.html" class="page-link-active">Contact</a></li>
             
@@ -68,26 +89,26 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    $('.hamburger-menu_1599142322326_690').removeClass('open');
-    $('.hamburger-menu_1599142322326_690').addClass('closed');
+    $('.hamburger-menu_1629034287438_653').removeClass('open');
+    $('.hamburger-menu_1629034287438_653').addClass('closed');
   }
   function open() {
     isOpen = true;
-    $('.hamburger-menu_1599142322326_690').addClass('open');
-    $('.hamburger-menu_1599142322326_690').removeClass('closed');
+    $('.hamburger-menu_1629034287438_653').addClass('open');
+    $('.hamburger-menu_1629034287438_653').removeClass('closed');
   }
   function toggle() {
     if(isOpen) close();
     else open();
   }
-  var silexElement = $('.hamburger-menu_1599142322326_690').closest('.editable-style');
+  var silexElement = $('.hamburger-menu_1629034287438_653').closest('.editable-style');
   function move(data) {
     var offset = silexElement.offset();
-    $('.hamburger-menu_1599142322326_690 .nav-container').css({
+    $('.hamburger-menu_1629034287438_653 .nav-container').css({
       'transform': 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)'
     });
   }
-  $('.hamburger-menu_1599142322326_690 .hamburger-btn').click(function() { toggle(); });
+  $('.hamburger-menu_1629034287438_653 .hamburger-btn').click(function() { toggle(); });
   $(document).on('silex.scroll silex.resize', function(e) {
     close();
     move(window.silex);
@@ -95,41 +116,22 @@
   close();
 })();
 </script>
-</div></div><a href="index.html" data-silex-type="container-element" class="editable-style silex-id-1537545843556-0 container-element" style=""><div data-silex-type="container-element" class="editable-style silex-id-1537543126065-5 container-element" style=""></div><div data-silex-type="text-element" class="editable-style silex-id-1537542841131-2 text-element header" style=""><div class="silex-element-content normal"><h1>Travel</h1></div></div></a><div data-silex-type="text-element" class="editable-style silex-id-1537543262916-6 text-element header hide-on-mobile" style=""><div class="silex-element-content normal"><p><a href="index.html" class="">Home</a> <a href="vacations.html" class="">Vacations</a> <a href="flights.html" class="">Flights</a> <a href="hotels.html" class="">Hotels</a> <a href="contact.html" class="page-link-active">Contact</a></p></div></div></div>
-    </div>
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div data-silex-type="container-element" class="container-element editable-style silex-id-1545056415237-3 section-element prevent-resizable page-contact paged-element paged-element-visible"><div data-silex-type="container-element" class="editable-style silex-id-1545056415233-2 container-element silex-element-content website-width"><div data-silex-type="text-element" class="editable-style text-element text-style-2 silex-id-1545056530213-6" style=""><div class="silex-element-content normal"><h2>Contact Us<br></h2></div>﻿﻿</div><div data-silex-type="html-element" class="editable-style silex-id-1548870370847-0 html-element silex-component silex-component-map silex-use-height-not-minheight silex-element-content-full-height"><div class="silex-element-content"><div id="mapdiv_1599142364465_877" class="map"><div class="ol-viewport" style="position: relative; overflow: hidden; width: 100%; height: 100%;"><div style="position: absolute; width: 100%; height: 100%; z-index: 0;" class="ol-unselectable ol-layers"><div class="ol-layer" style="position: absolute; width: 100%; height: 100%;"><canvas style="position: absolute; left: 0px; transform-origin: left top 0px; transform: matrix(1, 0, 0, 1, 0, 0);" width="777" height="496"></canvas></div></div><div style="position: absolute; z-index: 0; width: 100%; height: 100%;" class="ol-overlaycontainer"></div><div style="position: absolute; z-index: 0; width: 100%; height: 100%;" class="ol-overlaycontainer-stopevent"><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass" style="transform: rotate(0rad);">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-uncollapsible"><ul><li>© <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors.</li></ul><button type="button" title="Attributions"><span>»</span></button></div></div></div></div>
-<style>#mapdiv_1599142364465_877 {width: 100%; height: 100%;}</style>
+</div></div><a data-silex-type="container-element" class="editable-style silex-id-1537545843556-0 container-element" style="" href="index.html"><div data-silex-type="container-element" class="editable-style silex-id-1537543126065-5 container-element" style=""></div><div data-silex-type="text-element" class="editable-style silex-id-1537542841131-2 text-element header" style=""><div class="silex-element-content normal"><h1>Travel</h1></div></div></a><div data-silex-type="text-element" class="editable-style silex-id-1537543262916-6 text-element header hide-on-mobile" style=""><div class="silex-element-content normal"><p><a href="index.html" class="">Home</a> <a href="vacations.html" class="">Vacations</a> <a href="flights.html" class="">Flights</a> <a href="hotels.html" class="">Hotels</a> <a href="contact.html" class="page-link-active">Contact</a></p></div></div></div>
+    </section><section data-silex-type="container-element" class="container-element editable-style silex-id-1545056415237-3 section-element prevent-resizable page-contact paged-element paged-element-visible"><div data-silex-type="container-element" class="editable-style silex-id-1545056415233-2 container-element silex-element-content website-width"><div data-silex-type="text-element" class="editable-style text-element text-style-2 silex-id-1545056530213-6" style=""><div class="silex-element-content normal"><h2>Contact Us<br></h2></div>﻿﻿</div><div data-silex-type="html-element" class="editable-style silex-id-1548870370847-0 html-element silex-component silex-component-map silex-use-height-not-minheight silex-element-content-full-height"><div class="silex-element-content"><div id="mapdiv_1629034287441_778" class="map"><div class="ol-viewport" style="position: relative; overflow: hidden; width: 100%; height: 100%;"><div style="position: absolute; width: 100%; height: 100%; z-index: 0; display: none;" class="ol-unselectable ol-layers"></div><div style="position: absolute; z-index: 0; width: 100%; height: 100%;" class="ol-overlaycontainer"></div><div style="position: absolute; z-index: 0; width: 100%; height: 100%;" class="ol-overlaycontainer-stopevent"><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed" style="display: none;"><ul></ul><button type="button" title="Attributions"><span>i</span></button></div></div></div></div>
+<style>#mapdiv_1629034287441_778 {width: 100%; height: 100%;}</style>
 <script>
 
 
-function init_1599142364465_877() {
+function init_1629034287441_778() {
     if(typeof(ol) === 'undefined') {
         // console.warn('Map not ready, restart later')
         // wait for dependencies to be loaded
-        setTimeout(init_1599142364465_877, 1000);
+        setTimeout(init_1629034287441_778, 1000);
         return;
     }
 
     // empty the div before adding the map again
-    $('#mapdiv_1599142364465_877').empty();
+    $('#mapdiv_1629034287441_778').empty();
 
     // apply position and zoom
     // from map URL http://www.openstreetmap.org/#map=18/48.88680/2.34235&layers=C
@@ -147,7 +149,7 @@ function init_1599142364465_877() {
               source: new ol.source.OSM()
             })
           ],
-          target: 'mapdiv_1599142364465_877',
+          target: 'mapdiv_1629034287441_778',
           view: new ol.View({
             center: center,
             zoom: zoom
@@ -156,14 +158,14 @@ function init_1599142364465_877() {
         
     }
 }
-init_1599142364465_877();
+init_1629034287441_778();
 // $(document).on('silex.resize', function() {
-//     $('#mapdiv_1599142364465_877').empty();
-//     init_1599142364465_877();
+//     $('#mapdiv_1629034287441_778').empty();
+//     init_1629034287441_778();
 // });
 
 </script>
-</div></div><div data-silex-type="html-element" class="editable-style silex-id-1548871340538-0 html-element silex-component silex-component-form silex-use-height-not-minheight silex-element-content-full-height"><div class="silex-element-content"><form id="id_1599142411878_58" action="https://formspree.io/your@email.com" method="POST">
+</div></div><div data-silex-type="html-element" class="editable-style silex-id-1548871340538-0 html-element silex-component silex-component-form silex-use-height-not-minheight silex-element-content-full-height"><div class="silex-element-content"><form id="id_1629034287338_571" action="https://formspree.io/your@email.com" method="POST">
   
   <div>
     <label for="field1">Name</label>
@@ -184,9 +186,9 @@ init_1599142364465_877();
   
   <input type="submit" value="Send">
 </form>
-<style>#id_1599142411878_58 input[type=text], select {width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box;}#id_1599142411878_58 input[type=submit] {width: 100%; background-color: #F78536; color: #FFFFFF; padding: 14px 20px; margin: 8px 0; border: 1px solid; border-radius: 3px; cursor: pointer;}#id_1599142411878_58 label {color: #000000;}#id_1599142411878_58 .fill-vertical {flex: 1 1 auto; display: flex; flex-direction: column;}#id_1599142411878_58 .fill-vertical textarea {flex: 1 1 auto; width: 100%; height: 150px; padding: 12px 20px; box-sizing: border-box; border: 2px solid #ccc; border-radius: 3px; background-color: #f8f8f8; font-size: 16px; resize: none;}#id_1599142411878_58 {border-radius: 3px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;}</style>
+<style>#id_1629034287338_571 input[type=text], select {width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box;}#id_1629034287338_571 input[type=submit] {width: 100%; background-color: #F78536; color: #FFFFFF; padding: 14px 20px; margin: 8px 0; border: 1px solid; border-radius: 3px; cursor: pointer;}#id_1629034287338_571 label {color: #000000;}#id_1629034287338_571 .fill-vertical {flex: 1 1 auto; display: flex; flex-direction: column;}#id_1629034287338_571 .fill-vertical textarea {flex: 1 1 auto; width: 100%; height: 150px; padding: 12px 20px; box-sizing: border-box; border: 2px solid #ccc; border-radius: 3px; background-color: #f8f8f8; font-size: 16px; resize: none;}#id_1629034287338_571 {border-radius: 3px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;}</style>
 
-</div></div></div></div><div data-silex-type="container-element" class="container-element editable-style silex-id-1537726585006-18 section-element prevent-resizable"><div data-silex-type="container-element" class="editable-style silex-id-1537726585003-17 container-element silex-element-content website-width"><div class="editable-style text-element silex-id-1537541949036-0 footer" data-silex-type="text-element" style="">
+</div></div></div></section><section data-silex-type="container-element" class="container-element editable-style silex-id-1537726585006-18 section-element prevent-resizable"><div data-silex-type="container-element" class="editable-style silex-id-1537726585003-17 container-element silex-element-content website-width"><div class="editable-style text-element silex-id-1537541949036-0 footer" data-silex-type="text-element" style="">
                 <div class="silex-element-content normal"><h3>About this template<br></h3><p><a href="https://www.silex.me/" target="_blank" title="Silex website builder">Powered by Silex</a><a href="https://www.free-css.com/assets/files/free-css-templates/preview/page231/travel/" target="_blank"><br>Inspired by this template</a><br><a href="https://unsplash.com/search/photos/travel" target="_blank" title="Travel photos">Photos from unslplash</a><br></p></div>
             </div><div class="editable-style text-element footer silex-id-1537729664972-94" data-silex-type="text-element" style="">
                 <div class="silex-element-content normal"><h3>Your links<br></h3><p><a href="https://www.silex.me/" target="_blank" title="Silex website builder">Powered by Silex</a><a href="https://www.free-css.com/assets/files/free-css-templates/preview/page231/travel/" target="_blank"><br>Inspired by this template</a><br><a href="https://unsplash.com/search/photos/travel" target="_blank" title="Travel photos">Photos from unslplash</a><br></p></div>
@@ -197,7 +199,7 @@ init_1599142364465_877();
             </div><div class="editable-style text-element footer silex-id-1537729843289-102" data-silex-type="text-element" style="">
                 <div class="silex-element-content normal"><h3>Your links<br></h3><p><a href="https://www.silex.me/" target="_blank" title="Silex website builder">Powered by Silex</a><a href="https://www.free-css.com/assets/files/free-css-templates/preview/page231/travel/" target="_blank"><br>Inspired by this template</a><br><a href="https://unsplash.com/search/photos/travel" target="_blank" title="Travel photos">Photos from unslplash</a><br></p></div>
             </div><div data-silex-type="html-element" class="editable-style silex-id-1537730084852-104 html-element silex-component silex-component-share" style=""><div class="silex-element-content">
-<ul class="share-buttons" id="id_1599142322333_804">
+<ul class="share-buttons" id="id_1629034287341_376">
   
   <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.silex.me&amp;t=Silex website builder" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="assets/Facebook.png"></a></li>
   
@@ -223,7 +225,5 @@ init_1599142364465_877();
   
 </ul>
 
-<style type="text/css">#id_1599142322333_804.share-buttons {list-style: none; padding: 0;}#id_1599142322333_804.share-buttons li {display: inline;}#id_1599142322333_804.share-buttons .sr-only {position: absolute; clip: rect(1px, 1px, 1px, 1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden;}</style>
-</div></div></div></div>
-
-</body></html>
+<style type="text/css">#id_1629034287341_376.share-buttons {list-style: none; padding: 0;}#id_1629034287341_376.share-buttons li {display: inline;}#id_1629034287341_376.share-buttons .sr-only {position: absolute; clip: rect(1px, 1px, 1px, 1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden;}</style>
+</div></div></div></section></body></html>
