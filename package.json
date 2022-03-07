@@ -2,6 +2,9 @@
   "name": "silex-templates",
   "version": "1.0.10",
   "description": "Community templates for Silex website builder",
+  "scripts": {
+    "release": ""
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/silexlabs/silex-templates.git"
