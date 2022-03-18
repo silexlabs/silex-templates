@@ -1,6 +1,6 @@
 {
   "name": "silex-templates",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Community templates for Silex website builder",
   "scripts": {
     "release": ""
